@@ -2,7 +2,7 @@
 Title: Hello, world!
 Description: Lorem ipsum dolor sit amet.
 Created at: 2023-10-19
-Manually modified at:
+Modified at:
 ---
 
 Ex irure tempor est ex occaecat culpa sit ut et tempor excepteur qui tempor aliqua. Elit proident culpa Lorem esse amet duis tempor aliqua aliquip deserunt ea laborum nisi. Anim enim do consectetur qui ullamco. Esse aliqua ex exercitation labore proident proident. Ut pariatur incididunt dolor pariatur consequat et elit pariatur culpa. Labore dolore pariatur in adipisicing ullamco veniam Lorem. Do do laboris id nulla Lorem pariatur sit mollit laboris fugiat.
