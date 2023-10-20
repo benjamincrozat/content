@@ -3,6 +3,7 @@ Title: Fix the /livewire/livewire.js 404 not found error
 Description: Learn how to fix the 404 error occurring for /livewire/livewire.js.
 Published at: 2023-09-21
 Modified at: 2023-10-20
+Categories: livewire
 ---
 
 **To fix the 404 not found error your browser receives for */livewire/livewire.js*, it is likely that you will have to look at your web server's configuration for the concerned site.**
