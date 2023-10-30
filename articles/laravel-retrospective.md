@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/33/6678_pnn8xm.png
 Author: Benjamin Crozat
 Title: Laravel retrospective: what changed since version 5.8?
 Description: Dive into the history of Laravel. If you went away for some time, this is the right place to resume your journey.
 Published at: 2023-05-08
-Modified at: 
+Modified at: 2023-08-06
 Categories: laravel
 ---
 

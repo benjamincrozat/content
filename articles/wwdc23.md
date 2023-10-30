@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/35/wwdc23_p75enu.png
 Author: Benjamin Crozat
 Title: A summary of web related sessions from WWDC23
 Description: Using a well-known Large Language Model, I managed to summarize every session from WWDC23 that's related to web development.
 Published at: 2023-06-07
-Modified at: 
+Modified at: 2023-06-11
 Categories: css, javascript, tools
 ---
 

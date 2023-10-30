@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/11/guy-coding-3_lpz0qy.jpg
 Author: Benjamin Crozat
 Title: Methods with the same name as their class will not be constructors in a future version of PHP
 Description: Learn why and how to fix "Methods with the same name as their class will not be constructors in a future version of PHP" warnings.
 Published at: 2022-10-08
-Modified at: 
+Modified at: 2022-11-23
 Categories: php
 ---
 

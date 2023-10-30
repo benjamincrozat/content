@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/63/Di9ZBYMAkeuG3mF5fhRqTervFNAvu2-metaZ3V5LWNvZGluZy0zX2xwejBxeS1vcHRpbWl6ZWQuanBn-.jpg
 Author: Benjamin Crozat
 Title: Sort your Laravel Eloquent queries results using orderBy()
 Description: Master Laravel's Eloquent `orderBy()`. Explore multiple columns sorting, the advanced `orderByRaw()`, and `reorder()`.

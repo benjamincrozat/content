@@ -1,4 +1,5 @@
 ---
+Image: 
 Author: Benjamin Crozat
 Title: How Facades work in Laravel: a simple explanation
 Description: 

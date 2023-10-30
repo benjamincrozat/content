@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/58/php-84_kkilmr.jpg
 Author: Benjamin Crozat
 Title: PHP 8.4: new features and release date
 Description: PHP 8.4 is expected to drop in late 2024, though there's no official confirmation yet. Its new features remain under wraps.

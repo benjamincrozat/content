@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/6/laravel-10_ovwmiu.png
 Author: Benjamin Crozat
 Title: Laravel 10 is out! Here's every new feature and change.
 Description: Laravel 10 has been released on February 14, 2023. Let's dive into every relevant new feature and change.
 Published at: 2022-09-15
-Modified at: 
+Modified at: 2023-09-09
 Categories: laravel
 ---
 

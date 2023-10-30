@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/199/1CNkzVv7g5MYP5B4g5JdY4xXmsKFiZ-metaZmlsZS11cGxvYWRzLmpwZw%3D%3D-.jpg
 Author: Benjamin Crozat
 Title: Single or multiple file uploads with Laravel, step by step
 Description: 

@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/5/data_stptpp.jpg
 Author: Benjamin Crozat
 Title: Laravel migrations: a simplified and step by step guide
 Description: Migrations are essential in any Laravel app using a database. I will tell you what they are, why you should use them and how you can generate them.
 Published at: 2022-09-12
-Modified at: 
+Modified at: 2023-09-03
 Categories: laravel
 ---
 

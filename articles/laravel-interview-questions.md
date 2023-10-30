@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/22/4165382_k49se6.jpg
 Author: Benjamin Crozat
 Title: Laravel interview questions and answers for 2023
 Description: Nailing a Laravel job interview can be a daunting task, but with the right preparation and mindset, you can set yourself up for success.
 Published at: 2022-12-02
-Modified at: 
+Modified at: 2023-09-19
 Categories: laravel
 ---
 

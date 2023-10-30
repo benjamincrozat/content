@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/65/cBfXt4if95bYJwmHQIcNRiBI7mpJaa-metaYnVuLmpwZw%3D%3D-.jpg
 Author: Benjamin Crozat
 Title: Use Bun as your package manager in any PHP project
 Description: Enjoy a faster workflow to build your front-end dependencies in your PHP projects, thanks to the package management abilities of Bun.

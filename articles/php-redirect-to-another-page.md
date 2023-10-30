@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/60/browser_stioxv.jpg
 Author: Benjamin Crozat
 Title: Effortlessly redirect to another page using PHP
 Description: Discover how to use PHP code to effortlessly redirect your website's visitors to a different page. Explore the magic of HTTP.
 Published at: 2023-09-02
-Modified at: 
+Modified at: 2023-09-19
 Categories: php
 ---
 

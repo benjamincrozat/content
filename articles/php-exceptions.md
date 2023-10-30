@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/20/programming_lferts.jpg
 Author: Benjamin Crozat
 Title: PHP try & catch: what are exceptions and how to handle them?
 Description: Take your code to the next level, thanks to exceptions. Handle errors in a more graceful way within try and catch blocks.
 Published at: 2022-11-20
-Modified at: 
+Modified at: 2022-11-23
 Categories: php
 ---
 

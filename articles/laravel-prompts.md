@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/46/Prompts_wvauit.jpg
 Author: Benjamin Crozat
 Title: Laravel Prompts: build delightful Artisan commands
 Description: Delight your users. Learn how to create beautiful Artisan Commands using Laravel Prompts.
 Published at: 2023-07-20
-Modified at: 
+Modified at: 2023-09-20
 Categories: laravel
 ---
 

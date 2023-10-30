@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/18/laravel-collections_vtrxcq.png
 Author: Benjamin Crozat
 Title: Leverage Laravel Collections to refactor your codebase
 Description: Laravel Collections make arrays more powerful and convenient to work with. This article provides tons of quick tips to instantly make your codebase better.
 Published at: 2022-11-09
-Modified at: 
+Modified at: 2023-08-27
 Categories: laravel
 ---
 

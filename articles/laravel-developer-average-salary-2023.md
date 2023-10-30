@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/204/UZKZuPcDfWiukrFlwRSNt7S2Y0Poge-metaREFMTMK3RSAyMDIzLTEwLTI3IDIxLjA4LjA5IC0gTGFuZHNjYXBlIGlsbHVzdHJhdGlvbiBpbiBmbGF0IGRlc2lnbiBkZXBpY3RpbmcgYSB3b21hbiBvZiBBc2lhbiBkZXNjZW50IGdsZWVmdWxseSBmbG9hdGluZyBvbiAucG5n-.png
 Author: Benjamin Crozat
 Title: The average salary of a Laravel developer in 2023
 Description: Discover how much Laravel developers earn worldwide in 2023, based on data from Glassdoor, Indeed, and PayScale.

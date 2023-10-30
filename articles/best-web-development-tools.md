@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/42/CleanShot_2023-08-02_at_09.37.04_2x_typtlu.png
 Author: Benjamin Crozat
 Title: The best web development tools I use in 2023
 Description: I've been doing professional web development for more than ten years. Here are the tools I use daily in 2023 to create value.
 Published at: 2023-07-03
-Modified at: 
+Modified at: 2023-08-29
 Categories: tools
 ---
 

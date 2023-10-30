@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/177/oe6qFaj4OtlL8ptcQwWgoxtf5GVXIg-metaNjkzLmpwZw%3D%3D-.jpg
 Author: Benjamin Crozat
 Title: Easily convert a PHP array to JSON
 Description: Convert PHP arrays to JSON with `json_encode()`. Ideal for data exchange, storing data, and API communication.

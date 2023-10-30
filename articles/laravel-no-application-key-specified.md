@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/39/app-key_udl0ji.png
 Author: Benjamin Crozat
 Title: Laravel: "No application encryption key has been specified."
 Description: Laravel's application encryption key is mandatory for it to properly work. Let me show you why this error occurs and how to fix it.
 Published at: 2023-06-25
-Modified at: 
+Modified at: 2023-08-12
 Categories: laravel, security
 ---
 

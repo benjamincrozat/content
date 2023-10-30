@@ -1,4 +1,5 @@
 ---
+Image: 
 Author: Benjamin Crozat
 Title: Refactoring without tests should be fine
 Description: Matthias Noback explores why refactoring isn't as risky as believed, even without tests. Discover how careful programming can lower risks.

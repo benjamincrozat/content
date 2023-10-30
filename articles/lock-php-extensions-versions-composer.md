@@ -1,4 +1,5 @@
 ---
+Image: 
 Author: Benjamin Crozat
 Title: Lock PHP extensions to desired versions with Composer
 Description: Avoid bad surprises and leverage Docker and Composer to lock your PHP extensions to a stable version.

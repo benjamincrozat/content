@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/61/crazy-monitors-guy_ru8pgz.jpg
 Author: Benjamin Crozat
 Title: The double question mark, or the null coalescing operator in PHP
 Description: Discover how to simplify your PHP code with the null coalescing and null coalescing assignment operators.
 Published at: 2023-09-03
-Modified at: 
+Modified at: 2023-09-19
 Categories: php
 ---
 

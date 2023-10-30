@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/4/crazy-monitors-guy_ru8pgz.jpg
 Author: Benjamin Crozat
 Title: How to clear the Laravel's cache in a nutshell
 Description: When in doubt, clear the cache. In this article, you'll learn about how to clear every cache Laravel uses.
 Published at: 2022-09-10
-Modified at: 
+Modified at: 2023-08-03
 Categories: laravel
 ---
 

@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/188/wTyOjDdruQLDLu3DcBaYGpPAucmRsJ-metadGFpbHdpbmQtY3NzLWxhcmF2ZWwuanBn-.jpg
 Author: Benjamin Crozat
 Title: Add Tailwind CSS to any Laravel project
 Description: See how easy it is to add Tailwind CSS to any Laravel project and start building an amazing user interface.

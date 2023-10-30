@@ -1,9 +1,10 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/62/confused_xxboi4.jpg
 Author: Benjamin Crozat
 Title: The easiest way to get the current URL path in PHP
 Description: Discover how to fetch the current URL path in PHP thanks to an useful superglobal variable.
 Published at: 2023-09-03
-Modified at: 
+Modified at: 2023-10-01
 Categories: php
 ---
 

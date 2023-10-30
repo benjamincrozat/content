@@ -1,4 +1,5 @@
 ---
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/36/language_yky8oj.png
 Author: Benjamin Crozat
 Title: How do language-based AIs, such as GPT, work?
 Description: Demystify AI! Get a simplified peek into GPT, the powerful language model, and explore its potential and challenges for the future of technology.
