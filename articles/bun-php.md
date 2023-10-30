@@ -1,19 +1,19 @@
 ---
 Author: Benjamin Crozat
-Title: Use Bun as your package manager in any Laravel project
-Description: Enjoy a faster workflow to build your front-end dependencies in your Laravel projects, thanks to the package management abilities of Bun.
+Title: Use Bun as your package manager in any PHP project
+Description: Enjoy a faster workflow to build your front-end dependencies in your PHP projects, thanks to the package management abilities of Bun.
 Published at: 2023-09-10
 Modified at: 
-Categories: javascript, laravel
+Categories: php, javascript
 ---
 
 [Bun](https://bun.sh) is a fast JavaScript all-in-one toolkit which can be used as a package manager. I wrote about it in more details: [What's the fuss around Bun's package manager abilities?](https://benjamincrozat.com/bun-package-manager)
 
-But first, let's see why you should care about Bun as a Laravel developer.
+But first, let's see why you should care about Bun as a PHP developer.
 
 ## Why would you switch away from NPM, pnpm, or Yarn?
 
-Most Laravel developers don't use Node.js for anything other than compiling front-end assets. So, why would you take some time to switch to Bun instead of sticking with a regular Node.js runtime?
+Most PHP developers don't use Node.js for anything other than compiling front-end assets. So, why would you take some time to switch to Bun instead of sticking with a regular Node.js runtime?
 
 Well, if you actually test Bun, you will notice how incredibly faster than Node.js it is. **Up to 30x!**
 
@@ -37,9 +37,9 @@ For now, unfortunately, Bun's package manager abilities are not available for Wi
 
 There's currently an [experimental version](https://bun.sh/docs/installation#windows) for it, but it's not recommended to use it in production.
 
-## Make some room to replace NPM, Yarn, or pnpm with Bun
+## Make some room to replace NPM, Yarn, or pnpm with Bun 
 
-Laravel doesn't require a specific package manager. Which is great news for Bun!
+The package manager you use in your PHP projects is completely up to your preferences. Which is great news for Bun!
 
 If you were using NPM or pnpm, remove their lock files because you won't need them anymore since Bun uses its own lock file called *bun.lockb* by default.
 
@@ -89,7 +89,7 @@ For additional information and options, please refer to the [official documentat
 
 Removing a package using Bun can easily be done using the `bun remove` command. You will certainly appreciate how incredibly fast it is as well.
 
-Let's use Axios as an example, as it's still installed by default on every new Laravel project:
+Let's use Axios as an example, since JavaScript's native Fetch API is as easy to use:
 
 ```bash
 bun remove axios
@@ -101,7 +101,7 @@ For additional information and options, please refer to the [official documentat
 
 Bun should be able to be integrated into your existing workflow without any issues. Run the scripts defined in your *package.json* file just like before using `bun run`.
 
-We can run our compilation process, which uses Vite or Mix by default on Laravel projects:
+For instance, you might have a compilation process in your PHP process for front-end assets:
 
 ```bash
 bun run dev

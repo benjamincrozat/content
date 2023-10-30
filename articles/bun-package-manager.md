@@ -1,19 +1,21 @@
 ---
 Author: Benjamin Crozat
-Title: Use Bun as your package manager in any Laravel project
-Description: Enjoy a faster workflow to build your front-end dependencies in your Laravel projects, thanks to the package management abilities of Bun.
-Published at: 2023-09-10
+Title: Bun vs. NPM, Yarn, pnpm, and others
+Description: Learn why Bun is a great and can be used as a package manager, replacing NPM, Yarn, pnpm, and others.
+Published at: 2023-09-11
 Modified at: 
-Categories: javascript, laravel
+Categories: javascript
 ---
 
-[Bun](https://bun.sh) is a fast JavaScript all-in-one toolkit which can be used as a package manager. I wrote about it in more details: [What's the fuss around Bun's package manager abilities?](https://benjamincrozat.com/bun-package-manager)
+## What is Bun?
 
-But first, let's see why you should care about Bun as a Laravel developer.
+**[Bun](https://bun.sh) is a fast JavaScript all-in-one toolkit.** It can be used as a runtime (a drop-in replacement much faster than Node.js), as a test runner, and even as a package manager. Which is what interests us today.
+
+Unlike Node.js or Deno, Bun is built on top of [Webkit](https://webkit.org)'s JavaScript engine (JavaScriptCore). Webkit is the basis for Mobile Safari on Apple's mobile platforms, as well as Safari for Mac.
 
 ## Why would you switch away from NPM, pnpm, or Yarn?
 
-Most Laravel developers don't use Node.js for anything other than compiling front-end assets. So, why would you take some time to switch to Bun instead of sticking with a regular Node.js runtime?
+Why would you take some time to switch to Bun instead of sticking with a regular Node.js runtime?
 
 Well, if you actually test Bun, you will notice how incredibly faster than Node.js it is. **Up to 30x!**
 
@@ -37,9 +39,9 @@ For now, unfortunately, Bun's package manager abilities are not available for Wi
 
 There's currently an [experimental version](https://bun.sh/docs/installation#windows) for it, but it's not recommended to use it in production.
 
-## Make some room to replace NPM, Yarn, or pnpm with Bun
+## Make some room to replace NPM, Yarn, or pnpm with Bun 
 
-Laravel doesn't require a specific package manager. Which is great news for Bun!
+You don't need a specific package manager. You can use whichever one you want. Which is great news for Bun!
 
 If you were using NPM or pnpm, remove their lock files because you won't need them anymore since Bun uses its own lock file called *bun.lockb* by default.
 
@@ -61,7 +63,7 @@ And if you were using Yarn:
 rm yarn.lock
 ```
 
-## Install your front-end dependencies using Bun
+## Install your front-end dependencies using Bun's package management abilities
 
 To install your dependencies using Bun, use `bun install`. So, how fast was it? I bet you didn't expect that!
 
@@ -89,7 +91,7 @@ For additional information and options, please refer to the [official documentat
 
 Removing a package using Bun can easily be done using the `bun remove` command. You will certainly appreciate how incredibly fast it is as well.
 
-Let's use Axios as an example, as it's still installed by default on every new Laravel project:
+Let's use Axios as an example, since we can now use the native Fetch API:
 
 ```bash
 bun remove axios
@@ -101,10 +103,14 @@ For additional information and options, please refer to the [official documentat
 
 Bun should be able to be integrated into your existing workflow without any issues. Run the scripts defined in your *package.json* file just like before using `bun run`.
 
-We can run our compilation process, which uses Vite or Mix by default on Laravel projects:
+We can run our compilation process. For instance, I always use Vite:
 
 ```bash
 bun run dev
 ```
 
 For additional information and options, please refer to the [official documentation of the `bun run` command](https://bun.sh/docs/cli/run).
+
+## Bun's video presentation
+
+<iframe src="https://www.youtube.com/embed/BsnCpESUEqM?si=fvhqvQU9XY9_0dGT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
