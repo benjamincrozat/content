@@ -1,6 +1,5 @@
 ---
 Image: 
-Author: Benjamin Crozat
 Title: Fast database queries are not always better
 Description: Tim MacDonald challenges the notion that fast database queries are always better - see why in his intriguing Laravel feature walkthrough.
 Published at: 2023-09-02

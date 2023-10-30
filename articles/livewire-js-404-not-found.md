@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/196/z0tPraLQOcwIbGEhB7AcGYZZdvlHaJ-metabGl2ZXdpcmUtanMtNDA0LW5vdC1mb3VuZC5qcGc%3D-.jpg
-Author: Benjamin Crozat
 Title: Fix the /livewire/livewire.js 404 not found error
 Description: Learn how to fix the 404 error occurring for /livewire/livewire.js.
 Published at: 2023-09-21

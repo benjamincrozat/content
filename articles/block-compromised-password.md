@@ -1,6 +1,5 @@
 ---
 Image: 
-Author: Benjamin Crozat
 Title: Should you block compromised passwords?
 Description: Check out Stephen Rees-Carter's tips on avoiding compromised passwords and boosting security with tools like Pwned Passwords.
 Published at: 2023-08-11

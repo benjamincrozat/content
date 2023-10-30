@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/44/pizza-driven-development_k09obn.png
-Author: Benjamin Crozat
 Title: PHP's str_replace() made simple
 Description: Manipulate strings in PHP using the extremely useful str_replace() function.
 Published at: 2023-07-10

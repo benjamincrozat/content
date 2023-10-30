@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/34/ChatGPT_sykyqr.png
-Author: Benjamin Crozat
 Title: Use Laravel to build a ChatGPT plugin
 Description: Offer new ways to interact with your app to your users. Learn how to build a ChatGPT plugin with Laravel.
 Published at: 2023-05-13

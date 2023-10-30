@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/195/4FjIPqqs1lM8q4Uaqih8fIGp1SZ6yK-metaYWxwaW5lLWxhcmF2ZWwuanBn-.jpg
-Author: Benjamin Crozat
 Title: Add Alpine.js to any Laravel project
 Description: Alpine.js is a great companion for a Laravel app. Let's see how you can add it in any project.
 Published at: 2023-10-13

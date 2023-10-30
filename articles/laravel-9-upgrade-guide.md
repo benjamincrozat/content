@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/29/laravel-9-upgrade-guide_gt8aln.png
-Author: Benjamin Crozat
 Title: Laravel 9: the mindful upgrade guide
 Description: I show you how to upgrade your Laravel 8 project to version 9 and help you decide whether the return on investment is worth it.
 Published at: 2023-02-04

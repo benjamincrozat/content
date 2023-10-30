@@ -1,6 +1,5 @@
 ---
 Image: 
-Author: Benjamin Crozat
 Title: Using databases without putting domain logic in them
 Description: Alex Kondov shares insights on using databases effectively without complicating it with domain logic, with useful examples explored.
 Published at: 2023-08-10

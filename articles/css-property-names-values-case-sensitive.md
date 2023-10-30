@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/51/css_ifo3ux.png
-Author: Benjamin Crozat
 Title: Are CSS selectors, properties names, and values case-sensitive?
 Description: CSS, including selectors and property names, is case-sensitive; use lowercase for consistency and to avoid issues.
 Published at: 2023-08-29

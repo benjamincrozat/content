@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/194/LpHvHmvUKRwWojXHVS9uThtKeNLqWv-metabGFyYXZlbC12dWUuanBn-.jpg
-Author: Benjamin Crozat
 Title: Add Vue.js to any Laravel project
 Description: Let me walk you through adding Vue.js to your Laravel project and be done with it in 5 minutes.
 Published at: 2023-10-13

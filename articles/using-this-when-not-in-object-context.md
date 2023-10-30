@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/9/guy-coding-2_hbrpyv.jpg
-Author: Benjamin Crozat
 Title: Here's the fix to "using $this when not in object context."
 Description: Learn why the "Using $this when not in object context" error happens, and let me show you the only way to fix.
 Published at: 2022-10-07

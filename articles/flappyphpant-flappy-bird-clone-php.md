@@ -1,6 +1,5 @@
 ---
 Image: 
-Author: Benjamin Crozat
 Title: FlappyPHPant, a Flappy Bird clone made with PHP
 Description: Check out FlappyPHPant, a fun Flappy Bird clone using PHP. It's a great way to learn complex programming concepts through gaming.
 Published at: 2023-08-10

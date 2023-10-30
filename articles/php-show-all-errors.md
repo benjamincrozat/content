@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/190/DP8uQOKxgSB13dgrgkAeVyUPpoYS1B-metaZXJyb3JzLmpwZw%3D%3D-.jpg
-Author: Benjamin Crozat
 Title: Easily show all errors in PHP
 Description: Discover how to reveal all PHP errors in your script or globally via php.ini for effective debugging, but remember to adjust before going live.
 Published at: 2023-10-07

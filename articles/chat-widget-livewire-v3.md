@@ -1,6 +1,5 @@
 ---
 Image: 
-Author: Benjamin Crozat
 Title: Create a persisting chat widget using Livewire v3
 Description: Discover how to craft an ever-present chat widget with Livewire v3's persistence features in Laravel - step-by-step guide included.
 Published at: 2023-08-10

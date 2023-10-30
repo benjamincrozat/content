@@ -1,6 +1,5 @@
 ---
 Image: 
-Author: Benjamin Crozat
 Title: Frank de Jonge's perspective on mocking frameworks
 Description: Once a fan, Frank de Jonge now suggests ditching mocking frameworks for real implementations to simplify code testing.
 Published at: 2023-08-10

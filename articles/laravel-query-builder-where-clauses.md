@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/71/NjPIPYfFErJWOhUIgb6vbjhiAibOPR-metacHJvZ3JhbW1pbmdfbGZlcnRzLmpwZw%3D%3D-.jpg
-Author: Benjamin Crozat
 Title: Unlock the power of Laravel's query builder where clauses
 Description: Unleash Laravel's query builder with my deep dive into the power of "where" clauses—triggering conditions, exclusions, JSON queries, and more.
 Published at: 2023-09-12
