@@ -2,5 +2,5 @@
 Name: JavaScript
 Slug: javascript
 Primary color: e8d44e
-Secondary color: black
+Secondary color: 000000
 ---
