@@ -1,6 +1,6 @@
 ---
 Name: CSS
 Slug: css
-Primary color: #264bdd
+Primary color: 264bdd
 Secondary color: 
 ---
