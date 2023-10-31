@@ -1,5 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/27/Screenshot_2023-01-26_at_10.49.30_rtukqx.png
+Author: Benjamin Crozat
 Title: Alpine.js: a lightweight framework for productive developers
 Description: Smaller and even easier than Vue.js, setting up Alpine.js is as easy as copying and pasting a code snippet.
 Published at: 2023-01-26

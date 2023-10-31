@@ -1,5 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/55/programming_lferts.jpg
+Author: Benjamin Crozat
 Title: Mastering error handling in Laravel's HTTP client
 Description: Learn how to use Laravel's HTTP client for efficient error handling and exception throwing in different scenarios with ease.
 Published at: 2023-08-31

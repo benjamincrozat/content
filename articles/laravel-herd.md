@@ -1,5 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/45/CleanShot_2023-07-19_at_23.14.36_2x_xazzjv.jpg
+Author: Benjamin Crozat
 Title: Laravel Herd: the simplest way to install PHP on your Mac
 Description: Laravel Herd is a native macOS app that makes it even easier than Laravel Valet to get started with the framework.
 Published at: 2023-07-19

@@ -1,5 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/8/woman-coding_xuisvu.jpg
+Author: Benjamin Crozat
 Title: Learn how to print an array with PHP (+ Laravel)
 Description: Debugging requires dissecting everything. Here's a list of all the one-line of code built-in ways to print arrays in PHP (and even Laravel-specific helpers).
 Published at: 2022-10-07

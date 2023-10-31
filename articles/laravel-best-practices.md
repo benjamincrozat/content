@@ -1,5 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/17/best-practices_enpotj.png
+Author: Benjamin Crozat
 Title: 20+ Laravel best practices, tips and tricks to use in 2023
 Description: Learning a framework can be overwhelming, but time and execution will make you a master. Here are some best practices to help you toward your goal.
 Published at: 2022-10-30
