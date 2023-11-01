@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/13/php-83_jyplbw.png
-Author: Benjamin Crozat
 Title: PHP 8.3: new features and release date.
 Description: PHP 8.3 will be released in November 2023, and as usual, you need to be up to date with new features and breaking changes for easier transitions.
 Published at: 2022-10-10

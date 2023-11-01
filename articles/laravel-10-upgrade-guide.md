@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/28/laravel-10-upgrade-guide_myjbgv.png
-Author: Benjamin Crozat
 Title: Laravel 10: the upgrade guide from version 9
 Description: I show you how to upgrade your Laravel 9 project to version 10 and help you decide whether the return on investment is worth it.
 Published at: 2023-02-03

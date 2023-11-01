@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/7/learning_h3gjog.jpg
-Author: Benjamin Crozat
 Title: The best PHP blogs to read in 2023
 Description: To keep getting better with PHP, you should subscribe to as many quality blogs as possible. In this article, I share the ones I often read myself.
 Published at: 2022-09-19

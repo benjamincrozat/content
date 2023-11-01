@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/47/Volt_tn1jfd.jpg
-Author: Benjamin Crozat
 Title: Laravel Volt: simplify how you write Livewire components
 Description: Laravel Volt is a great new addition to Laravel's extensive ecosystem that brings single-file components à la Vue.js to Livewire. Let me help you get started.
 Published at: 2023-07-25

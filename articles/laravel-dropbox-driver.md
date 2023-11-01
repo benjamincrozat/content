@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/23/dropbox_jvx5wo.png
-Author: Benjamin Crozat
 Title: Laravel Dropbox Driver package: how to install and use it
 Description: Store and manage files on Dropbox and use it to back up your Laravel app automatically.
 Published at: 2022-12-03

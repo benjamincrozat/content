@@ -1,6 +1,5 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/12/confused_xxboi4.jpg
-Author: Benjamin Crozat
 Title: Is your PHP array empty? A few ways to make sure of it.
 Description: There are multiple ways to check if an array is empty. Let me tell you about each of them and why and when you should use them.
 Published at: 2022-10-09
