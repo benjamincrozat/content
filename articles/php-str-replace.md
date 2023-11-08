@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/44/pizza-driven-development_k09obn.png
 Title: PHP's str_replace() made simple
 Description: Manipulate strings in PHP using the extremely useful str_replace() function.
+Canonical: 
 Published at: 2023-07-10
 Modified at: 2023-09-19
 Categories: php

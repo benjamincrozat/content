@@ -1,6 +1,6 @@
 ---
 Name: Tools
 Slug: tools
-Primary color: 7c3aed
+Primary color: #7c3aed
 Secondary color: 
 ---

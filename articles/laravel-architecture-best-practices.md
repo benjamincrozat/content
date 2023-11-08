@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/56/programmer_v_02_o9k1tl.jpg
 Title: 3 crucial Laravel architecture best practices for 2023
 Description: Explore Laravel's default architecture to simplify collaboration, compatibility, and onboarding.
+Canonical: 
 Published at: 2023-09-01
 Modified at: 
 Categories: laravel

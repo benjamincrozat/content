@@ -2,6 +2,7 @@
 Image: 
 Title: Remove final from PHP packages with Unfinalize
 Description: Bypass PHP's final keyword restriction with Unfinalize, a tool that safely removes final from classes and methods in third-party packages.
+Canonical: 
 Published at: 2023-10-03
 Modified at: 
 Categories: php, packages

@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/14/rocket_xv9mlh.png
 Title: SEO case study (2022-2023): +10K clicks in 6 months
 Description: Here's a case study for my blog in the programming niche, where I share everything I did to increase clicks by a huge amount since the beginning.
+Canonical: 
 Published at: 2022-10-25
 Modified at: 2023-07-08
 Categories: seo

@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/49/6670916_irmo0q.png
 Title: Understanding database transactions with Laravel
 Description: Discover how Laravel simplifies database transactions, ensuring all-or-nothing operations and maintaining consistent database state.
+Canonical: 
 Published at: 2023-08-27
 Modified at: 
 Categories: databases, laravel

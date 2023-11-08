@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/13/php-83_jyplbw.png
 Title: PHP 8.3: new features and release date.
 Description: PHP 8.3 will be released in November 2023, and as usual, you need to be up to date with new features and breaking changes for easier transitions.
+Canonical: 
 Published at: 2022-10-10
 Modified at: 2023-07-03
 Categories: php
@@ -12,6 +13,8 @@ Categories: php
 PHP is an open-source project. Knowing what's going on for the next version only takes a minute of research. For instance, this page lists all the [accepted RFCs for PHP 8.3](https://wiki.php.net/rfc#php_83).
 
 Below, you will find a condensed list of what's new, with code samples that make sense.
+
+Oh and by the way, I already started writing about [PHP 8.4's release date, new features and changes](/php-84).
 
 ## When will PHP 8.3 be released?
 
@@ -42,7 +45,7 @@ Below, you will find a condensed list of what's new, with code samples that make
 4. Install the pre-compiled binary for PHP 8.3 (also called "a bottle" in Homebrew's context). This will make the install so much faster. `brew install php@8.3`.
 5. Link it to make sure that the `php` alias targets the right binary: `brew link --overwrite --force php@8.3`.
 
-If you want to learn more about how to install PHP on your Mac, I wrote something for you: [PHP 8.3: new features (with RFCs) and release date.](https://benjamincrozat.com/install-php-mac-laravel-valet)
+If you want to learn more about how to install PHP on your Mac, I wrote something for you: [PHP for Mac: get started fast using Laravel Valet](https://benjamincrozat.com/install-php-mac-laravel-valet)
 
 ## What's new in PHP 8.3: new features and changes
 

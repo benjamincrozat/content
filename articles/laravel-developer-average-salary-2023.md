@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/204/UZKZuPcDfWiukrFlwRSNt7S2Y0Poge-metaREFMTMK3RSAyMDIzLTEwLTI3IDIxLjA4LjA5IC0gTGFuZHNjYXBlIGlsbHVzdHJhdGlvbiBpbiBmbGF0IGRlc2lnbiBkZXBpY3RpbmcgYSB3b21hbiBvZiBBc2lhbiBkZXNjZW50IGdsZWVmdWxseSBmbG9hdGluZyBvbiAucG5n-.png
 Title: The average salary of a Laravel developer in 2023
 Description: Discover how much Laravel developers earn worldwide in 2023, based on data from Glassdoor, Indeed, and PayScale.
+Canonical: 
 Published at: 2023-10-27
 Modified at: 
 Categories: laravel
@@ -66,8 +67,16 @@ According to various sources across the web, the average salary of a Laravel dev
 
 According to various sources across the web, the average salary of a Laravel developer is **~$92,000 per year in the United States**.
 
-## Conclusion
+## So, is Laravel worth learning in 2023?
 
-After reading this article, you may have decided to study Laravel. Great! You are on the right blog for that. And there are so many other incredible sources teaching about the framework too!
+Whether Laravel is worth learning or not is up to you. The salaries are definitely interesting and will certainly help you take care of your loved ones and make your projects a reality.
+
+Therefore, you might want to learn more about Laravel. Great! **You are on the right blog for that.** And there are so many other incredible free and paid sources teaching about the framework too:
+- A good old Google or YouTube search.
+- [ChatGPT](https://chat.openai.com)
+- [codecourse.com](https://codecourse.com)
+- [laracasts.com](https://laracasts.com)
+- [laravel.com](https://laravel.com)
+- [laraveldaily.com](https://laraveldaily.com)
 
 If you want to prepare for your future job interview and be able to negociate a higher salary, head on my article "[Laravel interview questions and answers](https://benjamincrozat.com/laravel-interview-questions)." **You will learn a lot.**

@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/37/statistics_a0weap.png
 Title: Is PHP dead? Usage statistics and market share for 2023.
 Description: Whether PHP is dead is a matter of numbers, not opinions. I will provide you with essential statistics that will lead you to make better decisions.
+Canonical: 
 Published at: 2023-06-18
 Modified at: 2023-09-19
 Categories: php

@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/213/FAncssRvJjBYaCmh0SAqka9xFW7KB6-metadGVzdC5wbmc%3D-.png
 Title: How does Laravel work? A crystal clear explanation.
 Description: Discover my step by step and simple explanation of how Laravel makes your life easier.
+Canonical: 
 Published at: 2023-10-31
 Modified at: 
 Categories: laravel
@@ -9,11 +10,11 @@ Categories: laravel
 
 ## Introduction
 
-From the moment a user clicks a link to your site, to when the data pops up on their screen, let me give you a tour on how [Laravel](https://laravel.com) orchestrates this web symphony.
+**[Laravel](https://laravel.com) is a framework based on PHP, which enables developers to build web applications faster.** It provides us with tons of pre-written PHP code that lets us focus on our goals instead of reinventing the wheel.
 
-## What is Laravel?
+But do you know exactly how it works?
 
-Simply put, Laravel is like a Swiss Army knife for building web applications. It offers a ton of handy features, tools, and pre-written PHP code that make your life as a developer much easier.
+From the moment a user clicks a link to your site, to when the data pops up on their screen, let me give you a tour on how Laravel orchestrates this web symphony.
 
 ## How Laravel works in tandem with PHP and the web server
 

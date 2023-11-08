@@ -2,9 +2,10 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/53/chatgpt-code-generation_ily1el.png
 Title: How to generate Laravel Factories using ChatGPT
 Description: Discover how to harness AI for rapid Laravel Factory generation, saving days of manual coding in massive codebases. Done smart, done right!
+Canonical: 
 Published at: 2023-08-29
 Modified at: 
-Categories: gpt, laravel
+Categories: gpt, laravel, ai
 ---
 
 ## Introduction

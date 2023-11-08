@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/15/statistics_a0weap.png
 Title: Is PHP dead? Usage statistics and market share for 2022.
 Description: Whether PHP is dead is a matter of numbers, not opinions. I will provide you with essential statistics that will lead you to make better decisions.
+Canonical: 
 Published at: 2022-10-27
 Modified at: 2023-06-18
 Categories: php

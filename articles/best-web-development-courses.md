@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/24/5293_mhk4oe.jpg
 Title: The best web development courses available. Free and paid.
 Description: Looking to learn web development but don't know where to start? Check out our list of the best online paid and free platforms to get started!
+Canonical: 
 Published at: 2022-12-19
 Modified at: 2022-12-20
 Categories: 

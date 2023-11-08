@@ -2,8 +2,9 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/12/confused_xxboi4.jpg
 Title: Is your PHP array empty? A few ways to make sure of it.
 Description: There are multiple ways to check if an array is empty. Let me tell you about each of them and why and when you should use them.
+Canonical: 
 Published at: 2022-10-09
-Modified at: 2022-11-23
+Modified at: 2023-11-02
 Categories: php
 ---
 
@@ -11,28 +12,28 @@ Categories: php
 
 To ensure that a PHP array is empty, you can use any of the following methods:
 
-1. Use the `empty()` function to check if the array is empty and return a boolean value.
-2. Use the `count()` (or `sizeof()`) function to count the number of elements in the array and check if it is equal to zero.
+1. Use the `empty()` function to check if the array is empty. The function will return a boolean value (`true` or `false`).
+2. Use the `count()` (or `sizeof()`) function to count the number of elements in the array and check if it's equal to zero. `count()` can even count the numbers of entries inside a multidimensional array.
 3. Use the not operator (`!`). If the array does hold any value, the not operator will return `true`.
+
+You can stop there, or we can dive deeper and see in detail how these ways to check for empty arrays work.
 
 ## The `empty()` function
 
-The `empty()` function determines if a value is empty or not. It simply returns `true` if it's empty, or `false` if it's not.
+The `empty()` function determines if an array is empty or not. It simply returns `true` or `false` depending on the content of it.
 
 This is my favorite way to check if an array is empty in PHP.
 
 ```php
 $foo = [];
 
-// true
-if (empty($foo)) {
+if (empty($foo)) { // true
     //
 }
 
 $bar = ['Foo', 'Bar', 'Baz'];
 
-// false
-if (empty($bar)) {
+if (empty($bar)) { // false
     //
 }
 ```
@@ -58,11 +59,14 @@ $array = [
     ],
 ];
 
+// 3
 $count = count($array, COUNT_RECURSIVE);
 
-// If $count is greater than zero, then your array is not empty.
+// If $count is greater than zero.
 if ($count > 0) {
-    //
+    // The array is not empty.
+} else {
+	  // The array is empty.
 }
 ```
 
@@ -70,7 +74,7 @@ Learn more about the [`count()`](https://www.php.net/count) function.
 
 ## The `sizeof()` function
 
-`sizeof()` is an alias of count(). [PHP actually has a lot of aliases for various functions](https://www.php.net/manual/en/aliases.php).
+`sizeof()` is an alias of count() and can be used on arrays in the same way. [PHP actually has a lot of aliases for various functions](https://www.php.net/manual/en/aliases.php).
 
 There's nothing to add, [you already know how to use it](#the-count-function):
 
@@ -82,7 +86,7 @@ Learn more about the [`sizeof()`](https://www.php.net/sizeof) function.
 
 ## The not (`!`) operator
 
-This one is simple. You are probably used to the not (`!`) operator. I didn't know it could check for empty arrays, but here I am, after 15 years of PHP learning yet another basic thing.
+This one is simple. You are probably used to the not (`!`) operator. I had no clue it could check for empty arrays. But here I am, after more than 15 years of PHP, learning yet another basic thing. 😅
 
 ```php
 $foo = [];
@@ -91,4 +95,3 @@ if (! $foo) {
     echo '$foo is empty.';
 }
 ```
-

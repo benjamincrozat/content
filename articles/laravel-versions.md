@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/178/sngqsGxoLry9qHLY5j7XaXm5dLJ5C5-metabGFyYXZlbC5qcGc%3D-.jpg
 Title: A complete history of Laravel's versions (2011-2023)
 Description: What's the current version of Laravel? Is there any LTS release you can rely on? And what about the history of the framework? Let's find out!
+Canonical: 
 Published at: 2023-09-20
 Modified at: 2023-10-15
 Categories: laravel

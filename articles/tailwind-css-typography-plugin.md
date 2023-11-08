@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/32/CleanShot_2023-04-26_at_16.24.18_2x_kmvbdt.png
 Title: Tailwind CSS typography plugin: a step-by-step build guide
 Description: Discover how the Tailwind CSS typography plugin can help you easily style text you don't control, such as content from CMS platforms.
+Canonical: 
 Published at: 2023-04-26
 Modified at: 2023-09-01
 Categories: css, tailwind-css

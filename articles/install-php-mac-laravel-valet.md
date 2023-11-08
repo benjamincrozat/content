@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/41/2794209_ckzoyp.png
 Title: PHP for Mac: get started fast using Laravel Valet
 Description: Use your Mac as an ideal PHP environment thanks to the power of Laravel Valet. You can finally say goodbye to Docker!
+Canonical: 
 Published at: 2023-06-27
 Modified at: 2023-08-12
 Categories: php, laravel, tools

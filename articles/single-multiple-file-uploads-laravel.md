@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/199/1CNkzVv7g5MYP5B4g5JdY4xXmsKFiZ-metaZmlsZS11cGxvYWRzLmpwZw%3D%3D-.jpg
 Title: Single or multiple file uploads with Laravel, step by step
 Description: 
+Canonical: 
 Published at: 
 Modified at: 
 Categories: laravel
@@ -60,8 +61,8 @@ Fill the view with my our awesome form:
 ## Define the route that handles file uploads
 
 ```php
-use App\Http\Controllers\UploadPhotosController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UploadPhotosController;
 
 Route::view('/upload-photos', 'photos-upload-form');
 
@@ -79,9 +80,9 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\File;
 
-class SomeController
+class UploadPhotosController
 {
-	public function someMethod(Request $request)
+	public function __invoke(Request $request)
 	{
 		$rules = File::image()
 			->min(1024) // 1 MB
@@ -106,9 +107,9 @@ Here's how easy it is using the `$request` object Laravel provides:
 ```php
 use Illuminate\Http\Request;
 
-class SomeController
+class UploadPhotosController
 {
-	public function someMethod(Request $request)
+	public function __invoke(Request $request)
 	{
 		$path = $request
 			->file('some-name')

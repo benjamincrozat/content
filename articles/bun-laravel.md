@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/64/TAJFxOLkWdOkPB0N9kZu0OQTQN6sIY-metaYnVuLmpwZw%3D%3D-.jpg
 Title: Use Bun as your package manager in any Laravel project
 Description: Enjoy a faster workflow to build your front-end dependencies in your Laravel projects, thanks to the package management abilities of Bun.
+Canonical: 
 Published at: 2023-09-10
 Modified at: 
 Categories: javascript, laravel

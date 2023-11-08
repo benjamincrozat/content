@@ -1,9 +1,10 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/6/laravel-10_ovwmiu.png
-Title: Laravel 10 is out! Here's every new feature and change.
-Description: Laravel 10 has been released on February 14, 2023. Let's dive into every relevant new feature and change.
+Title: Laravel 10 is out! Here are every new features and changes.
+Description: Laravel 10 has been released on February 14, 2023. Let's dive into every relevant new features and changes.
+Canonical: 
 Published at: 2022-09-15
-Modified at: 2023-09-09
+Modified at: 2023-11-02
 Categories: laravel
 ---
 
@@ -13,7 +14,7 @@ Laravel 9 is retiring. The framework gained a shiny new 10th version, and I'll t
 
 ## Laravel 10 release date
 
-**Laravel 10 was released on February 14, 2023, and currently is the latest version.**
+**Laravel 10 was released on February 14, 2023, and currently is the latest version of the framework.**
 
 But take it slow! It doesn't mean you have to update all your projects immediately.
 
@@ -26,11 +27,11 @@ Laravel 9 will receive bug fixes until August 23, 2023 and security fixes until 
 
 ## Is Laravel 10 LTS (Long Term Support)?
 
-**No, Laravel 10 isn't LTS.**
+**No, Laravel 10 isn't LTS, but it provides two years of support.**
 
-The framework last had LTS in version 6.
+The framework last had LTS in version 6 and you can [learn all about LTS versions here](/laravel-versions).
 
-That being said, each major version have 2 years of bug and security fixes, which is plenty of time to prepare your application to [upgrade to the next major version](https://benjamincrozat.com/laravel-10-upgrade-guide).
+Like I said, each major version offer two years of bug and security fixes, which is plenty of time to prepare your application to [upgrade to the next major version](https://benjamincrozat.com/laravel-10-upgrade-guide).
 
 ## How to install Laravel 10?
 
@@ -50,11 +51,11 @@ composer create-project --prefer-dist laravel/laravel hello-world
 
 Upgrading to Laravel 10 requires more than just following upgrade instructions. Before proceeding, consider thinking this through. 
 
-Check out [my guide to upgrading to Laravel 10](https://benjamincrozat.com/laravel-10-upgrade-guide) if you need more clarification. I also talk about a miracle solution to automatize the process.
+Check out [my guide to upgrading to Laravel 10](https://benjamincrozat.com/laravel-10-upgrade-guide) if you need more clarification about the process and considerations you should have before giving the green light. I will also talk about a miracle solution to automatize the process, which should be very helpful to businesses like agencies.
 
 ## What's new in Laravel 10: features and changes
 
-### Laravel Pennant: feature flags with ease
+### Laravel Pennant: a Feature Flags first-party package for Laravel 10
 
 ![Laravel Pennant](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/74/conversions/FonDXMhXgAAY16E_nr7fzx-medium.jpg)
 
@@ -99,7 +100,7 @@ Laravel News also has a [step-by-step tutorial](https://laravel-news.com/laravel
 
 ### Handle external processes with ease
 
-Laravel 10 offers a simple yet comprehensive API for the [Symfony Process component](https://symfony.com/doc/current/components/process.html), enabling you to run external processes within your Laravel application easily. 
+Laravel 10 introduced a simple yet comprehensive API for the [Symfony Process component](https://symfony.com/doc/current/components/process.html), enabling you to run external processes within your Laravel application easily. And I absolutely love it!
 
 The process functionality in Laravel is designed to cater to the most frequent usage scenarios, resulting in an exceptional experience for developers. 🔥
 
@@ -176,7 +177,7 @@ class Uppercase implements InvokableRule
 }
 ```
 
-The boilerplate code is considerably smaller and easier to understand. Thanks to Laravel 10, people will be less intimidated by the perspective of making custom validation rules.
+The boilerplate code is considerably smaller and easier to understand than when using the old way. Thanks to Laravel 10, I think people will be less intimidated by the perspective of making custom validation rules.
 
 See the pull request on GitHub: [[10.x] Make invokable rules default](https://github.com/laravel/docs/pull/8165)
 
@@ -276,7 +277,7 @@ Learn more: [[10.x] Requires Composer ^2.2](https://github.com/laravel/framework
 ### Dropped support for PHP 8.0
 
 Laravel 10 dropping support for PHP 8.0 and requiring 8.1 as a minimum means two things if you want to upgrade:
-- Either move to PHP 8.1
+- Either migrate to PHP 8.1
 - Or PHP 8.2
 
 But remember: your Laravel apps don't need to be updated to the latest and greatest as soon as they're released.
@@ -299,7 +300,7 @@ See the pull request on GitHub: [[10.x] Drop Predis v1 support](https://github.c
 
 In my opinion, instead of using Predis, you should consider using [PHP's native Redis extension](https://github.com/phpredis/phpredis), which is faster and could speed up your website if you have a lot of traffic.
 
-### Laravel 10 has removed dispatchNow()
+### dispatchNow() has been removed from Laravel 10
 
 `dispatchNow()` is a popular method in Laravel. It was deprecated in Laravel 9 in favor of [`dispatchSync()`](https://laravel.com/docs/9.x/queues#synchronous-dispatching). Laravel 10 will remove it, so be sure to search and replace it in all of your projects. It may be a breaking change, but it's an extremely easy fix.
 

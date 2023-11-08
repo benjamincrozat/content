@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/38/3371_ywedey.jpg
 Title: console.log() in PHP
 Description: Explore the world of PHP debugging with var_dump(), and Laravel's friendlier alternatives, dump() and dd(). Much charm, such useful!
+Canonical: 
 Published at: 2023-06-24
 Modified at: 2023-09-06
 Categories: php

@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/25/tailwind-css_uoqpuu.png
 Title: Tailwind CSS: the ultimate guide to get started
 Description: This is the most comprehensive tutorial about Tailwind CSS. Learn how to make front-end development great again.
+Canonical: 
 Published at: 2022-12-25
 Modified at: 2023-03-05
 Categories: css, tailwind-css

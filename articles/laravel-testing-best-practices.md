@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/197/2iaZ5lJi19MT8M17ht5m9cmyl3vJpH-metadGVzdGluZy5qcGc%3D-.jpg
 Title: 10 testing best practices for Laravel in 2023
 Description: Are you familiar with testing? Good. Here are a bunch of best practices to help you level up even more!
+Canonical: 
 Published at: 2023-10-27
 Modified at: 2023-10-27
 Categories: testing, laravel

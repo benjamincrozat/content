@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/3/programmer_v_02_pbqu54.jpg
 Title: 6 ways to check which Laravel version you are running
 Description: Knowing which Laravel version you are running is important before you start writing code on a new project. There are multiple ways to do so.
+Canonical: 
 Published at: 2022-09-10
 Modified at: 2023-10-09
 Categories: laravel
@@ -19,7 +20,7 @@ However, there are other methods to get the version of Laravel. Here's a compreh
 
 ### Using the `php artisan about` command
 
-The about command not only displays the Laravel version but also other helpful information about your project such as the version of PHP you're running on, Composer's version, cache drivers, etc.
+The about command Artisan offers not only displays the Laravel version but also other helpful information about your project such as the version of PHP you're running on, Composer's version, cache drivers, etc.
 
 However, it's important to note that the about command is only available in Laravel version 8 or later.
 
@@ -37,7 +38,7 @@ Composer Version ..................................................... 2.4.1
 
 I talked about it in the introduction. If you are using an older version of Laravel, you can still use the `--version` flag to display the Laravel version.
 
-This is the original method for checking it before the about command was introduced. The `--version` flag has priority over any command.
+This is the original method for checking it before the about command was introduced. The `--version` flag has priority over any Artisan command.
 
 ```
 php artisan --version

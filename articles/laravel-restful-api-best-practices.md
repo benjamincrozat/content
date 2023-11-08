@@ -2,6 +2,7 @@
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/1/lnPbc0JnlDlETESSHaqa5VeAxo9ZGg-metaYXBpX2R3ZjloYy5qcGc%3D-.jpg
 Title: 7 Laravel RESTful APIs best practices for 2023
 Description: Master the art of crafting RESTful APIs with Laravel thanks to these best practices.
+Canonical: 
 Published at: 2023-09-06
 Modified at: 2023-10-10
 Categories: laravel

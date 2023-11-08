@@ -2,6 +2,7 @@
 Image: 
 Title: How Facades work in Laravel: a simple explanation
 Description: 
+Canonical: 
 Published at: 
 Modified at: 
 Categories: 

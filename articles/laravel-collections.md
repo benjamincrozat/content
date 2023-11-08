@@ -1,7 +1,8 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/18/laravel-collections_vtrxcq.png
-Title: Leverage Laravel Collections to refactor your codebase
+Title: 14 Laravel Collections tips to refactor your codebase
 Description: Laravel Collections make arrays more powerful and convenient to work with. This article provides tons of quick tips to instantly make your codebase better.
+Canonical: 
 Published at: 2022-11-09
 Modified at: 2023-08-27
 Categories: laravel
@@ -16,15 +17,15 @@ They're also immutable, meaning they do not modify the original array. Instead, 
 By using collections, you'll stop wondering about:
 - Which comes first? The needle or the haystack?
 - Does this array function returns a new array, or modifies the original?
-- What's the difference between `array_map()` and `array_walk()`?
+- What's the difference between [`array_map()`](/php-array-map) and `array_walk()`?
 
 And finally, your code will be more readable and easier to maintain.
 
 ## Laravel Collections methods I always use
 
-### Transform an array into a collection
+### Create a collection from an array
 
-An array can be transformed into a collection using the `collect()` helper. It's that simple!
+**To create a collection from an array, use the `collect()` helper.** It's that simple!
 
 ```php
 $collection = collect(); // Empty collection.
@@ -32,12 +33,12 @@ $collection = collect(); // Empty collection.
 $collection = collect([1, 2, 3]); // Collection from an array.
 ```
 
-If you take a look at `collect()`'s source code, you'll see you can also instantiate the `\Illuminate\Support\Collection` class.
+If you want a more object-oriented way to create a collection from an array, use the `make()` static method from `Illuminate\Support\Collection`:
 
 ```php
 use \Illuminate\Support\Collection;
 
-$collection = new Collection([1, 2, 3]); // Object-oriented style.
+$collection = Collection::make([1, 2, 3]); // Object-oriented style.
 ```
 
 ### Transform a collection back into an array
