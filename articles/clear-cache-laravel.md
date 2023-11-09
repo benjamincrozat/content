@@ -1,6 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/4/crazy-monitors-guy_ru8pgz.jpg
-Title: How to clear the Laravel's cache in a nutshell
+Title: How to clear Laravel's cache in a nutshell
 Description: When in doubt, clear the cache. In this article, you'll learn about how to clear every cache Laravel uses.
 Canonical: 
 Published at: 2022-09-10
@@ -10,9 +10,11 @@ Categories: laravel
 
 ## Introduction
 
-**To clear the cache in Laravel, run `php artisan optimize:clear`. This works no matter which cache driver you are using.**
+**To clear the cache in Laravel, run `php artisan optimize:clear`.** This works no matter which cache driver you are using. It will also clear the bootstrap files (events, compiled, config, routes, and views).
 
 Now that we got this out of the way, let me remind you that Laravel has many kinds of caches. The framework offers a command for every variety of cache that you can use to enjoy a more granular level of control.
+
+![The optimize:clear command in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/247/conversions/fUYsLdG7jk25WIM9Y9RZWNawuPaX6q-metaQ2xlYW5TaG90IDIwMjMtMTEtMDkgYXQgMTQuNDAuNDhAMngucG5n--medium.jpg)
 
 ## Clear all caches in Laravel
 

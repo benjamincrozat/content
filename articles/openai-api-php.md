@@ -1,6 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/16/robot_qxeqid.png
-Title: Leverage GPT the easy way using OpenAI's API and PHP
+Title: Use PHP to leverage OpenAI's API and GPT effortlessly
 Description: Improve your projects by leveraging the power of GPT, the famous language model, using PHP and OpenAI's REST API.
 Canonical: 
 Published at: 2022-10-27
@@ -22,9 +22,19 @@ And a [**Laravel adapter (openai-php/laravel) is available**](https://github.com
 
 By the way, some of you may not know what GPT is. If you are unfamiliar it, take some time to get up to speed thanks to my simple-to-understand article about [how Large Language Models such as GPT work](/gpt-llm-ai-explanation).
 
+## What GPT is
+
+GPT is essentially an advanced computer program (or model) designed to process and generate human-like text by predicting what word should come next in a sentence.
+
+Imagine it as a super-smart autocomplete feature that has read an enormous library of text and can now write on a wide array of topics by stringing together words in a way that sounds human.
+
+Its creators, OpenAI, have trained it with a vast amount of online text, which is why it can compose anything from poetry to technical manuals, but it isn't conscious or truly understanding—it's just really good at spotting and replicating patterns in language.
+
+I wrote more for those who want to go deeper: "[How do language-based AIs, such as GPT, work?](/gpt-llm-ai-explanation)"
+
 ## Create an account to get your OpenAI API key
 
-1. [Create an account](https://chat.openai.com/auth/login).
+1. [Create an account](https://platform.openai.com/login?launch).
 
 ![Creating an account on OpenAI](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/229/conversions/Dt2ElwOQoKtwjEhuw2eu1uGceEDJnF-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMTkuNTQuMjZAMngucG5n--medium.jpg)
 
@@ -63,7 +73,7 @@ We will focus on the `gpt-3.5-turbo` model. It's cheap, fast and this is the sam
 
 The PHP wrapper is great because it'll fit no matter what your favorite framework or CMS is (Symfony, CodeIgniter, CakePHP, WordPress, Magento, etc.).
 
-### Installation
+### Install openai-php/client
 
 First, create a bare-minimum PHP project:
 
@@ -96,7 +106,7 @@ $client = OpenAI::client('YOUR_API_KEY');
 
 [**You can generate your own API key here.**](https://beta.openai.com/account/api-keys)
 
-### Usage
+### Usage of openai-php/client
 
 ```php
 $data = $client->chat()->create([
@@ -122,7 +132,7 @@ The package supports:
 - Transcribing an audio file (useful for podcasts for instance).
 - And so much more! This is an extensive package.
 
-### Installation
+### Install openai-php/laravel
 
 Install the package via Composer:
 
@@ -130,7 +140,7 @@ Install the package via Composer:
 composer require openai-php/laravel
 ```
 
-### Usage
+### Usage of openai-php/laravel
 
 First, make sure [**you have generated your own API key**](https://beta.openai.com/account/api-keys).
 
@@ -164,6 +174,14 @@ echo $data['choices'][0]['message']['content'];
 As you can see, there are differences with the vanilla PHP client:
 1. We skip creating an OpenAI client instance, since the package already did it and stored the instance in the container.
 2. We call the Facade instead of a newly created object.
+
+## How to choose your GPT model
+
+Each model (GPT-4 Turbo, GPT-4, GPT-3.5 Turbo, etc.) have different capabilities. "Turbo" models such as `gpt-4-1106-preview` and `gpt-3.5-turbo-1106` are the smartest and most reliable.
+
+Other models like `gpt-4`, `gpt-4-32k-0613`, and even the ones based on GPT-3 like `davinci` are now legacy and OpenAI keeps them for compatibility purposes.
+
+Your choice should be dictated by the kind of task you want to perform and your budget. OpenAI has pages detailing their GPT [models' capabilities](https://platform.openai.com/docs/models) as well as [their pricing](https://openai.com/pricing).
 
 ## Build a powerful spam detection tool in 5 minutes
 
@@ -310,6 +328,6 @@ it('asks GPT to do a thing', function () {
 
 ## Conclusion
 
-GPT is the basis for a variety of [great products](https://www.producthunt.com/search?q=ai).
+GPT is the basis for a variety of great products nowadays and only the imagination is the limit. I hope you will create something unique thanks to the power of AI!
 
-Your imagination is the limit. I hope you will create something unique thanks to the power of AI!
+Talking about unique products, did you know OpenAI provides an [API endpoint to generate true to life voices](https://benjamincrozat.com/openai-tts-api)?
