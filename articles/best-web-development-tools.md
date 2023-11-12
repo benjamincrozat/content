@@ -42,7 +42,7 @@ Please support my work, [start your free trial and get $10 off your first invoic
 
 ### Ploi (a server manager)
 
-![Ploi](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/192/conversions/FD5lwtDUNW2yyxCfVi6TjLSpuFVxls-metaQ2xlYW5TaG90IDIwMjMtMTAtMDkgYXQgMTguMjMuNDRAMngucG5n--medium.jpg)
+[![Ploi](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/192/conversions/FD5lwtDUNW2yyxCfVi6TjLSpuFVxls-metaQ2xlYW5TaG90IDIwMjMtMTAtMDkgYXQgMTguMjMuNDRAMngucG5n--medium.jpg)](/recommends/ploi)
 
 [Ploi](https://benjamincrozat.com/recommends/ploi) is, in my opinion, a **better** alternative to Laravel Forge. This is a tool I'm currently using.
 
@@ -52,7 +52,7 @@ Please support my work, [start your 5-day free trial](https://benjamincrozat.com
 
 ### Laravel Shift
 
-![Laravel Shift](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/148/conversions/Screenshot_2023-02-03_at_10.55.36_ccqoia-medium.jpg)
+[![Laravel Shift](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/148/conversions/Screenshot_2023-02-03_at_10.55.36_ccqoia-medium.jpg)](https://laravelshift.com/?utm_campaign=laravel-10-upgrade-guide&utm_source=benjamincrozat.com&utm_medium=blogpost&utm_content=textlink)
 
 It's not like I have to upgrade web applications to the latest version of Laravel daily, but when I do, I may choose to use Laravel Shift. And every time I did, it saved me hours of work!
 
@@ -62,7 +62,7 @@ Some Shifts are even free to use, which is very useful to test the service for y
 
 ### Namecheap
 
-![Namecheap](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/149/conversions/CleanShot_2023-07-12_at_11.18.27_2x_qqadq2-medium.jpg)
+[![Namecheap](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/149/conversions/CleanShot_2023-07-12_at_11.18.27_2x_qqadq2-medium.jpg)](/recommends/namecheap)
 
 Until fairly recently, I used OVH as a registrar for my domain names. But I changed that for Namecheap. It's not a particularly sexy service, but the domains are cheaper (Not that much, but still!), and it does the job well.
 
@@ -114,7 +114,7 @@ Please support my work and use my affiliate link to [start your free trial](http
 
 ### Visual Studio Code
 
-![Visual Studio Code](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/154/conversions/CleanShot_2023-07-05_at_11.13.41_2x_vctwfl-medium.jpg)
+[![Visual Studio Code](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/154/conversions/CleanShot_2023-07-05_at_11.13.41_2x_vctwfl-medium.jpg)](https://code.visualstudio.com)
 
 Visual Studio Code is what made me switch from Sublime Text. It's fast, powerful, it runs on Mac, Linux, and Windows, has plenty of extensions, and looks nice. I'm not a PHPStorm guy, so this one is a no-brainer because I can replicate many of the features I need from the popular PHP IDE.
 
@@ -130,7 +130,7 @@ Here are some of the best extensions I use:
 
 ### ColorSlurp
 
-![ColorSlurp](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/155/conversions/CleanShot_2023-08-02_at_11.05.39_2x_kjch2r-medium.jpg)
+[![ColorSlurp](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/155/conversions/CleanShot_2023-08-02_at_11.05.39_2x_kjch2r-medium.jpg)](https://colorslurp.com)
 
 ColorSlurp is a beautiful and fun to use color picker that isn't a browser extension that I've been using for years. You can invoke it anytime through a keyboard shortcut. And while writing this article, I noticed they now have an iPhone and iPad app. A must-have for designers!
 
@@ -164,30 +164,6 @@ I pay 9.99€ per month, and it's totally worth it considering the value I get f
 
 [Sign up for free](https://benjamincrozat.com/recommends/setapp) through my affiliate link, and we both get a free month if you decide to subscribe at the end of your trial!
 
-### AirBuddy
-
-[![AirBuddy](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/158/conversions/CleanShot_2023-08-01_at_15.01.52_2x_pbuq0r-medium.jpg)](https://benjamincrozat.com/recommends/setapp)
-
-AirBuddy is a great companion to AirPods. I use the last generation of AirPods Pro and I couldn't do otherwise. Being able to reduce the noise around you in such a tiny package is unbeatable.
-
-AirBuddy add a few features that make using AirPods even more convenient like battery alerts, a widget gathering the battery levels of all your devices, shortcuts for the Shortcuts app, and more.
-
-[AirBuddy is available through Setapp](https://benjamincrozat.com/recommends/setapp), a $9.99 monthly subscription service that lets you install as many apps as you want without paying the full price.
-
-### Apple Calendar, Mail, Notes, and Reminders
-
-![Apple Mail](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/159/conversions/CleanShot_2023-07-03_at_19.29.02_2x_uu8jk0-medium.jpg)
-
-Apple's default apps are simple, yet powerful. They help me organize my professional life efficiently. This is good for me because I don't like unnecessary complexity. All those apps are obviously installed by default on their devices and synced over iCloud.
-
-### IA Writer
-
-![IA Writer](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/160/conversions/CleanShot_2023-07-28_at_08.38.30_2x_mldbod-medium.jpg)
-
-IA Writer is a delightful Markdown editor with a super simple UI that is a joy to use. What else can I say? Your content is synced between all your devices, which makes it even more convenient to use.
-
-[Check out IA Writer](https://ia.net/writer)
-
 ### Grammarly
 
 [![Grammarly](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/161/conversions/CleanShot_2023-08-02_at_10.48.51_2x_w6ndjq-medium.jpg)](https://benjamincrozat.com/recommends/grammarly)
@@ -199,32 +175,6 @@ I use it on my Mac through the Safari extension (Chrome and Firefox are also sup
 If you have a content creation business, I can't recommend it enough.
 
 Please support my work, [start using Grammarly for free](https://benjamincrozat.com/recommends/grammarly) using my affiliate link.
-
-### Overcast (a podcast player)
-
-![Overcast](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/162/conversions/CleanShot_2023-07-04_at_15.51.32_2x_zuxgor-medium.jpg)
-
-When working on repetitive and boring tasks, I like to listen to YouTube videos or podcasts. For the latter, I use Overcast, a free podcast player. I love the UI, the smart features such a voice boost and shortened silences.
-
-[Check out Overcast](https://overcast.fm)
-
-### Pixelmator Pro (an alternative to Photoshop)
-
-![Pixelmator Pro](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/163/conversions/CleanShot_2023-07-04_at_15.54.12_2x_fnx528-medium.jpg)
-
-Pixelmator Pro is a great alternative to Photoshop. It's native Mac-only app with a great UI and excellent performances. It's perfectly fine for most of my basic usages and it's a one-time payment instead of a subscription like Photoshop.
-
-[Check out Pixelmator](https://www.pixelmator.com/pro/)
-
-### Safari
-
-![Safari](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/164/conversions/CleanShot_2023-07-03_at_18.35.59_2x_xldqlb-medium.jpg)
-
-Safari is my favorite way to browse the web. Yeah, I know, most developers use Google Chrome or one of its numerous forks. But I don't like it.
-
-Apple does a way better job than Google in making a real Mac app that's battery efficient, doesn't track you, is fast and beautifully integrated. Also, its dev tools are enough for me and I don't use many extensions (1Blocker Pro, 1Password, [Grammarly](https://benjamincrozat.com/recommends/grammarly) and Vidimote).
-
-Safari is installed by default on every Mac, iPad and iPhone and I highly recommend it. Don't follow the crowd!
 
 ### Sketch (an app for designers)
 
