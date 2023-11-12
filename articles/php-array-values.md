@@ -5,7 +5,7 @@ Description: Discover how array_values() in PHP can help you re-do what has been
 Canonical: 
 Published at: 2023-11-11
 Modified at: 
-Categories: 
+Categories: php
 ---
 
 Talking about PHP, it's hard not to dive into its array handling capabilities. 😅 One particularly handy function is [`array_values()`](https://www.php.net/array_values). Ever found yourself needing to re-index an array? That's where `array_values()` shines.
