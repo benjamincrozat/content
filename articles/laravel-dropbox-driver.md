@@ -5,7 +5,7 @@ Description: Store and manage files on Dropbox and use it to back up your Larave
 Canonical: 
 Published at: 2022-12-03
 Modified at: 2022-12-20
-Categories: laravel
+Categories: laravel, packages
 ---
 
 <img src="https://github.com/benjamincrozat/laravel-dropbox-driver/actions/workflows/run-tests.yml/badge.svg" class="inline" style="margin: 0" /> <img src="https://poser.pugx.org/benjamincrozat/laravel-dropbox-driver/v/stable" class="inline" style="margin: 0" /> <img src="https://poser.pugx.org/benjamincrozat/laravel-dropbox-driver/license" class="inline" style="margin: 0" /> <img src="https://poser.pugx.org/benjamincrozat/laravel-dropbox-driver/downloads" class="inline" style="margin: 0" />

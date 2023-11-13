@@ -16,15 +16,15 @@ It's fascinating to go back in time and have an overview of how far the framewor
 
 ## The latest stable version of Laravel
 
-**The latest stable release of Laravel is version 10.** It's been publicly available since February 14, 2023.
+**The latest stable release of Laravel is version 10.0.** It's been publicly available since February 14, 2023.
 
-This version introduced numerous new features and changes that I covered in an article titled ["Laravel 10 is out! Here's every new feature and change."](/laravel-10)
+This version introduced numerous new features and changes that I covered in one of my articles titled ["Laravel 10 is out! Here's every new feature and change."](/laravel-10)
 
 ## The latest LTS (Long Term Support) release of Laravel
 
 **The latest LTS release of Laravel was 6.** It was supported from September 3rd, 2019 to September 3rd, 2022 for new releases, bug fixes, and security fixes.
 
-Starting with Laravel 8, LTS versions became absolete as every new major version is supported for two years, giving everyone enough time to upgrade to next big release.
+Starting with Laravel 8.0, LTS versions became absolete as every new major version is supported for two years, giving everyone enough time to upgrade to next big release.
 
 Trust my experience; if you need an LTS version of Laravel, this means something is wrong with your codebase and you should take action to fix this.
 
@@ -53,29 +53,25 @@ Check out: [Ways to check which Laravel version you are running](https://benjami
 
 ## Laravel versions history from 2011 to 2023
 
-### Laravel 1
+### Laravel version 1.0
 
-If you ever asked yourself when was Laravel version 1, the first ever version of the framework, was released, **it's June 2011**.
-
-It's incredible that despite I started using Laravel with version 5.1 in 2015, I heard about it in 2011 and I even liked the tweet!
-
-![The launch tweet of Laravel that I liked.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/198/conversions/sxWTa8vjw0hZcvxTHUY555ZpdNgWLE-metaQ2xlYW5TaG90IDIwMjMtMTAtMjUgYXQgMTIuNDIuMzlAMngucG5n--small.jpg)
+If you ever asked yourself when was Laravel version 1.0 came to existence, it was **in June 2011**.
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Laravel), Laravel 1 included built-in support for authentication, localisation, models, views, sessions, routing and other mechanisms. But it lacked support for controllers, which prevented it from being a true MVC framework.
 
 ![Laravel's official website in 2011.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/180/e64VXzjPj90dIkxikqTk35wXFTSw7Q-metaQ2xlYW5TaG90IDIwMjMtMDktMjAgYXQgMTMuMTUuMDdAMnguanBn-.jpg)
 
-### Laravel 2
+### Laravel version 2.0
 
-**Laravel 2 was released shortly after version 1 in September 2011.**
+**Laravel version 2.0 was released shortly after version 1 in September 2011.**
 
 Some of its major new features included the support for controllers, which finally made Laravel 2 a fully MVC-compliant framework. It also included built-in support for the inversion of control (IoC) principle, and a templating system called Blade.
 
 As a downside, support for third-party packages was removed in Laravel 2. I wasn't using Laravel at this time, but if I had to guess why support for third-party packages was removed, it's probably because the framework wasn't using Composer yet (the package manager was out for just a few months at this moment). But take it with a grain of salt.
 
-### Laravel 3 
+### Laravel version 3.0
 
-**Laravel 3 was released in February 22, 2012.**
+**Laravel version 3.0 was released in February 22, 2012.**
 
 Notably, this version brought Artisan to the forefront. Additionally, it expanded its compatibility with various database systems, introduced database migrations for better layout version control, offered event handling capabilities, and unveiled a new packaging system named Bundles. This release significantly boosted Laravel's popularity.
 
@@ -83,17 +79,17 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
 
 ![Laravel's official website in September 2012](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/182/2m9KNjCRMxrSW9PUDdbLRMaWvH5Ztd-metaQ2xlYW5TaG90IDIwMjMtMDktMjAgYXQgMTMuMjAuNDhAMnguanBlZw%3D%3D-.jpg)
 
-### Laravel 3.1
+### Laravel version 3.1
 
 **Laravel 3.1 was released in March 27, 2012.** I will compile a list of the features that were included with it whenever I find a reliable source.
 
-### Laravel 3.2
+### Laravel version 3.2
 
 **Laravel 3 was released in May 22, 2012.** I will compile a list of the features that were included with it whenever I find a reliable source.
 
-### Laravel 4
+### Laravel version 4.0
 
-**Laravel 4, codenamed Illuminate, was released in May 28, 2013.** Some of its new features include:
+**Laravel 4.0, codenamed Illuminate, was released in May 28, 2013.** Some of its new features include:
 
 - **Rewrite of the codebase**:
     - The framework is now based on multiple packages.
@@ -105,9 +101,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
 
 - **Support for delayed deletion of database records called soft deletion.**
 
-### Laravel 4.1
+### Laravel version 4.1
 
-**Laravel 4.1, codenamed Illuminate, was released in December 12, 2013.** Some of its new features include:
+**Laravel 4.1 version, codenamed Illuminate, was released in December 12, 2013.** Some of its new features include:
 
 - **New SSH component**:
     - Allows you to SSH into remote servers and run commands.
@@ -152,11 +148,11 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - For `renameColumn` in migrations, `doctrine/dbal` dependency should be added to `composer.json`.
     - Package is no longer included in Laravel by default.
 
-### Laravel 4.2
+### Laravel version 4.2
 
 ![Laravel's official website in October 2014.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/185/Hd8LnR3jnu6IZsr7Hj4eEPaHefA2Mw-metaQ2xlYW5TaG90IDIwMjMtMDktMjAgYXQgMTMuMzEuNTNAMnguanBn-.jpg)
 
-**Laravel 4.2, codenamed Illuminate, was released in June 1, 2014.** Some of its new features include:
+**Laravel version 4.2, codenamed Illuminate, was released in June 1, 2014.** Some of its new features include:
 
 - **Daemon queue workers**:
     - Artisan queue:work command supports a --daemon option.
@@ -184,11 +180,11 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Destructive migration operations ask for confirmation in production.
     - Commands can be forced to run without prompts using the --force command.
 
-### Laravel 5
+### Laravel version 5.0
 
 ![Laravel's official website in February 2015](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/181/kDqrJE6HsusDCXyIozuq6dB8GkLyDp-metaQ2xlYW5TaG90IDIwMjMtMDktMjAgYXQgMTMuMjMuMDhAMnguanBlZw%3D%3D-.jpg)
 
-**Laravel 5 was released in February 2015.** Some of its new features include:
+**Laravel version 5.0 was released in February 2015.** Some of its new features include:
 
 - **New Folder Structure**:
     - Removed app/models directory.
@@ -263,9 +259,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
 - **Symfony VarDumper**:
     - Upgraded dd helper function to use Symfony VarDumper for enhanced debug information.
 
-### Laravel 5.1 LTS
+### Laravel version 5.1 LTS
 
-**Laravel 5.1, released in June 2015.** This is when I started using the framework! Some of its new features include:
+**Laravel version 5.1, released in June 2015.** This is when I started using the framework! Some of its new features include:
 
 - **Event Broadcasting**:
     - Facilitates broadcasting of events over a websocket connection.
@@ -295,9 +291,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Moved from mcrypt PHP extension to openssl extension for handling encryption.
 
 
-### Laravel 5.2
+### Laravel version 5.2
 
-**Laravel 5.2 was released in December 2015.** Some of its new features include:
+**Laravel version 5.2 was released in December 2015.** Some of its new features include:
 
 - **Authentication drivers / "Multi-auth"**:
     - Added support for multiple authentication drivers.
@@ -338,9 +334,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Implement a single `apply` method for global scopes.
 
 
-### Laravel 5.3
+### Laravel version 5.3
 
-**Laravel 5.3 was released on August 23, 2016.** Some of its new features include:
+**Laravel version 5.3 was released on August 23, 2016.** Some of its new features include:
 
 - **Notifications**:
     - Driver based notification system.
@@ -401,9 +397,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Access loop index, check if it's the first or last iteration.
 
 
-### Laravel 5.4
+### Laravel version 5.4
 
-**Laravel 5.4 was released on January 24, 2017.** Some of its new features include:
+**Laravel version 5.4 was released on January 24, 2017.** Some of its new features include:
 
 - **Markdown mail & notifications**:
     - Support for Markdown-based emails and notifications.
@@ -461,11 +457,11 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Support for storing "emojis" in the database.
     - For older MySQL versions, configure default string length using `Schema::defaultStringLength`.
 
-### Laravel 5.5 LTS
+### Laravel version 5.5 LTS
 
 ![Laravel's official website in August 2017](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/183/conversions/92WuvFkMw4kpci3ZZhUZNC72W9CBRy-metaQ2xlYW5TaG90IDIwMjMtMDktMjAgYXQgMTMuMjUuNDlAMnguanBlZw%3D%3D--medium.jpg)
 
-**Laravel 5.5 LTS was released on August 30, 2017.** Some of its new features include:
+**Laravel version 5.5 LTS was released on August 30, 2017.** Some of its new features include:
 
 - **On-demand notifications**:
     - Route ad-hoc notification routing using `Notification::route`.
@@ -505,9 +501,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - New sticky configuration option available in read/write database connections.
     - Allows immediate reading of records written during the current request cycle.
 
-### Laravel 5.6
+### Laravel version 5.6
 
-**Laravel 5.6 was released on February 7, 2018.** Some of its new features include:
+**Laravel version 5.6 was released on February 7, 2018.** Some of its new features include:
 
 - **Logging improvements**:
     - New `config/logging.php` configuration file.
@@ -559,9 +555,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Default pagination link generation now uses Bootstrap 4.
 
 
-### Laravel 5.7
+### Laravel version 5.7
 
-**Laravel 5.7 was released on September 4, 2018.** Some of its new features include:
+**Laravel version 5.7 was released on September 4, 2018.** Some of its new features include:
 
 - **Laravel Nova**:
     - Administer underlying database records using Eloquent.
@@ -598,7 +594,7 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
 - **Filesystem Read / Write Streams**:
     - Flysystem integration now provides `readStream` and `writeStream` methods for handling file streams.
 
-### Laravel 5.8
+### Laravel version 5.8
 
 **Laravel 5.8 was released on February 26, 2019.** Some of its new features include:
 
@@ -665,11 +661,11 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Laravel 5.8 supports Pheanstalk ~4.0 release.
 
 
-### Laravel 6 LTS
+### Laravel version 6.0 LTS
 
 ![Laravel's official website in September 2019.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/184/conversions/xbyiQDQD0yQT3CsedXiyfgVe3h71V5-metaQ2xlYW5TaG90IDIwMjMtMDktMjAgYXQgMTMuMjguMDBAMnguanBlZw%3D%3D--medium.jpg)
 
-**Laravel 6 LTS was released on September 3, 2019.** Some of its new features include:
+**Laravel version 6.0 LTS was released on September 3, 2019.** Some of its new features include:
 
 - **Semantic versioning**:
     - The Laravel framework (laravel/framework) package now follows the semantic versioning standard.
@@ -704,9 +700,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - The make:auth command has been extracted from the framework.
     - Use the ui Artisan command to install frontend scaffolding after installing the laravel/ui package.
 
-### Laravel 7
+### Laravel version 7.0
 
-**Laravel 7 was released on March 3, 2020.** Some of its new features include:
+**Laravel version 7.0 was released on March 3, 2020.** Some of its new features include:
 
 - **Multiple mail driver support**:
     - Configuration of multiple "mailers" for a single application.
@@ -752,9 +748,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Ability to set a `maxExceptions` property on job classes.
     - Jobs will continue to be retried until a set number of unhandled exceptions are reached.
 
-### Laravel 8
+### Laravel version 8.0
 
-**Laravel 8 was released on September 8, 2020.** Some of its new features include:
+**Laravel version 8.0 was released on September 8, 2020.** Some of its new features include:
 
 - **Event listener improvements**:
     - Closure based event listeners can now be registered by only passing the closure to the `Event::listen` method.
@@ -782,9 +778,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - Calls to action related methods should use the same callable syntax.
     - To use Laravel 7.x style controller route prefixing, add the `$namespace` property back into your `RouteServiceProvider`.
 
-### Laravel 9
+### Laravel version 9.0
 
-**Laravel 9 was released on February 15, 2022.** Some of its new features include:
+**Laravel version 9.0 was released on February 15, 2022.** Some of its new features include:
 
 - **Improved validation of nested array inputs**:
     - Access the value for a given nested array element when assigning validation rules.
@@ -822,9 +818,9 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
     - `str` function returns a new Stringable instance or the Str instance.
     - `to_route` function generates a redirect HTTP response for a named route.
 
-### Laravel 10
+### Laravel version 10.0
 
-**Laravel 10 was released on February 14, 2023.** Some of its new features include:
+**Laravel version 10.0 was released on February 14, 2023.** Some of its new features include:
 
 - **Argument and return types**:
     - Introduced to all application skeleton methods.

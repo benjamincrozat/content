@@ -5,7 +5,7 @@ Description: Delight your users. Learn how to create beautiful Artisan Commands 
 Canonical: 
 Published at: 2023-07-20
 Modified at: 2023-09-20
-Categories: laravel
+Categories: laravel, packages
 ---
 
 ## Introduction

@@ -34,7 +34,7 @@ Imagine something that's been forced to digest a huge amount of knowledge and ca
 
 However, don't try to think of it as a human being or even a particularly smart animal. You'll have a hard time making sense of this.
 
-GPT won't learn anything else beyond its training data. It doesn't work like our brains.
+GPT won't learn anything else beyond its training data. It doesn't work like our brains. I don't recommend you to see it as anything else than a next word prediction algorithm.
 
 ## Why is GPT often referred to as a "model?"
 
@@ -44,7 +44,7 @@ More specifically, it has learned to predict the probability of a word given the
 
 ## Is GPT smart enough to be sentient?
 
-For now, **GPT is just a language model that gives the illusion of intelligence and is not sentient.** It isn't aware of itself and doesn't have desires.
+For now, **GPT is just a language model that gives the illusion of intelligence and is not sentient.** It isn't aware of itself and doesn't have desires. It's just a next word prediction algorithm and nowhere near a conscious being.
 
 ## What’s the difference between GPT and ChatGPT?
 
@@ -76,10 +76,23 @@ You can also use [ChatGPT on any platform via its website](https://chat.openai.c
 
 But some people could use it for harmful matters.
 
-Experts even say it's possible that AI could try to control humanity at some point, even if we can't imagine its motives yet. Currently, though, GPT wouldn't be able to.
+Experts even say it's possible that AI could try to control humanity at some point, even if we can't imagine its motives yet.
+
+Currently, though, GPT is light years away from being able to do that.
+
+## Learn how to build a simple language model
+
+Andrej Karpathy, one of OpenAI’s co-founders, created an incredible video showing how to build a simplified version of GPT.
+
+This tiny GPT predicts the next character instead of the next word and is based on a small dataset. That makes everything less computationally intensive, and you can focus on learning.
+
+https://www.youtube.com/watch?v=kCc8FmEb1nY
 
 ---
 
-I will keep updating this article whenever I find new questions to answer (you can contact me on [Twitter](https://twitter.com/benjamincrozat) if you have one).
+Are you a developer? If so, are you ready to leverage GPT in your applications?
 
-Meanwhile, you can check out [my guide to using the OpenAI API](https://benjamincrozat.com/php-ai) if you are a PHP developer.
+Then, check out my articles on this matter:
+- [Start using GPT-4 Turbo's API in 5 minutes](https://benjamincrozat.com/gpt-4-turbo)
+- [Start using GPT-3.5 Turbo's API in 5 minutes](https://benjamincrozat.com/gpt-35-turbo)
+- [Use PHP to leverage OpenAI's API and GPT effortlessly](https://benjamincrozat.com/openai-api-php)

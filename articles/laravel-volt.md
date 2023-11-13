@@ -5,7 +5,7 @@ Description: Laravel Volt is a great new addition to Laravel's extensive ecosyst
 Canonical: 
 Published at: 2023-07-25
 Modified at: 2023-08-12
-Categories: laravel, livewire
+Categories: laravel, livewire, packages
 ---
 
 ## Introduction
