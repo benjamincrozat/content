@@ -3,7 +3,7 @@ Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/product
 Title: Here's how to fix the "419 Page Expired" error in Laravel
 Description: Here's how to fix one of the most frequent issues in Laravel and learn exactly why it happens.
 Canonical: 
-Audio: https://cdn.benjamincrozat.com/419-page-expired-laravel.flac
+Audio:
 Published at: 2023-06-26
 Modified at: 2023-08-12
 Categories: laravel, security

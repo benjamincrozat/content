@@ -9,7 +9,7 @@ Modified at: 2023-10-09
 Categories: laravel
 ---
 
-## Introduction
+## The quickest way to check your Laravel version
 
 **The quickest way to check your Laravel version is by using the `php artisan --version` command.**
 
@@ -17,7 +17,7 @@ Knowing which version of Laravel you are running and its [specific details](/lar
 
 However, there are other methods to get the version of Laravel. Here's a comprehensive guide with commands that work no matter if you use macOS, any Linux distribution like Ubuntu, Docker or WSL (Windows Subsystem for Linux).
 
-## How to check the version of Laravel
+## 6 ways to check the version of Laravel
 
 ### Using the `php artisan about` command
 

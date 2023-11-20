@@ -40,7 +40,7 @@ Now, let's dive into this step-by-step tutorial that will help you make your fir
 
 ## Make your first request to GPT-3.5 Turbo
 
-Requesting GPT-3.5 Turbo's API is easy peasy!
+Requesting GPT-4 Turbo's API is easy peazy and we'll do it with curl this time. Obviously, the API can be requested thanks to the HTTP layer of your favorite programming language.
 
 Here's the process broken down into four very clear steps:
 
