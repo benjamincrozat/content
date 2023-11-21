@@ -1,11 +1,11 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/42/CleanShot_2023-08-02_at_09.37.04_2x_typtlu.png
+Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/258/01HFRW0GA0EADWGC2N05VR0FDF.png
 Title: The best web development tools I use in 2023
 Description: I've been doing professional web development for more than ten years. Here are the tools I use daily in 2023 to create value.
 Canonical: 
 Audio:
 Published at: 2023-07-03
-Modified at: 2023-08-29
+Modified at: 2023-11-21
 Categories: tools
 ---
 
@@ -13,9 +13,20 @@ Categories: tools
 
 Hello, I'm Benjamin Crozat!
 
-As a seasoned web developer with over ten years of experience, I've gathered an extensive list of web development tools that have been indispensable in my journey.
+As a seasoned web developer with over ten years of experience, I've gathered an extensive list of web development tools I think are the best available and that have been indispensable in my journey.
 
-*(By the way, my sponsors sell incredible products for developers too. [Go check them out](/) on the homepage if you are interested!)*
+*(By the way, my sponsors sell incredible tools for web developers too. [Go check them out](/) on the homepage!)*
+
+## Available discounts
+
+Many of the tools I listed below offer discounts. Here's a list for developers in a hurry. 😅
+
+- DigitalOcean (cloud hosting provider): [Get $200 worth of credit for free](/recommends/digitalocean).
+- [Fathom Analytics](https://benjamincrozat.com/recommends/fathom-analytics) (GDPR-compliant analytics tool): Sign up and **get $10 off** your first invoice.
+- [SetApp](https://benjamincrozat.com/recommends/setapp) (the Netflix of apps): Sign up, subscribe, and we both **get a free month**.
+- [Wincher](/recommends/wincher) (a SEO monitoring tool): Use the promo code *WELCOME30* for **30% off your first invoice**.
+
+Other tools usually give you a generous free trial, so feel free to continue reading!
 
 ## The best web development tools I use
 
@@ -23,7 +34,7 @@ As a seasoned web developer with over ten years of experience, I've gathered an 
 
 [![DigitalOcean](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/145/conversions/www.digitalocean.com__sctfdo-medium.jpg)](https://benjamincrozat.com/recommends/digitalocean)
 
-Cloud hosting is a crucial web development tool for showcasing your projects to the world, and DigitalOcean is my top choice.
+Cloud hosting is a crucial web development tool for showcasing your projects to the world, and [DigitalOcean](https://benjamincrozat.com/recommends/digitalocean) is my top choice.
 
 It's been my provider of choice for more than ten years. I never had any issues, and it works perfectly with [Ploi](/recommends/ploi) and Laravel Forge. I also love their top-notch UI and UX.
 
@@ -55,11 +66,26 @@ Ploi gives you more features at a lower price, and their UI look and feels good.
 
 Please support my work, [start your 5-day free trial](https://benjamincrozat.com/recommends/ploi) using my affiliate link.
 
+### Oh Dear
+
+[![Oh Dear](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/262/conversions/01HFS993YFHF4ST063MZP8YZR2-medium.jpg)](/recommends/oh-dear)
+
+Oh Dear is an all-in-one monitoring tool. Why is it useful? Because I need rock-solid stability to serve my visitors and not lose rankings on Google. Oh Dear checks for:
+- Down times
+- Broken links
+- Scheduled tasks
+- Performances
+- And more!
+
+So yeah, this is a must-have for me!
+
+Please support my work, [start your 10-day free trial](https://benjamincrozat.com/recommends/oh-dear) using my affiliate link.
+
 ### Namecheap
 
 [![Namecheap](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/149/conversions/CleanShot_2023-07-12_at_11.18.27_2x_qqadq2-medium.jpg)](/recommends/namecheap)
 
-Until fairly recently, I used OVH as a registrar for my domain names. But I changed that for Namecheap. It's not the sexiest among this list of web development tools, but the domains are cheaper (not that much, but still!), and it does the job. It's a necessary step when doing web development anyway.
+Until fairly recently, I used OVH as a registrar for my domain names. But I changed that for [Namecheap](https://benjamincrozat.com/recommends/namecheap). It's not the sexiest among this list of web development tools, but the domains are cheaper (not that much, but still!), and it does the job. It's a necessary step when doing web development anyway.
 
 Please support my work, [get your next domain name with Namecheap](https://benjamincrozat.com/recommends/namecheap) using my affiliate link.
 
@@ -77,7 +103,7 @@ In the land of web development tools, TablePlus stands out for handling database
 
 [![Tower](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/153/conversions/CleanShot_2023-07-03_at_18.16.51_2x_yxuoju-medium.jpg)](https://benjamincrozat.com/recommends/tower)
 
-Tower is a beautiful native Mac and Windows user interface for Git. I use it daily because I'm not masochist enough to force myself to use the CLI tool.
+[Tower](https://benjamincrozat.com/recommends/tower) is a beautiful native Mac and Windows user interface for Git. I use it daily because I'm not masochist enough to force myself to use the CLI tool.
 
 Tower is an excellent investment for your web development tool belt, especially for those prioritizing a seamless Git interface. I am trying to remember when I started using it (probably ten years ago).
 
@@ -87,7 +113,7 @@ Please support my work and use my affiliate link to [start your free trial](http
 
 [![Tinkerwell](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/152/conversions/CleanShot_2023-08-01_at_15.08.06_2x_lbgdgz-medium.jpg)](/recommends/tinkerwell)
 
-Tinkerwell is a playground for Laravel. You can either experiment on a default framework installation or do it on one of your local projects.
+[Tinkerwell](/recommends/tinkerwell) is a playground for Laravel. You can either experiment on a default framework installation or do it on one of your local projects.
 
 I hate to admit it, but Tinkerwell saved my life multiple times, allowing me to run code on remote apps through SSH.
 
@@ -97,7 +123,7 @@ Please support my work, [check out Tinkerwell](/recommends/tinkerwell) using my 
 
 ### Ray: streamlining Laravel debugging for web developers
 
-[![Ray](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/150/conversions/ray___media_library_original_882_540_a8xrxo-medium.jpg)](https://spatie.be/products/ray)
+![Ray](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/150/conversions/ray___media_library_original_882_540_a8xrxo-medium.jpg)
 
 Ray is a highly visual way to debug Laravel apps. Use `ray()` instead of `dd()` and the data will be nicely displayed in the app. What else can I add? Ray adds excellent value to the suite of web development tools for those who need an intuitive debugging solution.
 
@@ -109,20 +135,30 @@ Ray is available for Mac, Linux, and Windows.
 
 [![Setapp](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/157/conversions/CleanShot_2023-08-01_at_11.24.56_2x_hnnw47-medium.jpg)](https://benjamincrozat.com/recommends/setapp)
 
-One common challenge with accumulating various web development tools is managing the cost, where Setapp comes in handy. If you are a professional web developer, that's fine because you should make enough money to pay for them. That being said, reducing costs is always good if you don't compromise quality.
+One common challenge with accumulating various web development tools is managing the cost, where [Setapp](https://benjamincrozat.com/recommends/setapp) comes in handy. If you are a professional web developer, that's fine because you should make enough money to pay for them. That being said, reducing costs is always good if you don't compromise quality.
 
 Some of the apps I talked about are available through Setapp. This is a subscription service like Netflix, but for Mac, iOS, and iPadOS apps. You can see in the image above the ones I installed.
 
 I pay 9.99€ per month, and it's totally worth it considering the value I get from the apps I use.
 
-[Sign up for free](https://benjamincrozat.com/recommends/setapp) through my affiliate link, and we both get a free month if you decide to subscribe at the end of your trial!
+[Sign up for free](https://benjamincrozat.com/recommends/setapp) through my affiliate link, and **we both get a free month if you decide to subscribe at the end of your trial**!
+
+### SavvyCal
+
+[![SavvyCal](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/261/conversions/01HFS3QP1GX25HTBFVQ153XRC7-medium.jpg)](/recommends/savvycal)
+
+[SavvyCal](/recommends/savvycal) is a calendar you can embed on your website and have people book you depending on your availability. This is a great way to automate consulting for instance, since people can even pay before booking you.
+
+I LOVE this service. It's so beautifully designed and easy to use.
+
+Support my work, and get started with the [free plan](/recommends/savvycal) using my affiliate link.
 
 ### Wincher: a SEO monitoring tool
 
 [![Wincher](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/156/conversions/CleanShot_2023-07-03_at_19.41.52_2x_gxersp-medium.jpg)](https://benjamincrozat.com/recommends/wincher)
 
-Wincher is by far the best rank tracker I've used. Period.
+[Wincher](https://benjamincrozat.com/recommends/wincher) is by far the best rank tracker I've used. Period.
 
 It's expensive, though. Their small tier is way too restrictive for an effective SEO campaign. For those in the web development field, especially working with established businesses, tools like Wincher are indispensable for effective SEO management. In this context, it's extremely powerful.
 
-Please support my work, [start your free trial](https://benjamincrozat.com/recommends/wincher) and get $30 off with promo code *WELCOME30* using my affiliate link.
+Please support my work, [start your free trial](https://benjamincrozat.com/recommends/wincher) and **get $30 off with promo code *WELCOME30*** using my affiliate link.
