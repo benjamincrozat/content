@@ -1,11 +1,11 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/13/php-83_jyplbw.png
-Title: PHP 8.3: new features and release date.
-Description: PHP 8.3 will be released in November 2023, and as usual, you need to be up to date with new features and breaking changes for easier transitions.
+Title: PHP 8.3 is out, now! Here's what's new and changed.
+Description: PHP 8.3 was released on November 23, 2023, and as usual, you need to be up to date with new features and breaking changes for easier transitions.
 Canonical: 
 Audio:
 Published at: 2022-10-10
-Modified at: 2023-07-03
+Modified at: 2023-11-23
 Categories: php
 ---
 
@@ -17,9 +17,9 @@ Below, you will find a condensed list of what's new, with code samples that make
 
 Oh and by the way, I already started writing about [PHP 8.4's release date, new features and changes](/php-84).
 
-## When will PHP 8.3 be released?
+## When was PHP 8.3 released?
 
-**PHP 8.3 will be released on November 23, 2023**, according to the [preparation tasks list](https://wiki.php.net/todo/php83). It will be tested through three alpha releases, three beta, and six release candidates.
+**PHP 8.3 was released on November 23, 2023**. It has been tested through three alpha releases, three beta, and six release candidates.
 
 | Date               | Release        |
 | ------------------ | -------------- |
@@ -40,6 +40,12 @@ Oh and by the way, I already started writing about [PHP 8.4's release date, new 
 
 ## How to install and test PHP 8.3 on Mac
 
+If you are using Laravel Herd, this only takes one click!
+
+![Upgrading PHP to version 8.3 using Laravel Herd.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/267/conversions/01HFY6KJBWK2WVFG5YAEYFTN27-medium.jpg)
+
+If you are using Laravel Valet, here's how to proceed:
+
 1. Install the [Homebrew package manager](https://brew.sh) if it's not done already.
 2. Run `brew update` to make sure Homebrew and the formulae are up to date.
 3. Add a new tap (basically a GitHub repository) for PHP 8.3's formula: `brew tap shivammathur/php`.
@@ -49,6 +55,63 @@ Oh and by the way, I already started writing about [PHP 8.4's release date, new 
 If you want to learn more about how to install PHP on your Mac, I wrote something for you: [PHP for Mac: get started fast using Laravel Valet](https://benjamincrozat.com/install-php-mac-laravel-valet)
 
 ## What's new in PHP 8.3: new features and changes
+
+### The new Override attribute
+
+When you are using PHP 8.3's new [`Override`](https://wiki.php.net/rfc/marking_overriden_methods) attribute, here's what you tell other developers or your future self:
+- **I'm overriding a method** from the parent class or one of the implemented interfaces.
+- **I have correctly overridden the method.** If, for instance, I made a typo, the code would throw an error.
+
+I had so much trouble understanding this one. But in fact, it's **dead simple**. 😅
+
+Here's an example:
+
+```php
+class SomeClass
+{
+	public function someMethod()
+	{
+	}
+}
+
+class SomeOtherClass extends SomeClass
+{
+	public function someMethod()
+	{
+	}
+}
+```
+
+In this example, `SomeOtherClass` overrides the `someMethod` method from its parent class, `SomeClass`. But what happens if we change `someMethod` in `SomeClass`? Our override will be completely nullified.
+
+But as you guessed it, the solution to this problem is the `Override` attribute:
+
+```php
+class SomeClass
+{
+	// We renamed the method.
+	public function someRenamedMethod()
+	{
+	}
+}
+
+class SomeOtherClass extends SomeClass
+{
+	// But now, thanks to Override, we get an error message saying
+	// that our override doesn't override any method anymore.
+	//
+	// Fatal error: SomeOtherClass::someMethod() has #[\Override] attribute, but no matching parent method exists
+	
+	#[Override]
+	public function someMethod()
+	{
+	}
+}
+```
+
+How neat is that? 👌
+
+Learn more: [PHP RFC: Marking overridden methods (#[\Override])](https://wiki.php.net/rfc/marking_overriden_methods)
 
 ### json_validate()
 
