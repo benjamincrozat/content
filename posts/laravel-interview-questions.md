@@ -166,7 +166,7 @@ Your first words with your potential future employer will set the tone of your r
 
 If you get the job, you'll have to communicate with other developers, convey ideas in the most effective way possible, write comments in your code, documentation, etc.
 
-My recommendation is to work on your communication abilities constantly. Listen to smart people talking and learn from them. Use tools to improve your writing, like your device's autocorrect or [Grammarly](https://benjamincrozat.com/recommends/grammarly) (which is free to use), and learn from them as well.
+My recommendation is to work on your communication abilities constantly. Listen to smart people talking and learn from them. Use tools to improve your writing, like your device's autocorrect or Grammarly (which is free to use), and learn from them as well.
 
 ### Set up a GitHub profile and show it during the interview
 
@@ -213,5 +213,3 @@ Also:
 - Make sure to **be as informed as possible** about the company you're applying to.
 - Show your **eagerness to learn**.
 - **Have a good attitude.**
-
-By the way, did you know companies occasionally post [job offers](/jobs) on my blog?

@@ -90,7 +90,7 @@ Demand for content management systems (CMS) is exploding. Businesses always need
 
 WordPress has more than 64% market share across the web.
 
-I'm not surprised that WordPress is so popular. It's an always-evolving CMS, there are plenty of great WordPress hosts (such as [Kinsta](https://benjamincrozat.com/recommends/kinsta-wordpress-hosting) or [WP Engine](https://benjamincrozat.com/recommends/wp-engine)) and it has a lot of excellent themes and plugins to help you reach your goals.
+I'm not surprised that WordPress is so popular. It's an always-evolving CMS, there are plenty of great WordPress hosts, and it has a lot of excellent themes and plugins to help you reach your goals.
 
 Also, if you ever want to switch away from WordPress, most alternatives offer tools to import every post you already wrote. That means WordPress is a safe choice to begin with.
 
