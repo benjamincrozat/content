@@ -58,4 +58,46 @@ class VerifyCsrfToken extends Middleware
     ];
 }
 ```
+## Issues Particular to Logout
+Best practice for user logout is that the logout button should create a post request, and that post should be protected by csrf.  
+The reason for this is because in some scenarios it can assist an attacker to see you login, but to do that they must first log you out. 
+Protecting the logout form from CSRF attacks blocks this scenario.
+
+However, the csrf token on the logout form can become stale in at least three scenarios.
+
+1. User has multiple tabs open and logs out in one of them. Other tabs look fine but the logout no longer works
+2. The user leaves their desk for more than the session timeout. They return to their computer later and press logout.
+3. The user chooses the option to logout other devices when logging in on a new device.
+
+In each case, the user pressing the logout button will be presented with a 419 error and not know if they had logged out or not.
+
+The solution is a simple change to the handle method in the VerifyCsrfToken middleware.
+
+In *app/Http/Middleware/VerifyCsrfToken.php*:
+
+```php
+    public function handle($request, Closure $next)
+    {
+        if($request->route()->named('logout')) {
+
+            if (!Auth::check() || Auth::guard()->viaRemember()) {
+
+                $this->except[] = route('logout');
+                
+            }   
+
+        }
+
+        return parent::handle($request, $next);
+    }
+```
+The modification applies the logic;
+
+If the route is logout, and the user is not logged in, and they have not just been logged in via the remember me function.
+
+Then, dynamically add logout to the array of csrf exceptions.
+
+So, for all other forms, apply csrf as normal, but for the logout form, if the user is already without a session (and therefore not logged in) then csrf should be ignored.
+
+The logout function will process as normal, and the user sees no issue.
 
