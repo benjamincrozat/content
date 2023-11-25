@@ -1,6 +1,6 @@
 ---
 Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/214/qrkEYddhnRpmuUVrqz10PO89Zc6pnA-metaYmFja2Ryb3AtdGFpbHdpbmQtY3NzLmpwZw%3D%3D-.jpg
-Title: Style an HTML <dialog>'s backdrop with Tailwind CSS
+Title: Style an HTML dialog's backdrop with Tailwind CSS
 Description: Discover how to style an HTML dialog's backdrop using Tailwind CSS.
 Canonical: 
 Audio:
@@ -9,7 +9,7 @@ Modified at:
 Categories: tailwind-css
 ---
 
-## How to style the backdrop of the HTML <dialog> element using Tailwind CSS
+## How to style the backdrop of the HTML dialog element using Tailwind CSS
 
 **To style a native HTML dialog's backdrop, use the `backdrop:` modifier introduced in Tailwind CSS 3.1.**
 
@@ -23,11 +23,11 @@ Categories: tailwind-css
 
 (Using the class to add a backdrop filter to the dialog's backdrop is a bit weird, but it works!)
 
-## Browser support for the HTML <dialog> element
+## Browser support for the HTML dialog element
 
 I was surprised to see how well this relatively new dialog HTML element is supported.
 
-At the time I'm writing these lines, the `<dialog>` element is supported by:
+At the time I'm writing these lines, the `dialog` element is supported by:
 - Firefox 98+
 - Firefox for Android 118+
 - Google Chrome 37+
