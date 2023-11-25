@@ -19,6 +19,8 @@ Categories: tailwind-css
 </dialog>
 ```
 
+[I made a working CodePen](https://codepen.io/benjamincrozat/pen/poGERgV) for those curious to see how all this works.
+
 (Using the class to add a backdrop filter to the dialog's backdrop is a bit weird, but it works!)
 
 ## Browser support for the HTML <dialog> element
@@ -34,5 +36,3 @@ At the time I'm writing these lines, the `<dialog>` element is supported by:
 - Safari/Mobile Safari 15.4+
 
 [Check out the support chart on Can I use](https://caniuse.com/dialog).
-
-Also, [I made a working CodePen](https://codepen.io/benjamincrozat/pen/poGERgV) for those curious to see how all this works.
