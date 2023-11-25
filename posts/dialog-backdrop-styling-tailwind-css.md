@@ -9,6 +9,8 @@ Modified at:
 Categories: tailwind-css
 ---
 
+## How to style the backdrop of the HTML <dialog> element using Tailwind CSS
+
 **To style a native HTML dialog's backdrop, use the `backdrop:` modifier introduced in Tailwind CSS 3.1.**
 
 ```html
@@ -18,6 +20,8 @@ Categories: tailwind-css
 ```
 
 (Using the class to add a backdrop filter to the dialog's backdrop is a bit weird, but it works!)
+
+## Browser support for the HTML <dialog> element
 
 I was surprised to see how well this relatively new dialog HTML element is supported.
 
