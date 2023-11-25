@@ -9,6 +9,8 @@ Modified at: 2022-12-14
 Categories: php
 ---
 
+## Introduction
+
 To fix *"Using $this when not in object context"*, you can make the static method that is calling `$this` non-static.
 
 No matter if you're using CodeIgniter, CakePHP, Laravel, Symfony, WordPress, Yii, or anything else, **`$this` is a variable that refers to the current object**. Therefore, it's natural to not being allowed to call it from a [static method](https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.methods).
