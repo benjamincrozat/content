@@ -3,7 +3,7 @@ Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/product
 Title: PHP 8.3's Override attribute in a nutshell
 Description: Discover a neat new addition to PHP 8.3 that will help express your intent: the Override attribute.
 Canonical: 
-Audio:
+Audio: https://cdn.benjamincrozat.com/php-83-override-attribute.mp3
 Published at: 2023-11-23
 Modified at: 
 Categories: php
