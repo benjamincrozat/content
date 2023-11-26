@@ -3,7 +3,7 @@ Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/product
 Title: Core web vitals aren't that important for Google
 Description: Discover why obsessing over core web vitals isn't helping your Google optimizations.
 Canonical: 
-Audio:
+Audio: https://cdn.benjamincrozat.com/google-core-web-vitals.mp3
 Published at: 2023-11-22
 Modified at: 
 Categories: seo
