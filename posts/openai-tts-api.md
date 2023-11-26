@@ -79,7 +79,8 @@ curl https://api.openai.com/v1/audio/speech \
   -d '{
     "model": "tts-1",
     "input": "Hello, World!",
-    "voice": "alloy"
+    "voice": "alloy",
+    "response_format": "mp3"
   }' \
   --output hello-world.mp3
 ```
@@ -107,7 +108,8 @@ curl https://api.openai.com/v1/audio/speech \
   -d '{
     "model": "tts-1-hd",
     "input": "Hello, World!",
-    "voice": "alloy"
+    "voice": "alloy",
+    "response_format": "flac",
   }' \
   --output hello-world.flac
 ```
