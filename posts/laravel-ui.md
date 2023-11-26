@@ -27,7 +27,7 @@ Getting started with Laravel UI is straightforward:
 composer require laravel/ui
 ```
 
-This command installs the Laravel UI package. Next, you can install the frontend scaffolding of your choice. The package supports [Bootstrap] without JavaScript(https://getbootstrap.com) or Bootstrap combined with [Vue.js](https://vuejs.org) or [React](https://react.dev):
+This command installs the Laravel UI package. Next, you can install the frontend scaffolding of your choice. The package supports [Bootstrap](https://getbootstrap.com) without JavaScript or Bootstrap combined with [Vue.js](https://vuejs.org) or [React](https://react.dev):
 
 ```bash
 php artisan ui bootstrap
