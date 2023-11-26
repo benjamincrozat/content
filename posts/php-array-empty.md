@@ -3,7 +3,7 @@ Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/product
 Title: The fastest way to check if your PHP array is empty
 Description: There are multiple ways to check if an array is empty. Let me tell you about each of them and why and when you should use them.
 Canonical: 
-Audio:
+Audio: https://cdn.benjamincrozat.com/php-array-empty.mp3
 Published at: 2022-10-09
 Modified at: 2023-11-02
 Categories: php
