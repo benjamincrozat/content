@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/35/wwdc23_p75enu.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/35/wwdc23_p75enu.png
 Title: A summary of web related sessions from WWDC23
 Description: Using a well-known Large Language Model, I managed to summarize every session from WWDC23 that's related to web development.
 Canonical: 

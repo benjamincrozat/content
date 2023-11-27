@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/252/01HF2W5D0334RMN2NHMAY1RB8G.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/252/01HF2W5D0334RMN2NHMAY1RB8G.jpg
 Title: A comprehensive guide to the Laravel UI package
 Description: Leverage the laravel/ui package to scaffold your favorite frontend framework and authentication features.
 Canonical: 

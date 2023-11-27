@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/248/01HF08NCKD44TV4K8JJXM4WNB1.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/248/01HF08NCKD44TV4K8JJXM4WNB1.jpg
 Title: Understanding array_filter() in PHP
 Description: See how PHP allows you to filter unwanted values in arrays in a simple and concise way.
 Canonical: 

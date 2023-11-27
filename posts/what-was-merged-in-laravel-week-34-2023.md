@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/57/4200_3_02_bd0mps.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/57/4200_3_02_bd0mps.jpg
 Title: 6 pull requests merged in Laravel during week 34 of 2023
 Description: Exciting pull requests merged in Laravel, including improved testing, transaction fixes, and memory-efficient failed job providers!
 Canonical: 

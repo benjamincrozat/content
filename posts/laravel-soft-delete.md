@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/21/6505016_kg7fdn.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/21/6505016_kg7fdn.jpg
 Title: Soft delete models in Laravel: the definitive guide
 Description: A soft delete in Laravel allows you to prevent mistakes by not removing sensitive data from your database right away.
 Canonical: 

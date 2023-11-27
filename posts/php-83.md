@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/13/php-83_jyplbw.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/13/php-83_jyplbw.png
 Title: PHP 8.3 is out, now! Here's what's new and changed.
 Description: PHP 8.3 was released on November 23, 2023, and as usual, you need to be up to date with new features and breaking changes for easier transitions.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/38/3371_ywedey.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/38/3371_ywedey.jpg
 Title: console.log() in PHP
 Description: Explore the world of PHP debugging with var_dump(), and Laravel's friendlier alternatives, dump() and dd(). Much charm, such useful!
 Canonical: 

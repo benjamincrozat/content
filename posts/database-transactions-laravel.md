@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/49/6670916_irmo0q.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/49/6670916_irmo0q.png
 Title: Understanding database transactions with Laravel
 Description: Discover how Laravel simplifies database transactions, ensuring all-or-nothing operations and maintaining consistent database state.
 Canonical: 

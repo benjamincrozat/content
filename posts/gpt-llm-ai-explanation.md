@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/226/W8y0RgZzKlAkcpLoBrIHiNxc5Utr65-metaMTdlNDMwMTAtNDYyZC00OWJmLWJhMmMtY2MzNmNlYTQwNDQwLmpwZw%3D%3D-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/226/W8y0RgZzKlAkcpLoBrIHiNxc5Utr65-metaMTdlNDMwMTAtNDYyZC00OWJmLWJhMmMtY2MzNmNlYTQwNDQwLmpwZw%3D%3D-.jpg
 Title: How do language-based AIs, such as GPT, work?
 Description: Demystify AI! Get a simplified peek into GPT, the powerful language model, and explore its potential and challenges for the future of technology.
 Canonical: 

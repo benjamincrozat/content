@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/18/laravel-collections_vtrxcq.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/18/laravel-collections_vtrxcq.png
 Title: 14 Laravel Collections tips to refactor your codebase
 Description: Laravel Collections make arrays more powerful and convenient to work with. This article provides tons of quick tips to instantly make your codebase better.
 Canonical: 

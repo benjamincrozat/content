@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/60/browser_stioxv.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/60/browser_stioxv.jpg
 Title: Effortlessly redirect to another page using PHP
 Description: Discover how to use PHP code to effortlessly redirect your website's visitors to a different page. Explore the magic of HTTP.
 Canonical: 

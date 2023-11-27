@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/4/crazy-monitors-guy_ru8pgz.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/4/crazy-monitors-guy_ru8pgz.jpg
 Title: How to clear Laravel's cache in a nutshell
 Description: When in doubt, clear the cache. In this article, you'll learn about how to clear every cache Laravel uses.
 Canonical: 

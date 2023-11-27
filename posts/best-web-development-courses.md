@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/24/5293_mhk4oe.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/24/5293_mhk4oe.jpg
 Title: The best web development courses available. Free and paid.
 Description: Looking to learn web development but don't know where to start? Check out our list of the best online paid and free platforms to get started!
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Lock PHP extensions to desired versions with Composer
 Description: Avoid bad surprises and leverage Docker and Composer to lock your PHP extensions to a stable version.
 Canonical: https://masteringlaravel.io/daily/2023-10-04-dont-forget-to-pin-pecl-extensions

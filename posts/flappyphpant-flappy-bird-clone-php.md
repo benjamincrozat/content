@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: FlappyPHPant, a Flappy Bird clone made with PHP
 Description: Check out FlappyPHPant, a fun Flappy Bird clone using PHP. It's a great way to learn complex programming concepts through gaming.
 Canonical: https://github.com/phpgl/flappyphpant

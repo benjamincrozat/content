@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/264/01HFWGX68MGX438AYDRFWTWNVN.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/264/01HFWGX68MGX438AYDRFWTWNVN.jpg
 Title: Core web vitals aren't that important for Google
 Description: Discover why obsessing over core web vitals isn't helping your Google optimizations.
 Canonical: 

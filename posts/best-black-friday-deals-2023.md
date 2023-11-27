@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/260/01HFS214MW2VYGDATWKPGS0405.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/260/01HFS214MW2VYGDATWKPGS0405.jpg
 Title: The best Black Friday deals for web developers (2023)
 Description: Find the best Black Friday deals on awesome tools for web developers.
 Canonical: 

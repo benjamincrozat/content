@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/256/01HFEMVGDB82X8N51ZE7EYA0MG.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/256/01HFEMVGDB82X8N51ZE7EYA0MG.jpg
 Title: Laravel Pulse: monitor your apps for free
 Description: Discover Laravel Pulse, a free, open-source package offering real-time app monitoring, usage statistics, queue monitoring, and more.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/8/woman-coding_xuisvu.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/8/woman-coding_xuisvu.jpg
 Title: Print an array with PHP (+ Laravel)
 Description: Debugging requires dissecting everything. Here's a list of all the one-line of code built-in ways to print arrays in PHP (and even Laravel-specific helpers).
 Canonical: 

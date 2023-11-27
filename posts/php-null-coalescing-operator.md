@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/61/crazy-monitors-guy_ru8pgz.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/61/crazy-monitors-guy_ru8pgz.jpg
 Title: The double question mark, or the null coalescing operator in PHP
 Description: Discover how to simplify your PHP code with the null coalescing and null coalescing assignment operators.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/16/robot_qxeqid.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/16/robot_qxeqid.png
 Title: Use PHP to leverage OpenAI's API and GPT effortlessly
 Description: Improve your projects by leveraging the power of GPT, the famous language model, using PHP and OpenAI's REST API.
 Canonical: 

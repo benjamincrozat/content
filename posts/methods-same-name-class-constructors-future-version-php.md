@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/11/guy-coding-3_lpz0qy.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/11/guy-coding-3_lpz0qy.jpg
 Title: Methods with the same name as their class will not be constructors in a future version of PHP
 Description: Learn why and how to fix "Methods with the same name as their class will not be constructors in a future version of PHP" warnings.
 Canonical: 

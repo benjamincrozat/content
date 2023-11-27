@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/257/01HFF4CGTH014Y8WWJ2CFJSXN7.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/257/01HFF4CGTH014Y8WWJ2CFJSXN7.jpg
 Title: Efficient data filtering with whereIn() in Laravel
 Description: Explore using Laravel's whereIn() method to filter database queries efficiently.
 Canonical: 

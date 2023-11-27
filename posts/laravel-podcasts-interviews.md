@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/31/microphone-acoustic-isolation-foam_aadpzo.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/31/microphone-acoustic-isolation-foam_aadpzo.jpg
 Title: The best podcasts & interviews about Laravel
 Description: Learn about Laravel, the people who use it, and the entrepreneurship spirit that made the framework one of the most profitable open-source projects ever.
 Canonical: 

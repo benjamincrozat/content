@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Create a persisting chat widget using Livewire v3
 Description: Discover how to craft an ever-present chat widget with Livewire v3's persistence features in Laravel - step-by-step guide included.
 Canonical: https://fly.io/laravel-bytes/chat-widget-with-livewire-s-persist/

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/190/DP8uQOKxgSB13dgrgkAeVyUPpoYS1B-metaZXJyb3JzLmpwZw%3D%3D-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/190/DP8uQOKxgSB13dgrgkAeVyUPpoYS1B-metaZXJyb3JzLmpwZw%3D%3D-.jpg
 Title: Easily show all errors in PHP
 Description: Discover how to reveal all PHP errors in your script or globally via php.ini for effective debugging, but remember to adjust before going live.
 Canonical: 

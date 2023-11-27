@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/30/Screenshot_2023-02-14_at_14.07.45_s3dv4g.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/30/Screenshot_2023-02-14_at_14.07.45_s3dv4g.png
 Title: Tailwind CSS forms plugin: a step-by-step build guide
 Description: Discover how the Tailwind CSS forms plugin can reset your forms to a consistent state across all browsers and make styling easier.
 Canonical: 

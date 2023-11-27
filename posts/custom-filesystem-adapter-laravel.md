@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/54/556_w0wcly.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/54/556_w0wcly.jpg
 Title: How to create a custom filesystem adapter in Laravel
 Description: Learn how to craft your own filesystem adapter in Laravel.
 Canonical: 

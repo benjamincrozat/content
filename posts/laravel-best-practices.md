@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/17/best-practices_enpotj.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/17/best-practices_enpotj.png
 Title: 20+ Laravel best practices, tips and tricks to use in 2023
 Description: Learning a framework can be overwhelming, but time and execution will make you a master. Here are some best practices to help you toward your goal.
 Canonical: 

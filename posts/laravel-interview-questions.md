@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/22/4165382_k49se6.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/22/4165382_k49se6.jpg
 Title: Laravel interview questions and answers for 2023
 Description: Nailing a Laravel job interview can be a daunting task, but with the right preparation and mindset, you can set yourself up for success.
 Canonical: 

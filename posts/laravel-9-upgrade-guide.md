@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/29/laravel-9-upgrade-guide_gt8aln.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/29/laravel-9-upgrade-guide_gt8aln.png
 Title: Laravel 9: the mindful upgrade guide
 Description: I show you how to upgrade your Laravel 8 project to version 9 and help you decide whether the return on investment is worth it.
 Canonical: 

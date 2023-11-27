@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/244/dWhvP99H2F5X07q5kSWbK2u7m45yoQ-metadm9pY2UuanBn-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/244/dWhvP99H2F5X07q5kSWbK2u7m45yoQ-metadm9pY2UuanBn-.jpg
 Title: Master OpenAI's new Text-to-speech API
 Description: Add super realistic voices with ease to your applications, thanks to OpenAI's Text-to-speech API.
 Canonical: 

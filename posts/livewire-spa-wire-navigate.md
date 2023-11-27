@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/50/speed_rxhuwj.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/50/speed_rxhuwj.png
 Title: Create a SPA in seconds using wire:navigate in Livewire v3
 Description: Discover how to boost the speed of your Laravel apps, mimicking an SPA, without building an API, using Livewire v3 and the new wire:navigate attribute.
 Canonical: 

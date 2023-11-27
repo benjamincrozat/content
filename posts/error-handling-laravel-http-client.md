@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/55/programming_lferts.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/55/programming_lferts.jpg
 Title: Mastering error handling in Laravel's HTTP client
 Description: Learn how to use Laravel's HTTP client for efficient error handling and exception throwing in different scenarios with ease.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/245/9dEdV3JeGO4NWMY9bKIHIwyq8bLocm-metacGhwLWV4cGxvZGUuanBn-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/245/9dEdV3JeGO4NWMY9bKIHIwyq8bLocm-metacGhwLWV4cGxvZGUuanBn-.jpg
 Title: The essentials of explode() in PHP
 Description: Learn the ins and outs of PHP's explode() function for splitting strings into arrays.
 Canonical: 

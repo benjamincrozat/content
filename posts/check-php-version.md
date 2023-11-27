@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/59/php-83_p6vkhz.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/59/php-83_p6vkhz.png
 Title: 6 ways to check which version of PHP you are running
 Description: Discover how to check your version of PHP using phpinfo(), your terminal, Laravel's welcome page, or a Laravel Artisan command.
 Canonical: 

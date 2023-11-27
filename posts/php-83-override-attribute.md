@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/266/01HFY51YWYW41RSPYZHEG3SDKY.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/266/01HFY51YWYW41RSPYZHEG3SDKY.jpg
 Title: PHP 8.3's Override attribute in a nutshell
 Description: Discover a neat new addition to PHP 8.3 that will help express your intent: the Override attribute.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/43/2181063_k8up0j.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/43/2181063_k8up0j.png
 Title: Enums in PHP: a guide to safer coding
 Description: Let's step up your code with a safer way of coding using PHP's Enumerations, or Enums. With this guide, you'll know everything there is to know about them.
 Canonical: 

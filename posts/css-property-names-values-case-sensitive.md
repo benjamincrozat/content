@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/51/css_ifo3ux.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/51/css_ifo3ux.png
 Title: Is CSS case-sensitive?
 Description: CSS, including selectors and property names, is case-sensitive; use lowercase for consistency and to avoid issues.
 Canonical: 

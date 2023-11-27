@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/62/confused_xxboi4.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/62/confused_xxboi4.jpg
 Title: The easiest way to get the current URL path in PHP
 Description: Discover how to fetch the current URL path in PHP thanks to an useful superglobal variable.
 Canonical: 

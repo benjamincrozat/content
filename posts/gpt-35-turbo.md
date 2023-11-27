@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/240/YOxfLGpU0l4Vsy1odZjvDAlVgDPBVx-metaR1BULTMuNSBUdXJiby5wbmc%3D-.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/240/YOxfLGpU0l4Vsy1odZjvDAlVgDPBVx-metaR1BULTMuNSBUdXJiby5wbmc%3D-.png
 Title: Start using GPT-3.5 Turbo's API in 5 minutes
 Description: Get started with GPT-3.5 Turbo's API in no time thanks to my handy step-by-step guide.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/52/lift_lnkmn9.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/52/lift_lnkmn9.png
 Title: Make your Eloquent models IDE-friendly using Laravel Lift
 Description: Check out Laravel Lift, a package that enhances Eloquent Models and makes them more IDE-friendly - all thanks to Wendell Adriel.
 Canonical: https://github.com/WendellAdriel/laravel-lift

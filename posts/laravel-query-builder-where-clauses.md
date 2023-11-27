@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/71/NjPIPYfFErJWOhUIgb6vbjhiAibOPR-metacHJvZ3JhbW1pbmdfbGZlcnRzLmpwZw%3D%3D-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/71/NjPIPYfFErJWOhUIgb6vbjhiAibOPR-metacHJvZ3JhbW1pbmdfbGZlcnRzLmpwZw%3D%3D-.jpg
 Title: Unlock the power of Laravel's query builder where clauses
 Description: Unleash Laravel's query builder with my deep dive into the power of "where" clauses—triggering conditions, exclusions, JSON queries, and more.
 Canonical: 

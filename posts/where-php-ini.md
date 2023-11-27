@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/220/LZtkGaaS3mnQXxCBhxVWOVfrezhHWA-metaQnVzaW5lc3MgdGVhbSBsb29raW5nIGZvciBuZXcgcGVvcGxlLmpwZw%3D%3D-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/220/LZtkGaaS3mnQXxCBhxVWOVfrezhHWA-metaQnVzaW5lc3MgdGVhbSBsb29raW5nIGZvciBuZXcgcGVvcGxlLmpwZw%3D%3D-.jpg
 Title: This is where your php.ini file is
 Description: Discover the location of your php.ini file using two simple methods: the phpinfo() function or the command line.
 Canonical: 

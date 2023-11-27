@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/7/learning_h3gjog.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/7/learning_h3gjog.jpg
 Title: The best PHP blogs to read in 2023
 Description: To keep getting better with PHP, you should subscribe to as many quality blogs as possible. In this article, I share the ones I often read myself.
 Canonical: 

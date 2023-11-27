@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Using databases without putting domain logic in them
 Description: Alex Kondov shares insights on using databases effectively without complicating it with domain logic, with useful examples explored.
 Canonical: https://alexkondov.com/use-databases-without-putting-domain-logic-in-them/

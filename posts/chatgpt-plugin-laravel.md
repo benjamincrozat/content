@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/34/ChatGPT_sykyqr.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/34/ChatGPT_sykyqr.png
 Title: Use Laravel to build a ChatGPT plugin
 Description: Offer new ways to interact with your app to your users. Learn how to build a ChatGPT plugin with Laravel.
 Canonical: 

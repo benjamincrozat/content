@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Refactoring without tests should be fine
 Description: Matthias Noback explores why refactoring isn't as risky as believed, even without tests. Discover how careful programming can lower risks.
 Canonical: https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/

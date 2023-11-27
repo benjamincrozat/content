@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/188/wTyOjDdruQLDLu3DcBaYGpPAucmRsJ-metadGFpbHdpbmQtY3NzLWxhcmF2ZWwuanBn-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/188/wTyOjDdruQLDLu3DcBaYGpPAucmRsJ-metadGFpbHdpbmQtY3NzLWxhcmF2ZWwuanBn-.jpg
 Title: Add Tailwind CSS to any Laravel project
 Description: See how easy it is to add Tailwind CSS to any Laravel project and start building an amazing user interface.
 Canonical: 

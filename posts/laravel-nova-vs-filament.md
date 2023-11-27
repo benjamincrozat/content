@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Laravel Nova VS. Filament: which one is best?
 Description: Laravel Nova and Filament are both excellent solutions to build your admin panels. But let's dive into the details anyway.
 Canonical: 

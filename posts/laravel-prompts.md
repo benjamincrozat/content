@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/46/Prompts_wvauit.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/46/Prompts_wvauit.jpg
 Title: Laravel Prompts: build delightful Artisan commands
 Description: Delight your users. Learn how to create beautiful Artisan Commands using Laravel Prompts.
 Canonical: 

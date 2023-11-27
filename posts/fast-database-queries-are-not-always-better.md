@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Fast database queries are not always better
 Description: Tim MacDonald challenges the notion that fast database queries are always better - see why in his intriguing Laravel feature walkthrough.
 Canonical: https://timacdonald.me/fast-database-queries-are-not-always-better/

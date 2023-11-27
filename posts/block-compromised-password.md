@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Should you block compromised passwords?
 Description: Check out Stephen Rees-Carter's tips on avoiding compromised passwords and boosting security with tools like Pwned Passwords.
 Canonical: https://stephenreescarter.net/should-you-block-compromised-passwords/

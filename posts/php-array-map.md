@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/223/D9jrbMlts0BBtZ0U3ViydhJtM5CuQz-metaNDI4MzUuanBn-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/223/D9jrbMlts0BBtZ0U3ViydhJtM5CuQz-metaNDI4MzUuanBn-.jpg
 Title: Making sense of PHP's array_map() function
 Description: PHP's array_map() is an extremely useful function that will help you write better code. Let me demystify it for you.
 Canonical: 

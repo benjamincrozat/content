@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/
 Title: Fix "The response is not a view." in Laravel
 Description:
 Canonical: 

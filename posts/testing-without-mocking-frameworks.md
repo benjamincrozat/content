@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Frank de Jonge's perspective on mocking frameworks
 Description: Once a fan, Frank de Jonge now suggests ditching mocking frameworks for real implementations to simplify code testing.
 Canonical: https://blog.frankdejonge.nl/testing-without-mocking-frameworks/

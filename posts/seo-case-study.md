@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/14/rocket_xv9mlh.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/14/rocket_xv9mlh.png
 Title: SEO case study (2022-2023): +10K clicks in 6 months
 Description: Here's a case study for my blog in the programming niche, where I share everything I did to increase clicks by a huge amount since the beginning.
 Canonical: 

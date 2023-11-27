@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/68/NZbLqdyKKjVodLp6Yesr1iBA50Vk3K-metacGFja2FnZS1tYW5hZ2VyLmpwZw%3D%3D-.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/68/NZbLqdyKKjVodLp6Yesr1iBA50Vk3K-metacGFja2FnZS1tYW5hZ2VyLmpwZw%3D%3D-.jpg
 Title: Bun vs. NPM, Yarn, pnpm, and others
 Description: Learn why Bun is a great and can be used as a package manager, replacing NPM, Yarn, pnpm, and others.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: 
+Image:
 Title: Asynchronous caching in Laravel
 Description: Discover how to cache your database queries results in an asynchronous way with Laravel.
 Canonical: https://dylanbaine.com/read/idea-asynchronous-cache

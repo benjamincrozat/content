@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/222/Oezl6om6sBJmaiKSF2sh78yXpzyNvp-metacGhwLTkwLnBuZw%3D%3D-.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/222/Oezl6om6sBJmaiKSF2sh78yXpzyNvp-metacGhwLTkwLnBuZw%3D%3D-.png
 Title: An early look at PHP 9.0's new features and changes
 Description: PHP 9.0 is still far in the future. We don't know a lot, but we have a few breaking changes planned for it.
 Canonical: 

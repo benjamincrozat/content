@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/9/guy-coding-2_hbrpyv.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/9/guy-coding-2_hbrpyv.jpg
 Title: Here's the fix to "using $this when not in object context."
 Description: Learn why the "Using $this when not in object context" error happens, and let me show you the only way to fix.
 Canonical: 

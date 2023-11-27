@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/33/6678_pnn8xm.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/33/6678_pnn8xm.png
 Title: Laravel retrospective: what changed since version 5.8?
 Description: Dive into the history of Laravel. If you went away for some time, this is the right place to resume your journey.
 Canonical: 

@@ -1,5 +1,5 @@
 ---
-Image: https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/250/01HF1NKCB4P7NCJEP2XZJ3WZ53.jpg
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/250/01HF1NKCB4P7NCJEP2XZJ3WZ53.jpg
 Title: Bring order back to your PHP arrays using array_values()
 Description: Discover how array_values() in PHP can help you re-do what has been undone.
 Canonical: 
