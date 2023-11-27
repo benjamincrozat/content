@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/40/Data_security_24_bxnctl.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/40/Data_security_24_bxnctl.png
 Title: Here's how to fix the "419 Page Expired" error in Laravel
 Description: Here's how to fix one of the most frequent issues in Laravel and learn exactly why it happens.
 Canonical: 
