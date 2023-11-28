@@ -28,7 +28,24 @@ The "Loaded Configuration File" section will indicate where the active php.ini f
 
 ![phpinfo() in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/216/conversions/JAyCkwTofAYGl4PX3byMXdOJ8DUTcQ-metaQ2xlYW5TaG90IDIwMjMtMTEtMDIgYXQgMTcuMDQuNTBAMngucG5n--medium.jpg)
 
-## The command line can also find where you php.ini file is
+## phpinfo() can also be used used in the command line
+
+The equivalent of the `phpinfo()` function in the command line is the `php -i` command. Run it, and you will get this kind of output:
+
+```
+phpinfo()
+PHP Version => 8.3.0
+
+System => Darwin BenjBook-Pro-14.local 23.1.0 Darwin Kernel Version 23.1.0: Mon Oct  9 21:27:24 PDT 2023; root:xnu-10002.41.9~6/RELEASE_ARM64_T6000 arm64
+Build Date => Nov 21 2023 14:40:35
+Build System => Darwin Sonoma-arm64.local 23.0.0 Darwin Kernel Version 23.0.0: Thu Aug 17 21:24:15 PDT 2023; root:xnu-10002.1.11~3/RELEASE_ARM64_VMAPPLE arm64
+…
+Loaded Configuration File => /opt/homebrew/etc/php/8.3/php.ini
+```
+
+Neat, right? But we can do better.
+
+## The command line can also pinpoint your php.ini file
 
 For those who favor the command line, PHP provides a straightforward command:
 1. Open the terminal.
