@@ -37,7 +37,7 @@ https://twitter.com/taylorotwell/status/1727862264982577256
 
 ## Install Laravel Pulse
 
-And that's where we stop for now. **Laravel Pulse will be released next week** and is not yet installable.
+And that's where we stop for now. **Laravel Pulse will be released soon** and is not yet installable.
 
 ## Set up Laravel Pulse
 
