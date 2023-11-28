@@ -11,11 +11,11 @@ Categories: php
 
 ## Introduction
 
-We are now in a new era of computing thanks to artificial intelligence and still, the rise of PHP cannot be stopped.
+We are now in a new era of computing thanks to artificial intelligence and still, the rise of [PHP](https://www.php.net) cannot be stopped.
 
 Stable ecosystems without constant drama and forks each time there's a disagreement are needed now more than ever to build the next generation of successful products.
 
-Let's review the numbers from September 2023 together and see is PHP is dead or not.
+Let me review the numbers from September 2023 together and see if PHP is dead or not.
 
 ## PHP is dead. Or is it?
 
@@ -35,13 +35,13 @@ Let's review the numbers from September 2023 together and see is PHP is dead or 
 | Perl         | 0.2%                  |
 | Erlang       | 0.1%                  |
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/overview/programming_language).</small>
+Source: [W3Tech](https://w3techs.com/technologies/overview/programming_language).
 
 So yeah, people forecasting PHP's declining popularity and even death sound like broken records. Maybe they will get lucky if they keep repeating "PHP is dead! PHP is dead! PHP is dead!" for ten more years. 🤷‍♂️
 
-## The demand for PHP developers
+## The demand for PHP developers didn't die yet
 
-**Gathering meaningful data for PHP jobs is nearly impossible**, unfortunately. **But let's try anyway, even if it's not much and clearly not representative of the global market.**
+**Gathering meaningful data for PHP jobs is nearly impossible**, unfortunately. **But I'll try anyway, even if it's not much and clearly not representative of the global market.**
 
 At the time I'm writing these lines, [IT Jobs Watch](https://www.itjobswatch.co.uk), a website dedicated to IT job offers in the UK, shows clear evidence of higher demand for PHP developers.
 
@@ -68,7 +68,7 @@ Here's a table showing **the changes in ranking over a span of one year** for ke
 
 Many of these keywords rank higher compared to a year ago. Not bad for a dead language!
 
-<small>Source: [IT Jobs Watch](https://www.itjobswatch.co.uk/default.aspx?q=&ql=PHP&l=&ll=&id=0&p=6&e=5&sortby=&orderby=)</small>
+Source: [IT Jobs Watch](https://www.itjobswatch.co.uk/default.aspx?q=&ql=PHP&l=&ll=&id=0&p=6&e=5&sortby=&orderby=)
 
 ## PHP versions market share in 2023
 
@@ -76,7 +76,7 @@ Many of these keywords rank higher compared to a year ago. Not bad for a dead la
 
 WordPress requires at least PHP 7.4 to be installed. And since it's the most used CMS, we can safely predict how the use of PHP 8 will skyrocket whenever it stops supporting version 7.
 
-It's also funny to see some antique websites still up and running thanks to PHP 4 et 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
+I find it funny to see some antique websites still up and running thanks to PHP 4 et 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
 
 | PHP Version | Usage in September 2023 |
 | ----------- | ----------------------- |
@@ -87,9 +87,9 @@ It's also funny to see some antique websites still up and running thanks to PHP 
 
 (I'm pretty sure that PHP 4 is less dead than some of the other languages listed above.)
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).</small>
+Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
-## Popular websites using PHP
+## Popular websites using PHP, a supposed dead language
 
 A programming language is only considered a good option if it can be run at scale by big teams.
 
@@ -111,11 +111,11 @@ What's better than a list of ultra-popular websites meeting these requirements?
 
 Someone should tell them that PHP is dead!
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).</small>
+Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
 ## CMS (Content Management System) market share in 2023
 
-**The CMS having the most market share in 2023 is [WordPress](https://wordpress.org).**
+**The CMS having the most market share in 2023 is [WordPress](https://wordpress.org)**, which is supposed to be based on a dead language. 😅
 
 Demand for content management systems (CMS) is exploding. Businesses always need to reach new customers through SEO, and a good CMS that allows you to write all the content you need for an effective SEO campaign is mandatory. This trend will likely never fade.
 
@@ -134,13 +134,13 @@ Demand for content management systems (CMS) is exploding. Businesses always need
 | Webflow        | 0.9%                         |
 | OpenCart       | 0.8%                         |
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/overview/content_management).</small>
+Source: [W3Tech](https://w3techs.com/technologies/overview/content_management).
 
 ## WordPress marketshare in 2023
 
 **WordPress has more than 63% market share across the web.**
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).</small>
+Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 I'm not surprised that WordPress is so popular. It's an always-evolving CMS; there are plenty of great WordPress hosts and many excellent themes and plugins to help you reach your goals.
 
@@ -162,7 +162,7 @@ This alone probably drives people to update to the latest major version and, the
 | 3                 | 0.4%                    |
 | 2                 | <0.1%                   |
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).</small>
+Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 ## The most used WordPress plugins in 2023
 
@@ -192,13 +192,13 @@ The most popular WordPress plugins also deserve to be mentioned there. Some of t
 | Asgaros Forum            | 0.1%                  |
 | Other                    | 42.0%                 |
 
-<small>Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).</small>
+Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 ## PHP frameworks market share in 2023
 
-**The PHP framework having the most market share in 2023 is [Laravel](https://laravel.com)**, according to the numbers below. Laravel is by far the favorite on [Packagist](https://packagist.org) and [GitHub](https://github.com).
+**The PHP framework having the most market share in 2023 is [Laravel](https://laravel.com)**, according to the numbers below. [Laravel](https://laravel.com) is by far the favorite on [Packagist](https://packagist.org) and [GitHub](https://github.com).
 
-### Laravel VS other frameworks on Packagist
+### Laravel VS other PHP frameworks on Packagist
 
 **The most popular PHP framework on Packagist in 2023 is Laravel.** And for good reasons. Laravel is a state-of-the-art framework that makes it easy to create world-class web applications in no time thanks to its rich feature set and extensive ecosystem.
 
@@ -210,11 +210,11 @@ The most popular WordPress plugins also deserve to be mentioned there. Some of t
 | [codeigniter/framework](https://packagist.org/packages/codeigniter/framework/stats) | 1,536,933 |
 | [codeigniter4/framework](https://packagist.org/packages/codeigniter4/framework/stats) | 1,470,932 |
 
-### Compare the ranking of Laravel and other frameworks on GitHub
+### Compare the ranking of Laravel and other PHP frameworks on GitHub
 
 **The most popular PHP framework on GitHub in 2023 is Laravel.**
 
-It's surprising to watch Laravel's steady growth over the years and other frameworks stagnate, even Symfony. Of course, a framework's success is hardly measurable using the amount of stars it gets on GitHub.
+It's surprising to watch Laravel's steady growth over the years and other frameworks stagnate, even [Symfony](https://symfony.com). Of course, a framework's success is hardly measurable using the amount of stars it gets on GitHub.
 
 | Repository | Stars in September 2023 |
 | ----------------------------------------------------- | ----- |
