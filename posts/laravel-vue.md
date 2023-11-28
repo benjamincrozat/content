@@ -9,6 +9,8 @@ Modified at:
 Categories: vuejs, laravel, javascript
 ---
 
+## Introduction to Vue.js in Laravel
+
 [Vue.js](https://vuejs.org) is a JavaScript framework for building user interfaces.
 
 While it's flexible enough to be integrated into any web project (Rails, Symfony, WordPress, etc.), it's one of the preferred choices of Laravel developers, especially when coupled to [Inertia.js](https://inertiajs.com).
@@ -17,7 +19,7 @@ That being said, figuring out how to set up your bundling process while using a 
 
 Therefore, I decided to write this short guide that walks you through adding Vue.js to your Laravel project.
 
-## Install Vue.js via NPM, Yarn, pnpm, or Bun
+## Install Vue.js in Laravel via NPM, Yarn, pnpm, or Bun
 
 First, add Vue and the plugin that will enable a seemless integration with Vite (the default bundler used by Laravel).
 
@@ -39,7 +41,7 @@ Or if you are using Bun:
 bun add vue @vitejs/plugin-vue
 ```
 
-## Configure Vite for Vue.js
+## Configure Vite for Vue.js in Laravel
 
 In the previous step, we added a crucial plugin that enables support for Vue in Vite. We now must make use of it.
 
