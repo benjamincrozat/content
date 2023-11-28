@@ -9,7 +9,7 @@ Modified at:
 Categories: laravel, tailwind-css
 ---
 
-## Introduction
+## Introduction to Tailwind CSS in Laravel
 
 Tailwind CSS is a great CSS framework based on the utility-first approach. I wrote extensively about it already ([Tailwind CSS: the ultimate guide to get started](/tailwind-css)) if you want to get up to speed.
 
@@ -27,7 +27,7 @@ laravel new example --jet
 
 Once you run `npm install` and `npm run dev`, using Tailwind CSS is a breeze!
 
-### Add Tailwind CSS via NPM/Yarn/Bun
+### Add Tailwind CSS in Laravel via NPM/Yarn/Bun
 
 If you are not creating a new Laravel project, you should leverage your JavaScript package manager, no matter if it's NPM, Yarn, or Bun.
 
@@ -51,7 +51,7 @@ If you are using Bun:
 bun add autoprefixer postcss tailwindcss
 ```
 
-### Publish Tailwind's configuration file
+### Publish Tailwind's configuration file in your Laravel codebase
 
 Tailwind CSS is an extremely customizable framework. You will also need to configure where it should look to [purge all its unused classes](https://tailwindcss.com/docs/content-configuration) in order to slim down your final file size.
 
@@ -102,7 +102,7 @@ module.exports = {
 }
 ```
 
-### Add the Tailwind's directives to your CSS
+### Add Tailwind's directives to your CSS
 
 In *resources/css/app.css*, add the following directives:
 
