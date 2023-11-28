@@ -21,7 +21,7 @@ I still can't believe such a tool can be free, but there we are!
 
 ## Laravel Pulse release date
 
-According to Taylor Otwell, the team still needs to refine the package. It should be released between November 27 and December 1, 2023. Of course, it's better to take a few extra days to make sure everything is working properly, so don't expect this timeframe to be accurate.
+According to Taylor Otwell, the team still needs to refine the package before releasing the first beta version. It should be in your hands between November 27 and December 1, 2023. Of course, unforeseen events can happen, so don't expect this timeframe to be accurate.
 
 https://twitter.com/taylorotwell/status/1727862264982577256
 
