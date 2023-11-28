@@ -9,7 +9,7 @@ Modified at:
 Categories: alpinejs, laravel, javascript
 ---
 
-## Introduction
+## Introduction to Alpine.js in Laravel
 
 [Alpine.js](https://alpinejs.dev) is a great way to start adding reactivity to your user interface. [I wrote about this minimalist framework](/alpine-js) if you are not familiar with it yet.
 
@@ -52,7 +52,7 @@ You could already stop reading this article. If you are missing the good old day
 
 **Pro tip: the URLs in this example redirect to the last version of the framework and plugin. Replace them by the target URL instead.**
 
-## Install Alpine.js via NPM, Yarn, pnpm, or Bun
+## Install Alpine.js in Laravel via NPM, Yarn, pnpm, or Bun
 
 If you'd like to control the amount of HTTP requests on your page and don't fear compilation processes, you might instead bundle the framework into your JavaScript.
 
