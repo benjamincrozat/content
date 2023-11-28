@@ -9,7 +9,7 @@ Modified at:
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to how Laravel works
 
 **[Laravel](https://laravel.com) is a framework based on PHP, which enables developers to build web applications faster.** It provides us with tons of pre-written PHP code that lets us focus on our goals instead of reinventing the wheel.
 
@@ -63,7 +63,7 @@ Laravel is like that hardware store but for web developers. Here are some of the
 5. **[Testing helpers](https://laravel.com/docs/testing)**, that enable developers to write tests so much more easily than with any other PHP framework.
 6. **And much more** like caching, file storage, emails, notifications, task scheduling, etc.!
 
-## To sum this up
+## Summing up how Laravel works
 
 So, in a nutshell, Laravel is a feature-packed PHP framework that makes web development faster, easier, and more fun. Whether you're a newbie just starting out or an experienced developer looking for something robust, Laravel probably is the answer.
 
