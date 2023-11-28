@@ -11,7 +11,7 @@ Categories: php
 
 ## Introduction
 
-PHP is an open-source project. Knowing what's going on for the next version only takes a minute of research. For instance, this page lists all the [accepted RFCs for different versions of PHP](https://wiki.php.net/rfc).
+PHP is an open-source project. Knowing what new features and changes are planned for the next version only takes a minute of research. For instance, this page lists all the [accepted RFCs for different versions of PHP](https://wiki.php.net/rfc).
 
 That being said, despite PHP 9.0 being planned, no work have been started yet and we have to dig deeper.
 
@@ -23,7 +23,7 @@ That being said, despite PHP 9.0 being planned, no work have been started yet an
 
 To this day, no work has been started on PHP 9.0, so you won't even be able to pull the latest code and compile it yourself.
 
-## What's new in PHP 9.0
+## New features and changes planned for PHP 9.0
 
 ### Deprecated features from earlier PHP versions will be removed
 
