@@ -19,6 +19,12 @@ I still can't believe such a tool can be free, but there we are!
 
 ![Laravel Pulse's dashboard in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/255/conversions/01HFEMTCB9RCHDFGV1EZYRGVV5-medium.jpg)
 
+## Laravel Pulse release date
+
+According to Taylor Otwell, the team still needs to refine the package. It should be released between November 27 and December 1, 2023. Of course, it's better to take a few extra days to make sure everything is working properly, so don't expect this timeframe to be accurate.
+
+https://twitter.com/taylorotwell/status/1727862264982577256
+
 ## The features Laravel Pulse offers
 
 - **Application usage of your users**: "Uncover the users who make the most requests, engage with the slowest endpoints, and dispatch the most jobs throughout your Laravel applications."
