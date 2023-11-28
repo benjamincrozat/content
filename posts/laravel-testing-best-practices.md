@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/197/2iaZ5lJi19MT8M17ht5m9cmyl3vJpH-metadGVzdGluZy5qcGc%3D-.jpg
-Title: 10 testing best practices for Laravel in 2023
+Title: 9 testing best practices for Laravel in 2023
 Description: Are you familiar with testing? Good. Here are a bunch of best practices to help you level up even more!
 Canonical: 
 Audio:
@@ -9,7 +9,7 @@ Modified at: 2023-10-27
 Categories: testing, laravel
 ---
 
-## Introduction
+## Introduction to testing in Laravel
 
 **Writing tests to guarantee a level of stability for the projects you work on will skyrocket your career through the roof.** And that's not an overstatement.
 
@@ -34,7 +34,7 @@ Let's take action to avoid this!
 
 ## Testing best practices for Laravel developers
 
-### Simplify your tests using Pest
+### Break the ice with testing using Pest
 
 Pest is based on PHPUnit but adds tons of convenience and can even do things that PHPUnit cannot.
 
@@ -85,7 +85,7 @@ Of course, whether you write your test with Pest or PHPUnit, the result will mos
 
 ![Pest's official documentation.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/201/conversions/Ta5aeMcaPYRaFAW6eibcqhkZevsdxt-metaQ2xlYW5TaG90IDIwMjMtMTAtMjcgYXQgMTQuNTEuMDFAMngucG5n--medium.jpg)
 
-### Run your tests on the production stack
+### Make testing more reliable by using the production stack
 
 Let's take a typical Laravel project; they usually run on the latest version of PHP, MySQL, and Redis.
 
@@ -107,7 +107,7 @@ In general, people substitute dependencies to make their tests run faster. But t
 </phpunit>
 ```
 
-### Write feature tests, not unit tests
+### Testing web apps require more feature tests than unit tests
 
 **Feature Tests in Laravel are invaluable for ensuring the overall stability of a web application.**
 
@@ -121,7 +121,7 @@ By catching problems across your entire codebase, they give you the confidence t
 
 Of course, nothing is perfect, and other kinds of tests should be run like end-to-end testing (which in our context, consists of running tests in a headless web browser), but also manual reviews performed by human beings.
 
-### Fake remote services using Laravel's HTTP client
+### Make testing faster and cheaper by faking remote services
 
 Writing tests for remote services like a third-party API is a challenge. There often are rate limits that you can't afford to reach.
 
@@ -166,7 +166,7 @@ How do I know what the faked response should be? Just request whatever API you a
 
 You can learn more on the official documentation about [Laravel's fake HTTP client](https://laravel.com/docs/http-client#testing).
 
-### Run tests automatically
+### Make testing more useful with Continuous Integration
 
 **The best way to unlock the full potential of tests is to let another computer run them.** This also is called **continuous integration**.
 
@@ -238,7 +238,7 @@ But before going on GitHub to learn everything about Actions, there's still one 
 
 ![GitHub Actions… in action!](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/202/conversions/WWGFzVSyhYLMf2xkVQnC1Vb7GpCKQ9-metaQ2xlYW5TaG90IDIwMjMtMTAtMjcgYXQgMTQuNTUuMTVAMngucG5n--medium.jpg)
 
-### Deploy your code automatically when your tests pass
+### Make testing more pragmatic with Continuous Delivery
 
 Using GitHub Actions, we saw how to run tests automatically thanks to another computer, and for free.
 
@@ -257,7 +257,7 @@ Add the following step:
 
 [Learn how to add secrets values in your GitHub Actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) so you don't leak confidential credentials to contributors.
 
-### Write a test to confirm a bug fix
+### Confirm bug fixes by writing tests
 
 One rock-solid strategy for testing, especially when coupled with CI and CD (continuous integration and continuous deployment, is to **write a test to confirm a bug has been fixed**.
 
@@ -283,43 +283,7 @@ it('requires a valid email address', function () {
 
 Now, each time you push code to your Git repository, your CI environment will run the tests and prevent deployments in case the data coming from your contact form isn't validated as expected.
 
-### Test your views
-
-In the previous section, we ensured the robustness of the code by writing a test that confirms our bug fix works as intended.
-
-But if you think about it, the test we wrote in the previous section to confirm the validity of the sender's email address isn't enough to make our contact form bulletproof.
-
-What if, for some reason, we change the name of one of the inputs? **Our previous test will still pass, despite our users being unable to send emails.**
-
-Therefore, we must write a test to check for the presence of the correct form tag attributes and input fields.
-
-**Pro tip**: Use the new `php artisan make:view some-view` command to create a new view and add the `--pest` option to create a test alongside it.
-
-```php
-it('contains the correct input fields', function () {
-	$this
-		->get('/contact')
-		->assertOk()
-		->assertViewIs('contact')
-		->assertSee('method="POST"')
-		->assertSee('action="/contact"')
-		->assertSee('name="_token"')
-		->assertSee('type="email"')
-		->assertSee('name="email"')
-		->assertSee('textarea')
-		->assertSee('name="message"')
-		->assertSee('button');
-});
-```
-
-1. Make a GET request to the */contact* route.
-2. Make sure to get a 200 code in the response.
-3. Confirm the view used for this route is *resources/views/contact.blade.php*.
-4. Check for every tag name or attribute that confirms our form is properly configured, including the hidden input field that is added thanks to the `@csrf` directive.
-
-There we go! Our code is now world-class! Obviously, no test suite is 100% perfect, but the more you write tests, the closer you get.
-
-### Don’t overthink your tests
+### Make testing more joyful by not overthinking it
 
 When you get comfortable with testing, you will be tempted to anticipate every edge case.
 
@@ -347,7 +311,7 @@ You shouldn't have to change your test to ensure the feature works. In that case
 composer require ext-imagick:^3.7
 ```
 
-## Conclusion
+## Summing up testing with Laravel
 
 The art of testing takes a lot of experience to be mastered. So start now if you haven't already, don't give up, keep writing tests, and learn from your mistakes.
 
