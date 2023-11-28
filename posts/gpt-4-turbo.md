@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/236/3uQ5UwlJq7FRqjcvekGdAqOi65gT17-metaZ3B0LTQtdHVyYm8ucG5n-.png
-Title: Start using GPT-4 Turbo's API in 5 minutes
+Title: How to use GPT-4 Turbo's API, step by step
 Description: Get started with GPT-4 Turbo's API in no time thanks to my handy step-by-step guide.
 Canonical: 
 Audio:
@@ -9,7 +9,7 @@ Modified at:
 Categories: ai, gpt
 ---
 
-## Introduction to GPT-4 Turbo
+## Introduction to how to use GPT-4 Turbo
 
 GPT-4 Turbo is a famous Artificial Intelligence Large Language Model made by [OpenAI](https://openai.com). Its capabilities are groundbreaking and changed the world forever.
 
@@ -38,7 +38,7 @@ Now, let's dive into this step-by-step tutorial that will help you make your fir
 
 ![API key generation on OpenAI](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/227/conversions/yZF7oBp7WI9jbq8gFcNWDWtmQDWWXb-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjAuMDIuMjhAMngucG5n--medium.jpg)
 
-## Make your first request to GPT-4 Turbo
+## How to make your first request to GPT-4 Turbo
 
 Requesting GPT-4 Turbo's API is easy peazy and we'll do it with curl this time. Obviously, the API can be requested thanks to the HTTP layer of your favorite programming language.
 
@@ -82,7 +82,7 @@ Learn more on [the official API reference for Chat Completions](https://platform
 
 ![An example response of GPT-4 Turbo through its API.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/232/conversions/0LKIoKIsnuo72KHWk8MgD3vmSXG3Ir-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjEuNDYuMTFAMngucG5n--medium.jpg)
 
-## Enable the JSON mode with GPT-4 Turbo
+## How to enable the JSON mode with GPT-4 Turbo
 
 You can now force GPT-4 Turbo (as well as GPT-3.5 Turbo) to output JSON consistently thanks to the new [JSON mode](https://platform.openai.com/docs/guides/text-generation/json-mode).
 
