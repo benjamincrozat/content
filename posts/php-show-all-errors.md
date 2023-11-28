@@ -31,7 +31,7 @@ Let's decode what all this means:
   
 - `error_reporting(E_ALL)`: This setting controls the level of error reporting. `E_ALL` is a constant that instructs PHP to show all possible errors, warnings, and notices.
 
-## How to adjust PHP error settings in php.ini
+## How to adjust the setting in your php.ini to show all errors
 
 Besides adding these values in your PHP script, you can also set them globally from the `php.ini` file. Here are the steps to find and edit this file:
 
@@ -41,7 +41,7 @@ Besides adding these values in your PHP script, you can also set them globally f
   
 **Remember to save your changes.** And if you don't want to shout at your computer because nothing is happening, **restart your PHP server to apply them**.
 
-## Don't display PHP errors in production
+## Don't display all PHP errors in production
 
 Altering these settings can be very useful for debugging during development, but beware that **you must not do it in the context of a live application**.
 
