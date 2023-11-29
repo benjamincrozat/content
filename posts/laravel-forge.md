@@ -9,7 +9,7 @@ Modified at: 2023-10-13
 Categories: laravel, tools, web-hosting
 ---
 
-## Introduction
+## Introduction to Laravel Forge
 
 *[Laravel Forge](https://forge.laravel.com) is a service that automatically provisions optimized PHP servers **using the cloud hosting provider of your choice**.*
 
