@@ -27,7 +27,7 @@ https://twitter.com/taylorotwell/status/1727862264982577256
 
 ## The features Laravel Pulse offers
 
-- **Application usage of your users**: "Uncover the users who make the most requests, engage with the slowest endpoints, and dispatch the most jobs throughout your Laravel applications."
+- **Application usage of your users**: Laravel Pulse lets you see which of your users are bad citizens. It uncovers which ones make the most requests, engage with the slowest endpoints, and dispatch the most jobs throughout your application.
 - **Statistics of your servers**: Monitor various aspects of your servers, like CPU, memory, and disk usage. All of this in one place!
 - **Queue monitoring**: Instead of trying to guess which queue needs more resources, make educated decisions based on historical data and bring real benefits to your users. 👌
 - **Performance monitoring**: Again, making decisions based on data is invaluable, and Laravel Pulse can also help with routes, database queries, jobs, and even outgoing requests.
