@@ -23,7 +23,7 @@ However, there are other methods to get the version of Laravel. Here's a compreh
 
 The about command Artisan offers not only displays the Laravel version but also other helpful information about your project such as the version of PHP you're running on, Composer's version, cache drivers, etc.
 
-However, it's important to note that the about command is only available in Laravel version 8 or later.
+However, it's important to note that the about command is only available in Laravel version 9.21 or later.
 
 ```
 php artisan about
