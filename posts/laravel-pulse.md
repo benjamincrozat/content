@@ -11,7 +11,7 @@ Categories: laravel, packages
 
 ## What Laravel Pulse is
 
-**[Laravel Pulse](https://pulse.laravel.com) is a free and open source package for the [Laravel framework](https://laravel.com) that helps developers monitor in real-time various aspects of their web applications.**
+**[Laravel Pulse](https://pulse.laravel.com) is a free and open source package for the [Laravel framework](https://laravel.com) that helps developers monitor various aspects of their web applications in real-time.**
 
 Taylor Otwell, the creator of Laravel, [said](https://twitter.com/taylorotwell/status/1725210034399797365) that the tool was born out of frustration he had with Laravel Forge and its inability to quickly diagnose why the service was underperforming and which users were causing that.
 
