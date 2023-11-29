@@ -12,7 +12,7 @@ Categories: php, gpt, ai
 ## Introduction to using the OpenAI API with PHP
 
 To use OpenAI's REST API, you can either:
-1. Use the API directly;
+1. Use the API directly.
 2. Or use a client written in PHP that will significantly simplify your journey.
 
 Option #2 is precisely what we're aiming for, thanks to the [OpenAI PHP client](https://github.com/openai-php/client) written by Mantas Smilinskas, Nuno Maduro, and Sandro Gehri. It's like their unofficial SDK.
