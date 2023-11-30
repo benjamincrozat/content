@@ -253,7 +253,7 @@ Extracting your button to a component (Blade, React, Vue or whatever you like) w
 </html>
 ```
 
-### Extract to a parent class using the `@apply` directive
+### Extract to a parent class using the @apply directive
 
 Another simple solution is to extract the classes to a parent class.
 

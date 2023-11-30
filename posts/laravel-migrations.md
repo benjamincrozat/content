@@ -83,7 +83,7 @@ Options:
 
 Let's see how to use them and why.
 
-### Create a migration with the `--create` option
+### Create a migration with the --create option
 
 The `--create` option tells Artisan to use something other than the table name it inferred from the migration's name. For instance, it could be helpful if you use another language from tables' names.
 
@@ -91,7 +91,7 @@ The `--create` option tells Artisan to use something other than the table name i
 php artisan make:migration CreatePostsTable --create=billets
 ```
 
-### Create a migration with the `--table` option
+### Create a migration with the --table option
 
 The `--table` option tells Artisan we don't need to create a new table but rather update an existing one. If you don't follow Laravel's conventions for naming your migrations, this is the option you need.
 

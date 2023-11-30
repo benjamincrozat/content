@@ -228,7 +228,7 @@ return new class extends Migration {
 
 But did you know you can also use them with Laravel 8? Just replace the class name by `return new class`, add a `;` at the end, and you'll be good to go.
 
-### Use the `down()` method correctly for rollbacks
+### Use the down() method correctly for rollbacks
 
 The `down()` (used by the `php artisan migrate:rollback` command) is ran when you need to rollback changes you made to your database.
 
@@ -381,7 +381,7 @@ class Pokemon
 }
 ```
 
-### Use `dispatchAfterResponse()` for long-running tasks
+### Use dispatchAfterResponse() for long-running tasks
 
 Let's use the most straightforward example possible: you have a contact form. Sending an email may take between one or two seconds, depending on your method.
 

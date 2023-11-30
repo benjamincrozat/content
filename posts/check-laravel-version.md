@@ -19,7 +19,7 @@ However, there are other methods to get the version of Laravel. Here's a compreh
 
 ## 6 ways to check the version of Laravel
 
-### Using the `php artisan about` command
+### Using the php artisan about command
 
 The about command Artisan offers not only displays the Laravel version but also other helpful information about your project such as the version of PHP you're running on, Composer's version, cache drivers, etc.
 

@@ -137,7 +137,7 @@ if (json_validate($json)) {
 
 Learn more: [PHP RFC: json_validate](https://wiki.php.net/rfc/json_validate)
 
-### Improved `unserialize()` error handling
+### Improved unserialize() error handling
 
 The RFC proposes two main changes to PHP's unserialize function to enhance its error handling.
 
