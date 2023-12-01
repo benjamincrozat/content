@@ -37,14 +37,31 @@ https://twitter.com/taylorotwell/status/1727862264982577256
 
 ## Install Laravel Pulse
 
-And that's where we stop for now. **Laravel Pulse will be released soon** and is not yet installable.
+**For now, Laravel Pulse requires a MySQL database. If you are running something else, that's fine, but you will have to create a new database connection for MySQL.**
+
+Pulse is still in beta and you have to make some changes to your *composer.json* file to install it. Change the `minimum-stability` to `beta` and make sure `prefer-stable` is set to `true`:
+
+```json
+"minimum-stability": "beta",
+"prefer-stable": true
+```
+
+Then, just to install Pulse, use the following command:
+
+```bash
+composer require laravel/pulse
+```
 
 ## Set up Laravel Pulse
 
-As soon as Laravel Pulse is released, I will tell you exactly how to set it up on any Laravel project.
+To set up Laravel Pulse, you will need to ensure it has a database in which it can store the data it collects. You can do this by running the migrations (which you don't need to publish):
+
+```bash
+php artisan migrate
+```
+
+Once this is done, open your browser and hit the route `/pulse`. It was that simple.
 
 ## Contribute to Laravel Pulse
 
-Once Laravel Pulse is public, you will be able to create custom cards and share them with the community. I will write about this.
-
-Also, Laravel Pulse's GitHub repository will be available at [laravel/pulse](https://github.com/laravel/pulse) and you will be able to send as many Pull Requests as you want for bug fixes and enhancements.
+Laravel Pulse's is free, open source, and is available through a GitHub repository at [laravel/pulse](https://github.com/laravel/pulse). You can send as many Pull Requests as you want for bug fixes and enhancements.
