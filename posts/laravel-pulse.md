@@ -39,7 +39,7 @@ https://twitter.com/taylorotwell/status/1727862264982577256
 
 **For now, Laravel Pulse requires a MySQL database. If you are running something else, that's fine, but you will have to create a new database connection for MySQL.**
 
-Pulse is still in beta and you have to make some changes to your *composer.json* file to install it. Change the `minimum-stability` to `beta` and make sure `prefer-stable` is set to `true`:
+**Pulse is still in beta** and you have to make some changes to your *composer.json* file to install it until a stable version is released. Change the `minimum-stability` to `beta` and make sure `prefer-stable` is set to `true`:
 
 ```json
 "minimum-stability": "beta",
