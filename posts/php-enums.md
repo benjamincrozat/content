@@ -21,7 +21,7 @@ Wouldn't it be nice to have a way of declaring this restricted set of possible v
 
 That's exactly where Enumerations, or Enums, as they are often called, come to the rescue.
 
-Enumerations have been part of many programming languages for years.
+Enumerations have been part of many programming languages for years and I was so envious!
 
 They allow you to define a type that is restricted to a specific set of values, enhancing both clarity and safety.
 
@@ -31,13 +31,13 @@ For PHP developers, the great news is that as of PHP 8.1, Enums are now part of 
 
 Before PHP 8.1, PHP did not have built-in support for Enums. While this lack of Enums did not prevent developers from writing code, it did mean that PHP lacked a tool found in many other languages that can make coding safer and more efficient. 
 
-Without built-in Enums, developers had to use other constructs to represent a set of possible values, often resorting to class constants, arrays, or sometimes just strings or integers. 
+Without built-in Enums, developers had to use other constructs to represent a set of possible values, often resorting to class constants, arrays, or sometimes just strings or integers.
 
 However, this could lead to potential errors and often resulted in code that was not as clear as it could be.
 
 The introduction of Enums in PHP 8.1 has been a significant addition to the language.
 
-PHP's implementation of Enums is more powerful than many other languages, as PHP Enums are not merely integer or string values under the hood.
+PHP's implementation of Enums is more powerful than many other languages, as Enums in PHP are not merely integer or string values under the hood.
 
 In PHP, an Enum is a special kind of object, with cases of the Enum being single-instance objects of that class.
 
@@ -47,9 +47,9 @@ The addition of Enums to PHP signifies the language's ongoing evolution to incor
 
 ## Understanding the basics of Enums in PHP
 
-To unravel the basics of Enums in PHP, let's step into the magical world of Harry Potter.
+To unravel the basics of Enums in PHP, I decided to use the magical world of Harry Potter.
 
-Imagine we're coding for the Hogwarts School of Witchcraft and Wizardry, where each new student must be sorted into a house by the Sorting Hat.
+Imagine we're coding for the Hogwarts School of Witchcraft and Wizardry, where each new student must be sorted into a house by the virtual Sorting Hat.
 
 At Hogwarts, there are only four houses: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin.
 
@@ -84,15 +84,15 @@ We also have a `SortingHat` class with a `sort` method.
 
 This method either accepts a house suggestion or randomly assigns a house to the student.
 
-Just like in the Harry Potter series, the Sorting Hat took Harry's choice into consideration!
+Just like in Harry Potter, the Sorting Hat took Harry's choice into consideration!
 
 ```php
 class SortingHat
 {   
-    public function sort(Student $student, ?House $suggestion = null)
+    public function sort(Student $student, ?House $suggestedHouse = null)
     {
-        if ($suggestion) {
-            $student->house = $suggestion;
+        if ($suggestedHouse) {
+            $student->house = $suggestedHouse;
             
             return;
         }
@@ -111,9 +111,9 @@ class SortingHat
 }
 ```
 
-As you can see, we've limited the values of the `$suggestion` and `$house` properties to only be one of the four Hogwarts houses using the `House` Enum.
+As you can see, we've limited the values of the `$suggestedHouse` variable and `$house` property to only be one of the four Hogwarts houses using the `House` Enum.
 
-If you were to try to sort a student into a non-existent house, the PHP Enum will catch this, and it wouldn't run.
+If you were to try to sort a student into a non-existent house, PHP will catch this, and it wouldn't run.
 
 That's the magic of Enums!
 
@@ -171,7 +171,7 @@ $student = new Student(
 );
 ```
 
-## Listing Enum Values
+## Listing Enum values
 
 You saw in the previous example that without a suggestion from the student, a house is randomly assigned.
 
@@ -182,10 +182,10 @@ Fortunately, Enums all have a `cases()` method that can make our code more flexi
 ```php
 class SortingHat
 {   
-    public function sort(Student $student, ?House $suggestion = null)
+    public function sort(Student $student, ?House $suggestedHouse = null)
     {
-        if ($suggestion) {
-            $student->house = $suggestion;
+        if ($suggestedHouse) {
+            $student->house = $suggestedHouse;
             
             return;
         }
