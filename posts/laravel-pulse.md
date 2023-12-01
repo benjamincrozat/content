@@ -5,7 +5,7 @@ Description: Discover Laravel Pulse, a free, open-source package offering real-t
 Canonical: 
 Audio:
 Published at: 2023-11-17
-Modified at:  2023-12-01
+Modified at: 2023-12-01
 Categories: laravel, packages
 ---
 
