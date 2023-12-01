@@ -9,7 +9,7 @@ Modified at: 2023-07-08
 Categories: php
 ---
 
-## Introduction
+## Introduction to Enums in PHP
 
 As a developer, you must have come across situations where a variable could only take one out of a small set of possible values.
 
@@ -27,7 +27,7 @@ They allow you to define a type that is restricted to a specific set of values, 
 
 For PHP developers, the great news is that as of PHP 8.1, Enums are now part of the PHP core. Yes, you heard it right! PHP now provides built-in support for Enums.
 
-## A Brief History of Enums in PHP
+## A brief history of Enums in PHP
 
 Before PHP 8.1, PHP did not have built-in support for Enums. While this lack of Enums did not prevent developers from writing code, it did mean that PHP lacked a tool found in many other languages that can make coding safer and more efficient. 
 
@@ -45,7 +45,7 @@ This means you can use Enums anywhere you could use an object, making them extre
 
 The addition of Enums to PHP signifies the language's ongoing evolution to incorporate more modern programming concepts and paradigms, increasing its efficiency, and enabling developers to write safer and cleaner code.
 
-## Understanding the Basics of Enums in PHP
+## Understanding the basics of Enums in PHP
 
 To unravel the basics of Enums in PHP, let's step into the magical world of Harry Potter.
 
@@ -208,7 +208,7 @@ class SortingHat
 
 Pretty neat, right?
 
-## A Deep Dive into PHP Enums and Their Comparison with Classes
+## A deep dive into PHP Enums and their comparison with classes
 
 In our journey with PHP Enums so far, you might have noticed that they are similar to classes.
 
@@ -262,7 +262,7 @@ Enum cases in PHP have a special property called `name`, which is the case-sensi
 echo House::Gryffindor->name; // Prints "Gryffindor".
 ```
 
-## Working with Enumeration Methods
+## Working with Enumeration methods
 
 Now that we've explored how Enums can be compared and their differences from classes, it's time to dive deeper and explore enumeration methods in PHP Enums.
 
@@ -424,4 +424,3 @@ class House extends Enum
 Despite these workarounds, none of them could provide the full set of features that true Enumerations can offer, such as type safety, performance optimization, and functionality like getting all possible values.
 
 This is why the addition of native Enumerations in PHP 8.1 was such an important upgrade for the language.
-
