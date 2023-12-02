@@ -9,7 +9,7 @@ Modified at: 2023-10-17
 Categories: livewire
 ---
 
-**To fix the 404 not found error your browser receives for */livewire/livewire.js* (likely on your production server), it is likely that you will have to look at your web server's configuration for the concerned site.**
+**To fix the 404 not found error your browser receives for */livewire/livewire.js* (most likely on your production server), there are high chances that you will have to look at your web server's configuration for the concerned site.**
 
 ## Why /livewire/livewire.js returns a 404 not found error
 
