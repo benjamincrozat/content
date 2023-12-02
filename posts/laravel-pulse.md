@@ -78,7 +78,7 @@ php artisan pulse:check
 
 This command runs continuously to provide Pulse with the needed data. This is a daemon you have to run in the background, and I recommend you to use [Supervisor](http://supervisord.org) to do so.
 
-![Laravel Pulse's php artisan pulse:check command in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/cad320da-6181-4961-9bd1-11a7249efa26)
+![Laravel Pulse's php artisan pulse:check command in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/4c523518-c717-4377-82d3-b659c85e6e36)
 
 ## Contribute to Laravel Pulse
 
