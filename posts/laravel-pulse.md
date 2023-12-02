@@ -62,6 +62,24 @@ php artisan migrate
 
 Once this is done, open your browser and hit the route `/pulse`. It was that simple.
 
+![Laravel Pulse right after it has been installed.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/16b61b08-db6d-47ee-8439-ae8c34ba371f)
+
+## Monitor your server
+
+Right now, our new installation of Pulse is empty.
+
+We have to display information in there and I suggest we start with your server's resources.
+
+To do this, run the following command:
+
+```bash
+php artisan pulse:check
+```
+
+This command runs continuously to provide Pulse with the needed data. This is a daemon you have to run in the background, and I recommend you to use [Supervisor](http://supervisord.org) to do so.
+
+![Laravel Pulse's php artisan pulse:check command in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/cad320da-6181-4961-9bd1-11a7249efa26)
+
 ## Contribute to Laravel Pulse
 
 Laravel Pulse's is free, open source, and is available through a GitHub repository at [laravel/pulse](https://github.com/laravel/pulse). You can send as many Pull Requests as you want for bug fixes and enhancements.
