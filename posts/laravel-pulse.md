@@ -17,7 +17,7 @@ Taylor Otwell, the creator of Laravel, [said](https://twitter.com/taylorotwell/s
 
 I still can't believe such a tool can be free, but there we are!
 
-![Laravel Pulse's dashboard in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/255/conversions/01HFEMTCB9RCHDFGV1EZYRGVV5-medium.jpg)
+![Laravel Pulse's dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/255/conversions/01HFEMTCB9RCHDFGV1EZYRGVV5-medium.jpg)
 
 ## Laravel Pulse release date
 
