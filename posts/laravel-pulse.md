@@ -84,5 +84,5 @@ This command runs continuously to provide Pulse with the needed data for its . T
 
 Laravel Pulse's is free, open source, and is available through a GitHub repository at [laravel/pulse](https://github.com/laravel/pulse). You can send as many Pull Requests as you want for bug fixes and enhancements.
 
-![Laravel Pulse's GitHub repository.](https://github.com/benjamincrozat/content/assets/3613731/64cc4a49-c450-48c1-a1f3-32a7473725ee)
+![Laravel Pulse's GitHub repository.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/64cc4a49-c450-48c1-a1f3-32a7473725ee)
 
