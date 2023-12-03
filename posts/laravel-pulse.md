@@ -64,7 +64,7 @@ Once this is done, open your browser and hit the route `/pulse`. It was that sim
 
 ![Laravel Pulse right after it has been installed.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/16b61b08-db6d-47ee-8439-ae8c34ba371f)
 
-## Monitor your server
+## Let Laravel Pulse monitor your server
 
 Right now, our new installation of Pulse is empty.
 
@@ -79,6 +79,17 @@ php artisan pulse:check
 This command runs continuously to provide Pulse with the needed data for its . This is a daemon you have to run in the background, and I recommend you to use [Supervisor](http://supervisord.org) to do so.
 
 ![Laravel Pulse's php artisan pulse:check command in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/6ce523e5-1294-41d9-94ee-dfffec241bdc)
+
+## Make Laravel Pulse secure
+
+Securing access to Laravel Pulse can be done in the same way as Laravel Horizon for instance. In your `AuthServiceProvider`, define a `viewPulse` Gate and do whatever check is necessary. In my case, I check for the correct email address:
+
+```php
+Gate::define('viewPulse', fn (User $user) => in_array($user->email, [
+    'johndoe@example.com',
+    …
+]));
+```
 
 ## Contribute to Laravel Pulse
 
