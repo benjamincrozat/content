@@ -83,10 +83,22 @@ This command runs continuously to provide Pulse with the needed data for its . T
 Securing access to Laravel Pulse can be done in the same way as Laravel Horizon for instance. In your `AuthServiceProvider`, define a `viewPulse` Gate and do whatever check is necessary. In my case, I check for the correct email address:
 
 ```php
-Gate::define('viewPulse', fn (User $user) => in_array($user->email, [
-    'johndoe@example.com',
-    …
-]));
+namespace App\Providers;
+
+use App\Models\User;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+
+class AuthServiceProvider extends ServiceProvider
+{
+    public function boot() : void
+    {
+        Gate::define('viewPulse', fn (User $user) => in_array($user->email, [
+            'johndoe@example.com',
+            …
+        ]));
+    }
+}
 ```
 
 ## Contribute to Laravel Pulse
