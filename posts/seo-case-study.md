@@ -66,13 +66,7 @@ Therefore, I can guarantee high scores on various benchmarks ([Pagespeed Insight
 
 If you're using something like WordPress, I recommend being careful when choosing themes and plugins, as most are low quality and can significantly impact your site's performance and, therefore, your rankings.
 
-Good news, though. Google doesn't require perfection. It cares about:
-- HTTPS;
-- Good usability;
-- Mobile-friendly-ness;
-- Decent load times (your site should load in under 2 seconds).
-
-Learn more about [page experience signals from Google](https://developers.google.com/search/docs/appearance/page-experience#signals) and use [PageSpeed Insights](https://pagespeed.web.dev) to see if Google is happy with your website.
+Learn more about [page experience signals from Google](https://developers.google.com/search/docs/appearance/page-experience) and use [PageSpeed Insights](https://pagespeed.web.dev) to check your Core Web Vitals according to Google. And, as a bonus, check out this article I wrote about them: [Core web vitals aren't that important for Google](https://benjamincrozat.com/google-core-web-vitals).
 
 ![Pagespeed Insights results for this article.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/89/conversions/Screenshot_2022-10-26_at_20.42.36_hi0jgo-medium.jpg){: width="1280" height="720"}
 

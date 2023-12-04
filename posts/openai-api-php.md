@@ -21,7 +21,7 @@ Option #2 is precisely what we're aiming for, thanks to the [OpenAI PHP client](
 
 And a [**Laravel adapter (openai-php/laravel) is available**](https://github.com/openai-php/laravel), which adds a handy facade and mocking abilities for everyone's convenience.
 
-By the way, some of you may not know what GPT is. If you are unfamiliar it, take some time to get up to speed thanks to my simple-to-understand article about [how Large Language Models such as GPT work](/gpt-llm-ai-explanation).
+By the way, some of you may not know what GPT is, the next section is for you. I also have a comprehensive yet simple-to-understand article about [how Large Language Models such as GPT work](/gpt-llm-ai-explanation).
 
 ## What GPT is
 
@@ -68,7 +68,7 @@ In this tutorial, we will use the super cheap, but very capable GPT-3.5 Turbo.
 
 ## How to use the OpenAI API PHP wrapper (openai-php/client)
 
-The best way to learn is to build. Let's get started by setting up the package and by performing a basic request.
+The best way to learn is to build. Let's get started by setting up the PHP package and by performing a basic request.
 
 We will focus on the `gpt-3.5-turbo` model. It's cheap, fast and this is the same model that powers ChatGPT for non-premium users. That being said, feel free to use `gpt-4` if you need GPT to be smarter.
 
@@ -95,7 +95,7 @@ Next, install the [OpenAI client](https://github.com/openai-php/client):
 composer require openai-php/client
 ```
 
-Then, open the project in your favorite code editor and copy and paste this snippet:
+Then, open the project in your favorite code editor and copy and paste this PHP code snippet:
 
 ```php
 <?php
@@ -109,6 +109,8 @@ $client = OpenAI::client('YOUR_API_KEY');
 
 ### Usage of openai-php/client
 
+Once the instance of the OpenAI PHP client has been created, you can start using it by calling the `chat()` method and have a conversation with GPT:
+
 ```php
 $data = $client->chat()->create([
     'model' => 'gpt-3.5-turbo',
@@ -121,6 +123,8 @@ $data = $client->chat()->create([
 // Hello there! How can I assist you today?
 echo $data['choices'][0]['message']['content'];
 ```
+
+As you can see, the API is super easy to use. You just have to pass the model you want to use and the messages you want to send to GPT.
 
 ## How to use the OpenAI API Laravel wrapper (openai-php/laravel)
 
@@ -140,6 +144,8 @@ Install the package via Composer:
 ```bash
 composer require openai-php/laravel
 ```
+
+Note that this package will also install openai-php/client, which it depends on to work. The Laravel wrapper just provides a service that register the client in the container and a Facade to make it easier to use.
 
 ### Usage of openai-php/laravel
 
@@ -184,9 +190,9 @@ Other models like `gpt-4`, `gpt-4-32k-0613`, and even the ones based on GPT-3 li
 
 Your choice should be dictated by the kind of task you want to perform and your budget. OpenAI has pages detailing their GPT [models' capabilities](https://platform.openai.com/docs/models) as well as [their pricing](https://openai.com/pricing).
 
-## Build a powerful spam detection tool in 5 minutes
+## Build a powerful spam detection tool in 5 minutes with PHP and GPT
 
-Let's say you have a comment system.
+Let's say you have a comments system.
 
 You want to make sure the user isn't spamming you.
 
@@ -269,7 +275,7 @@ echo $data['choices'][0]['message']['content'];
 
 From there, you can experiment and refine this spam detection tool even more. 💪
 
-## Even without a wrapper, using the OpenAI API is super easy
+## Even without a PHP or Laravel wrapper, using the OpenAI API is super easy
 
 While openai-php/client is time saving and extremely useful, some people (like me) might prefer to avoid dependencies. This is how easy it is to send requests to OpenAI's API using Laravel's HTTP client:
 
