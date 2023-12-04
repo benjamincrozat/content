@@ -9,7 +9,7 @@ Modified at: 2023-11-02
 Categories: php
 ---
 
-## The fastest way
+## The fastest way to check if an array is empty
 
 To ensure that a PHP array is empty, use the [`empty()`](https://www.php.net/empty) function:
 
@@ -32,7 +32,9 @@ This is my favorite way of doing it. But there are other methods such as:
 
 You can stop there, or you can dive deeper and see in detail to use these functions to check for empty arrays.
 
-## The count() function
+## Other ways to check if an array is empty
+
+### The count() function
 
 Another way to check if your array is empty is to use the [`count()`](https://www.php.net/count) function. The function returns an integer depending on the number of items inside, or zero if it's empty.
 
@@ -64,7 +66,7 @@ if ($count > 0) {
 
 Learn more about the [`count()`](https://www.php.net/count) function.
 
-## The sizeof() function
+### The sizeof() function
 
 [`sizeof()`](https://www.php.net/sizeof) is an alias of count() and can be used on arrays in the same way. [PHP actually has a lot of aliases for various functions](https://www.php.net/manual/en/aliases.php).
 
@@ -76,7 +78,7 @@ echo sizeof(['Foo', 'Bar', 'Baz']);
 
 Learn more about the [`sizeof()`](https://www.php.net/sizeof) function.
 
-## The not (!) operator
+### The not (!) operator
 
 One not super intuitive way to check if your array is not empty is to use the not operator (`!`).
 
