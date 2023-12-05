@@ -9,7 +9,7 @@ Modified at:
 Categories: php
 ---
 
-## Convert PHP arrays to JSON
+## Convert a PHP array to JSON
 
 **To convert a PHP array to [JSON](https://www.wikipedia.org/wiki/JSON), you can use the [`json_encode()`](https://www.php.net/json_encode) function. Here's how it's done:**
 
@@ -41,7 +41,7 @@ Here are some of the use cases I met where you would need to convert PHP arrays 
 - **Storing data**: Since JSON is a lightweight and readable format, it's commonly used to store complex data structures.
 - **Work with modern APIs**: Most modern APIs such as those for social media platforms and cloud services communicate using JSON, so converting your PHP array to JSON can be necessary to work with these APIs.
 
-## Catching JSON conversion errors
+## Catching array to JSON conversion errors
 
 PHP also provides a function to inspect the last occurred error during JSON encoding/decoding. 
 

@@ -9,7 +9,7 @@ Modified at:
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to a clean Laravel architecture
 
 How should you organize your Laravel app to best serve your needs? **Well, the good news is that you don't have to worry about this since you are using a framework! Stick to the defaults unless you have good and objective reasons to do otherwise.**
 
