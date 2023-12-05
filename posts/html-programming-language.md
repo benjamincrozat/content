@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/249a4a7f-1fb8-48d6-8855-0734dc2b91ef
 Title: Is HTML a programming language?
 Description: HTML is not a programming language. But you can only make sense of this fact if you understand the logic behind it.
 Canonical:
