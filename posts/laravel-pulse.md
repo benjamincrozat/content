@@ -109,6 +109,21 @@ Laravel Pulse's is free, open source, and is available through a GitHub reposito
 
 ## Laravel Pulse troubleshooting
 
+### Laravel Pulse returns a 404 not found error
+
+For anyone having a 404 after installing Laravel Pulse, here's a potential solution: You may have a wildcard highjacking the `pulse` route.
+
+Here are possible fixes:
+- Change the `path` configuration value in `config/pulse.php` to something like `/pulse/dashboard`.
+- Or a more elegant solution would be to filter your wildcard route like so (which is what I did for this blog):
+
+```php
+Route::get('/{post:slug}', [PostController::class, 'show'])->name('posts.show')
+    ->where('post', '^(?!pulse$).*$');
+```
+
+Basically, we are instructing Laravel to match the route only if it isn't `pulse`.
+
 ### My Laravel Pulse dashboard is empty
 
 If your Laravel Pulse dashboard is empty, chances are that there's a problem with Livewire. If you open your developer tools and check for errors, you will most likely see a 404 not found error on */livewire/livewire.js*. Luckily, I wrote about this recurring issue caused by how Livewire serves its JavaScript by default: [Fix the /livewire/livewire.js 404 not found error](https://benjamincrozat.com/livewire-js-404-not-found)
