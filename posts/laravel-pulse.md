@@ -107,3 +107,8 @@ Laravel Pulse's is free, open source, and is available through a GitHub reposito
 
 ![Laravel Pulse's GitHub repository.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/64cc4a49-c450-48c1-a1f3-32a7473725ee)
 
+## Laravel Pulse troubleshooting
+
+### My Laravel Pulse dashboard is empty
+
+If your Laravel Pulse dashboard is empty, chances are that there's a problem with Livewire. If you open your developers tools and check the errors, you will most likely see a 404 not found error on /livewire/livewire.js. Luckily, I wrote about this recurring issues caused by how Livewire serves its JavaScript by default: [Fix the /livewire/livewire.js 404 not found error](https://benjamincrozat.com/livewire-js-404-not-found)
