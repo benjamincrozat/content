@@ -9,6 +9,8 @@ Modified at:
 Categories: html
 ---
 
+## The definitive answer to HTML being a programming language or not
+
 **No, HTML is not a programming language.** As its name indicates (Hypertext Markup Language), it's a markup language used for creating and structuring content on the web.
 
 Unlike programming languages, HTML does not have logic or control flow capabilities; it can't perform operations or manipulate data. It's used solely for defining the structure and layout of web content, such as text, images, and links.
