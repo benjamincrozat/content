@@ -24,11 +24,9 @@ What if you want to give users a heads up that the site will be back shortly? Ju
 php artisan down --refresh=15
 ```
  
-This will tell the user's browser to reload the page after 15 seconds, but keep in mind that not all browsers pay attention to the Retry-After header if you use:
+This will tell the user's browser to reload the page after 15 seconds.
 
-```bash
-php artisan down --retry=60
-```
+![Laravel's maintenance mode in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/ecb02026-0087-4201-89ca-c747c45702e9)
 
 ## Sneaking past maintenance mode
 
@@ -38,7 +36,7 @@ Now, here's a cool trick. You can bypass maintenance mode with a secret token. C
 php artisan down --secret="your-secret-token"
 ```
 
-Visit your app’s URL with the token appended, and you’ll get a bypass cookie. If you prefer Laravel to create a token for you:
+Visit your app’s URL with the token appended (http://example.test/WeHrMT6odmCLXWkE for example), and you’ll get a bypass cookie. If you prefer Laravel to create a token for you:
 
 ```bash
 php artisan down --with-secret
@@ -56,7 +54,7 @@ php artisan down --render="errors::503"
 
 This is served up before Laravel fully boots, so it's quick to the draw.
 
-(Oh and by the way, if you forgot about it, the 503 HTTP code means "Service Unavailable.")
+(Oh and by the way, if you forgot about it, the 503 HTTP code means "Service Unavailable," hence the need to render this error page.)
 
 ## Taking a different path: redirects during maintenance
 
