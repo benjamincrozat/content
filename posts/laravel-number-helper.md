@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/b5ab883f-6840-4cb7-8c8f-e36d3c30c533
 Title: The ultimate guide to Laravel's new Number helper
 Description: Working with numbers in your web applications just got a whole lot easier! Discover what's possible using Laravel's new Number helper.
 Canonical: 
@@ -9,7 +9,7 @@ Modified at:
 Categories: laravel
 ---
 
-## Introduction to Laravel Number helper class
+## Introduction to the Laravel Number helper class
 
 Working with numbers in your web applications just got a whole lot easier!
 
