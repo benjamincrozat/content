@@ -11,7 +11,7 @@ Categories: laravel
 
 ## Introduction to the Laravel Number helper class
 
-Working with numbers in your web applications just got a whole lot easier!
+Working with numbers in your web applications just got a whole lot easier! 🔥
 
 The Laravel number helper is a new utility class designed to make number-related tasks a breeze. Think formatting, currencies, and even converting bytes into human-readable file sizes.
 
@@ -145,4 +145,8 @@ And with that, the Laravel's Number helper makes large numbers a lot less intimi
 
 ## Conclusion
 
-Blazing through number formatting challenges just got easier with Laravel's Number helper. Each method is designed to handle different nuances associated with number representation, from locales to human-readable formats. It's time to explore these methods and put them to work in your Laravel applications.
+Blazing through number formatting challenges just got easier with Laravel's Number helper.
+
+Each method is designed to handle different nuances associated with number representation, from locales to human-readable formats
+
+It's time to explore these methods and put them to work in your Laravel applications! 💪
