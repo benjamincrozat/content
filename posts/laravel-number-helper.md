@@ -119,7 +119,7 @@ echo $fileSize; // "2 KB"
 
 Laravel's Number helper simplifies file size presentation.
 
-## Abbreviate large numbers
+## Abbreviate large numbers (Laravel 10.35)
 
 The `abbreviate` method is perfect for large numbers that need simplifying. It's useful for social media stats or any place where space is at a premium.
 
