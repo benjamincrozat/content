@@ -8,7 +8,7 @@ Published at: 2023-12-07
 Categories: laravel
 ---
 
-## Enabling maintenance mode
+## Enabling Laravel's maintenance mode
 
 When it’s time to update your app or perform some maintenance, switching to maintenance mode is super handy. And yet, I always forget it exists. 🤦‍♂️
 
@@ -44,7 +44,7 @@ php artisan down --with-secret
 
 Just remember, keep that secret simple and URL-friendly.
 
-## The early bird: Pre-rendering the maintenance view
+## The early bird: pre-rendering the Laravel's maintenance view
 
 Want to avoid errors when users hit your site mid-update? You can pre-render a maintenance view that shows up instantly:
 
@@ -76,7 +76,7 @@ php artisan up
 
 And just like that, you’re live again!
 
-## Tailoring the experience
+## Customize Laravel's maintenance page
 
 You’re the boss when it comes to how your maintenance page looks. Set up your own template at `resources/views/errors/503.blade.php` and make it your own.
 
