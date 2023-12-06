@@ -15,7 +15,7 @@ To use OpenAI's REST API, you can either:
 1. Use the API directly.
 2. Or use a client written in PHP that will significantly simplify your journey.
 
-Option #2 is precisely what we're aiming for, thanks to the [OpenAI PHP client](https://github.com/openai-php/client) written by Mantas Smilinskas, Nuno Maduro, and Sandro Gehri. It's like their unofficial SDK.
+Option #2 is precisely what we're aiming for, thanks to the [OpenAI PHP client](https://github.com/openai-php/client) written by Nuno Maduro, and Sandro Gehri. It's like their unofficial SDK.
 
 **This package is usable in any kind of PHP project.** No matter what your favorite framework or CMS is (Symfony, CodeIgniter, CakePHP, WordPress, Magento, etc.), there's something here for you.
 
