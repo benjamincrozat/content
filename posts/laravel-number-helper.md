@@ -49,7 +49,7 @@ echo $germanNumber; // "1.234.567,89"
 
 In the above snippet, you see how smoothly "laravel number helper" can adapt to different locales, making your numbers relatable to a global audience.
 
-### Format numbers
+## Format numbers
 
 The `format` method is your go-to for getting numbers to look their best. It takes care of things like decimal points and digit grouping according to your specified locale preferences. Check this out:
 
@@ -61,7 +61,7 @@ echo $formattedNumber; // "1,234.56"
 
 This example showcases the "laravel number helper" with a precision of two decimal places. Simple and straight to the point!
 
-### Convert numbers to words
+## Convert numbers to words
 
 Ever needed to spell out a number in full text? The `spell` method of the "laravel number helper" transforms numbers into words, perfect for checks or formal documents.
 
@@ -71,7 +71,7 @@ $numberInWords = Number::spell(102);
 echo $numberInWords; // "one hundred and two"
 ```
 
-### Generate ordinal numbers ("1st", "2nd", "3rd", etc.)
+## Generate ordinal numbers ("1st", "2nd", "3rd", etc.)
 
 The `ordinal` method helps express numbers in their ordinal form. Whether it's 1st, 2nd, 3rd, or beyond, see what it looks like here:
 
@@ -83,7 +83,7 @@ echo $ordinalNumber; // "21st"
 
 Laravel's Number helper gracefully handles this conversion, so you don't have to.
 
-### Format percentages
+## Format percentages
 
 Percentages are everywhere – discounts, statistics, you name it. With Laravel's number helper, the `percentage` method renders percentages neatly.
 
@@ -95,7 +95,7 @@ echo $percentage; // "75.1%"
 
 The example shows how the method factors in precision for your percentage values.
 
-### Format currencies
+## Format currencies
 
 Currency formatting is crucial for any financial application. The `currency` method in "laravel number helper" ensures your monetary values are readable and professional.
 
@@ -107,7 +107,7 @@ echo $currencyValue; // "€5,000.00"
 
 Global currencies are no hurdle for Laravel's Number helper.
 
-### Determine file sizes
+## Determine file sizes
 
 Understanding file sizes in bytes can be baffling. The `fileSize` method converts bytes into a file size that makes sense to anyone. Let's say you have 2048 bytes:
 
@@ -119,7 +119,7 @@ echo $fileSize; // "2 KB"
 
 Laravel's Number helper simplifies file size presentation.
 
-### Abbreviate large numbers
+## Abbreviate large numbers
 
 The `abbreviate` method is perfect for large numbers that need simplifying. It's useful for social media stats or any place where space is at a premium.
 
@@ -131,7 +131,7 @@ echo $abbreviatedNumber; // "2.5M"
 
 This is the Laravel's Number helper at its most concise.
 
-### Show large numbers in a human-friendly format
+## Show large numbers in a human-friendly format
 
 The `forHumans` method expands on abbreviating by offering you the choice to represent large numbers in full words for even greater clarity.
 
@@ -143,6 +143,6 @@ echo $humanReadableNumber; // "123 million"
 
 And with that, the Laravel's Number helper makes large numbers a lot less intimidating.
 
-### Conclusion
+## Conclusion
 
 Blazing through number formatting challenges just got easier with Laravel's Number helper. Each method is designed to handle different nuances associated with number representation, from locales to human-readable formats. It's time to explore these methods and put them to work in your Laravel applications.
