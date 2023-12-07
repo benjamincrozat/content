@@ -36,7 +36,9 @@ Now, here's a cool trick. You can bypass maintenance mode with a secret token. C
 php artisan down --secret="your-secret-token"
 ```
 
-Visit your app’s URL with the token appended (http://example.test/WeHrMT6odmCLXWkE for example), and you’ll get a bypass cookie. If you prefer Laravel to create a token for you:
+Visit your app’s URL with the token appended (http://example.test/WeHrMT6odmCLXWkE for example), and you’ll get a bypass cookie. 
+
+And if you prefer Laravel to create a token for you:
 
 ```bash
 php artisan down --with-secret
