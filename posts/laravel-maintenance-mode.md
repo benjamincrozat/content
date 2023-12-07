@@ -44,7 +44,7 @@ php artisan down --with-secret
 
 Just remember, keep that secret simple and URL-friendly.
 
-## The early bird: pre-rendering the Laravel's maintenance view
+## Pre-rendering the Laravel's maintenance view
 
 Want to avoid errors when users hit your site mid-update? You can pre-render a maintenance view that shows up instantly:
 
@@ -56,7 +56,7 @@ This is served up before Laravel fully boots, so it's quick to the draw.
 
 (Oh and by the way, if you forgot about it, the 503 HTTP code means "Service Unavailable," hence the need to render this error page.)
 
-## Taking a different path: redirects during maintenance
+## Redirects during maintenance
 
 Maybe you'd rather redirect users elsewhere while you tidy up. No problem:
 
@@ -66,7 +66,7 @@ php artisan down --redirect=/
 
 This steers visitors to wherever you specify.
 
-## Back to business: disabling maintenance mode
+## Disabling maintenance mode
 
 All done? Great, let’s bring your app back with:
 
