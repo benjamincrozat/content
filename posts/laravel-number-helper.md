@@ -29,10 +29,10 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-  public function boot()
-  {
-    Number::useLocale($this->app->getLocale());
-  }
+    public function boot()
+    {
+        Number::useLocale($this->app->getLocale());
+    }
 }
 ```
 
