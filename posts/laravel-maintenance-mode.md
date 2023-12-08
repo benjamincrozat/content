@@ -57,7 +57,7 @@ php artisan down --render="errors::503"
 
 This is served up before Laravel fully boots, so it's quick to the draw.
 
-(Oh and by the way, if you forgot about it, the 503 HTTP code means "Service Unavailable," hence the need to render this error page.)
+(The 503 HTTP code means "Service Unavailable," hence the need to render this error page.)
 
 ## Redirects during maintenance
 
