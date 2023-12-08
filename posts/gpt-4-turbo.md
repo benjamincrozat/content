@@ -29,12 +29,12 @@ Now, let's dive into this step-by-step tutorial that will help you make your fir
 
 3. Confirm your email address.
 4. [Log in](https://platform.openai.com/login?launch).
-5. Check for your free $5 of credits on [this page](https://platform.openai.com/account/billing/overview). Be careful, once you used them, the API keys you will generate won't work.
+5. Check for your free $5 of credits on [this page](https://platform.openai.com/account/billing/overview). Be careful, once you used them, the API keys you will generate won't work until you pay.
 
 ![The free $5 of credit given to all new developers.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/228/conversions/V2xA6LlqgeEAd87BpKshqkY19sV9rp-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMTkuNTUuMDdAMngucG5n--medium.jpg)
 
-7. [Generate your first API key](https://platform.openai.com/api-keys). Be careful, it will only be displayed once. Copy and paste it into a password manager so it's stored securely.
-8. Start using GPT-4 Turbo's API! (Continue reading to learn how.)
+7. [Generate your first API key for GPT-4 Turbo](https://platform.openai.com/api-keys). Be careful, it will only be displayed once. Copy and paste it into a password manager so it's stored securely.
+8. Start using your API key with GPT-4 Turbo's API! (Continue reading to learn how.)
 
 ![API key generation on OpenAI](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/227/conversions/yZF7oBp7WI9jbq8gFcNWDWtmQDWWXb-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjAuMDIuMjhAMngucG5n--medium.jpg)
 
@@ -44,11 +44,11 @@ Requesting GPT-4 Turbo's API is easy peazy and we'll do it with curl this time. 
 
 Here's the process broken down into four very clear steps:
 
-1. **Locate your API key:** You should have generated this already if you followed the previous section. It usually looks like a long string of random numbers and letters. *Make sure to keep it secure.*
+1. **Locate your GPT-4 Turbo API key:** You should have generated this already if you followed the previous section. It usually looks like a long string of random numbers and letters. *Make sure to keep it secure.*
 
 2. **Open your terminal:** If you want to start experimenting with curl, open your terminal.
 
-3. **Input the curl command:** Curl is a command-line tool used to transfer data. For the chat API, you could use a command like this:
+3. **Input the curl command:** Curl is a command-line tool used to transfer data. For GPT-4 Turbo's chat API, you could use a command like this:
 
 ```bash
 curl -X POST \
@@ -78,7 +78,7 @@ Remember, this is a basic example. You might want to adjust the request dependin
 
 Learn more on [the official API reference for Chat Completions](https://platform.openai.com/docs/api-reference/chat).
 
-**Pro tip**: One API call can accept up to 128,000 tokens with gpt-4-1106-preview. A token is a numerical representation of your text. All your messages as well as the output from the model cannot exceed this limit. And for those who don't know, 1,000 tokens roughly equals 750 English words.
+**Pro tip**: One API call can accept up to 128,000 tokens with GPT-4 Turbo (gpt-4-1106-preview). A token is a numerical representation of your text. All your messages as well as the output from the model cannot exceed this limit. And for those who don't know, 1,000 tokens roughly equals 750 English words.
 
 ![An example response of GPT-4 Turbo through its API.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/232/conversions/0LKIoKIsnuo72KHWk8MgD3vmSXG3Ir-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjEuNDYuMTFAMngucG5n--medium.jpg)
 
@@ -88,7 +88,7 @@ You can now force GPT-4 Turbo (as well as GPT-3.5 Turbo) to output JSON consiste
 
 (Most people here know what JSON is, but for the others, JSON is a way of storing information that both people and computers can understand. It uses text to organize data into lists and sets of "name: value" pairs.)
 
-Before, asking GPT to output JSON was already possible. But you could randomly get text instead of the JSON you requested. The new JSON mode aims to stop that.
+Before, asking GPT-4 to output JSON was already possible. But you could randomly get text instead of the JSON you requested. The new JSON mode aims to stop that.
 
 Using it is as simple as adding a new object, and setting a system message that instructs the model to reply with JSON (but keep reading, because there are a few gotchas):
 
@@ -125,7 +125,7 @@ curl -X POST \
 }
 ```
 
-2. We set the system message to "You are an assistant, and you only reply with JSON.", but it can be anything you want as long as "JSON" is mentioned. If you don't do that, the API call will fail and throw the error *"'messages' must contain the word 'json' in some form, to use 'responseformat' of type 'jsonobject'."*
+2. We set GPT-4's system message to "You are an assistant, and you only reply with JSON.", but it can be anything you want as long as "JSON" is mentioned. If you don't do that, the API call will fail and throw the error *"'messages' must contain the word 'json' in some form, to use 'responseformat' of type 'jsonobject'."*
 
 ```json
 {
@@ -140,7 +140,7 @@ curl -X POST \
 
 ## GPT-4 Turbo's pricing (it's cheaper than ever!)
 
-Pricing can change, so please double check. That being said, at the time I'm writing these lines, **[GPT-4 Turbo's pricing](https://openai.com/pricing) is $0.01 per 1,000 tokens for the input and $0.03 per 1,000 tokens for the output.**
+Pricing for GPT-4 can change, so please double check. That being said, at the time I'm writing these lines, **[GPT-4 Turbo's pricing](https://openai.com/pricing) is $0.01 per 1,000 tokens for the input and $0.03 per 1,000 tokens for the output.**
 
 This is such good news for developers who want to build their dream tools for cheaper thanks to the best-known language model. I know I already have something planned. What about you?
 
@@ -154,7 +154,7 @@ By the way, here's a table that compares GPT-4 Turbo's pricing to older GPT-4 mo
 
 ## Ideas to build thanks to GPT-4 Turbo's API
 
-Artificial Intelligence enables developers to build products we couldn't hope to before.
+Artificial Intelligence with GPT-4 enables developers to build products we couldn't hope to before.
 
 Here are a bunch of ideas to experiment with:
 - Additional AI-based features for existing products
@@ -166,4 +166,4 @@ Here are a bunch of ideas to experiment with:
 - Sentiment analysis tools
 - Spam filters
 
-You can even [add voices to your projects](/openai-tts-api) thanks to another endpoint!
+And did you know OpenAI offers developers an API to [add realistic voices to their projects](/openai-tts-api)?
