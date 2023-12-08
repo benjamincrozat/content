@@ -5,7 +5,7 @@ Description: When in doubt, clear the cache. In this article, you'll learn about
 Canonical: 
 Audio:
 Published at: 2022-09-10
-Modified at: 2023-08-03
+Modified at: 2023-12-08
 Categories: laravel
 ---
 
@@ -35,6 +35,35 @@ As we saw, the one-stop solution to clear the cache in Laravel is the command `p
 To clear Laravel's application cache, run `php artisan cache:clear`. Whether you are using files, Redis, or memcached, it will be wiped clean.
 
 You can also remove one particular value from the cache using `php artisan cache:forget <key> [store]`. That's handy when you're trying to fix something without disrupting everything else.
+
+And, the cherry on top, you can also clear the cache for a given tag using `php artisan cache:clear --tags some-tag,some-other-tag`.
+
+## Programmatically clear Laravel's application cache
+
+To programmatically clear Laravel's application cache, use the `Cache` facade.
+
+You can forget a given key:
+
+```php
+use Illuminate\Support\Facades\Cache;
+
+Cache::forget('some-key');
+```
+
+Or flush the entire cache:
+
+```php
+use Illuminate\Support\Facades\Cache;
+
+Cache::flush();
+```
+
+And, if you don't want to import one more class, you can use the `cache()` helper:
+
+```php
+cache()->forget('some-key');
+cache()->flush();
+```
 
 ## Clear Laravel's config cache
 
