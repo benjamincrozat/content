@@ -38,7 +38,7 @@ php artisan down --secret="your-secret-token"
 
 Visit your app’s URL with the token appended (http://example.test/WeHrMT6odmCLXWkE for example), and you’ll get a bypass cookie. 
 
-And if you prefer Laravel to create a token for you, version 10.35 lets you do this:
+And if you prefer the framework to create a token for you, version 10.35 lets you do this:
 
 ```bash
 php artisan down --with-secret
