@@ -1,5 +1,5 @@
 ---
-Image: 
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/c7994761-ec8f-473a-9b45-a3c1e6c8390a
 Title: Easy data integrity with array validation in Laravel
 Description: Learn how to effortlessly manage array validation in Laravel to ensure data integrity in your web applications.
 Canonical: 
