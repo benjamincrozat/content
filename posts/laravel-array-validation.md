@@ -4,7 +4,7 @@ Title: Easy data integrity with array validation in Laravel
 Description: Learn how to effortlessly manage array validation in Laravel to ensure data integrity in your web applications.
 Canonical: 
 Audio:
-Published at:
+Published at: 2023-12-09
 Modified at:
 Categories: laravel
 ---
