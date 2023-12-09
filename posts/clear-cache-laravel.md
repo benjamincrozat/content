@@ -50,7 +50,7 @@ use Illuminate\Support\Facades\Cache;
 Cache::forget('some-key');
 ```
 
-Or flush the entire cache:
+Or flush the cache in its entirety:
 
 ```php
 use Illuminate\Support\Facades\Cache;
