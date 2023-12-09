@@ -19,7 +19,7 @@ Whether you are running Laravel 10, 9 or 8, let's see in details how I can help 
 
 By the way, I wrote articles on [architecture best practices](https://benjamincrozat.com/laravel-architecture-best-practices#introduction), [RESTful APIs best practices](laravel-restful-api-best-practices), [security best practices](https://benjamincrozat.com/laravel-security-best-practices), and [testing best practices](/laravel-testing-best-practices) containing even more best practices that you will want to check out.
 
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), <ins>now</ins>.**
+**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
 
 ## Laravel best practices
 

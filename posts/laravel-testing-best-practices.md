@@ -30,7 +30,7 @@ Now, here's a common disaster scenario that happens when you don't write tests:
 
 Let's take action to avoid this!
 
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), <ins>now</ins>.**
+**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
 
 ![Testing in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/203/conversions/8DkDSf9Dql6iBCkx8g4NM2QUoZ7gVL-metaQ2xlYW5TaG90IDIwMjMtMTAtMjcgYXQgMTQuNTkuMDdAMngucG5n--medium.jpg)
 

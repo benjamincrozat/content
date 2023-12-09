@@ -15,7 +15,7 @@ Crafting good APIs is a fundamental skill for any successful backend developer. 
 
 Laravel provides a lot of tools to help you craft yours in a standard way. For this article, I will assume you've already built at least one, because my goal isn't to cover the subject in its entirety.
 
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), <ins>now</ins>.**
+**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
 
 ## Laravel RESTful APIs best practices
 

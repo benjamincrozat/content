@@ -28,7 +28,7 @@ Here's what is expected from the team of such projects:
 
 With these goals in mind, let's dive into what I, and most of the experts from the community, think are the best architecture practices.
 
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), <ins>now</ins>.**
+**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
 
 ## Laravel architecture best practices
 
