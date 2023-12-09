@@ -36,7 +36,7 @@ Whether you're looking to boost accessibility or add auditory flair to your prod
 
 ![API key generation on OpenAI](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/227/conversions/yZF7oBp7WI9jbq8gFcNWDWtmQDWWXb-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjAuMDIuMjhAMngucG5n--medium.jpg)
 
-## Choose the voice
+## Choose the voice for your speech
 
 Personality matters, and so does the voice of your app!
 
