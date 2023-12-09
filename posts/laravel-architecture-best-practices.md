@@ -28,6 +28,8 @@ Here's what is expected from the team of such projects:
 
 With these goals in mind, let's dive into what I, and most of the experts from the community, think are the best architecture practices.
 
+**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), <ins>now</ins>.**
+
 ## Laravel architecture best practices
 
 ### Keep the default folder structure
@@ -75,3 +77,7 @@ https://twitter.com/gonedark/status/1333474208123412488
 All that being said, at the end, results matter the most. Here's a tweet from Taylor Otwell himself about keeping an open mind:
 
 https://twitter.com/taylorotwell/status/1668580181504606208
+
+---
+
+**I can provide more guidance tailored to your codebase if you [book a call](/consulting) with me.**

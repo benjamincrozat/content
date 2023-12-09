@@ -15,6 +15,8 @@ Crafting good APIs is a fundamental skill for any successful backend developer. 
 
 Laravel provides a lot of tools to help you craft yours in a standard way. For this article, I will assume you've already built at least one, because my goal isn't to cover the subject in its entirety.
 
+**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), <ins>now</ins>.**
+
 ## Laravel RESTful APIs best practices
 
 ### Use the right HTTP method
@@ -226,3 +228,7 @@ test('the endpoint works as expected', function () {
 ```
 
 Now, if for some reason your route's path changes to something else, the test will break and you won't be able to deploy in production.
+
+---
+
+**I can provide more guidance tailored to your codebase if you [book a call](/consulting) with me.**
