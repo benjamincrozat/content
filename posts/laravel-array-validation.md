@@ -28,8 +28,6 @@ Imagine you're collecting data where users can list multiple contact details. To
 ```php
 public function store(Request $request)
 {
-    use Illuminate\Support\Facades\Validator;
-
     $validated = $request->validate([
         'contacts' => 'required|array',
         'contacts.*.phone' => 'required|numeric',
@@ -49,8 +47,6 @@ There's more to a great user experience than just robust validation. Custom erro
 ```php
 public function store(Request $request)
 {
-    use Illuminate\Support\Facades\Validator;
-
     $validated = $request->validate([
         'contacts' => 'required|array',
         'contacts.*.phone' => 'required|numeric',
