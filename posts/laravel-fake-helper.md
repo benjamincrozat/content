@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/91ab51a0-a8ee-4d54-97ca-e464d444a99e
 Title: Understanding Laravel's fake() helper
 Description: Laravel's fake() helper is a powerful tool for generating fake data. Learn how to use it for seeding databases and prototyping.
 Canonical: 
