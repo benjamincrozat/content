@@ -11,7 +11,7 @@ Categories: laravel
 
 ## Introduction to Laravel's fake() helper
 
-Laravel offers a variety of helpers to streamline your development process, and one such handy tool is the `fake()` function, or helper. This helper is a gateway to the Faker library, simplifying the creation of fake data for seeding and prototyping purposes.
+Laravel offers a variety of helpers to streamline your development process, and one such handy tool I absolutely love is the `fake()` function, or helper. This helper is a gateway to the Faker library, simplifying the creation of fake data for seeding and prototyping purposes.
 
 ## Basic Usage of the fake() helper in Laravel
 
@@ -75,7 +75,7 @@ class UserFactory extends Factory
 
 ## Using Laravel's fake() helper for prototyping interfaces
 
-When it comes to prototyping interfaces in Laravel, the `fake()` helper is incredibly useful.
+When it comes to prototyping interfaces in Laravel, the `fake()` helper is incredibly useful and I always use it in that case.
 
 It allows you to quickly generate placeholder data that makes your prototypes look and feel more realistic.
 
