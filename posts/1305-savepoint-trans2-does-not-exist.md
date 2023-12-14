@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/36803bc1-0c15-4824-87c0-09b3e3077756
 Title: Fix "1305 SAVEPOINT trans2 does not exist" in Laravel tests
-Description: Have you ever encountered the "1305 SAVEPOINT trans2 does not exist" error while running your Laravel tests? I have a solution for you.
+Description: Have you ever encountered the "1305 SAVEPOINT trans2 does not exist" error while running Laravel? I have a solution for you.
 Canonical: 
 Audio:
 Published at: 2023-12-14
