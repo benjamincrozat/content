@@ -15,9 +15,9 @@ Have you ever encountered the *"1305 SAVEPOINT trans2 does not exist"* error in 
 
 I have no clue if it's a common issue, but it can be quite puzzling, especially when it appears unexpectedly.
 
-The error *"1305 SAVEPOINT trans2 does not exist"* typically pops up in Laravel applications during database transactions.
+The error *"1305 SAVEPOINT trans2 does not exist"* typically pops up in Laravel applications using MySQL during database transactions.
 
-One of the primary causes of this error is nested transactions (when a transaction is started within another transaction). You may have forgot to commit or rollback a transaction and started a new one.
+One of the primary causes of this error is nested transactions (when a transaction is started within another transaction). You may have forgot to commit or rollback a transaction and started a new one. MySQL cannot do that.
 
 ## Potential fixes for "1305 SAVEPOINT trans2 does not exist"
 
