@@ -6,7 +6,7 @@ Canonical:
 Audio:
 Published at: 2023-12-14
 Modified at:
-Categories: database, laravel, testing
+Categories: databases, laravel, testing
 ---
 
 ## Understanding "1305 SAVEPOINT trans2 does not exist"
