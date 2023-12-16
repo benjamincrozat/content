@@ -9,7 +9,7 @@ Modified at:
 Categories: podcasts, javascript, security
 ---
 
-In the latest episode of [Syntax](https://syntax.fm), hosts Wes Bos and Scott Tolinski, are joined by a special guest, Feross Aboukhadijeh from [socket.dev](https://socket.dev). They delve into the critical question – "Should you just `npm install` random code?" This thought-provoking discussion uncovers the risks behind the NPM packages we often take for granted.
+In the latest episode of [Syntax](https://syntax.fm), hosts Wes Bos and Scott Tolinski, are joined by a special guest, Feross Aboukhadijeh from [socket.dev](https://socket.dev). They delve into the critical question – "Should you just `npm install` random code?" This insightful discussion uncovers the risks behind the NPM packages we often take for granted.
 
 Feross shares the journey of creating Socket, which began nearly two years ago, and how it guides developers through the minefield of open-source packages. Disclosing the sobering reality that some packages could harbor malicious code designed to steal environment variables and API keys, Feross emphasizes the necessity for comprehensive security scanning.
 
