@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/82ad39bc-6241-4d10-83fa-d551fde05ca8
 Title: Can you trust open source NPM packages?
 Description: Millions of developers rely on open-source NPM packages every day. But can you trust them? That's what this episode of Syntax is about.
 Canonical: https://syntax.fm/show/705/is-running-random-code-from-npm-safe-with-feross-aboukhadijeh
