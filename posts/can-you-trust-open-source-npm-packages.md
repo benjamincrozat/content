@@ -1,8 +1,8 @@
 ---
 Image:
-Title: Can you trust them open source NPM packages?
+Title: Can you trust open source NPM packages?
 Description: Millions of developers rely on open-source NPM packages every day. But can you trust them? That's what this episode of Syntax is about.
-Canonical: 
+Canonical: https://syntax.fm/show/705/is-running-random-code-from-npm-safe-with-feross-aboukhadijeh
 Audio:
 Published at: 2023-12-16
 Modified at:
