@@ -6,7 +6,7 @@ Canonical:
 Audio:
 Published at: 2023-02-25
 Modified at: 
-Categories: laravel
+Categories: podcasts, laravel
 ---
 
 ## Introduction
