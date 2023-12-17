@@ -11,7 +11,9 @@ Categories: tailwind-css
 
 ## Introduction to the sticky hover problem on mobile
 
-A common issue encountered is the "sticky hover" problem on mobile devices. This occurs when elements styled with hover effects in CSS retain these styles after being tapped, until the user interacts with another element. This behavior, which differs from how hover effects traditionally work on desktops with a mouse, can lead to a less intuitive user experience.
+A common issue encountered is the "sticky hover" problem on mobile devices. This occurs when elements styled with hover effects in CSS retain these styles after being tapped, until the user interacts with another element.
+
+This behavior, which differs from how hover effects traditionally work on desktops with a mouse, can lead to a less intuitive user experience.
 
 ## How Tailwind CSS fixes this problem
 
