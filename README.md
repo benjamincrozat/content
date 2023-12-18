@@ -7,7 +7,7 @@ I'm thrilled you're considering contributing to my blog. My aim is to streamline
 ### How it goes
 
 1. You PR your article (ideally following the guidelines below). Use one of mine as a template.
-2. I review yours and give you feedback.
+2. I review yours and give you feedback (I can also reject the article for various reasons).
 3. I eventually approve it and it's automatically published on my blog under **your name** (your information will automatically be picked up from GitHub's API).
 
 ### Guidelines
