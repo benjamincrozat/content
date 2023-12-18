@@ -1,5 +1,3 @@
-![](https://github.com/benjamincrozat/content/assets/3613731/26942732-2ab2-42ee-8983-abec7c2fe1a4)
-
 # Content Repository for Benjamin Crozat's Blog
 
 ## Guest posting
