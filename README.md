@@ -25,8 +25,8 @@ I'm thrilled you're considering contributing to my blog. My aim is to streamline
 Success on my blog didn't happen overnight. It's been a journey of consistent writing and patience. Here are some tips to make your article SEO-friendly:
 
 1. **Section It Out:** People skim. It's a fact. Break your article into sections for easy navigation. My auto-generated table of contents will help readers jump to what interests them. And it also helps Google's algorithm understand your content.
-2. **Keyword Consistency:** Once you've chosen a keyword, weave it naturally into your section titles and content. But don't force it. If it doesn't fit, let it go.
-3. **Selling Smart:** Want to boost sales? Start by picking a potent keyword. High search volume and strong intent are your friends here. Remember, there are three types of search intents: informational, navigational, and commercial. Aim for commercial intent to hit those ready to spend. The other ones will barely convert. Here's a great guide: [Search Intent in SEO: What It Is & How to Optimize for It](https://ahrefs.com/blog/search-intent/)
+2. **Selling Smart:** Want to boost sales? Start by picking a potent keyword. High search volume and strong intent are your friends here. Remember, there are three types of search intents: informational, navigational, and commercial. Aim for commercial intent to hit those ready to spend. The other ones will barely convert. Here's a great guide: [Search Intent in SEO: What It Is & How to Optimize for It](https://ahrefs.com/blog/search-intent/)
+3. **Keyword Consistency:** Once you've chosen a keyword, weave it naturally into your section titles and content. But don't force it. If it doesn't fit, let it go.
 
 #### ChatGPT: Use It Without Moderation If You Want
 
