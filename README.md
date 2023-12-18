@@ -4,7 +4,7 @@
 
 ## Guest posting
 
-I'm thrilled you're considering contributing to my blog. My aim is to streamline the process for both of us, ensuring your post gets approved swiftly and minimizes my editing workload. Let's dive in!
+I'm thrilled you're considering contributing to my blog. My aim is to streamline the process for both of us, ensuring your post gets approved swiftly and minimizes my editing workload. Let's dive in! **(And remember, if you still have questions after, please ask me so I can improve this document.)**
 
 ### How it goes
 
