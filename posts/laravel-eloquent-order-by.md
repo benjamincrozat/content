@@ -11,7 +11,7 @@ Categories: laravel
 
 ## The basics of orderBy()
 
-Before we dive deep, let's understand the foundation:
+Before we dive deep, let's understand the foundation of the `orderBy()` method:
 
 ```php
 $users = User::query()
@@ -19,12 +19,24 @@ $users = User::query()
     ->get();
 ```
 
-In this snippet, we're using Laravel Eloquent to fetch users from their table and ordering them in descending order by their names.
+In this snippet, we're using Laravel Eloquent to fetch users from their table and ordering them in descending order by their names thanks to the `orderBy()` method.
 
-Parameters:
-
+Its parameters are:
 - **The column's name**.
 - **The order direction**: Either `asc` (the default value) for ascending or `desc` for descending.
+
+## The orderByDesc() method
+
+If you want to sort your results in descending order, you can also use the `orderByDesc()` method, which is a shortcut for `orderBy('column', 'desc')`:
+
+```php
+$users = User::query()
+    ->orderBy('name', 'desc') // [tl! --]
+    ->orderByDesc('name') // [tl! ++]
+    ->get();
+```
+
+It's all in the details! 👌
 
 ## Multi-column sorting using orderBy()
 
@@ -39,7 +51,7 @@ $users = User::query()
 
 This way, Eloquent sorts users by their names first. If two or more users have the same name, it then sorts those users by their email in ascending order.
 
-I actually learned that after years of SQL and Laravel experience. 😅
+I actually learned that only after years of SQL and Laravel experience. 😅
 
 ## Getting fancy with orderByRaw()
 
@@ -53,7 +65,7 @@ $orders = User::query()
 
 This advanced method lets you sort the results based on the difference between the `updated_at` and `created_at` timestamps. Handy, right?
 
-## Use reorder() to unorder what's been ordered
+## Use reorder() to unorder what's already been ordered
 
 If you need to undo the ordering of a query you are building based on some condition, you can use the `reorder()` method:
 
