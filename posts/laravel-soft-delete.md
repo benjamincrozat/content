@@ -9,17 +9,15 @@ Modified at: 2022-12-20
 Categories: laravel
 ---
 
-## Introduction to soft deletes
+## What are soft deletes?
 
-**A soft delete is the action of marking a model as deleted without really deleting it from the database.**
+**Soft deletes allows developers to mark models as deleted without deleting them from the database.**
 
 Imagine a `deleted_at` column in your database containing the date where your entry has been deleted.
 
-## The benefits of soft deletes
+Their main benefit is that you don't loose data anymore. You will always be able to restore it.
 
-**The main benefit of soft deletes is that you don't loose data anymore. You will always be able to restore it.**
-
-You could also set up a scheduled task to clean up old soft deleted models given enough time passed. (Once they're definitely deleted, you will be able to rely on your backups.)
+Obviously, there is a mechanism to help you clean up old soft deleted models that I'll show you later.
 
 ## How to set up soft deletes
 
@@ -62,7 +60,7 @@ class Post extends Model
 }
 ```
 
-## How to perform a soft delete
+## How to perform a soft delete and check for it
 
 To soft delete in Laravel, you don't have to change your habits. Use your model's `delete()` method just like before. The only difference will be that Laravel will add the current date and time inside the `deleted_at` column.
 
@@ -70,9 +68,7 @@ To soft delete in Laravel, you don't have to change your habits. Use your model'
 $post->delete();
 ```
 
-## How to check if a model has been soft deleted
-
-To check if a model has been soft deleted, use the `trashed()` method.
+And if you want to check if a model has been soft deleted, I recommend the `trashed()` method instead of manually checking the `deleted_at` column.
 
 ```php
 if ($post->trashed()) {
