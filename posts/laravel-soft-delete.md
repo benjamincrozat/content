@@ -5,7 +5,7 @@ Description: A soft delete in Laravel allows you to prevent mistakes by not remo
 Canonical: 
 Audio:
 Published at: 2022-11-23
-Modified at: 2022-12-20
+Modified at: 2023-12-21
 Categories: laravel
 ---
 
