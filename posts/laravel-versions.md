@@ -39,7 +39,7 @@ For posterity, though, here's a list of every LTS version of Laravel:
 The currently supported Laravel versions are:
 
 - **Laravel 10**:
-    - Laravel 10 is the current version of the framework  it's regularly updated with new features.
+    - Laravel 10 is the current version of the framework and it's regularly updated with new features.
     - Once Laravel 11 is released, it will receive bug fixes until August 7, 2024, and security fixes until February 7, 2025.
 
 - **Laravel 9**:
