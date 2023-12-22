@@ -92,13 +92,13 @@ PHP 8.4 introduced a new parser option to properly handle these large XML docume
 
 Learn more: [PHP RFC: XML_OPTION_PARSE_HUGE](https://wiki.php.net/rfc/xml_option_parse_huge)
 
-### New multibyte trimming functions in PHP
+### New multibyte trimming functions in PHP 8.4
 
-The PHP mbstring extension now includes three new functions: `mb_trim()`, `mb_ltrim()`, and `mb_rtrim()`. This addition makes it easier to trim strings with multibyte characters, improving upon the previous workaround of using regex with `preg_replace()`.
+PHP 8.4's mbstring extension now includes three new functions: `mb_trim()`, `mb_ltrim()`, and `mb_rtrim()`. This addition makes it easier to trim strings with multibyte characters, improving upon the previous workaround of using regex with `preg_replace()`.
 
 The new functions handle whitespace and other characters in a multibyte safe way. The default behavior removes a predefined set of characters which includes various types of space characters, including some that are not typically covered by `\s` in regular expressions.
 
-Here are the functions and their default behaviors:
+Here are the functions in PHP 8.4 and their default behaviors:
 
 - `mb_trim($string, $characters)`: Trims characters from both ends of a string.
 - `mb_ltrim($string, $characters)`: Trims characters from the beginning (left side) of a string.
