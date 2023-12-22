@@ -1,11 +1,11 @@
 ---
 Image:
-Title: X Tailwind CSS best practices, tips, and tricks for 2024
-Description: 
-Canonical: 
+Title: 6 Tailwind CSS best practices, tips, and tricks for 2024
+Description: Tailwind CSS is a beloved CSS framework that has been my go-to since 2018. Let me share my knowledge and insights coming from years of experience.
+Canonical:
 Audio:
-Published at: 
-Modified at: 
+Published at: 2023-12-22
+Modified at:
 Categories: tailwind-css
 ---
 
