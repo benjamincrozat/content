@@ -9,7 +9,7 @@ Modified at: 2023-10-17
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to Laravel best practices
 
 For most Laravel projects, the best practices can be summarized as two points:
 - Stick to the defaults;
@@ -17,11 +17,11 @@ For most Laravel projects, the best practices can be summarized as two points:
 
 Whether you are running Laravel 10, 9 or 8, let's see in details how I can help you improve any codebase with tons of tips and tricks.
 
-By the way, I wrote articles on [architecture best practices](https://benjamincrozat.com/laravel-architecture-best-practices#introduction), [RESTful APIs best practices](laravel-restful-api-best-practices), [security best practices](https://benjamincrozat.com/laravel-security-best-practices), and [testing best practices](/laravel-testing-best-practices) containing even more best practices that you will want to check out.
+By the way, I wrote articles on [architecture best practices](https://benjamincrozat.com/laravel-architecture-best-practices#introduction), [RESTful APIs best practices](laravel-restful-api-best-practices), [security best practices](https://benjamincrozat.com/laravel-security-best-practices), and [testing best practices](/laravel-testing-best-practices) containing even more best practices, tips, and tricks that you will want to check out.
 
 **If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
 
-## Laravel best practices
+## Laravel best practices, tips, and tricks
 
 ### Keep Laravel up to date
 
@@ -120,9 +120,9 @@ Custom requests can also be used for [authorization](https://laravel.com/docs/va
 
 Sometimes, despite following all the best practices, your controllers become too big.
 
-Laravel provides a way to help you fix this: [Single Action Controllers](https://laravel.com/docs/controllers#single-action-controllers).
+So here's a great tip: Laravel provides a way to create [Single Action Controllers](https://laravel.com/docs/controllers#single-action-controllers).
 
-Instead of containing multiple actions, like Resource Controllers, Single Action Controllers contain just one.
+Instead of containing multiple actions (index, create, store, show, etc.), like Resource Controllers, Single Action Controllers contain just one.
 
 To create one, use the `php artisan make:controller ShowPostController --invokable` command.
 
@@ -389,7 +389,7 @@ Let's use the most straightforward example possible: you have a contact form. Se
 
 What if you could delay this until the user receives your server's response?
 
-That's precisely what [`dispatchAfterResponse()`](https://laravel.com/docs/queues#dispatching-after-the-response-is-sent-to-browser) does:
+That's precisely what [`dispatchAfterResponse()`](https://laravel.com/docs/queues#dispatching-after-the-response-is-sent-to-browser) does and this is one of my favorite tips:
 
 ```php
 SendContactEmail::dispatchAfterResponse($input);
@@ -516,7 +516,7 @@ $mock
 
 ### Prevent stray HTTP requests to identify slow tests
 
-If you want to make sure that all HTTP requests made during your tests are fake, you can use the `Http::preventStrayRequests()` method from the HTTP Facade.
+Here's a great tip if you want to make sure that all HTTP requests made during your tests are fake, you can use the `Http::preventStrayRequests()` method from the HTTP Facade.
 
 It will cause an exception to be thrown if any HTTP requests that do not have a corresponding fake response is executed.
 
