@@ -91,3 +91,19 @@ Conflicting modifications in libxml2 version 2.7.0 unintentionally disrupted lar
 PHP 8.4 introduced a new parser option to properly handle these large XML documents and prevent the parsing error, making it possible for developers to parse large XML documents effectively, without needing complex workarounds.
 
 Learn more: [PHP RFC: XML_OPTION_PARSE_HUGE](https://wiki.php.net/rfc/xml_option_parse_huge)
+
+### New multibyte trimming functions in PHP
+
+The PHP mbstring extension now includes three new functions: `mb_trim()`, `mb_ltrim()`, and `mb_rtrim()`. This addition makes it easier to trim strings with multibyte characters, improving upon the previous workaround of using regex with `preg_replace()`.
+
+The new functions handle whitespace and other characters in a multibyte safe way. The default behavior removes a predefined set of characters which includes various types of space characters, including some that are not typically covered by `\s` in regular expressions.
+
+Here are the functions and their default behaviors:
+
+- `mb_trim($string, $characters)`: Trims characters from both ends of a string.
+- `mb_ltrim($string, $characters)`: Trims characters from the beginning (left side) of a string.
+- `mb_rtrim($string, $characters)`: Trims characters from the end (right side) of a string.
+
+By default, `$characters` includes a variety of whitespace characters, but not all possible Unicode characters due to storage and compatibility concerns.
+
+Learn more: [PHP RFC: Multibyte for trim function mb_trim, mb_ltrim and mb_rtrim](https://wiki.php.net/rfc/mb_trim)
