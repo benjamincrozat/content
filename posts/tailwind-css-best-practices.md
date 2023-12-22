@@ -24,16 +24,17 @@ For example, if you want to add a new color, you can extend the default theme to
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        brand: '#abc123',
-      },
-      fontFamily: {
-        handwriting: ['Some hanwriting font'],
-      }
+    theme: {
+        extend: {
+            colors: {
+                brand: '#abc123',
+            },
+
+            fontFamily: {
+                handwriting: ['Some hanwriting font'],
+            }
+        }
     }
-  }
 }
 ```
 
