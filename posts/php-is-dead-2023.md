@@ -5,35 +5,35 @@ Description: Whether PHP is dead is a matter of numbers, not opinions. I will pr
 Canonical: 
 Audio:
 Published at: 2023-06-18
-Modified at: 2023-09-19
+Modified at: 2023-12-22
 Categories: php
 ---
 
 ## Introduction
 
-We are now in a new era of computing thanks to artificial intelligence and still, the rise of [PHP](https://www.php.net) cannot be stopped.
+We are now in a new era of computing thanks to artificial intelligence and still, the rise of [PHP](https://www.php.net), a 28-year-old scripting language, cannot be stopped.
 
 Stable ecosystems without constant drama and forks each time there's a disagreement are needed now more than ever to build the next generation of successful products.
 
-Let me review the numbers from September 2023 together and see if PHP is dead or not.
+Let me review the numbers from December 2023 together and see if PHP is dead or not.
 
 ## PHP is dead. Or is it?
 
 **In 2023, PHP is the most used and popular server-side scripting language, with a 77.4% market share overall. 🚀**
 
-| Language     | Usage in September 2023 |
-| ------------ | --------------------- |
-| PHP          | 76.9%                 |
-| ASP.NET      | 6.8%                  |
-| Ruby         | 5.5%                  |
-| Java         | 4.7%                  |
-| JavaScript   | 3.0%                  |
-| Scala        | 2.9%                  |
-| Static files | 1.8%                  |
-| Python       | 1.4%                  |
-| ColdFusion   | 0.3%                  |
-| Perl         | 0.2%                  |
-| Erlang       | 0.1%                  |
+| Language     | Usage in December 2023 |
+| ------------ | ---------------------- |
+| PHP          | 76.7%                  |
+| ASP.NET      | 6.6%                   |
+| Ruby         | 5.6%                   |
+| Java         | 4.7%                   |
+| JavaScript   | 3.1%                   |
+| Scala        | 3.0%                   |
+| Static files | 1.8%                   |
+| Python       | 1.4%                   |
+| ColdFusion   | 0.3%                   |
+| Perl         | 0.1%                   |
+| Erlang       | 0.1%                   |
 
 Source: [W3Tech](https://w3techs.com/technologies/overview/programming_language).
 
@@ -47,24 +47,30 @@ At the time I'm writing these lines, [IT Jobs Watch](https://www.itjobswatch.co.
 
 Here's a table showing **the changes in ranking over a span of one year** for keywords related to PHP:
 
-| Description | Change |
-| ----------- | ------ |
-| PHP | -75 |
-| Object-Oriented PHP (OO PHP) | +280 |
-| PHP Developer | +60 |
-| PHP Web Developer | +384 |
-| Laravel PHP Framework | -88 |
-| LAMP Stack | +72 |
-| Senior PHP Developer | +316 |
-| PHP Laravel Developer | +358 |
-| Full Stack PHP Developer | +317 |
-| LAPP Stack | +329 |
-| PHP Software Engineer | +342 |
-| Mid-Level PHP Developer | +409 |
-| Junior PHP Developer | +371 |
-| PHP Symfony Developer |  +420 |
-| PHP MySQL Developer | +391 |
-| PHPUnit | +285 |
+| Description                                          | Change          |
+| ---------------------------------------------------- | --------------- |
+| PHP                                                  | -16             |
+| OO PHP                                               | +297            |
+| PHP Developer                                        | +59             |
+| PHP Web Developer                                    | +289            |
+| Laravel PHP Framework                                | +71             |
+| LAMP Stack (Linux, Apache, MySQL/MariaDB, PHP/Perl/Python) | +145      |
+| PHP Laravel Developer                                | +329            |
+| Senior PHP Developer                                 | +270            |
+| Full Stack PHP Developer                             | +287            |
+| PHP Software Engineer                                | +322            |
+| LAPP Stack (Linux, Apache, PostgreSQL, PHP/Perl/Python) | +328         |
+| Lead PHP Developer                                   | +313            |
+| LEMP Stack (Linux, Nginx, MySQL/MariaDB, PHP/Perl/Python) | +289       |
+| Junior PHP Developer                                 | +337            |
+| PHP WordPress Developer                              | +339            |
+| Cake Software Foundation CakePHP (PHP Framework)     | +333            |
+| PHP Symfony Developer                                | +347            |
+| Mid-Level PHP Developer                              | +348            |
+| PHP Joomla! Developer                                | +351            |
+| PHPUnit                                              | +296            |
+| PhD                                                  | -70             |
+
 
 Many of these keywords rank higher compared to a year ago. Not bad for a dead language!
 
@@ -78,14 +84,14 @@ WordPress requires at least PHP 7.4 to be installed. And since it's the most use
 
 I find it funny to see some antique websites still up and running thanks to PHP 4 et 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
 
-| PHP Version | Usage in September 2023 |
+| PHP Version | Usage in December 2023 |
 | ----------- | ----------------------- |
-| 7           | 63.2%                   |
-| 5           | 19.4%                   |
-| 8           | 17.2%                   |
+| 7           | 60.1%                   |
+| 8           | 21.9%                   |
+| 5           | 17.7%                   |
 | 4           | 0.2%                    |
 
-(I'm pretty sure that PHP 4 is less dead than some of the other languages listed above.)
+(I'm pretty sure that PHP 4 is more alive than some of the other languages listed above.)
 
 Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
@@ -119,7 +125,7 @@ Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
 Demand for content management systems (CMS) is exploding. Businesses always need to reach new customers through SEO, and a good CMS that allows you to write all the content you need for an effective SEO campaign is mandatory. This trend will likely never fade.
 
-| CMS            | Market share in September 2023 |
+| CMS            | Market share in December 2023 |
 | -------------- | ---------------------------- |
 | WordPress      | 63.0%                        |
 | Shopify        | 5.9%                         |
@@ -138,7 +144,7 @@ Source: [W3Tech](https://w3techs.com/technologies/overview/content_management).
 
 ## WordPress marketshare in 2023
 
-**WordPress has more than 63% market share across the web.**
+**WordPress has more than 62.9% market share across the all the websites whose CMS we know.**
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
@@ -154,11 +160,11 @@ Version 6 of WordPress is a significant update with a new default theme and bloc
 
 This alone probably drives people to update to the latest major version and, therefore, the latest PHP version.
 
-| WordPress Version | Usage in September 2023 |
+| WordPress Version | Usage in December 2023 |
 | ----------------- | ----------------------- |
-| 6                 | 74.1%                   |
-| 5                 | 20.1%                   |
-| 4                 | 5.4%                    |
+| 6                 | 77.2%                   |
+| 5                 | 17.4%                   |
+| 4                 | 5.0%                    |
 | 3                 | 0.4%                    |
 | 2                 | <0.1%                   |
 
@@ -168,29 +174,38 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 The most popular WordPress plugins also deserve to be mentioned there. Some of them can even be considered as mini-CMSes.
 
-| Plugin                   | Percentage            |
-|--------------------------|-----------------------|
-| Elementor                | 20.9%                 |
-| WooCommerce              | 20.6%                 |
-| WPBakery                 | 12.3%                 |
-| Beaver Builder           | 1.1%                  |
-| 10Web Photo Gallery      | 0.8%                  |
-| NextGEN Gallery          | 0.6%                  |
-| bbPress                  | 0.4%                  |
-| BuddyPress               | 0.3%                  |
-| Oxygen                   | 0.3%                  |
-| FooGallery               | 0.2%                  |
-| LearnPress               | 0.2%                  |
-| Robo Gallery             | 0.1%                  |
-| Visual Composer          | 0.1%                  |
-| wpForo                   | 0.1%                  |
-| Modula Albums            | 0.1%                  |
-| Supsystic Photo Gallery  | 0.1%                  |
-| Envira Gallery           | 0.1%                  |
-| SeedProd            	   | 0.1%                  |
-| PageLayer                | 0.1%                  |
-| Asgaros Forum            | 0.1%                  |
-| Other                    | 42.0%                 |
+| Plugin                               | Percentage |
+|--------------------------------------|------------|
+| Elementor                            | 22.1%      |
+| WooCommerce                          | 20.9%      |
+| WPBakery                             | 11.8%      |
+| Beaver Builder                       | 1.1%       |
+| 10Web Photo Gallery                  | 0.8%       |
+| NextGEN Gallery                      | 0.6%       |
+| bbPress                              | 0.4%       |
+| Oxygen                               | 0.4%       |
+| BuddyPress                           | 0.3%       |
+| FooGallery                           | 0.2%       |
+| LearnPress                           | 0.2%       |
+| Robo Gallery                         | 0.1%       |
+| Visual Composer                      | 0.1%       |
+| Modula Albums                        | 0.1%       |
+| wpForo                               | 0.1%       |
+| Supsystic Photo Gallery              | 0.1%       |
+| Envira Gallery                       | 0.1%       |
+| PageLayer                            | 0.1%       |
+| SeedProd                             | 0.1%       |
+| Asgaros Forum                        | 0.1%       |
+| eCommerce Product Catalog            | less than 0.1% |
+| AnsPress                             | less than 0.1% |
+| Grand Flagallery                     | less than 0.1% |
+| WP EasyCart                          | less than 0.1% |
+| WP eCommerce                         | less than 0.1% |
+| Carrot                               | less than 0.1% |
+| Simple:Press                         | less than 0.1% |
+| MarketPress                          | less than 0.1% |
+| Pressbooks                           | less than 0.1% |
+| Other                                | 40.4%      |
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
@@ -202,13 +217,13 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 **The most popular PHP framework on Packagist in 2023 is Laravel.** And for good reasons. Laravel is a state-of-the-art framework that makes it easy to create world-class web applications in no time thanks to its rich feature set and extensive ecosystem.
 
-| Package | Downloads in September 2023 |
+| Package | Downloads in December 2023 |
 | ------- | ---------------------- |
-| [laravel/framework](https://packagist.org/packages/laravel/framework/stats) | 276,501,939 |
-| [symfony/symfony](https://packagist.org/packages/symfony/symfony/stats) | 76,521,430 |
-| [cakephp/cakephp](https://packagist.org/packages/cakephp/cakephp/stats) | 11,749,821 |
-| [codeigniter/framework](https://packagist.org/packages/codeigniter/framework/stats) | 1,536,933 |
-| [codeigniter4/framework](https://packagist.org/packages/codeigniter4/framework/stats) | 1,470,932 |
+| [laravel/framework](https://packagist.org/packages/laravel/framework/stats) | 296,789,784 |
+| [symfony/symfony](https://packagist.org/packages/symfony/symfony/stats) | 77,979,578 |
+| [cakephp/cakephp](https://packagist.org/packages/cakephp/cakephp/stats) | 12,307,368 |
+| [codeigniter/framework](https://packagist.org/packages/codeigniter/framework/stats) | 1,603,007 |
+| [codeigniter4/framework](https://packagist.org/packages/codeigniter4/framework/stats) | 1,661,351 |
 
 ### Compare the ranking of Laravel and other PHP frameworks on GitHub
 
@@ -216,12 +231,12 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 It's surprising to watch Laravel's steady growth over the years and other frameworks stagnate, even [Symfony](https://symfony.com). Of course, a framework's success is hardly measurable using the amount of stars it gets on GitHub.
 
-| Repository | Stars in September 2023 |
+| Repository | Stars in December 2023 |
 | ----------------------------------------------------- | ----- |
-| [laravel/laravel](https://github.com/laravel/laravel) | 74,7K |
-| [symfony/symfony](https://github.com/symfony/symfony) | 28,7K |
-| [bcit-ci/codeigniter](https://github.com/bcit-ci/CodeIgniter) | 18,2K |
-| [cakephp/cakephp](https://github.com/cakephp/cakephp) | 8,6K |
+| [laravel/laravel](https://github.com/laravel/laravel) | 75,5K |
+| [symfony/symfony](https://github.com/symfony/symfony) | 28,9K |
+| [bcit-ci/codeigniter](https://github.com/bcit-ci/CodeIgniter) | 18,3K |
+| [cakephp/cakephp](https://github.com/cakephp/cakephp) | 8,7K |
 
 So, is PHP dead? Obviously not. The popularity of this language is hardly debatable. Its ecosystem is flourishing thanks to WordPress and frameworks like Laravel and Symfony. Also, a new major version is released every year.
 
