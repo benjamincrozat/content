@@ -43,9 +43,9 @@ By leveraging the configuration file properly, tons of classes and their variant
 
 [Learn more](https://tailwindcss.com/docs/theme) on the official documentation.
 
-### Use Visual Studio Code plugins to work more efficiently with Tailwind CSS
+## Use Visual Studio Code plugins to work more efficiently with Tailwind CSS
 
-#### Tailwind CSS IntelliSense
+### Tailwind CSS IntelliSense
 
 Tailwind CSS IntelliSense is an official plugin made by Tailwind Labs that helps every developer work more efficiently with the framework by adding features like autocomplete, syntax highlighting, and linting.
 
@@ -53,7 +53,7 @@ A must-have!
 
 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) on the Visual Studio Code marketplace.
 
-#### Inline Fold
+### Inline Fold
 
 If you feel overwhelmed by the amount of classes in your HTML, you might want to collapse the `class` attribute for improved clarity.
 
@@ -61,7 +61,7 @@ Inline Fold is a plugin for Visual Studio Code that solves this problem really w
 
 [Inline Fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold) on the Visual Studio Code marketplace.
 
-### Use line breaks
+## Use line breaks
 
 Let's say you have a button that looks like this:
 
@@ -83,7 +83,7 @@ One easy trick to make more readable is to break the `class` attribute to multip
 </button>
 ```
 
-### Extract to a component
+## Extract to a component
 
 Extracting your button to a component (Blade, React, Vue, or whatever you like) will drastically clean up your files.
 
@@ -107,7 +107,7 @@ Here's a Blade template file using a `button` component containing the same code
 </html>
 ```
 
-### Don't extract to a parent class. Leverage editor and language features instead.
+## Don't extract to a parent class. Leverage editor and language features instead.
 
 Extracting a bunch of Tailwind CSS classes to a parent class is tempting.
 
