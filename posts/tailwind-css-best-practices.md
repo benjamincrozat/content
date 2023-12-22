@@ -9,8 +9,6 @@ Modified at:
 Categories: tailwind-css
 ---
 
-# X Tailwind CSS best practices, tips, and tricks for 2024
-
 ## Introduction to Tailwind CSS best practices, tips, and tricks
 
 Tailwind CSS is my go-to CSS framework since 2018. I didn't use anything else since then, seriously!
