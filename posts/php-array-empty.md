@@ -25,7 +25,7 @@ $bar = ['Foo', 'Bar', 'Baz'];
 var_dump(empty($bar));
 ```
 
-This is my favorite way of doing it. But there are other methods such as:
+This is my favorite way of doing it. But there are other methods to check if an array is empty such as:
 
 1. Using the [`count()`](https://www.php.net/count) (or [`sizeof()`](https://www.php.net/sizeof)) function to count the number of elements in the array and check if it's equal to zero. `count()` can even count the numbers of entries inside a multidimensional array.
 2. Using the not operator (`!`). If the array does hold any value, the not operator will return `true`.
@@ -60,7 +60,7 @@ $count = count($array, COUNT_RECURSIVE);
 if ($count > 0) {
     // The array is not empty.
 } else {
-	  // The array is empty.
+    // The array is empty.
 }
 ```
 
