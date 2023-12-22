@@ -9,7 +9,7 @@ Modified at:
 Categories: ai, gpt
 ---
 
-## Introduction to how to use GPT-4 Turbo
+## Introduction to how to get and use GPT-4 Turbo
 
 GPT-4 Turbo is a famous Artificial Intelligence Large Language Model made by [OpenAI](https://openai.com). Its capabilities are groundbreaking and changed the world forever.
 
@@ -82,7 +82,7 @@ Learn more on [the official API reference for Chat Completions](https://platform
 
 ![An example response of GPT-4 Turbo through its API.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/232/conversions/0LKIoKIsnuo72KHWk8MgD3vmSXG3Ir-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjEuNDYuMTFAMngucG5n--medium.jpg)
 
-## How to enable the JSON mode with GPT-4 Turbo
+## How to enable the JSON mode with the GPT-4 Turbo API
 
 You can now force GPT-4 Turbo (as well as GPT-3.5 Turbo) to output JSON consistently thanks to the new [JSON mode](https://platform.openai.com/docs/guides/text-generation/json-mode).
 
