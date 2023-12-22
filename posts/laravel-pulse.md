@@ -21,7 +21,7 @@ I still can't believe such a tool can be free, but there we are!
 
 ## Laravel Pulse release date
 
-**Laravel Pulse was released on December 1, 2023 as a beta version.** 
+**Laravel Pulse was released on December 1, 2023 as a beta version.** I still have no idea when the first stable version will be released, but I will update this article as soon as I know.
 
 ## The features Laravel Pulse offers
 
