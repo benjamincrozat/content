@@ -5,7 +5,7 @@ Description: PHP 8.4 is expected to drop on November 21, 2024. Let's review the 
 Canonical: 
 Audio:
 Published at: 2023-09-01
-Modified at: 2023-11-03
+Modified at: 2023-12-22
 Categories: php
 ---
 
@@ -45,6 +45,30 @@ PHP 8.4 will be released on November 21, 2024, according to the [preparation tas
 If you want to learn more about how to install PHP on your Mac, I wrote something for you: [PHP for Mac: get started fast using Laravel Valet](https://benjamincrozat.com/install-php-mac-laravel-valet)
 
 ## What's new in PHP 8.4
+
+### PHP 8.4's DOM extension now supports HTML5
+
+PHP 8.4's DOM extension just got a big upgrade with support for HTML5 parsing and serialization. This means no more headaches when dealing with HTML5 specific tags or embedding HTML in your JavaScript.
+
+Just use the new `DOM\HTMLDocument` class and your HTML5 content will be handled correctly, keeping up with the modern web standards.
+
+Here's how you create an HTML document from a string:
+
+```php
+use DOM\HTMLDocument;
+
+$htmlDocument = HTMLDocument::createFromString('<!DOCTYPE html><html><body>Hello, HTML5!</body></html>');
+```
+
+Or from a file:
+
+```php
+use DOM\HTMLDocument;
+
+$htmlDocument = HTMLDocument::createFromFile('path/to/your/file.html');
+```
+
+Learn more: [PHP RFC: DOM HTML5 parsing and serialization](https://wiki.php.net/rfc/domdocument_html5_parser)
 
 ### PHP 8.4 comes with an increased bcrypt cost by default
 
