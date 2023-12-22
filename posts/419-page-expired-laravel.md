@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/40/Data_security_24_bxnctl.png
 Title: Here's how to fix the "419 Page Expired" error in Laravel
-Description: Here's how to fix one of the most frequent issues in Laravel and learn exactly why it happens.
+Description: Here's how to fix the "419 Page Expired" error in Laravel and learn exactly why it happens.
 Canonical: 
 Audio: https://cdn.benjamincrozat.com/419-page-expired-laravel.mp3
 Published at: 2023-06-26
@@ -9,7 +9,7 @@ Modified at: 2023-08-12
 Categories: laravel, security
 ---
 
-## Introduction
+## Introduction to the "419 Page Expired" error in Laravel
 
 Have you ever encountered the "Page Expired" error with the HTTP code 419 in your Laravel applications?
 
@@ -32,9 +32,9 @@ Errors like the "419 Page Expired" occur when the CSRF token is mismatched. This
 
 Learn more on Laravel's documentation about [Cross-Site Request Forgery protection](https://laravel.com/docs/10.x/csrf).
 
-## Disable CSRF protection on some pages
+## Disable CSRF protection on some pages to avoid the "419 Page Expired" error
 
-Occasionally, you may want to disable CSRF protection on some pages and kill those 419 HTTP codes.
+Occasionally, you may want to disable CSRF protection on some pages and kill those "419 Page Expired" errors.
 
 Instead of removing the middleware from the kernel, specify which pages you want to exclude from being protected.
 
