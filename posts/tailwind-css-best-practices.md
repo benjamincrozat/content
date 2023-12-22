@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/c8acd112-e05e-4d07-8f66-71a5a5d8f078
 Title: 6 Tailwind CSS best practices, tips, and tricks for 2024
 Description: Tailwind CSS is a beloved CSS framework that has been my go-to since 2018. Let me share my knowledge and insights coming from years of experience.
 Canonical:
