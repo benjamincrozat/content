@@ -11,7 +11,7 @@ Categories: php
 
 ## The fastest way to check if an array is empty
 
-To ensure that a PHP array is empty, use the [`empty()`](https://www.php.net/empty) function:
+**To check whether a PHP array is empty or not, use the [`empty()`](https://www.php.net/empty) function:**
 
 ```php
 $foo = [];
