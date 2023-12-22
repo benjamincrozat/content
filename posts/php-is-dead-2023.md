@@ -213,7 +213,7 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 **The PHP framework having the most market share in 2023 is [Laravel](https://laravel.com)**, according to the numbers below. [Laravel](https://laravel.com) is by far the favorite on [Packagist](https://packagist.org) and [GitHub](https://github.com).
 
-### Laravel VS other PHP frameworks on Packagist
+### Laravel VS. other PHP frameworks on Packagist (CakePHP, CodeIgniter, and Symfony)
 
 **The most popular PHP framework on Packagist in 2023 is Laravel.** And for good reasons. Laravel is a state-of-the-art framework that makes it easy to create world-class web applications in no time thanks to its rich feature set and extensive ecosystem.
 
@@ -225,7 +225,7 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 | [codeigniter/framework](https://packagist.org/packages/codeigniter/framework/stats) | 1,603,007 |
 | [codeigniter4/framework](https://packagist.org/packages/codeigniter4/framework/stats) | 1,661,351 |
 
-### Compare the ranking of Laravel and other PHP frameworks on GitHub
+### Compare the ranking of Laravel and other PHP frameworks on GitHub (CakePHP, CodeIgniter, and Symfony)
 
 **The most popular PHP framework on GitHub in 2023 is Laravel.**
 
