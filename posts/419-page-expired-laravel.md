@@ -19,15 +19,15 @@ Let's see what it means and how to fix it.
 
 ##  Why "419 Page Expired" happens and how to fix it
 
-In your Laravel 8, 9 or 10 applications, whatever the version you are running is, you have likely used the `@csrf` directive in your forms.
+In your Laravel 8, 9, or 10 applications, whatever the version you are running is, you have likely used the `@csrf` directive in your forms.
 
-This directive generates a hidden input field containing a CSRF token automatically included when submitting the form.
+This directive generates a hidden input field containing a CSRF token, which is included when submitting the form.
 
 This token confirms that the form is being submitted from your application and not by a third party.
 
 Errors like the "419 Page Expired" occur when the CSRF token is mismatched. This can happen for various reasons:
 
-- Sometimes, you just let the page open for too long and the token expires, which is a good thing. Just click the refresh button in your browser and re-send the form.
+- Sometimes, you open the page too long, and the token expires, which is good. Just click the refresh button in your browser and re-send the form.
 - Or it might be because you forgot to include the `@csrf` directive in your form. This is problematic because, by default, Laravel expects the CSRF token to be present thanks to the `VerifyCsrfToken` middleware that filters the requests.
 
 Learn more on Laravel's documentation about [Cross-Site Request Forgery protection](https://laravel.com/docs/10.x/csrf).
@@ -58,4 +58,3 @@ class VerifyCsrfToken extends Middleware
     ];
 }
 ```
-
