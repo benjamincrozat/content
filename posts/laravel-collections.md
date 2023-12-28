@@ -11,7 +11,7 @@ Categories: laravel
 
 ## Introduction
 
-[Laravel Collections](https://laravel.com/docs/collections) are a powerful tool for manipulating arrays. They wrap native PHP array functions, create new useful ones and provide a fluent interface for working with them.
+[Laravel Collections](https://laravel.com/docs/collections) are a powerful tool for manipulating arrays. They wrap native PHP array functions, create new useful ones, and provide a fluent interface for working with them.
 
 They're also immutable, meaning they do not modify the original array. Instead, they return a new collection with the changes applied.
 
