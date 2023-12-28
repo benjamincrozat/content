@@ -5,11 +5,11 @@ Description: Laravel Collections make arrays more powerful and convenient to wor
 Canonical: 
 Audio:
 Published at: 2022-11-09
-Modified at: 2023-08-27
+Modified at: 2023-12-28
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to Laravel Collections
 
 [Laravel Collections](https://laravel.com/docs/collections) are a powerful tool for manipulating arrays. They wrap native PHP array functions, create new useful ones, and provide a fluent interface for working with them.
 
@@ -351,6 +351,43 @@ if ($collection->isNotEmpty()) { // [tl! ++]
 ```
 
 It reads like English, and code like this makes everyone's life easier.
+
+### Use when() or unless() to conditionnally transform a collection
+
+Laravel Collections use the `Illuminate\Support\Traits\Conditionable` trait. This trait includes two methods that can literally change everything: `when()` and `unless()`.
+
+This trait is actually used by many other classes in the framework such as:
+- `Illuminate\Database\Eloquent\Builder`
+- `Illuminate\Database\Eloquent\Factories\Factory`
+- `Illuminate\Log\Logger`
+- `Illuminate\Http\Client\PendingRequest`
+- `Illuminate\Support\Carbon`
+
+The Conditionable trait offers a way to conditionally apply logic using a fluent API instead of using traditional `if` statements. One common use case is when working with Eloquent's query builder. For example, instead of writing:
+
+```php
+$query = Model::query();
+
+if ($something) {
+    $query->where('something', true);
+} else {
+    $query->where('something_else', true);
+}
+
+$models = $query->get();
+```
+
+You could opt for a more fluent approach, using the `when()` method.
+
+```php
+$models = Model::query()->when(
+    $something,
+    fn ($query) => $query->where('something', true),
+    fn ($query) => $query->where('something_else', true),
+)->get();
+```
+
+Obviously, this is just a matter of preference and you'll do fine if you decide it's not for you.
 
 ### Extend collections with your own methods
 
