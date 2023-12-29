@@ -13,7 +13,7 @@ Categories: laravel, packages
 
 If you never heard about it, [Laravel Pulse](https://pulse.laravel.com) is a free and open source package for the [Laravel framework](https://laravel.com) that helps developers monitor various aspects of their web applications in real-time. You can learn more about it here: [Laravel Pulse: monitor your apps for free](/laravel-pulse)
 
-Laravel Pulse also allows developers to create what's called a "custom card," which will help populate the dashboard with useful data for your application. Let's talk about the best ones I found in alphabetical order.
+Laravel Pulse also allows developers to create what's called a "custom card," which will help populate the dashboard with useful data for your application. Let's talk about the best ones I've found in alphabetical order.
 
 ## The best custom cards for Laravel Pulse
 
