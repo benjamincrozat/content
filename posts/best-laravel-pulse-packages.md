@@ -9,7 +9,7 @@ Modified at:
 Categories: laravel, packages
 ---
 
-## Introduction to Laravel Pulse
+## Laravel Pulse in a nutshell
 
 If you never heard about it, [Laravel Pulse](https://pulse.laravel.com) is a free and open source package for the [Laravel framework](https://laravel.com) that helps developers monitor various aspects of their web applications in real-time. You can learn more about it here: [Laravel Pulse: monitor your apps for free](/laravel-pulse)
 
