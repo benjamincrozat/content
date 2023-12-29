@@ -17,6 +17,10 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 
 ## The best custom cards for Laravel Pulse
 
+### 404-monitor, to track dead links
+
+[geowrgetudor/404-monitor](https://github.com/geowrgetudor/404-monitor), made by George Tudor, is a card that will track dead links on your website. It's a great way to make sure your users don't repeatedly end up on non-existing page ever again.
+
 ### laravel-pulse-schedule, which lists all your scheduled tasks
 
 [hosmelq/laravel-pulse-schedule](https://github.com/hosmelq/laravel-pulse-schedule), made by Hosmel Quintana, is a card that will list all your scheduled tasks as well as the next time they will run.
@@ -28,3 +32,7 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 ### pulse-outdated, to keep an eye on outdated Composer dependencies
 
 [aaronfrancis/pulse-outdated](https://github.com/aaronfrancis/pulse-outdated), made by Aaron D. Francis, is a card that will help you keep an eye on outdated Composer dependencies. It's a great way to prevent potential security issues by making sure you're always using the latest versions of your dependencies.
+
+### vulnerable, to track vulnerable Composer dependencies
+
+[hungthai1401/vulnerable](https://github.com/hungthai1401/vulnerable), made by Thai Nguyen Hung, is a card that will track vulnerable Composer dependencies and entice you to update them.
