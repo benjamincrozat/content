@@ -33,6 +33,10 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 
 [aaronfrancis/pulse-outdated](https://github.com/aaronfrancis/pulse-outdated), made by Aaron D. Francis, is a card that will help you keep an eye on outdated Composer dependencies. It's a great way to prevent potential security issues by making sure you're always using the latest versions of your dependencies.
 
+### pulse-php-fpm, to monitor your PHP-FPM processes
+
+[maantje/pulse-php-fpm](https://github.com/maantje/pulse-php-fpm), made by Jamie Schouten, is a card that will monitor your PHP-FPM processes. It's a great way to make sure your PHP-FPM configuration is optimal to serve all your traffic.
+
 ### vulnerable, to track vulnerable Composer dependencies
 
 [hungthai1401/vulnerable](https://github.com/hungthai1401/vulnerable), made by Thai Nguyen Hung, is a card that will track vulnerable Composer dependencies and entice you to update them.
