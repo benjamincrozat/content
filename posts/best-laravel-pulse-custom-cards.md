@@ -17,7 +17,7 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 
 ## The best custom cards for Laravel Pulse
 
-### 404-monitor, to track dead links
+### 404-monitor, to track 404 not found errors and pinpoint dead links
 
 [geowrgetudor/404-monitor](https://github.com/geowrgetudor/404-monitor), made by George Tudor, is a card that will track dead links on your website. It's a great way to make sure your users don't repeatedly end up on non-existing page ever again.
 
