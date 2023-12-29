@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/b5374afd-d9e6-4bf8-8241-8b5f3358b539
 Title: The best custom cards for Laravel Pulse in 2024
 Description: A list of the best custom cards to supercharge your Laravel Pulse dashboard in 2024.
 Canonical: 
