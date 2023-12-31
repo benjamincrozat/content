@@ -101,6 +101,10 @@ class AuthServiceProvider extends ServiceProvider
 }
 ```
 
+## Install custom cards made by the community
+
+The Laravel community is already working on custom cards to make it even more useful. Here's the link to the article where I try to gather the best ones I've found: [The best custom cards for Laravel Pulse](/best-laravel-pulse-custom-cards)
+
 ## Contribute to Laravel Pulse
 
 Laravel Pulse's is free, open source, and is available through a GitHub repository at [laravel/pulse](https://github.com/laravel/pulse). You can send as many Pull Requests as you want for bug fixes and enhancements.
