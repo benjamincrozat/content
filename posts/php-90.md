@@ -31,7 +31,7 @@ This RFC, [Improve unserialize() error handling](https://wiki.php.net/rfc/improv
 
 **In PHP 9.0, these will be upgraded to an `UnserializationFailedException`.**
 
-This will allow developers to stop setting a custom error handler to modernize how unserialization errors are handled.
+This will allow developers to stop using a custom error handler and get a behavior more consistent with other parts of the language.
 
 ```php
 // PHP 8.3: "Warning: unserialize(): Error at offset 0 of 3 bytes"
