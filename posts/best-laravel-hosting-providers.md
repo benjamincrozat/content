@@ -100,6 +100,8 @@ Although I'm not using [Vultr](/recommends/vultr) anymore, I appreciated its pow
 
 To conclude, it was a great experience using [Vultr](/recommends/vultr) with Laravel Forge, as it offered flexibility, performance, and ease of management essential for any developer.
 
+[Try Vultr](/recommends/vultr)
+
 ### HostGator
 
 ![HostGator](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/108/conversions/CleanShot_2023-05-09_at_13.45.53_2x_hivzzy-medium.jpg)
@@ -111,6 +113,8 @@ The full root access allowed me to install any necessary software and the unrest
 While I've moved on to other solutions that better fit my current needs, I can definitely vouch for the reliability and performance of [HostGator](/recommends/hostgator)'s VPS hosting, especially when used alongside Ploi or Laravel Forge.
 
 It's a reliable solution for developers looking to deploy and manage their applications with ease.
+
+[Try HostGator](/recommends/hostgator)
 
 ### Kinsta
 
@@ -129,6 +133,8 @@ Their simple and good looking dashboard provides an easy way to deploy and manag
 The support staff is made up of experts, developers, and engineers that provide fast and multilingual support.
 
 [Kinsta](/recommends/kinsta) offers resource-based pricing, so you only pay for what you use, making it simple, transparent, and predictable (but quite costly, though).
+
+[Try Kinsta](/recommends/kinsta)
 
 ## What makes a good cloud hosting provider?
 
