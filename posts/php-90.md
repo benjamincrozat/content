@@ -25,7 +25,7 @@ To this day, no work has been started on PHP 9.0, so you won't even be able to p
 
 ## New features and changes planned for PHP 9.0
 
-### PHP 9.0 throws an exception on unserilization errors
+### PHP 9.0 throws an exception on unserialization errors
 
 This RFC, [Improve unserialize() error handling](https://wiki.php.net/rfc/improve_unserialize_error_handling), which has been partially implemented in PHP 8.3, upgrades unserialization errors from `E_NOTICE` to `E_WARNING`.
 
