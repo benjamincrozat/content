@@ -19,26 +19,12 @@ That being said, figuring out how to set up your bundling process while using a 
 
 Therefore, I decided to write this short guide that walks you through adding Vue.js to your Laravel project.
 
-## Install Vue.js in Laravel via NPM, Yarn, pnpm, or Bun
+## Install Vue.js in Laravel via NPM
 
 First, add Vue and the plugin that will enable a seemless integration with Vite (the default bundler used by Laravel).
 
-If you are using NPM:
-
 ```bash
 npm install vue @vitejs/plugin-vue
-```
-
-If you are using Yarn:
-
-```bash
-yarn add vue @vitejs/plugin-vue
-```
-
-Or if you are using Bun:
-
-```bash
-bun add vue @vitejs/plugin-vue
 ```
 
 ## Configure Vite for Vue.js in Laravel
@@ -149,22 +135,10 @@ Then, call it in the `div#app` we set up earlier:
 
 The only step left if to compile your code and preview the result in your browser.
 
-If you are using NPM, run the following command:
+Run the following command:
 
 ```bash
 npm run dev
-```
-
-If you are using Yarn:
-
-```bash
-yarn dev
-```
-
-Or if you are using Bun:
-
-```bash
-bun run dev
 ```
 
 That's all there is to it! Check your browser and it all should be working. 
