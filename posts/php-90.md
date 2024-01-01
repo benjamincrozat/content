@@ -5,7 +5,7 @@ Description: PHP 9.0 is still far in the future. We don't know a lot, but we hav
 Canonical: 
 Audio:
 Published at: 2023-11-03
-Modified at: 
+Modified at: 2024-01-01
 Categories: php
 ---
 
@@ -24,6 +24,20 @@ That being said, despite PHP 9.0 being planned, no work have been started yet an
 To this day, no work has been started on PHP 9.0, so you won't even be able to pull the latest code and compile it yourself.
 
 ## New features and changes planned for PHP 9.0
+
+### PHP 9.0 throws an exception on unserilization errors
+
+This RFC, [Improve unserialize() error handling](https://wiki.php.net/rfc/improve_unserialize_error_handling), which has been partially implemented in PHP 8.3, upgrades unserialization errors from `E_NOTICE` to `E_WARNING`.
+
+**In PHP 9.0, these will be upgraded to an `UnserializationFailedException`.**
+
+This will allow developers to stop setting a custom error handler to modernize how unserialization errors are handled.
+
+```php
+// PHP 8.3: "Warning: unserialize(): Error at offset 0 of 3 bytes"
+// PHP 9.0: "Uncaught UnserializationFailedException: unserialize(): Error at offset 0 of 3 bytes"
+unserialize("foo");
+```
 
 ### Deprecated features from earlier PHP versions will be removed
 

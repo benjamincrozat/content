@@ -5,7 +5,7 @@ Description: PHP 8.3 was released on November 23, 2023, and as usual, you need t
 Canonical: 
 Audio:
 Published at: 2022-10-10
-Modified at: 2023-11-23
+Modified at: 2024-01-01
 Categories: php
 ---
 
@@ -113,13 +113,13 @@ How neat is that? 👌
 
 Learn more: [PHP RFC: Marking overridden methods (#[\Override])](https://wiki.php.net/rfc/marking_overriden_methods)
 
-### json_validate()
+### Validate JSON with PHP 8.3 using the new json_validate() function
 
-This RFC proposes the addition of a new function called `json_validate()`. The purpose of this function is to check if a given string is a valid JSON object.
+PHP 8.3 introduces a new [`json_validate()`](https://www.php.net/json_validate) function. Its purpose is to check if a given string is a valid JSON object.
 
 Currently, most PHP programmers use the [`json_decode()`](https://www.php.net/json_decode) function for this task, but this uses memory and processing power that isn't required for just checking validity.
 
-The proposed `json_validate()` function will use the existing JSON parser in PHP, ensuring that it will be fully compatible with `json_decode()`.
+`json_validate()` will use the existing JSON parser in PHP, ensuring that it will be fully compatible with `json_decode()`.
 
 The function accepts a JSON string, a maximum nesting depth and flags, and returns a Boolean value indicating whether the string represents valid JSON.
 
