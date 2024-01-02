@@ -69,6 +69,8 @@ Yes, you can download ChatGPT's applications for free on [iOS](https://apps.appl
 
 You can also use [ChatGPT on any platform via its website](https://chat.openai.com).
 
+And by the way, I created [a free tool that generates YouTube video transcripts](/nobinge) and helps you summarize them using ChatGPT. If you needed inspiration, that's a good starting point to leverage GPT's power!
+
 ![ChatGPT in the browser.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/224/conversions/nRxwWxKl8qb8yIGyEqPdIqeoxRFfAd-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMTYuNDQuMTRAMngucG5n--medium.jpg)
 
 ## Could GPT dominate humanity at some point?
