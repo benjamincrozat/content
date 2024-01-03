@@ -11,7 +11,7 @@ Categories: laravel
 
 ## Introduction to how Laravel works
 
-**[Laravel](https://laravel.com) is a framework based on PHP, which enables developers to build web applications faster.** It provides us with tons of pre-written PHP code that lets us focus on our goals instead of reinventing the wheel.
+**[Laravel](https://laravel.com) is a framework based on PHP, which enables developers to build web applications faster.** It provides us with tons of pre-written [PHP](https://www.php.net) code that lets us focus on our goals instead of reinventing the wheel.
 
 But do you know exactly how it works?
 
@@ -45,7 +45,7 @@ After running the necessary code and getting the required data, Laravel creates 
 
 ### Step 7: PHP says goodbye
 
-PHP packages this response and gives it back to the web server.
+PHP wrap up this response and gives it back to the web server.
 
 ### Step 8: Back to the user
 
