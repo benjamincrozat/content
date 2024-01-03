@@ -5,7 +5,7 @@ Description: Discover my step by step and simple explanation of how Laravel make
 Canonical: 
 Audio:
 Published at: 2023-10-31
-Modified at: 
+Modified at: 2024-01-04
 Categories: laravel
 ---
 
@@ -25,19 +25,19 @@ Imagine someone clicks a link to a page on your website. That's a request, and i
 
 ### Step 2: The web server takes over
 
-The request first arrives at the web server, like Nginx. This is basically the doorman of your website, deciding where each request should go.
+The request first arrives at the web server, like [Nginx](https://www.nginx.com) or [Apache](https://httpd.apache.org). This is basically the doorman of your website, deciding where each request should go.
 
 ### Step 3: Passing the baton to PHP
 
-If the web server sees that this request needs some dynamic action (like fetching data from a database), it hands the request to PHP. PHP is the scripting language that's going to execute server-side logic.
+If the web server sees that this request needs some dynamic action (like fetching blog posts from a database and displaying them), it hands the request to PHP. PHP is the scripting language that's going to execute server-side logic.
 
 ### Step 4: Laravel enters the scene
 
-Here comes Laravel, which picks up the request and uses its "routes" to determine what code should execute.
+Since we need PHP to fulfil this request, we also need Laravel. As an user of this framework, your code takes advantage of it. Therefore, Laravel picks up the request and uses its "routes" to determine what code should run. For instance, if the /blog path is requested, it would be a shame to run the code for the forum or whatever, right? 😅
 
 ### Step 5: Business logic & data manipulation
 
-Your Laravel application will then do whatever it needs to do—fetch data, perform calculations, you name it. This is the “business logic” part, and it's often where your PHP coding skills come into play.
+Your Laravel application will then do whatever you instructed it to do—fetch data, perform calculations, you name it. This is the “business logic” part, and it's often where your PHP coding skills come into play.
 
 ### Step 6: Crafting a response
 
@@ -51,11 +51,13 @@ PHP packages this response and gives it back to the web server.
 
 Nginx receives the prepared response from PHP and forwards it to the user's browser. Voilà! The page loads, and the user sees the content.
 
+Now, you saw when and what role Laravel plays in this process!
+
 ## What problems does Laravel solve?
 
 Imagine you're building a house. You could create every single element like nails, screws, and wooden planks—from scratch, but that would be incredibly time-consuming. Instead, you'd go to a hardware store and buy these items or it'd take forever to complete your project, right?
 
-Laravel is like that hardware store but for web developers. Here are some of the components it provides:
+Laravel is like that hardware store but for web developers. And even better: it's free! Here are some of the components it provides:
 1. **[Routing](https://laravel.com/docs/routing)**, which is the system that redirects the user to the relevant code. If a user goes to *https://example.com/contact*, we don't want to run the code for the forum. 😅
 2. **[Authentication](https://laravel.com/docs/authentication)**, offering you secure user-tied features.
 3. **[Eloquent](https://laravel.com/docs/eloquent), a database interactions layer**, making it easier to do any operation on your databases by writing PHP code instead of SQL.
