@@ -37,7 +37,7 @@ So my recommendation is to think for the long run before choosing.
 
 | Cloud hosting provider | Lowest monthly price | Is managed |
 | ---------------------- | -------------------- | ---------- |
-| [Ploi](https://benjamincrozat.com/recommends/ploi) | Free | Yes |
+| [Ploi](https://benjamincrozat.com/recommends/ploi) | Free (+ hosting) | Yes |
 | [Vultr](https://benjamincrozat.com/recommends/vultr) | $2.50 | No |
 | [DigitalOcean](https://benjamincrozat.com/recommends/digitalocean) | $4 | No |
 | [Kinsta](https://benjamincrozat.com/recommends/kinsta) | $7 | No |
