@@ -50,7 +50,7 @@ So my recommendation is to think for the long run before choosing.
 
 ![DigitalOcean](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/106/conversions/www.digitalocean.com__sctfdo-medium.jpg)
 
-[DigitalOcean](/recommends/digitalocean) has been a fantastic companion for me when combined with [Ploi](/recommends/ploi) or Laravel Forge.
+[DigitalOcean](/recommends/digitalocean) has been a fantastic companion for me when combined with [Ploi](/recommends/ploi) or [Laravel Forge](/laravel-forge).
 
 Its droplets, which are essentially Linux-based virtual machines, are full-featured and can be set up in seconds.
 
