@@ -11,7 +11,7 @@ Categories: tailwind-css
 
 ## Introduction to Tailwind CSS best practices, tips, and tricks
 
-Tailwind CSS is my go-to CSS framework since 2018. I didn't use anything else since then, seriously!
+[Tailwind CSS](/tailwind-css) is my go-to CSS framework since 2018. I didn't use anything else since then, seriously!
 
 Therefore, I think I'm in the right position to teach a thing or two to people who also fell in love with it.
 
