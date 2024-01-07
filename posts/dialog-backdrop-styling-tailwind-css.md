@@ -6,7 +6,7 @@ Canonical:
 Audio:
 Published at: 2023-11-02
 Modified at: 
-Categories: tailwind-css
+Categories: css, tailwind-css
 ---
 
 ## How to style the backdrop of the HTML dialog element using Tailwind CSS
