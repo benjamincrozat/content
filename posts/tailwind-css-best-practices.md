@@ -6,7 +6,7 @@ Canonical:
 Audio:
 Published at: 2023-12-22
 Modified at:
-Categories: tailwind-css
+Categories: css, tailwind-css
 ---
 
 ## Introduction to Tailwind CSS best practices, tips, and tricks
