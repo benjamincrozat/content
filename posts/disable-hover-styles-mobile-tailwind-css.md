@@ -6,7 +6,7 @@ Canonical:
 Audio:
 Published at: 2023-12-17
 Modified at: 
-Categories: tailwind-css
+Categories: css, tailwind-css
 ---
 
 ## Introduction to the sticky hover problem on mobile
