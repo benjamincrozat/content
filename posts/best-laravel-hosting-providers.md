@@ -3,6 +3,7 @@ Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,
 Title: The 6 best Laravel cloud hosting providers for 2024
 Description: Make an informed decision for your Laravel applications thanks to my list of the best Laravel cloud hosting providers.
 Canonical:
+Commercial: true
 Audio:
 Published at: 2024-01-01
 Modified at:
