@@ -185,89 +185,11 @@ Tailwind CSS has an [official forum](https://github.com/tailwindlabs/tailwindcss
 
 ## Best practices to keep everything organized
 
-There are multiple ways to make sure Tailwind CSS doesn't screw with your organization.
+A tool is always as good as the person using it and Tailwind CSS is no exception.
 
-### Use Visual Studio Code plugins
+Things won't magically fall into place because you are using it. A good level of profeciency comes with time and experience.
 
-#### Tailwind CSS IntelliSense
-
-![Tailwind CSS IntelliSense](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/123/conversions/Screenshot_2023-01-17_at_10.42.26_fcf6au-medium.jpg)
-
-Tailwind CSS IntelliSense is a plugin that helps every developer work more efficiently with the framework by adding features like autocomplete, syntax highlighting, and linting.
-
-A must-have!
-
-[Tailwind CSS IntelliSense on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-
-#### Inline Fold
-
-![Inline Fold](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/124/conversions/Screenshot_2023-01-17_at_10.33.28_jo6umj-medium.jpg)
-
-If you feel overwhelmed by the amount of classes in your HTML, you might want to collapse the `class` attribute for improved clarity.
-
-Inline Fold is a plugin for Visual Studio Code that solves this problem really well.
-
-[Inline Fold on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold)
-
-### Use line breaks
-
-Let's say you have a button that looks like this:
-
-```html
-<button class="bg-gradient-to-r from-indigo-300 dark:from-indigo-500 to-indigo-400 dark:to-indigo-600 font-semibold px-4 sm:px-6 py-2 rounded shadow-lg text-sm text-white w-full">
-    Book me
-</button>
-```
-
-One easy trick to make more readable is to break the `class` attribute to multiple lines:
-
-```html
-<button
-	class="bg-gradient-to-r from-indigo-300 dark:from-indigo-500
-    to-indigo-400 dark:to-indigo-600 font-semibold px-4 sm:px-6
-    py-2 rounded shadow-lg text-sm text-white w-full"
->
-    Book me
-</button>
-```
-
-### Extract to a component
-
-Extracting your button to a component (Blade, React, Vue or whatever you like) will drastically clean up your main files.
-
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		…
-	</head>
-	<body>
-		…
-		
-		<x-button>
-			Book me
-		</x-button>
-		
-		…
-	</body>
-</html>
-```
-
-### Extract to a parent class using the @apply directive
-
-Another simple solution is to extract the classes to a parent class.
-
-Tailwind CSS provides an `@apply` directive that inlines any default or custom style you might have defined.
-
-```css
-.btn {
-    @apply bg-gradient-to-r from-indigo-300 dark:from-indigo-500
-    to-indigo-400 dark:to-indigo-600 font-semibold px-4 sm:px-6
-    py-2 rounded shadow-lg text-sm text-white w-full
-}
-```
-
-If you need to use `!important`, put it at the end of the line.
+But you can get a head start by reading my article about [Tailwind CSS best practices](/tailwind-css-best-practices).
 
 ## Do more with the official plugins
 
