@@ -30,7 +30,7 @@ For the others, don't worry, you'll get it once you see it!
 First, install Laravel Volt using the following command:
 
 ```bash
-composer require livewire/volt:^1.0@beta
+composer require livewire/volt
 ```
 
 *Note that Volt is under the `livewire` namespace, not `laravel`.*
