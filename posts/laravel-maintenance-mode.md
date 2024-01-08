@@ -11,7 +11,7 @@ Categories: laravel
 
 ## Enabling Laravel's maintenance mode
 
-When it’s time to update your app or perform some maintenance, switching to maintenance mode is super handy. And yet, I always forget it exists. 🤦‍♂️
+When it’s time to update your app or change a few things on the server, switching to maintenance mode is super handy. And yet, I always forget it exists. 🤦‍♂️
 
 The maintenance mode is like putting a "Be right back!" sign on your website. To get this going in Laravel, it's as simple as running a command:
 
