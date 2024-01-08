@@ -47,7 +47,7 @@ php artisan down --with-secret
 
 Just remember, keep that secret simple and URL-friendly.
 
-## Pre-rendering the Laravel's maintenance view
+## Pre-rendering Laravel's maintenance view
 
 Want to avoid errors when users hit your site mid-update? You can pre-render a maintenance view that shows up instantly:
 
