@@ -5,7 +5,7 @@ Description: A list of the best custom cards to supercharge your Laravel Pulse d
 Canonical: 
 Audio:
 Published at: 2023-12-29
-Modified at:  2024-01-08
+Modified at: 2024-01-08
 Categories: laravel, packages
 ---
 
