@@ -23,7 +23,7 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 
 ### ohdear-pulse, for uptime, cron tasks (aka scheduled tasks), and broken links monitoring
 
-[ohdearapp/ohdear-pulse](https://github.com/ohdearapp/ohdear-pulse) was made by the great folks at Spatie. This card plugs itself into their awesome service, [Oh Dear](/recommends/oh-dear) (that I actually use for this blog), which provides valuable insights about uptime and links monitoring. We all know how crucial these metrics are on a business-critical application.
+[ohdearapp/ohdear-pulse](https://github.com/ohdearapp/ohdear-pulse) was made by the great folks at Spatie. This card plugs itself into their awesome service, [Oh Dear](/recommends/oh-dear) (that I actually use for this blog), which provides valuable insights about uptime, cron tasks (aka scheduled tasks), and broken links. We all know how crucial these metrics are on a business-critical application.
 
 ### pulse-database, for real-time insights about your databases
 
