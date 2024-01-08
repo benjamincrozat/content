@@ -17,13 +17,13 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 
 ## The best custom cards for Laravel Pulse
 
-### 404-monitor, to track 404 not found errors and pinpoint dead links
-
-[geowrgetudor/404-monitor](https://github.com/geowrgetudor/404-monitor), made by George Tudor, is a card that will track dead links on your website. It's a great way to make sure your users don't repeatedly end up on non-existing page ever again.
-
 ### laravel-pulse-schedule, which lists all your scheduled tasks
 
 [hosmelq/laravel-pulse-schedule](https://github.com/hosmelq/laravel-pulse-schedule), made by Hosmel Quintana, is a card that will list all your scheduled tasks as well as the next time they will run.
+
+### ohdear-pulse, for uptime, cron tasks (aka scheduled tasks), and broken links monitoring
+
+[ohdearapp/ohdear-pulse](https://github.com/ohdearapp/ohdear-pulse) was made by the great folks at Spatie. This card plugs itself into their awesome service, [Oh Dear](/recommends/oh-dear) (that I actually use for this blog), which provides valuable insights about uptime and links monitoring. We all know how crucial these metrics are on a business-critical application.
 
 ### pulse-database, for real-time insights about your databases
 
@@ -40,3 +40,7 @@ Laravel Pulse also allows developers to create what's called a "custom card," wh
 ### vulnerable, to track vulnerable Composer dependencies
 
 [hungthai1401/vulnerable](https://github.com/hungthai1401/vulnerable), made by Thai Nguyen Hung, is a card that will track vulnerable Composer dependencies and entice you to update them.
+
+### 404-monitor, to track 404 not found errors and pinpoint dead links
+
+[geowrgetudor/404-monitor](https://github.com/geowrgetudor/404-monitor), made by George Tudor, is a card that will track dead links on your website. It's a great way to make sure your users don't repeatedly end up on non-existing page ever again.
