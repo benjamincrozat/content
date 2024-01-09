@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/236/3uQ5UwlJq7FRqjcvekGdAqOi65gT17-metaZ3B0LTQtdHVyYm8ucG5n-.png
-Title: How to use GPT-4 Turbo's API, step by step
+Title: How to access and use GPT-4 Turbo's API, step by step
 Description: Get started with GPT-4 Turbo's API in no time thanks to my handy step-by-step guide.
 Canonical: 
 Audio:
