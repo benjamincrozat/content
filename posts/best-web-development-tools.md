@@ -22,7 +22,7 @@ As a seasoned web developer with over ten years of experience, I've gathered an 
 
 Many of the tools I listed below offer discounts. Here's a list for developers in a hurry. 😅
 
-- DigitalOcean (cloud hosting provider): [Get $200 worth of credit for free](/recommends/digitalocean).
+- [DigitalOcean](/recommends/digitalocean) (cloud hosting provider): **Get $200 worth of credit for free.**
 - [Fathom Analytics](https://benjamincrozat.com/recommends/fathom-analytics) (GDPR-compliant analytics tool): Sign up and **get $10 off** your first invoice.
 - [Setapp](https://benjamincrozat.com/recommends/setapp) (the Netflix of apps): Sign up, subscribe, and we both **get a free month**.
 - [Wincher](/recommends/wincher) (a SEO monitoring tool): Use the promo code *WELCOME30* for **30% off your first invoice**.
