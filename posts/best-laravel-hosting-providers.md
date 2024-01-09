@@ -7,7 +7,7 @@ Commercial: true
 Audio:
 Published at: 2024-01-01
 Modified at:
-Categories: tools, web-hosting
+Categories: laravel, tools, web-hosting
 ---
 
 ## Introduction to Laravel hosting
@@ -16,11 +16,11 @@ The internet is full of people ready to use your Laravel applications.
 
 Whether you are a company, a fresh new startup, a freelancer, or a young developer, choosing the right Laravel cloud hosting provider to fully leverage the framework's capabilities is crucial.
 
-Let me help you!
+If you are in a hurry, here's my recommendation: **[DigitalOcean](/recommends/digitalocean) (which provides the VPS) combined with [Ploi](/recommends/ploi) (which manages the VPS) is my favorite combo** and that's what I use for this very blog.
 
 ## Available discounts
 
-Before you start, know that there are great discounts and bonuses available for some of the providers I recommend in this article:
+Before you continue, know that there are great discounts and bonuses available for some of the providers I recommend in this article:
 - [DigitalOcean](/recommends/digitalocean): Get **$200 worth of credit for free**.
 - [Ploi](/recommends/ploi): test it for as long as you want with their **free plan**.
 - [Vultr](/recommends/vultr): Get **$100 worth of credit for free**.
