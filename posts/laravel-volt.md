@@ -45,18 +45,18 @@ This will create *VoltServiceProvider.php* in *app/Providers* and register it in
 
 ## How to create a basic newsletter component
 
-To create a component, use the `volt:make` command:
+To create a component, use the `make:volt` command:
 
 ```bash
-php artisan volt:make Newsletter 
+php artisan make:volt Newsletter 
 ```
 
 This will spawn a new file in *./resources/views/livewire/newsletter.blade.php*.
 
-Before we continue, did you know that you can also create tests simultaneously? Just pass the `--test` option. You can even ensure it's a Pest test with the additional `--pest` option.
+Before we continue, did you know that you can also create tests simultaneously? Just pass the `--test` option. You can even ensure it's a Pest test by passing `--pest` instead of `--test`.
 
 ```bash
-php artisan volt:make Newsletter --test --pest
+php artisan make:volt Newsletter --test --pest
 ```
 
 A test will be created in *tests/Feature/Livewire/NewsletterTest.php*. But we'll get back to it shortly!
