@@ -1,5 +1,5 @@
 ---
-Image: 
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/51920738-2d51-4fe5-9437-44e5360959e7
 Title: How to force re-render a Livewire component
 Description: Stop pulling your hair. Here's a solution to your reactivity issues in Livewire.
 Canonical: 
