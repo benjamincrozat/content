@@ -69,3 +69,5 @@ Here’s the parent component’s Blade view:
     @endforeach
 </div>
 ```
+
+You can also call it form Alpine.js using `$wire.$render`.
