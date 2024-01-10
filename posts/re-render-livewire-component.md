@@ -11,7 +11,7 @@ Categories: laravel, livewire
 
 ## Introduction to re-renderings in Livewire
 
-Forcing components to re-render in Livewire is the secret for a better user experience. In my post about [Livewire best practices](/livewire-best-practices), I talk about how keeping lists in sync by defer their management to the top component. But sometimes, that’s just not enough and that where this article comes in handy.
+Forcing components to re-render in Livewire is the secret for a better user experience. Keeping lists in sync by defering their management to the top component is the easiest way to do it. But sometimes, that’s just not enough and that where this article comes in handy.
 
 ## Create an empty listener method
 
