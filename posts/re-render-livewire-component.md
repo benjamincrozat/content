@@ -37,7 +37,7 @@ class Item extends Component
 }
 ```
 
-And here’s your parent component’s class:
+And here’s your parent component’s class, using the `Livewire\Attributes\On` attribute to let Livewire know it's waiting for a given event:
 
 ```php
 namespace App\Livewire;
@@ -53,6 +53,8 @@ class Listing extends Component
     }
 }
 ```
+
+You can [learn more about listeners](https://livewire.laravel.com/docs/events#listening-for-events) in Livewire on the official documentation.
 
 ## Use the secret $render method
 
