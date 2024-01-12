@@ -56,7 +56,7 @@ class Listing extends Component
 
 You can [learn more about listeners](https://livewire.laravel.com/docs/events#listening-for-events) in Livewire on the official documentation.
 
-## Use the secret $render method
+## Use the secret $refresh method
 
 Alternatively, you can listen for the “created” we made up for this article right in DOM. It’s a matter of preference, because both methods will work and produce the exact same result.
 
