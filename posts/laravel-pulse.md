@@ -52,7 +52,13 @@ composer require laravel/pulse
 
 ## Set up Laravel Pulse
 
-To set up Laravel Pulse, you will need to ensure it has a database in which it can store the data it collects. You can do this by running the migrations (which you don't need to publish):
+To set up Laravel Pulse, you will need to ensure it has a database in which it can store the data it collects. You can do this by publishing the migrations:
+
+```bash
+php artisan vendor:publish --provider="Laravel\Pulse\PulseServiceProvider"
+```
+
+And running them:
 
 ```bash
 php artisan migrate
