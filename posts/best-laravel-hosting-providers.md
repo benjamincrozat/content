@@ -47,6 +47,22 @@ So my recommendation is to think for the long run before choosing.
 
 ## The best Laravel cloud hosting providers
 
+### Cloudways
+
+![Cloudways' landing page for Laravel developers.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/3bbf17b9-38e8-4581-9310-40229abb7fb8)
+
+[Cloudways](/recommends/cloudways) is a very good alternative to [Ploi](/recommends/ploi) or Laravel Forge. I really like this one. Unlike others, it's a fully managed solution. This means you don't have to worry about creating an account with a cloud provider.
+
+The particularity of Cloudways is that you will be able to tap into hardware from DigitalOcean, Amazon Web Services, and Google Cloud Platform all at once if you want to. Therefore, you can make sure to serve your users no matter where they are in the world (because the global availability from all providers is combined).
+
+And for the businesses that go all in on content marketing, they even offer a fully managed WordPress hosting solution (meaning they handle everything from security to workload thanks to Kubernetes) that autoscales depending on your traffic.
+
+There's not much to add about Cloudways. It's a good one and you should definitely give it a try.
+
+Oh, by the way, I managed to negociate a promo code for you. **Use "CROZAT" and get 10% for 3 months!** 👀
+
+[Try Cloudways](/recommends/cloudways)
+
 ### DigitalOcean
 
 ![DigitalOcean](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/106/conversions/www.digitalocean.com__sctfdo-medium.jpg)
@@ -71,27 +87,11 @@ Overall, combining [DigitalOcean](/recommends/digitalocean) with [Ploi](/recomme
 
 [![Ploi](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/193/conversions/DUqP0CeRV2vPCh3xT5F6oO9CwFpMO3-metaQ2xlYW5TaG90IDIwMjMtMTAtMTIgYXQgMDUuMDkuNDlAMngucG5n--medium.jpg)](/recommends/ploi)
 
-[Ploi](/recommends/ploi) is an alternative to Laravel Forge that drastically cut cost for the average person and small businesses. It's easy to use and in some areas, it even does better than Laravel Forge. They provide every feature any serious Laravel app needs: one-click server creation and provisionning, push to deploy, load balancing, free SSL certificates, etc.
+[Ploi](/recommends/ploi) is an alternative to Laravel Forge that drastically cut cost for the average person and small businesses. It's easy to use and in some areas, it even does better than Laravel Forge. They provide every feature any serious Laravel app needs: one-click server creation and provisionning, push to deploy, load balancing, free SSL certificates, etc. And all of this behind a very easy to use user interface. That's one big advantage over Cloudways for instance.
 
 Currently, Ploi is the service I use to manage the [DigitalOcean](/recommends/digitalocean) Droplet (VPS) of this blog. I don't have a lot of negative things to say about it, it just works!
 
 [Try Ploi](/recommends/ploi)
-
-### Cloudways
-
-![Cloudways' landing page for Laravel developers.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/3bbf17b9-38e8-4581-9310-40229abb7fb8)
-
-[Cloudways](/recommends/cloudways) is a decent alternative to [Ploi](/recommends/ploi) or Laravel Forge. I really like this one. Unlike others, it's a fully managed solution. This means you don't have to worry about creating an account with a cloud provider.
-
-The particularity of Cloudways is that you will be able to tap into hardware from DigitalOcean, Amazon Web Services, and Google Cloud Platform all at once if you want to. Therefore, you can make sure to serve your users no matter where they are in the world (because the global availability from all providers is combined).
-
-And for the businesses that go all in on content marketing, they even offer a fully managed WordPress hosting solution (meaning they handle everything from security and workload thanks to Kubernetes) that autoscales depending on your traffic.
-
-There's not much to add about Cloudways. It's a good one and you should definitely give it a try.
-
-Oh and by the way, I managed to negociate a promo code for you. **Use "CROZAT" and get 10% for 3 months!** 👀
-
-[Try Cloudways](/recommends/cloudways)
 
 ### Vultr
 
