@@ -71,9 +71,9 @@ Overall, combining [DigitalOcean](/recommends/digitalocean) with [Ploi](/recomme
 
 [![Ploi](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/193/conversions/DUqP0CeRV2vPCh3xT5F6oO9CwFpMO3-metaQ2xlYW5TaG90IDIwMjMtMTAtMTIgYXQgMDUuMDkuNDlAMngucG5n--medium.jpg)](/recommends/ploi)
 
-[Ploi](/recommends/ploi) is an alternative to Laravel Forge that drastically cut cost for the average person and small businesses. It's easy to use and in some areas, it even does better than Laravel Forge.
+[Ploi](/recommends/ploi) is an alternative to Laravel Forge that drastically cut cost for the average person and small businesses. It's easy to use and in some areas, it even does better than Laravel Forge. They provide every feature any serious Laravel app needs: one-click server creation and provisionning, push to deploy, load balancing, free SSL certificates, etc.
 
-Currently, Ploi is the service I use to manage the [DigitalOcean](/recommends/digitalocean) Droplet (VPS) of this blog. I don't have a lot of negative things to say about it. They have tons of features that make your life so convenient. I never needed their support yet, but I only heard good things about it so far.
+Currently, Ploi is the service I use to manage the [DigitalOcean](/recommends/digitalocean) Droplet (VPS) of this blog. I don't have a lot of negative things to say about it, it just works!
 
 [Try Ploi](/recommends/ploi)
 
