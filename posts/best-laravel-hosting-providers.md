@@ -114,7 +114,7 @@ The full root access allowed me to install any necessary software and the unrest
 
 While I've moved on to other solutions that better fit my current needs, I can definitely vouch for the reliability and performance of [HostGator](/recommends/hostgator)'s VPS hosting, especially when used alongside Ploi or Laravel Forge.
 
-It's really a reliable solution. And it's hard to not love their incredibly cute logo, don't you think?
+Go for it if you want, it's a reliable solution. And it's hard not to love their incredibly cute logo, don't you think?
 
 [Try HostGator](/recommends/hostgator)
 
