@@ -79,7 +79,7 @@ Currently, Ploi is the service I use to manage the [DigitalOcean](/recommends/di
 
 ### Cloudways
 
-![Cloudways](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/109/conversions/Screenshot_2022-11-01_at_21.03.04_yaljg2-medium.jpg)
+![Cloudways' landing page for Laravel developers.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/3bbf17b9-38e8-4581-9310-40229abb7fb8)
 
 [Cloudways](/recommends/cloudways) is a decent alternative to [Ploi](/recommends/ploi) or Laravel Forge. I really like this one. Unlike others, it's a fully managed solution. This means you don't have to worry about creating an account with a cloud provider.
 
