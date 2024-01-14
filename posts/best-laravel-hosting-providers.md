@@ -41,7 +41,6 @@ So my recommendation is to think for the long run before choosing.
 | [Ploi](https://benjamincrozat.com/recommends/ploi) | Free (+ hosting) | Yes |
 | [Vultr](https://benjamincrozat.com/recommends/vultr) | $2.50 | No |
 | [DigitalOcean](https://benjamincrozat.com/recommends/digitalocean) | $4 | No |
-| [Kinsta](https://benjamincrozat.com/recommends/kinsta) | $7 | No |
 | [Cloudways](https://benjamincrozat.com/recommends/cloudways) | $14 | Yes |
 | [HostGator](https://benjamincrozat.com/recommends/hostgator) | $34.99 | No |
 
@@ -118,26 +117,6 @@ While I've moved on to other solutions that better fit my current needs, I can d
 It's a reliable solution for developers looking to deploy and manage their applications with ease.
 
 [Try HostGator](/recommends/hostgator)
-
-### Kinsta
-
-![Kinsta](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/110/conversions/kinsta.com_application-hosting__otz1pu-medium.jpg)
-
-[Kinsta](/recommends/kinsta) is a Platform as a Service (PaaS) hosting provider that also is an alternative to [Ploi](/recommends/ploi) and Laravel Forge, and offers fast, secure, and scalable web application hosting.
-
-With over 55,000 developers and digital entrepreneurs, Kinsta offers 25 locations across five continents that offer the fastest Google C2 machines running on Google’s Premium Tier network.
-
-They provides a developer-focused feature set with support for popular languages and frameworks.
-
-[Kinsta](/recommends/kinsta) offers internal connections, dedicated databases, and a choice of data center locations for maximum speed.
-
-Their simple and good looking dashboard provides an easy way to deploy and manage apps, with unlimited users and support for developers by developers.
-
-The support staff is made up of experts, developers, and engineers that provide fast and multilingual support.
-
-[Kinsta](/recommends/kinsta) offers resource-based pricing, so you only pay for what you use, making it simple, transparent, and predictable (but quite costly, though).
-
-[Try Kinsta](/recommends/kinsta)
 
 ## What makes a good cloud hosting provider?
 
