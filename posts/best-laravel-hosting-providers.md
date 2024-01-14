@@ -23,8 +23,8 @@ If you are in a hurry, here's my recommendation: **[DigitalOcean](/recommends/di
 Before you continue, know that there are great discounts and bonuses available for some of the providers I recommend in this article:
 - [DigitalOcean](/recommends/digitalocean): Get **$200 worth of credit for free**.
 - [Ploi](/recommends/ploi): test it for as long as you want with their **free plan**.
-- [Vultr](/recommends/vultr): Get **$100 worth of credit for free**.
 - [Cloudways](/recommends/cloudways): use the *"CROZAT"* promo code for **10% off for 3 months**.
+- [Vultr](/recommends/vultr): Get **$100 worth of credit for free**.
 
 ## The best Laravel cloud hosting providers by price
 
