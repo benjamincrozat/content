@@ -97,15 +97,11 @@ Currently, Ploi is the service I use to manage the [DigitalOcean](/recommends/di
 
 ![Vultr](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/107/conversions/www.vultr.com__akl39r-medium.jpg)
 
-[Vultr](/recommends/vultr) is especially handy for developers as it allows instant deployment worldwide, offering a vast array of OS combinations and no long-term contracts.
+From what I can see at the time I'm writing this, [Vultr](/recommends/vultr) offers slightly more resources for a lesser price compared to DigitalOcean. And it's not because they're using cheaper hardware. Nope, they also offer premium AMD and Intel CPUs and NVMe SSDs for storage.
 
-This flexibility meant I could scale up and down on demand and only pay for what I used.
+Also, another big win is that Vultr offers 32 global locations, compared to 15 for DigitalOcean. So if your app serves a wordlwide audience, you can be assured that you will be able to spawn a server close to them and reduce latency.
 
-Also, the fact that it runs atop best-in-class AMD and Intel CPUs, with an optional upgrade to NVMe SSD, ensured I had incredible performance at an unbeatable price.
-
-Although I'm not using [Vultr](/recommends/vultr) anymore, I appreciated its powerful add-ons and user-friendly control panel and API that allowed me to spend more time coding and less time managing my infrastructure.
-
-To conclude, it was a great experience using [Vultr](/recommends/vultr) with Laravel Forge, as it offered flexibility, performance, and ease of management essential for any developer.
+Although I'm not using [Vultr](/recommends/vultr) anymore, I also appreciated its user-friendly control panel. It was a great experience using it with Laravel Forge, as it offered flexibility, performance, and ease of management essential for any developer who don't want to waste more time than necessary.
 
 [Try Vultr](/recommends/vultr)
 
