@@ -108,13 +108,13 @@ Although I'm not using [Vultr](/recommends/vultr) anymore, I also appreciated it
 
 ![HostGator](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/108/conversions/CleanShot_2023-05-09_at_13.45.53_2x_hivzzy-medium.jpg)
 
-The VPS hosting plans of [HostGator](/recommends/hostgator) are incredibly flexible and come with a full suite of features that developers, like myself, find very useful.
+The VPS hosting plans of [HostGator](/recommends/hostgator) are incredibly flexible and come with a full suite of features that developers, like myself, find very useful. Also, by default, they offer VPS hosting with way more resources than DigitalOcean and Vultr.
 
-The full root access allowed me to install any necessary software and the unrestricted access to create unlimited email addresses, databases, and FTP accounts made it a breeze to manage my projects. Plus, the weekly off-site backups can be life saving.
+The full root access allowed me to install any necessary software and the unrestricted access to create unlimited email addresses, databases, and FTP accounts made it a breeze to manage my projects. Plus, the weekly off-site backups can be life saving. (So if the datacenter where your VPS is burns down, your backups are safe!)
 
 While I've moved on to other solutions that better fit my current needs, I can definitely vouch for the reliability and performance of [HostGator](/recommends/hostgator)'s VPS hosting, especially when used alongside Ploi or Laravel Forge.
 
-It's a reliable solution for developers looking to deploy and manage their applications with ease.
+It's really a reliable solution. And it's hard to not love their incredibly cute logo, don't you think?
 
 [Try HostGator](/recommends/hostgator)
 
