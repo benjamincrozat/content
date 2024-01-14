@@ -75,11 +75,11 @@ This makes it incredibly easy and efficient to manage my cloud infrastructure as
 
 Additionally, the predictable monthly pricing and 99.99% uptime SLA give me peace of mind as I don’t have to worry about unexpected costs or downtime.
 
-With various options available, like Premium CPU-Optimized, Memory-Optimized, and Storage-Optimized droplets, I can choose the right plan based on my workload and the demands of the applications I'm working on. Plus, the free outbound data transfer, monitoring, and firewalls make it a cost-effective solution.
+They offer multiple hardware options like Premium CPU-Optimized, Memory-Optimized, and Storage-Optimized droplets. I can choose the right plan based on my workload and the demands of the applications I'm working on. Plus, the free outbound data transfer, monitoring, and firewalls make it a very cost-effective solution and I don't have to set this up myself (actually, I don't want to set this up, EVER, haha).
 
-Lastly, the team management feature has been invaluable for collaborating on projects while keeping everything secure. 
+And finnaly, the team management feature has been invaluable for collaborating on projects while keeping everything secure (clients just revoked my access once I was done).
 
-Overall, combining [DigitalOcean](/recommends/digitalocean) with [Ploi](/recommends/ploi) has streamlined my development workflow and allowed me to focus on writing code rather than managing infrastructure.
+There's not much to add about DigitalOcean. I've been a happy customer for around 10 years already.
 
 [Try DigitalOcean](/recommends/digitalocean)
 
