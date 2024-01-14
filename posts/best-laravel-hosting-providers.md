@@ -89,6 +89,8 @@ And for the businesses that go all in on content marketing, they even offer a fu
 
 There's not much to add about Cloudways. It's a good one and you should definitely give it a try.
 
+Oh and by the way, I managed to negociate a promo code for you. **Use "CROZAT" and get 10% for 3 months!** 👀
+
 [Try Cloudways](/recommends/cloudways)
 
 ### Vultr
