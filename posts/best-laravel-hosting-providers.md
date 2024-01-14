@@ -131,7 +131,7 @@ Go for it if you want, it's a reliable solution. And it's hard not to love their
 
 **While Laravel can totally be used on shared hosting with a few tricks, I can't recommend this kind of environment to run the framework.**
 
-My recommendation is that if you don’t want the hassle of managing a server, you can do just like me for this blog and use [DigitalOcean](/recommends/digitalocean) + [Ploi](/recommends/ploi), which combine the flexibility of virtual private servers and the simplicity of shared hosting.
+My recommendation is that if you don’t want the hassle of managing a server, you can do just use [Cloudways](/recommends/cloudways), which is a fully managed solution that fits Laravel perfect.
 
 And if budget is an issue and you are okay with DevOps stuff, a simple $4 [DigitalOcean](/recommends/digitalocean) droplet can do the trick.
 
