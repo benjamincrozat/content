@@ -16,7 +16,7 @@ The internet is full of people ready to use your Laravel applications.
 
 Whether you are a company, a fresh new startup, a freelancer, or a young developer, choosing the right Laravel cloud hosting provider to fully leverage the framework's capabilities is crucial.
 
-If you are in a hurry, here's my recommendation: **[DigitalOcean](/recommends/digitalocean) (which provides the VPS) combined with [Ploi](/recommends/ploi) (which manages the VPS) is my favorite combo** and that's what I use for this very blog.
+If you are in a hurry, here's my recommendation: **[DigitalOcean](/recommends/digitalocean) (for the VPS) combined with [Ploi](/recommends/ploi) (for managing the VPS) are what I use for this blog**. As a second choice, I would go for [Cloudways](/recommends/cloudways), which is a fully managed solution.
 
 ## Available discounts
 
