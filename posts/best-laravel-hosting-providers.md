@@ -81,9 +81,13 @@ Currently, Ploi is the service I use to manage the [DigitalOcean](/recommends/di
 
 ![Cloudways](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/109/conversions/Screenshot_2022-11-01_at_21.03.04_yaljg2-medium.jpg)
 
-[Cloudways](/recommends/cloudways) is a decent alternative to [Ploi](/recommends/ploi) or Laravel Forge.
+[Cloudways](/recommends/cloudways) is a decent alternative to [Ploi](/recommends/ploi) or Laravel Forge. I really like this one. Unlike others, it's a fully managed solution. This means you don't have to worry about creating an account with a cloud provider.
 
-The platform isn't as modern (I honestly was disappointed by their UI), but it does the job and unlike others, it's a fully managed solution. This means you don't have to worry about creating an account with a cloud provider.
+The particularity of Cloudways is that you will be able to tap into hardware from DigitalOcean, Amazon Web Services, and Google Cloud Platform all at once if you want to. Therefore, you can make sure to serve your users no matter where they are in the world (because the global availability from all providers is combined).
+
+And for the businesses that go all in on content marketing, they even offer a fully managed WordPress hosting solution (meaning they handle everything from security and workload thanks to Kubernetes) that autoscales depending on your traffic.
+
+There's not much to add about Cloudways. It's a good one and you should definitely give it a try.
 
 [Try Cloudways](/recommends/cloudways)
 
