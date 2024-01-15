@@ -4,7 +4,7 @@ Title: How to install Laravel on macOS
 Description: A step-by-step guide to install Laravel on macOS using Composer or the official Laravel installer.
 Canonical: 
 Audio:
-Published at: 2023-01-15
+Published at: 2024-01-15
 Modified at:
 Categories: laravel, tools
 ---
