@@ -204,3 +204,6 @@ It can even manage the software that you installed via Homebrew. 👌
 
 ![DBngin](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/144/conversions/CleanShot_2023-09-03_at_17.27.44_2x_nwqszy-medium.jpg)
 
+---
+
+So now, what about installing Laravel itself? Here's my guide: [How to install Laravel on macOS](/laravel-installation-macos)
