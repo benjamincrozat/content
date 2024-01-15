@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/abd33b35-a318-41e7-859c-7dab1e8010fe
 Title: How to install Laravel on macOS
 Description: A step-by-step guide to install Laravel on macOS using Composer or the official Laravel installer.
 Canonical: 
