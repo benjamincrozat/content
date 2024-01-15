@@ -11,9 +11,9 @@ Categories: laravel, tools
 
 ## Introduction to installing Laravel on macOS
 
-So, you finally decided to give Laravel a try.
+So, you finally decided to give [Laravel](https://laravel.com) a try.
 
-But how do you even get started? Well, first, you must have a working PHP environment (see how to [install PHP on macOS](https://benjamincrozat.com/install-php-mac-laravel-valet)). Then, you must create a new Laravel project using the official Laravel installer or Composer (the package manager every PHP developer uses to manage dependencies).
+But how do you even get started? Well, first, you must have a working PHP environment (see how to [install PHP on macOS](https://benjamincrozat.com/install-php-mac-laravel-valet)). Then, you must create a new Laravel project using the official Laravel installer or [Composer](https://getcomposer.org) (the package manager every PHP developer uses to manage dependencies).
 
 Feels overwhelming? Don't worry. In this article, I'll show you exactly how to do that.
 
