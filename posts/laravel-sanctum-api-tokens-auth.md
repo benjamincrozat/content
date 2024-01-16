@@ -6,7 +6,7 @@ Canonical:
 Audio:
 Published at: 2024-01-16
 Modified at:
-Categories: laravel, security
+Categories: laravel, packages, security
 ---
 
 ## Introduction to Laravel Sanctum and how it helps securing REST APIs
