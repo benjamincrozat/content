@@ -13,7 +13,7 @@ Categories: laravel, packages, security
 
 [Laravel Sanctum](https://laravel.com/docs/sanctum) is a package for Laravel that provides a simple way to secure your REST API. For instance, in case you want your users to be able to build services top of your application.
 
-That being said, the official documentation is extensive and you probably don't have that kind of time. So I hope my tutorial will serve you well.
+That being said, the official documentation is extensive and you probably don't have that kind of time. So I hope my quick guide will serve you well.
 
 ## Install Laravel Sanctum via Composer
 
@@ -81,10 +81,10 @@ Route::middleware('auth:sanctum')
 Managing tokens is crucial for security. To revoke them, use:
 
 ```php
-// Revoke all tokens...
+// Revoke all tokens.
 $user->tokens()->delete();
 
-// Revoke a specific token...
+// Revoke a specific token.
 $user->tokens()->where('id', $tokenId)->delete();
 ```
 
