@@ -90,6 +90,6 @@ $user->tokens()->where('id', $tokenId)->delete();
 
 ## Conclusion
 
-Securing your REST API with Laravel Sanctum is an effective way to manage authentication and protect your data without overcomplicating everything.
+Securing your REST API with Laravel Sanctum is an effective way to manage authentication and prevent misuses without overcomplicating everything.
 
-There's a lot more to Laravel Sanctum and I encourage your to go read the [official documentation](https://laravel.com/docs/sanctum).
+There's a lot more to Laravel Sanctum and I encourage you to go read the [official documentation](https://laravel.com/docs/sanctum).
