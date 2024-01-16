@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/7168ff1b-1239-4912-b20e-426177fd8eec
 Title: Secure your REST API in 5 minutes with Laravel Sanctum
 Description: Quickly secure a REST API using Laravel Sanctum by letting your users generate tokens.
 Canonical: 
