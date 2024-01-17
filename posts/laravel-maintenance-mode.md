@@ -2,10 +2,10 @@
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/827ff581-35ec-4cef-a704-7a0d278e6441
 Title: Master Laravel's maintenance mode
 Description: The maintenance mode is like putting a "Be right back!" sign on your website. Learn how to get it going.
-Canonical: 
+Canonical:
 Audio:
 Published at: 2023-12-07
-Modified at:
+Modified at: 2024-01-17
 Categories: laravel
 ---
 
@@ -86,3 +86,42 @@ You’re the boss when it comes to how your maintenance page looks. Set up your 
 ## What about queued jobs during maintenance mode?
 
 Worry not; queued jobs are put on pause in maintenance mode. They'll pick up right where they left off once you're back in action.
+
+## Why use the maintenance mode in the real-world?
+
+Laravel's maintenance mode can be extremely useful when, for instance, deploying applications in production.
+
+Here's the deploy script of this blog before I switched to zero downtime deployments:
+
+```
+cd /path/to/project
+
+# Put the blog down and show a pre-rendered page for a 503 response.
+php artisan down --render="errors::503"
+
+git pull origin main
+
+composer install --no-interaction --no-suggest --prefer-dist --optimize-autoloader
+
+php artisan migrate --force
+
+php artisan config:cache
+php artisan event:cache
+php artisan route:cache
+php artisan view:clear
+php artisan view:cache
+
+php artisan horizon:terminate
+
+npm i
+npm run dev
+
+echo "" | sudo -S service php8.3-fpm reload
+
+# Deployment is finished, let's put the blog back up.
+php artisan up
+```
+
+As you can see, to avoid people sumbling upon various errors while `composer install` or the database migrations run, I put the blog down and show a custom 503 (Service Unavailable) page.
+
+Now, since I'm using [Ploi](/recommends/ploi) to handle my deployments with zero downtime, this trick isn't needed anymore. But for those running in legacy environments, I think you'll find it handy.
