@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/49c6dc9d-3ff2-48b0-9b7f-b7e4a695ed22
-Title: The Laravel Podcast season 6 episode 8: From FrankenPHP to Team Management
-Description: Here's a round up of The Laravel Podcast season 6 episode 8: FrankenPHP, Cashier's quick guide, the Laravel Worldwide Meetup, etc.
+Title: Summary of the Laravel Podcast season 6 episode 8: From FrankenPHP to Team Management
+Description: Here's a round-up of The Laravel Podcast season 6 episode 8: FrankenPHP, Cashier's quick guide, the Laravel Worldwide Meetup, etc.
 Canonical:
 Audio:
 Published at: 2024-01-19
