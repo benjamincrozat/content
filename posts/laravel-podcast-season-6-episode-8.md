@@ -9,6 +9,8 @@ Modified at:
 Categories: laravel, podcasts
 ---
 
+## Introduction
+
 I just finished listening to the latest episode of the Laravel Podcast, Season 6 Episode 8, and there's a lot to unpack here. Hosted by [Matt Stauffer](https://mattstauffer.com) and [Taylor Otwell](https://x.com/taylorotwell), this episode dives into some of the freshest developments of Laravel the ecosystem. Let's break down what they discussed.
 
 ## FrankenPHP: a game changer?
