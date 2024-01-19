@@ -41,6 +41,6 @@ Taylor shared insights into how the Laravel team operates, highlighting their re
 
 In all, this episode was a treasure trove of information, offering insights into the latest Laravel developments.
 
-Also, don't miss this interesting discussion about how long people's `AppServiceProvider` is [here on X](https://x.com/ianlandsman/status/1744903740329443588?s=20).
+Also, don't miss this interesting discussion about how long people's `AppServiceProvider` is [here](https://x.com/ianlandsman/status/1744903740329443588?s=20).
 
 Can't wait for the next episode!
