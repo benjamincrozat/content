@@ -11,6 +11,8 @@ Categories: php
 
 ## Introduction
 
+**Numbers for 2024 are coming, and there's a more up to date article here: [Is PHP dead? Usage statistics and market share for 2023.](/php-is-dead-2024)**
+
 We are now in a new era of computing thanks to artificial intelligence and still, the rise of [PHP](https://www.php.net), a 28-year-old scripting language, cannot be stopped.
 
 Stable ecosystems without constant drama and forks each time there's a disagreement are needed now more than ever to build the next generation of successful products.
