@@ -33,7 +33,7 @@ Ash is an active community member and freelancer who is passionate about his wor
 
 ### [David Carr's blog](https://dcblog.dev)
 
-[![David Carr's blog](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/)](https://dcblog.dev)
+[![David Carr's blog](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/1a9af49e-7cfd-4c56-960a-af165aaf22bf)](https://dcblog.dev)
 
 David Carr is an incredibly kind and helpful PHP developer who's very involved in the Laravel community. He writes often, he's active on X (formerly Twitter) and he frequently goes to conferences. Add his blog into your feed aggregator, it's worth it!
 
