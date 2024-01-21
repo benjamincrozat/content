@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/7/learning_h3gjog.jpg
-Title: The best PHP blogs to read in 2023
+Title: The best PHP blogs to read in 2024
 Description: To keep getting better with PHP, you should subscribe to as many quality blogs as possible. In this article, I share the ones I often read myself.
 Canonical: 
 Audio:
 Published at: 2022-09-19
-Modified at: 2023-10-07
+Modified at: 2024-01-21
 Categories: php
 ---
 
@@ -31,11 +31,9 @@ Andreas Möller is a passionate PHP developer who always has something interesti
 
 Ash is an active community member and freelancer who is passionate about his work. He contributes to open source, he writes books, he's very present on X, and his blog is filled with tons of interesting insights.
 
-### [Christoph Rumpel's blog](https://christoph-rumpel.com)
+### [David Carr's blog](https://dcblog.dev)
 
-[![Christoph Rumpel's blog](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/79/conversions/Screenshot_2022-09-19_at_21.05.50_k7dcj7-medium.jpg)](https://christoph-rumpel.com)
-
-Christoph Rumpel is an active member of the Laravel community. If you're a Laravel user, you might want to check out all the useful tips he shares on his blog. Recently he was one of the [Laracon Online's pre-party](https://www.youtube.com/watch?v=3Bzb5fsn4Jo).
+David Carr is an incredibly kind and helpful PHP developer who's very involved in the Laravel community. He writes often, he's active on X (formerly Twitter) and he frequently goes to conferences. Add his blog into your feed aggregator, it's worth it!
 
 ### [Frank de Jonge's blog](https://blog.frankdejonge.nl)
 
