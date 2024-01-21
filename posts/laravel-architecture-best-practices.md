@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/56/programmer_v_02_o9k1tl.jpg
-Title: 3 crucial Laravel architecture best practices for 2023
+Title: 3 crucial Laravel architecture best practices for 2024
 Description: Explore Laravel's default architecture to simplify collaboration, compatibility, and onboarding.
 Canonical: 
 Audio: https://cdn.benjamincrozat.com/laravel-architecture-best-practices.mp3
 Published at: 2023-09-01
-Modified at: 
+Published at: 2024-01-21
 Categories: laravel
 ---
 

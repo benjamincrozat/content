@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/1/lnPbc0JnlDlETESSHaqa5VeAxo9ZGg-metaYXBpX2R3ZjloYy5qcGc%3D-.jpg
-Title: 7 Laravel RESTful APIs best practices for 2023
+Title: 7 Laravel RESTful APIs best practices for 2024
 Description: Master the art of crafting RESTful APIs with Laravel thanks to these best practices.
 Canonical: 
 Audio:
 Published at: 2023-09-06
-Modified at: 2023-10-10
+Modified at: 2024-01-21
 Categories: laravel
 ---
 

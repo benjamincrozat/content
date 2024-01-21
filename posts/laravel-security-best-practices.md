@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/48/dhjbi100_uiarfm.png
-Title: 12 Laravel security best practices for 2023
+Title: 12 Laravel security best practices for 2024
 Description: Secure your Laravel app: protect sensitive files, keep your packages and Laravel updated, use policies, validate input, and more.
 Canonical: 
 Audio:
 Published at: 2023-07-29
-Modified at: 2023-09-05
+Modified at: 2024-01-21
 Categories: laravel, security
 ---
 

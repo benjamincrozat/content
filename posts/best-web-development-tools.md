@@ -1,12 +1,12 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/258/01HFRW0GA0EADWGC2N05VR0FDF.png
-Title: The best web development tools I use in 2023
+Title: The best web development tools I use in 2024
 Description: I've been doing professional web development for more than ten years. Here are the tools I use daily in 2023 to create value.
 Canonical:
 Commercial: true
 Audio:
 Published at: 2023-07-03
-Modified at: 2023-11-21
+Modified at: 2024-01-21
 Categories: tools
 ---
 

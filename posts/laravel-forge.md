@@ -1,12 +1,12 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/19/forge_yb2qea.png
-Title: Laravel Forge: price, review, how-to and alternatives (2023)
+Title: Laravel Forge: price, review, how-to and alternatives (2024)
 Description: Choose a cloud hosting provider for Laravel Forge and deploy your next Laravel project quickly and without any DevOps cost.
 Canonical: 
 Commercial: true
 Audio:
 Published at: 2022-11-17
-Modified at: 2023-10-13
+Modified at: 2024-01-21
 Categories: laravel, tools, web-hosting
 ---
 

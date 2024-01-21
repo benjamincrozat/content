@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/22/4165382_k49se6.jpg
-Title: Laravel interview questions and answers for 2023
+Title: Laravel interview questions and answers for 2024
 Description: Nailing a Laravel job interview can be a daunting task, but with the right preparation and mindset, you can set yourself up for success.
 Canonical: 
 Audio: https://cdn.benjamincrozat.com/laravel-interview-questions.mp3
 Published at: 2022-12-02
-Modified at: 2023-09-19
+Modified at: 2024-01-21
 Categories: laravel
 ---
 
