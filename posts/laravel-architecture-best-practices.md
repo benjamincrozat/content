@@ -5,7 +5,7 @@ Description: Explore Laravel's default architecture to simplify collaboration, c
 Canonical: 
 Audio: https://cdn.benjamincrozat.com/laravel-architecture-best-practices.mp3
 Published at: 2023-09-01
-Published at: 2024-01-21
+Modified at: 2024-01-21
 Categories: laravel
 ---
 
