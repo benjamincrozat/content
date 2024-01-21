@@ -27,11 +27,13 @@ Andreas Möller is a passionate PHP developer who always has something interesti
 
 ### [Ash Allen's blog](https://ashallendesign.co.uk/blog)
 
-[![Ash Allen's Blog](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/189/conversions/kEQcZlIFwpCKgWSptOjy4PJrw8CLu3-metaQ2xlYW5TaG90IDIwMjMtMTAtMDcgYXQgMTAuMDcuMzZAMngucG5n--medium.jpg)](https://ashallendesign.co.uk/blog)
+[![Ash Allen's blog](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/189/conversions/kEQcZlIFwpCKgWSptOjy4PJrw8CLu3-metaQ2xlYW5TaG90IDIwMjMtMTAtMDcgYXQgMTAuMDcuMzZAMngucG5n--medium.jpg)](https://ashallendesign.co.uk/blog)
 
 Ash is an active community member and freelancer who is passionate about his work. He contributes to open source, he writes books, he's very present on X, and his blog is filled with tons of interesting insights.
 
 ### [David Carr's blog](https://dcblog.dev)
+
+[![David Carr's blog](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/)](https://dcblog.dev)
 
 David Carr is an incredibly kind and helpful PHP developer who's very involved in the Laravel community. He writes often, he's active on X (formerly Twitter) and he frequently goes to conferences. Add his blog into your feed aggregator, it's worth it!
 
