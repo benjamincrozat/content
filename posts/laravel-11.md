@@ -62,7 +62,7 @@ Laravel 11 comes with a slimmer application skeleton. The idea for this is that 
 
 - In `EventServiceProvider`, the `SendEmailVerificationNotification` is no longer necessary, as the base `EventServiceProvider` is registering it. You will also notice that auto-event discovery is now enabled by default. 
 
-- `BroadcastServiceProvider` no longer necessary and has been removed. The framework is not automatically loading the *routes/channels.php* file.
+- `BroadcastServiceProvider` no longer necessary and has been removed. The framework is automatically loading the *routes/channels.php* file (when you are using it).
 
 - `RedirectIfAuthenticated` is now simpler thanks to the base one in the framework's internals.
 
