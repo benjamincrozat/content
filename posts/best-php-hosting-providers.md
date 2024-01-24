@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/1119663a-42c0-4379-9296-e1580c798cc1
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/ff9b206f-7381-4530-9770-88ab306d8ae2
 Title: The 6 best PHP cloud hosting providers for 2024
 Description: Make an informed decision for your PHP applications thanks to my list of the best cloud hosting providers.
 Canonical:
@@ -48,7 +48,7 @@ So my recommendation is to think for the long run before choosing.
 
 ### Cloudways
 
-![Cloudways' landing page for PHP developers.]()
+[![Cloudways' landing page for PHP developers.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/ea2b165b-9574-4901-bf6c-08697374723b)](/recommends/cloudways-php)
 
 [Cloudways](/recommends/cloudways-php) is a very good alternative to [Ploi](/recommends/ploi). I really like this one. Unlike others, it's a fully managed solution. This means you don't have to worry about creating an account with a cloud provider.
 
