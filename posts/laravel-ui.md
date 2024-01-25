@@ -21,13 +21,13 @@ But I noticed that people are still looking for it, so I told myself that I shou
 
 ## Installing Laravel UI
 
-Getting started with Laravel UI is straightforward:
+Getting started with Laravel UI is straightforward. Install it via the following command:
 
 ```bash
 composer require laravel/ui
 ```
 
-This command installs the Laravel UI package. Next, you can install the frontend scaffolding of your choice. The package supports [Bootstrap](https://getbootstrap.com) without JavaScript or Bootstrap combined with [Vue.js](https://vuejs.org) or [React](https://react.dev):
+Next, you can install the frontend scaffolding of your choice. **Remember, the next command won't add any component to your app. It will just make your app ready for whatever front-end framework you want to use.** The Laravel UI package supports [Bootstrap](https://getbootstrap.com) without JavaScript or Bootstrap combined with [Vue.js](https://vuejs.org) or [React](https://react.dev):
 
 ```bash
 php artisan ui bootstrap
@@ -35,7 +35,14 @@ php artisan ui vue
 php artisan ui react
 ```
 
-## Installing Laravel UI with authentication
+Finally, install and compile your front-end dependencies:
+
+```bash
+npm install
+npm run dev
+```
+
+## Installing Laravel UI with authentication features
 
 Installing the authentication part of Laravel UI is completely optional. If you want to use it, you can install it using the `--auth` flag:
 
@@ -49,7 +56,7 @@ Now, you have a basic user interface for user registration and authentication an
 
 ![Laravel UI in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/251/conversions/01HF2W1C4VPWG75KMVAJT14QC7-medium.jpg)
 
-Then, install and compile your front-end dependencies:
+Before refreshing your browser, make sure to install and compile your front-end dependencies:
 
 ```bash
 npm install
