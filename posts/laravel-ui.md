@@ -49,6 +49,15 @@ Now, you have a basic user interface for user registration and authentication an
 
 ![Laravel UI in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/251/conversions/01HF2W1C4VPWG75KMVAJT14QC7-medium.jpg)
 
+Then, install and compile your front-end dependencies:
+
+```bash
+npm install
+npm run dev
+```
+
+You now have everything you need to move forward on your project.
+
 ## Customizing the CSS and JavaScript Laravel UI provides
 
 After installing Laravel UI, you can dive into customizing the CSS and JavaScript.
