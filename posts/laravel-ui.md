@@ -5,7 +5,7 @@ Description: Leverage the laravel/ui package to scaffold your favorite frontend 
 Canonical: 
 Audio:
 Published at: 2023-11-12
-Modified at: 
+Modified at: 2024-01-25
 Categories: laravel, packages
 ---
 
