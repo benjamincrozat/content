@@ -20,6 +20,7 @@ As a Laravel developer myself, I know many of them and I'm in a good position to
 These Laravel developers are people I know through X (formerly Twitter), have good client testimonials, or already worked or interacted with. (This section is a work in progress.)
 
 - [Ash Allen](https://ashallendesign.co.uk)
+- [Joel Clermont and Aaron Saray](https://nocompromises.io)
 - [Simon Hamp](https://simonhamp.me)
 
 ## The best platforms to find Laravel developers
