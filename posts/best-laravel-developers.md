@@ -22,6 +22,7 @@ These Laravel developers are people I know through X (formerly Twitter), have go
 - [Ash Allen](https://ashallendesign.co.uk)
 - [Joel Clermont and Aaron Saray](https://nocompromises.io)
 - [Simon Hamp](https://simonhamp.me)
+- [Tim Wassenburg](https://timwassenburg.nl)
 
 ## The best platforms to find Laravel developers
 
