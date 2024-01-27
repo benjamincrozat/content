@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/06b4575d-fe7b-463d-bb2a-d34cb89b9462
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/37ac655e-cb8e-487b-9450-2897e077baef
 Title: The best Laravel developers to hire in 2024
 Description: Finding good Laravel developers is hard. Let me help you with some recommendations.
 Canonical: 
