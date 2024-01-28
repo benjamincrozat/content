@@ -22,6 +22,7 @@ These Laravel developers are people I know through X (formerly Twitter), have go
 - [Aaron Saray and Joel Clermont](https://nocompromises.io) (English)
 - [Ash Allen](https://ashallendesign.co.uk) (English)
 - [Morten Bak](https://www.netbums.dk/cases) (Danish)
+- [Russell L.](https://www.upwork.com/freelancers/~01ab23582b9a062545/) (English)
 - [Simon Hamp](https://simonhamp.me) (English)
 - [Tim Wassenburg](https://timwassenburg.nl) (Dutch)
 
