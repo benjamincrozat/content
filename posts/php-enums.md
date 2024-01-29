@@ -304,7 +304,7 @@ When a method is defined within an Enum, the `$this` variable is defined and ref
 
 ## Enums can use Traits and implement Interfaces
 
-Like classes, Enums can use Traits. This is great when there are a lot of methods and you when to split them across multiple files to keep your code tidier.
+Like classes, Enums can use Traits. This is great when there are a lot of methods and you need to split them across multiple files to keep your code tidier.
 
 There are some restrictions, though:
 - You can't have properties.
