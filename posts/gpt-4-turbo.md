@@ -56,7 +56,7 @@ curl -X POST \
 	-H "Authorization: Bearer YOUR_API_KEY" \
 	https://api.openai.com/v1/chat/completions -d \
 	'{
-		"model": "gpt-4-1106-preview",
+		"model": "gpt-4-turbo-preview",
 		"messages": [
 			{
 				"role": "system",
@@ -70,7 +70,7 @@ curl -X POST \
 	}'
 ```
   - Replace `YOUR_API_KEY` with your actual API key.
-  - The string after `-d` specifies the request body in JSON format. It gives the model "gpt-4-1106-preview" (GPT-4 Turbo) and two messages: a system message that sets up the role of the assistant, and a user message.
+  - The string after `-d` specifies the request body in JSON format. It gives the model "gpt-4-turbo-preview" (GPT-4 Turbo) and two messages: a system message that sets up the role of the assistant, and a user message.
 
 4. **Run the command:** After pressing enter, you should see a response from the API in your terminal window after a few seconds at most.
 
@@ -78,7 +78,7 @@ Remember, this is a basic example. You might want to adjust the request dependin
 
 Learn more on [the official API reference for Chat Completions](https://platform.openai.com/docs/api-reference/chat).
 
-**Pro tip**: One API call can accept up to 128,000 tokens with GPT-4 Turbo (gpt-4-1106-preview). A token is a numerical representation of your text. All your messages as well as the output from the model cannot exceed this limit. And for those who don't know, 1,000 tokens roughly equals 750 English words.
+**Pro tip**: One API call can accept up to 128,000 tokens with GPT-4 Turbo (gpt-4-turbo-preview). A token is a numerical representation of your text. All your messages as well as the output from the model cannot exceed this limit. And for those who don't know, 1,000 tokens roughly equals 750 English words.
 
 ![An example response of GPT-4 Turbo through its API.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/232/conversions/0LKIoKIsnuo72KHWk8MgD3vmSXG3Ir-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjEuNDYuMTFAMngucG5n--medium.jpg)
 
@@ -98,7 +98,7 @@ curl -X POST \
 	-H "Authorization: Bearer YOUR_API_KEY" \
 	https://api.openai.com/v1/chat/completions -d \
 	'{
-		"model": "gpt-4-1106-preview",
+		"model": "gpt-4-turbo-preview",
 		"messages": [
 			{
 				"role": "system",
@@ -148,7 +148,7 @@ By the way, here's a table that compares GPT-4 Turbo's pricing to older GPT-4 mo
 
 |  Model | Input | Output |
 |--------|-------|--------|
-| **gpt-4-1106-preview (128K context)** | **$0.01 / 1K tokens** | **$0.03 / 1K tokens** |
+| **gpt-4-turbo-preview (128K context)** | **$0.01 / 1K tokens** | **$0.03 / 1K tokens** |
 | gpt-4 (32K context) | $0.06 / 1K tokens | $0.12 / 1K tokens |
 | gpt-4 (8K context) | $0.03 / 1K tokens | $0.06 / 1K tokens |
 
