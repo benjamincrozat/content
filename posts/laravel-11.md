@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/26/laravel-11_zv4zly.png
-Title: Laravel 11: release date and new features
+Title: Laravel 11: big changes ahead and release date
 Description: Laravel 11 will be released on February 6th, 2024. Its development is still ongoing. Let's dive into every relevant new feature we know about already.
 Canonical: 
 Audio:
 Published at: 2023-01-05
-Modified at: 2023-09-17
+Modified at: 2024-01-30
 Categories: laravel
 ---
 
@@ -56,7 +56,33 @@ See the pull request on GitHub: [[11.x] Drop PHP 8.1 support](https://github.com
 
 ### Laravel 11 introduces a more minimalistic application skeleton
 
-Laravel 11 comes with a slimmer application skeleton. The idea for this is that you should have less boilerplate code to deal with. I couldn't agree more. Here are the details of this change:
+Laravel 11 comes with a slimmer application skeleton. The idea for this is that you should have less boilerplate code to deal with, which should help newcomers find their way around the framework more easily. And I couldn't agree more. **But before we continue, please know that any existing app that is upgraded to Laravel 11 won't have to adopt this new project structure.**
+
+When you install Laravel 11, you will be greeted by an ultra-minimalistic application skeleton that looks like this:
+
+```diff
+app
+├── Http
+│   └── Controllers
+│       └── Controller.php
+├── Models
+│   └── User.php
+└── Providers
+    └── AppServiceProvider.php
+bootstrap
+├── app.php
+├── cache
+│   ├── packages.php
+│   └── services.php
+└── providers.php
+…
+```
+
+Gone is the *Console* folder. Gone is the *app/Http/Middleware* folder. Gone is the *config* folder. You register providers in the *bootstrap/providers.php* file now. Or you can use the config files again using the `php artisan config:publish` command.
+
+The *routes/channel.php*, *routes/console.php*, and *routes/api.php* files have been removed too. To bring *api.php* and *channel.php* back, run the new `php artisan install:{api|broadcasting}` command. 
+
+Here are more in-depth details of this change (this is just the tip of the iceberg):
 
 - In `AuthServiceProvider`, the `$policies` property has been removed, as the framework automatically discovers them.
 
