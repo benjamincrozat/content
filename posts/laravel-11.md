@@ -119,7 +119,7 @@ $address->foo()->dd()->bar();
 See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.com/laravel/framework/pull/47122)
 
 
-### New feature: The new and more convenient Model::casts() method goes live Laravel 11
+### New feature: The Model::casts() method goes live in Laravel 11
 
 Usually, in Laravel, you declare attribute casting in an Eloquent model like this:
 
