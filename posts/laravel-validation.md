@@ -1,8 +1,8 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/a2cb9c42-0576-4a4e-9dc5-a83c06e9e484
 Title: Validation in Laravel made easy
 Description: Learn how to validate incoming data in your Laravel applications, from the basics to more advanced concepts.
-Canonical: 
+Canonical:
 Audio:
 Published at: 2024-02-01
 Modified at:
