@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/26/laravel-11_zv4zly.png
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/c09f17c9-a80d-4851-a691-892e6e13b6dd
 Title: Laravel 11: the big changes ahead and release date
 Description: Laravel 11 will be released on February 6th, 2024. Its development is still ongoing. Let's dive into every relevant new feature we know about already.
 Canonical: 
