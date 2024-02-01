@@ -219,10 +219,3 @@ Did you know you can fix the bugs you have encountered or create the next big fe
 One important tip to increase your chances of being merged: add something to the framework that's a win for developers but not a pain to maintain for Taylor and his team in the long run.
 
 ![Pull requests on the laravel/framework repository.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/128/conversions/Screenshot_2023-01-05_at_18.03.30_qx8sjy-medium.jpg)
-
----
-
-**This is what's new in Laravel 11 for now.**
-
-**There's more to come until February 2024, though, so stay tuned!**
-
