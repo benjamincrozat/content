@@ -4,8 +4,8 @@ Title: Validation in Laravel made easy
 Description: Learn how to validate incoming data in your Laravel applications, from the basics to more advanced concepts.
 Canonical: 
 Audio:
-Published at:
-Modified at: 2024-02-01
+Published at: 2024-02-01
+Modified at:
 Categories: laravel
 ---
 
