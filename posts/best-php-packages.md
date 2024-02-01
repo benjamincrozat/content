@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/279796cc-c507-49c0-aa57-2a1188ab0720
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/6610af0d-00a8-4ce5-8eb4-c0a3b894a10e
 Title: The best PHP packages to use in 2024
 Description: A recommendation of the best packages to use in any PHP project in 2024.
 Canonical:
