@@ -112,7 +112,7 @@ $request->validate([
     'email' => 'required|email',
 ], [
     'email.required' => 'We definitely need your email address!',
-    'email.email' => 'Hmm, that doesn't look like a valid email.',
+    'email.email' => "Hmm, that doesn't look like a valid email.",
 ]);
 ```
 
