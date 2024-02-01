@@ -17,7 +17,7 @@ As a developer in the ever-evolving landscape of PHP, I've found myself relying 
 
 ### Monolog - Versatile logging for PHP
 
-![Monolog](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://seldaek.github.io/monolog/logo.jpg)
+![Monolog's official website](https://res.cloudinary.com/benjamincrozat-com/image/fetch/https://github.com/benjamincrozat/content/assets/3613731/edfb94d7-1945-4d4c-ac82-222554a97804)
 
 [Monolog](https://github.com/seldaek/monolog) is a must-have. It's incredibly flexible, allowing you to send logs to various outputs like files, sockets, and databases. Its compatibility with the PSR-3 interface makes it a versatile choice for integrating logging into any PHP project. Whether you're managing error logs or system health data, Monolog will do its job well. It's such a great package that Laravel has adopted it as their default logging library.
 
