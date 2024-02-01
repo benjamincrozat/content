@@ -163,7 +163,7 @@ With Laravel 11, you can now define your casting through a `casts()` method in y
 ```php
 class User extends Model
 {
-    protected function casts(): array
+    protected function casts() : array
     {
         return [
             'foo' => AsCollection::using(FooCollection::class),
