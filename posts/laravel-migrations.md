@@ -5,7 +5,7 @@ Description: Migrations are essential in any Laravel app using a database. I wil
 Canonical: 
 Audio:
 Published at: 2022-09-12
-Modified at: 2023-09-03
+Modified at: 2024-02-02
 Categories: laravel
 ---
 
