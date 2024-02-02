@@ -54,9 +54,11 @@ See the pull request on GitHub: [[11.x] Drop PHP 8.1 support](https://github.com
 
 ![PHP 8.2](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/127/conversions/www.php.net_releases_8.2_en.php_jqtup2-medium.jpg)
 
-### Laravel 11 introduces a more minimalistic application skeleton
+### Laravel 11 introduces a more minimalistic (and optional) application skeleton
 
-Laravel 11 comes with a slimmer application skeleton. The idea for this is that you should have less boilerplate code to deal with, which should help newcomers find their way around the framework more easily. And I couldn't agree more. **But before we continue, please know that any existing app that is upgraded to Laravel 11 won't have to adopt this new project structure.**
+Laravel 11 comes with a slimmer application skeleton. The idea for this is that you should have less boilerplate code to deal with, which should help newcomers find their way around the framework more easily. And I couldn't agree more.
+
+**In case you missed it, please know that any existing app that is upgraded to Laravel 11 won't have to adopt this new project structure. It's completely optional.**
 
 When you install Laravel 11, you will be greeted by an ultra-minimalistic application skeleton that looks like this:
 
