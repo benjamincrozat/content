@@ -9,7 +9,7 @@ Modified at: 2023-09-03
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to migrations in Laravel
 
 **In Laravel, migrations are a way to manage and apply changes to your database schema.**
 
@@ -17,11 +17,13 @@ See them like a phpMyAdmin, but with code instead of a user interface.
 
 **Migrations also allow you to keep all your team members and environments in sync.**
 
-In theory, you could start working in a new place, clone the project onto your machine, and run `php artisan migrate` to generate a fresh and up to date database.
+In theory, you could start working on a new project, clone it onto your machine, and run `php artisan migrate` to generate a fresh and up to date database. Why? Because since migrations are based on code, they also are versionned just like the rest of the project.
 
 Interesting, right? Let's learn more about migrations!
 
-## The make:migration command
+## Laravel's make:migration command
+
+### Basic usage
 
 Creating a migration can be done thanks to Artisan with the command below:
 
@@ -29,11 +31,12 @@ Creating a migration can be done thanks to Artisan with the command below:
 php artisan make:migration CreatePostsTable
 ```
 
-1. Write the migration's name in PascalCase;
-2. Artisan will convert it to snake_case (making the file's name more readable);
-3. A timestamp will be added as a prefix.
-
-Here's an example:
+1. Write the migration's name in PascalCase.
+2. Begin with the "Create" prefix.
+3. Continue with the desired table's name.
+4. End with the "Table" suffix.
+5. Artisan will create a new file and convert its name to snake_case (making the name more readable).
+6. A timestamp will be added as a prefix.
 
 ```
 INFO Created migration [2022_09_12_142156_create_posts_table]. 
@@ -144,7 +147,7 @@ Options:
  --pest Generate an accompanying Pest test for the model
 ```
 
-## Use the migrate command to update your table schema
+## Use the migrate command to run your newest migrations
 
 To migrate your database, use the `php artisan migrate` command. 
 
@@ -158,7 +161,7 @@ INFO  Running migrations.
 2019_08_19_000000_create_failed_jobs_table .......................................................................................... 1ms DONE
 ```
 
-### Wipe out your database before migrating using migrate:fresh
+## Wipe out your database using migrate:fresh
 
 The `php artisan migrate:fresh` command will wipe out your database before migrating.
 
@@ -180,7 +183,7 @@ INFO  Running migrations.
 
 This command won't work in production to prevent disasters. 😬
 
-## How to rollback migrations when something goes wrong?
+## Roll back migrations when something goes wrong
 
 Roll back any change using the `php artisan migrate:rollback` command. As you can se below, migrations are rollbacked in the inverse order.
 
