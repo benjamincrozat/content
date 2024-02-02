@@ -1,3 +1,5 @@
+<img src="https://github.com/benjamincrozat/content/assets/3613731/e7e6f773-ae78-4ce6-ba38-b29b94f715ec" height="50" alt="benjamincrozat.com" />
+
 # Content repository for Benjamin Crozat's blog
 
 Hello! 👋
