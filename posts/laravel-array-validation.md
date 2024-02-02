@@ -42,7 +42,7 @@ Notice how the `*` wildcard helps us apply the rules to each element within the 
 
 ## Validate the structure of your array
 
-You can go a step further to ensure you receive the expected data format by validating the structure of arrays. Use the `array` rules and specifies the keys as parameters:
+You can go a step further to ensure you receive the expected data format by validating the structure of arrays. Use the `array` rules again, but this time, specify the expected keys as a parameter:
 
 ```php
 $request->validate([
@@ -50,8 +50,9 @@ $request->validate([
 ]);
 ```
 
-1. Laravel's validator expects the phone and email keys.
-2. The validation won't pass if any additional key if passed.
+Here's what will happen:
+1. Laravel's validator expects the phone and email keys and won't pass if they're not present.
+2. The validation will also fail if any additional key if passed. Talk about strictness!
 
 ## Custom error messages for array validation in Laravel
 
