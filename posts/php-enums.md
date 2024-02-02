@@ -11,15 +11,15 @@ Categories: php
 
 ## Introduction to Enums in PHP
 
-As a developer, you must have come across situations where a variable could only take one out of a small set of possible values. For instance, a variable holding a user's status might only have the possibilities "Active", "Inactive", or "Suspended". You could represent these states using separate boolean variables or assign them specific string or integer values, but that's where things start getting messy and error-prone. 
+As a developer, you must have come across situations where a variable could only take one out of a small set of possible values. For instance, a variable holding a user's status might only have the possibilities "Active", "Inactive", or "Suspended". You could represent these states using separate boolean variables or assign them specific string or integer values, but that's where things start getting messy and error-prone.
 
 Wouldn't it be nice to have a way of declaring this restricted set of possible values in a clear, self-documenting manner?  That's exactly where Enumerations, or Enums, as they are often called, come to the rescue.
 
-Enumerations have been part of many programming languages for years and I was so envious! They allow you to define a type that is restricted to a specific set of values, enhancing both clarity and safety. For PHP developers, the great news is that as of PHP 8.1, Enums are now part of the PHP core. Yes, you heard it right! PHP now provides built-in support for Enums.
+Enumerations have been part of many programming languages for years and I was so envious! They allow you to define a type that is restricted to a specific set of values, enhancing both clarity and safety. For PHP developers, the great news is that as of PHP 8.1, Enums are now part of the PHP core. Yes, you heard it right! PHP now provides built-in support for Enums. 🎉
 
 ## A brief history of Enums in PHP
 
-Before PHP 8.1, PHP did not have built-in support for Enums. While this lack of Enums did not prevent developers from writing code, it did mean that PHP lacked a tool found in many other languages that can make coding safer and more efficient. 
+Before PHP 8.1, PHP did not have built-in support for Enums. While this lack of Enums did not prevent developers from writing code, it did mean that PHP lacked a tool found in many other languages that can make coding safer and more efficient.
 
 Without built-in Enums, developers had to use other constructs to represent a set of possible values, often resorting to class constants, arrays, or sometimes just strings or integers.
 
@@ -153,7 +153,7 @@ In this example:
 2. We initialize the `$house` property with the `House::from()` static method from a string value (since `House` is now a backed enum of type `string`).
 3. If this fails, an exception is throw. (`Uncaught ValueError: "Foo" is not a valid backing value for enum "House"`)
 
-In some cases, instead of throwing an exception, you might want to fall back on a default value. Here's how you can do that with the `House::tryFrom()` static method:
+In some cases, instead of throwing an exception, you might want to fall back on a default value. Here's how you can do that with the `House::tryFrom()` static method, which returns `null` in case of failure.
 
 ```php
 $student = new Student(
