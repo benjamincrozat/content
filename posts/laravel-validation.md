@@ -170,6 +170,8 @@ Dealing with arrays or JSON payloads? Laravel's got your back with dot notation 
 
 This rule checks that each `email` in the required `person` array is unique in the `users` table.
 
+Want to learn more about validating arrays? Here a dedicated article: [Easy data integrity with array validation in Laravel](https://benjamincrozat.com/laravel-array-validation)
+
 ## Displaying error messages and custom responses
 
 Laravel makes handling validation errors straightforward. They are flashed to the session, making them available on redirection. For AJAX requests, Laravel responds with a JSON payload containing the errors.
