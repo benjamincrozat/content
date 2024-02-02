@@ -9,6 +9,8 @@ Modified at:
 Categories: laravel
 ---
 
+## Introduction to validation in Laravel
+
 Validation is like the bouncer at the door of your web application. It ensures that only the good data gets in, keeping the messy, unwanted stuff out. (I really love this analogy! 😅)
 
 Laravel, being the friendly and powerful PHP framework it is, offers a robust suite of tools to make validating data a breeze (pun intended).
