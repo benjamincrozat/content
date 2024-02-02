@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/c7994761-ec8f-473a-9b45-a3c1e6c8390a
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/7a066177-f833-4fa8-8506-af28bc26c10a
 Title: Easy data integrity with array validation in Laravel
 Description: Learn how to effortlessly manage array validation in Laravel to ensure data integrity in your web applications.
 Canonical: 
@@ -15,7 +15,7 @@ Have you ever struggled with ensuring data integrity when handling arrays in use
 
 One aspect where Laravel truly shines is its ability to effortlessly manage array validation.
 
-Today, let's talk about array validation in Laravel and how it can maintain the integrity of our data without breaking a sweat.
+Today, let me guide you with validating arrays in Laravel.
 
 ## Understanding array validation in Laravel
 
