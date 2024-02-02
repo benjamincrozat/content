@@ -159,7 +159,7 @@ $request->validate([
 
 Using custom rules makes your application logic remain expressive while addressing specific requirements.
 
-## Validating nested data
+## Validating nested data (or arrays)
 
 Dealing with arrays or JSON payloads? Laravel's got your back with dot notation and the `*` wildcard for array data:
 
