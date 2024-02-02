@@ -5,7 +5,7 @@ Description: Learn how to effortlessly manage array validation in Laravel to ens
 Canonical: 
 Audio:
 Published at: 2023-12-09
-Modified at:
+Modified at: 2024-02-02
 Categories: laravel
 ---
 
@@ -39,6 +39,19 @@ public function store(Request $request)
 ```
 
 Notice how the `*` wildcard helps us apply the rules to each element within the contacts array. Laravel validation seamlessly takes care of these scenarios, ensuring that each piece of the array adheres to the rules we've set out.
+
+## Validate the structure of your array
+
+You can go a step further to ensure you receive the expected data format by validating the structure of arrays. Use the `array` rules and specifies the keys as parameters:
+
+```php
+$request->validate([
+    'contacts' => 'required|array:phone,email',
+]);
+```
+
+1. Laravel's validator expects the phone and email keys.
+2. The validation won't pass if any additional key if passed.
 
 ## Custom error messages for array validation in Laravel
 
