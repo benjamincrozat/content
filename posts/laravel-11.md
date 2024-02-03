@@ -5,7 +5,7 @@ Description: Laravel 11 will be released on February 6th, 2024. Its development 
 Canonical: 
 Audio:
 Published at: 2023-01-05
-Modified at: 2024-01-30
+Modified at: 2024-02-03
 Categories: laravel
 ---
 
