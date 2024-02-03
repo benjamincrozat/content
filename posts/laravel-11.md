@@ -24,9 +24,9 @@ Laravel 10 will receive bug fixes until August 6th, 2024 and security fixes unti
 | 10 | 8.1 | February 14, 2023 | August 6th, 2024 | February 4th, 2025 |
 | 11 | 8.2 | Q1 2024 | August 5th, 2025 | February 3rd, 2026 |
 
-## How to install Laravel 11?
+## Install and test Laravel 11 right now
 
-Laravel 11 hasn't been released. Therefore, you must use the `--dev` flag on the official Laravel installer, which pulls the *main* branch from the [laravel/laravel](https://github.com/laravel/laravel) repository that always contains the latest code.
+Laravel 11 hasn't been released yet. Therefore, you must use the `--dev` flag on the official Laravel installer, which pulls the *main* branch from the [laravel/laravel](https://github.com/laravel/laravel) repository that always contains the latest code.
 
 ```bash
 laravel new hello-world --dev
@@ -112,7 +112,7 @@ Here are more in-depth details of this change (this is just the tip of the icebe
 
 Here's the original PR for Laravel 10 ([[10.x] Slimmer Application Skeleton](https://github.com/laravel/laravel/pull/6172)), which was later moved to Laravel 11. You will find even more information about what was changed.
 
-### New feature: Laravel 11 offers a new Dumpable trait (dump() and dd() from your objects)
+### Laravel 11 offers a new handy trait named "Dumpable"
 
 This pull request introduces a new `Dumpable` trait in Laravel 11, intended to replace the current `dd` and `dump` methods in most of the framework's classes.
 
@@ -147,7 +147,7 @@ $address->foo()->dd()->bar();
 See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.com/laravel/framework/pull/47122)
 
 
-### New feature: The Model::casts() method goes live in Laravel 11
+### The Model::casts() method goes live in Laravel 11
 
 Usually, in Laravel, you declare attribute casting in an Eloquent model like this:
 
@@ -160,7 +160,7 @@ class User extends Model
 }
 ```
 
-With Laravel 11, you can now define your casting through a `casts()` method in your model, giving you a chance to use static methods from the class doing the casting. This is how it looks:
+With Laravel 11, you can now define your casting through a `casts()` method in your model, giving you a chance to use static methods with parameters. This is how it looks:
 
 ```php
 class User extends Model
@@ -193,7 +193,7 @@ class User extends Model
 }
 ```
 
-The `casts()` method is prioritized over the `$casts` property.
+**Note that the `casts()` method is prioritized over the `$casts` property.**
 
 All these changes are non-breaking, meaning they won't affect your current code if you update to Laravel 11.
 
