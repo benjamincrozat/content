@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/252/01HF2W5D0334RMN2NHMAY1RB8G.jpg
-Title: A comprehensive guide to the Laravel UI package
+Title: Get started with laravel/ui
 Description: Leverage the laravel/ui package to scaffold your favorite frontend framework and authentication features.
 Canonical: 
 Audio:
@@ -9,25 +9,25 @@ Modified at: 2024-01-25
 Categories: laravel, packages
 ---
 
-## Introduction to the Laravel UI package
+## Introduction to the laravel/ui package
 
 When working on a web project destined to get some users, having a user-friendly interface is necessary.
 
-That's where [Laravel UI](https://github.com/laravel/ui) comes into play. It offers a basic yet effective starting point for incorporating some CSS and a JavaScript framework into your Laravel projects. It even supports scaffolding pages related to the authentication of your users.
+That's where [laravel/ui](https://github.com/laravel/ui) comes into play. It offers a basic yet effective starting point for incorporating some CSS and a JavaScript framework into your Laravel projects. It even supports scaffolding pages related to the authentication of your users.
 
-Now, before you continue, **please note that while Laravel UI is still maintained, it's also an old package that have better alternatives such as [Laravel Jetstream](https://jetstream.laravel.com) and [Laravel Breeze](https://laravel.com/docs/starter-kits#laravel-breeze)**. For instance, Laravel UI does not support as many authentication features as these two.
+Now, before you continue, **please note that while Laravel UI is still maintained, it's also an old package that has better alternatives such as [Laravel Jetstream](https://jetstream.laravel.com) and [Laravel Breeze](https://laravel.com/docs/starter-kits#laravel-breeze)**. For instance, Laravel UI does not support as many authentication features as these two.
 
 But I noticed that people are still looking for it, so I told myself that I should write a small article about it anyway!
 
-## Installing Laravel UI
+## Installing laravel/ui
 
-Getting started with Laravel UI is straightforward. Install it via the following command:
+Getting started with laravel/ui is straightforward. Install it via the following command:
 
 ```bash
 composer require laravel/ui
 ```
 
-Next, you can install the frontend scaffolding of your choice. **Remember, the next command won't add any component to your app. It will just make your app ready for whatever front-end framework you want to use.** The Laravel UI package supports [Bootstrap](https://getbootstrap.com) without JavaScript or Bootstrap combined with [Vue.js](https://vuejs.org) or [React](https://react.dev):
+Next, you can install the frontend scaffolding of your choice. **Remember, the next command won't add any component to your app. It will just make your app ready for whatever front-end framework you want to use.** The laravel/ui package supports [Bootstrap](https://getbootstrap.com) without JavaScript or Bootstrap combined with [Vue.js](https://vuejs.org) or [React](https://react.dev):
 
 ```bash
 php artisan ui bootstrap
@@ -42,9 +42,9 @@ npm install
 npm run dev
 ```
 
-## Installing Laravel UI with authentication features
+## Installing laravel/ui with authentication features
 
-Installing the authentication part of Laravel UI is completely optional. If you want to use it, you can install it using the `--auth` flag:
+Installing the authentication part of laravel/ui is completely optional. If you want to use it, you can install it using the `--auth` flag:
 
 ```bash
 php artisan ui bootstrap --auth
@@ -65,9 +65,9 @@ npm run dev
 
 You now have everything you need to move forward on your project.
 
-## Customizing the CSS and JavaScript Laravel UI provides
+## Customizing the CSS and JavaScript laravel/ui provides
 
-After installing Laravel UI, you can dive into customizing the CSS and JavaScript.
+After installing laravel/ui, you can dive into customizing the CSS and JavaScript.
 
 Laravel uses [Vite](https://vitejs.dev) out-of-the-box for handling these aspects.
 
@@ -75,7 +75,7 @@ If you are still using a CSS preprocessor like Sass, or Less, Vite streamlines t
 
 For JavaScript, Laravel allows flexibility. You can use Vue.js, React, or anything else and even go without JavaScript.
 
-The setup with Laravel UI just makes it easier to integrate these technologies seamlessly into your project.
+The setup with laravel/ui just makes it easier to integrate these technologies seamlessly into your project.
 
 Here's what the Vite configuration file looks like when using Vue.js:
 
