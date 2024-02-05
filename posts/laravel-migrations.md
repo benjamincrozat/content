@@ -95,7 +95,7 @@ php artisan make:migration CreatePostsTable --create=billets
 The `--table` option tells Artisan we don't need to create a new table but rather update an existing one. If you don't follow Laravel's conventions for naming your migrations, this is the option you need.
 
 ```bash
-php artisan make: migration Whatever --table=posts
+php artisan make:migration Whatever --table=posts
 ```
 
 ### Create a migration with its model
@@ -115,7 +115,7 @@ php artisan make:model Post -m
 And if you look at the help, you will appreciate what Artisan can do for you even more.
 
 ```
-php artisan make: model -h
+php artisan make:model -h
 
 Description:
  Create a new Eloquent model class
