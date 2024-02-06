@@ -47,7 +47,7 @@ Here's what makes a good candidate:
 
 ### Don't hire senior Laravel developers to work on basic tasks
 
-A senior developer is expensive, and for good reasons. Years of experience made them a master at what they do. **You want them to work on something other than simple interface changes or bug fixes**, or they'll get bored and leave as soon as possible.
+A senior developer is expensive and for good reasons. Years of experience made them a master at what they do. **You want them to work on something other than simple interface changes or bug fixes**, or they'll get bored and leave as soon as possible.
 
 Senior developers want to work on complex issues that will make your project easier to maintain, more stable, and more profitable in the long run.
 
