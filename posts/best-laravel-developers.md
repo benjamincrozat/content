@@ -11,9 +11,9 @@ Categories: laravel
 
 ## Introduction to hiring a Laravel developer
 
-We say that developers are difficult to find, but that's not the entire story. Let's just say to **good** developer are hard to find. And they have to be good with Laravel too, which makes it even more complicated.
+We say that developers are difficult to find, but that's not the entire story. Let's just say **good** developers are hard to find. And they have to be skilled with Laravel too, which makes it even more complicated.
 
-As a Laravel developer myself, I know many of them and I'm in a good position to give you some advices on how to find the best Laravel developers to hire in 2024 and recommend some profiles.
+As a Laravel developer myself, I know many of them and I'm in a good position to give you some advice on how to find the best Laravel developers to hire in 2024 and recommend some profiles.
 
 ## The Laravel developer profiles I recommend
 
