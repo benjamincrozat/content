@@ -40,7 +40,7 @@ composer create-project --prefer-dist laravel/laravel hello-world dev-master
 
 ## What's new in Laravel 11: features and changes
 
-### Laravel 11 drops support for PHP 8.1
+### Dropped support for PHP 8.1
 
 When Laravel 11 is released, PHP 8.2 will be established, and PHP 8.3 will also be stable. With support for the last two major versions of PHP, Laravel can move forward and abandon 8.1.
 
@@ -112,7 +112,7 @@ Here are more in-depth details of this change (this is just the tip of the icebe
 
 Here's the original PR for Laravel 10 ([[10.x] Slimmer Application Skeleton](https://github.com/laravel/laravel/pull/6172)), which was later moved to Laravel 11. You will find even more information about what was changed.
 
-### Laravel 11 offers a new handy trait named "Dumpable"
+### There's a new handy trait named "Dumpable"
 
 This pull request introduces a new `Dumpable` trait in Laravel 11, intended to replace the current `dd` and `dump` methods in most of the framework's classes.
 
@@ -147,7 +147,7 @@ $address->foo()->dd()->bar();
 See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.com/laravel/framework/pull/47122)
 
 
-### The Model::casts() method goes live in Laravel 11
+### Discover the new Model::casts() method
 
 Usually, in Laravel, you declare attribute casting in an Eloquent model like this:
 
@@ -210,7 +210,7 @@ Here's a list of every merged PR I found to prepare the release of Laravel 11:
 
 There are a lot of small details to dig into that I didn't include in this article for the sake of conciseness.
 
-## How to contribute your own features and bug fixes to Laravel 11?
+## How to contribute your own features and bug fixes to this release
 
 Did you know you can fix the bugs you have encountered or create the next big feature for Laravel 11?
 
