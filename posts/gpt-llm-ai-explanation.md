@@ -11,7 +11,7 @@ Categories: gpt, ai
 
 ## Introduction
 
-This article aims at demystifying GPT in the simplest way possible and give you a high-level understanding of large language models (or LLMs). 
+This article aims at demystifying GPT in the simplest way possible and give you a high-level understanding of large language models (or LLMs), which are often referred as "Artificial Intelligence." 
 
 That way, you will be able to use them more effectively in your next project or when "chatting" with them (through ChatGPT for instance).
 
@@ -35,17 +35,17 @@ Imagine something that's been forced to digest a huge amount of knowledge and ca
 
 However, don't try to think of it as a human being or even a particularly smart animal. You'll have a hard time making sense of this.
 
-GPT won't learn anything else beyond its training data. It doesn't work like our brains. I don't recommend you to see it as anything else than a next word prediction algorithm.
+GPT won't learn anything else beyond its training data. It doesn't work like our brains. It's just a next word prediction algorithm based on a statistical model of human languages.
 
 ## Why is GPT often referred to as a "model?"
 
 **GPT is called a model because it has been trained to model the statistical patterns of language.**
 
-More specifically, it has learned to predict the probability of a word given the previous one in a sentence, which allows it to generate text that is similar to what humans do.
+More specifically, it has learned to predict the probability of a word given the previous one in a sentence, which allows it to generate text that is similar to what humans do. This is why the amount and quality of training data determines how smart it can be.
 
 ## Is GPT smart enough to be sentient?
 
-For now, **GPT is just a language model that gives the illusion of intelligence and is not sentient.** It isn't aware of itself and doesn't have desires. It's just a next word prediction algorithm and nowhere near a conscious being.
+**GPT is just a language model that gives the illusion of intelligence.** It's nowhere near an artificial being. Nowadays, we still don't have a precise scientific definition of consciousness.
 
 ## What’s the difference between GPT and ChatGPT?
 
@@ -81,7 +81,7 @@ But some people could use it for harmful matters.
 
 Experts even say it's possible that AI could try to control humanity at some point, even if we can't imagine its motives yet.
 
-Currently, though, GPT is light years away from being able to do that.
+Currently, though, GPT is *light years away* from being able to do that.
 
 ## Learn how to build a simple language model
 
