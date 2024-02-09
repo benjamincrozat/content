@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/252/01HF2W5D0334RMN2NHMAY1RB8G.jpg
 Title: Get started with laravel/ui; kickstart your project.
-Description: Leverage the laravel/ui package to scaffold your favorite frontend framework and authentication features.
+Description: Let me show you how to leverage the laravel/ui package to scaffold authentication features on top of your favorite frontend framework.
 Canonical: 
 Audio:
 Published at: 2023-11-12
