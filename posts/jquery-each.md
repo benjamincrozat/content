@@ -9,6 +9,8 @@ Modified at:
 Categories: javascript, jquery
 ---
 
+## Introduction to jQuery's `.each()` method
+
 Ah, jQuery. It's been a cornerstone of web development for years, offering a simplified way to manipulate the DOM, handle events, and perform AJAX requests. One of its most beloved features? The `.each()` method. This little gem allows developers to iterate over both arrays and DOM elements effortlessly, applying functions to each item in the set.
 
 ## Syntax and usage
