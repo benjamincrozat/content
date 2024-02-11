@@ -37,7 +37,7 @@ $('detail').each(function() {
 
 Simple, right? But what if I told you that you could achieve the same thing without jQuery, using just vanilla JavaScript?
 
-## Equivalent to jQuery's each method in Vanilla JavaScript
+## The equivalent in Vanilla JavaScript
 
 As web development evolves, so does JavaScript. The modern ECMAScript standards have introduced methods that make DOM manipulation just as straightforward as jQuery once did. For instance, to replicate jQuery's `each` method example, you can use `forEach` on a NodeList:
 
