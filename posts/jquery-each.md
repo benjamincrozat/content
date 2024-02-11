@@ -11,7 +11,7 @@ Categories: javascript, jquery
 
 ## Introduction to jQuery's `.each()` method
 
-Ah, jQuery. It's been a cornerstone of web development for years, offering a simplified way to manipulate the DOM, handle events, and perform AJAX requests. One of its most beloved features? The `.each()` method. This little gem allows developers to iterate over both arrays and DOM elements effortlessly, applying functions to each item in the set.
+Ah, [jQuery](https://jquery.com). It's been a cornerstone of web development for years, offering a simplified way to manipulate the DOM, handle events, and perform AJAX requests. One of its most beloved features? The [`.each()`](https://api.jquery.com/each/) method. This little gem allows developers to iterate over both arrays and DOM elements effortlessly, applying functions to each item in the set.
 
 ## Syntax and usage
 
@@ -47,7 +47,7 @@ But what if I told you that you could achieve the same thing without jQuery, usi
 
 ## The equivalent in Vanilla JavaScript
 
-As web development evolves, so does JavaScript. The modern ECMAScript standards have introduced methods that make DOM manipulation just as straightforward as jQuery once did. For instance, to replicate jQuery's `each` method example, you can use `forEach` on a `NodeList`.
+As web development evolves, so does JavaScript. The modern ECMAScript standards have introduced methods that make DOM manipulation just as straightforward as jQuery once did. For instance, to replicate jQuery's `each` method example, you can use `forEach` on a [`NodeList`](https://developer.mozilla.org/en-US/docs/Web/API/NodeList).
 
 Here's our practical example from above, but using Vanilla JavaScript:
 
