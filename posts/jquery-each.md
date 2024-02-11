@@ -30,15 +30,15 @@ In this snippet, `selector` targets the DOM elements you want to iterate over. T
 Let's say we want a Frequently Asked Questions section with only one question open at a time:
 
 ```js
-$('summary').click(function () {
-    var parent = $(this).parent('details');
+$('summary').click(() => {
+    var parent = $(this).parent('details')
   
-    $('details').each(function () {
+    $('details').each(() => {
         if (! $(this).is(parent)) {
-            $(this).removeAttr('open');
+            $(this).removeAttr('open')
         }
-    });
-});
+    })
+})
 ```
 
 Not that hard, right? The `.each()` method comes in handy to find all the details elements and close them, excluding the one we clicked in.
@@ -52,17 +52,17 @@ As web development evolves, so does JavaScript. The modern ECMAScript standards 
 Here's our practical example from above, but using Vanilla JavaScript:
 
 ```js
-document.querySelectorAll('summary').forEach(function(summary) {
-    summary.addEventListener('click', function() {
-        var parent = this.parentNode;
+document.querySelectorAll('summary').forEach(summary => {
+    summary.addEventListener('click', () => {
+        var parent = this.parentNode
 
-        document.querySelectorAll('details').forEach(function(details) {
+        document.querySelectorAll('details').forEach(details => {
             if (details !== parent) {
-                details.removeAttribute('open');
+                details.removeAttribute('open')
             }
-        });
-    });
-});
+        })
+    })
+})
 ```
 
 Here, `querySelectorAll` returns a `NodeList` of all `<details>` tags, which we then iterate over with `forEach`, removing the `open` attribute from each `<details>` elements besides the one we clicked on.
