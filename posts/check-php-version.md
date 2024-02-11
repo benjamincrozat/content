@@ -9,11 +9,11 @@ Modified at:
 Categories: php, laravel
 ---
 
-## Introduction
+## The quickest way to check your version of PHP
 
-Checking which version of PHP you are running is a crucial information to know as a developer. This will determine which features you can use in your code, as well as which library, framework or CMS you can choose.
+**To check your version of PHP, simply run the `php -v` command**, no matter if you are running macOS, Linux, or Windows. 
 
-## How to check which version of PHP you are using
+## 6 ways to check your version of PHP
 
 ### Using phpversion()
 
