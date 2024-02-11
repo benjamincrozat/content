@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/71b3175d-790d-4206-988c-c80a7c79ed8b
-Title: Understanding jQuery's `.each()` method
+Title: Understanding jQuery's .each() method
 Description: Learn how to use jQuery's `.each()` method to iterate over DOM elements and arrays, and discover a modern vanilla JavaScript alternative.
 Canonical: 
 Audio:
@@ -9,7 +9,7 @@ Modified at:
 Categories: javascript, jquery
 ---
 
-## Introduction to jQuery's `.each()` method
+## Introduction to jQuery's .each() method
 
 Ah, [jQuery](https://jquery.com). It's been a cornerstone of web development for years, offering a simplified way to manipulate the DOM, handle events, and perform AJAX requests. One of its most beloved features? The [`.each()`](https://api.jquery.com/each/) method. This little gem allows developers to iterate over both arrays and DOM elements effortlessly, applying functions to each item in the set.
 
