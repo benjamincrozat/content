@@ -27,27 +27,45 @@ In this snippet, `selector` targets the DOM elements you want to iterate over. T
 
 ## Practical example
 
-Let's say we want to add a class to every `<p>` tag on our page. Here's how easy it is with `jquery each`:
+Let's say we want a Frequently Asked Questions section with only one question open at a time:
 
 ```js
-$('detail').each(function() {
-    $(this).setAttribute('open', true);
+$('summary').click(function () {
+    var parent = $(this).parent('details');
+  
+    $('details').each(function () {
+        if (! $(this).is(parent)) {
+            $(this).removeAttr('open');
+        }
+    });
 });
 ```
 
-Simple, right? But what if I told you that you could achieve the same thing without jQuery, using just vanilla JavaScript?
+Not that hard, right? The `.each()` method comes in handy to find all the details elements and close them, excluding the one we clicked in.
+
+But what if I told you that you could achieve the same thing without jQuery, using just vanilla JavaScript?
 
 ## The equivalent in Vanilla JavaScript
 
-As web development evolves, so does JavaScript. The modern ECMAScript standards have introduced methods that make DOM manipulation just as straightforward as jQuery once did. For instance, to replicate jQuery's `each` method example, you can use `forEach` on a NodeList:
+As web development evolves, so does JavaScript. The modern ECMAScript standards have introduced methods that make DOM manipulation just as straightforward as jQuery once did. For instance, to replicate jQuery's `each` method example, you can use `forEach` on a `NodeList`.
+
+Here's our practical example from above, but using Vanilla JavaScript:
 
 ```js
-document.querySelectorAll('p').forEach(function(el) {
-  el.classList.add('new-class');
+document.querySelectorAll('summary').forEach(function(summary) {
+    summary.addEventListener('click', function() {
+        var parent = this.parentNode;
+
+        document.querySelectorAll('details').forEach(function(details) {
+            if (details !== parent) {
+                details.removeAttribute('open');
+            }
+        });
+    });
 });
 ```
 
-Here, `querySelectorAll` returns a NodeList of all `<p>` tags, which we then iterate over with `forEach`, adding the class to each element.
+Here, `querySelectorAll` returns a `NodeList` of all `<details>` tags, which we then iterate over with `forEach`, removing the `open` attribute from each `<details>` elements besides the one we clicked on.
 
 ## Conclusion
 
