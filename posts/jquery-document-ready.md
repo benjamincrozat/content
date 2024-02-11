@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 This approach is native to JavaScript, meaning it doesn't require any libraries to work. It's a clean and efficient way to run your JavaScript code at the right time, ensuring that the DOM elements you want to manipulate are fully loaded.
 
-### Conclusion
+## Conclusion
 
 Both jQuery's `$(document).ready()` and the vanilla JavaScript `DOMContentLoaded` event offer ways to ensure your JavaScript code runs after the DOM is fully loaded. jQuery provides a simple, cross-browser way to accomplish this, making it a great choice for many projects, especially those already using jQuery for other purposes. On the other hand, the native JavaScript approach with `DOMContentLoaded` is lightweight and doesn't require an external library, making it an attractive option for projects looking to minimize dependencies.
 
