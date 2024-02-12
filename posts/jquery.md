@@ -22,28 +22,62 @@ Therefore, why wouldn't I write articles about it?
 To start using jQuery in your web projects, you first need to include it in your HTML. The easiest way to do this is by using the official Content Delivery Network (CDN). Simply add the following script tag in the `<head>` section of your HTML document:
 
 ```html
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+      …
+
+      <!-- In your development environment, use this version to ease debugging. -->
+      <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+      <!-- In a production environment, use the minified version for optimal performances. -->
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+      …
+  </body>
+</html>
 ```
 
-The team team behind jQuery doesn't recommend using an URL that always point to the latest version of the framework for [various reasons](https://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/).
+If you are worried about using an outdated version of jQuery, the people behind it don't recommend using an URL that always point to the latest version of the framework for [various reasons](https://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/), but mainly for stability (you don't want your code to break because it doesn't work with the newest major version for instance).
+
+## Use the slim version of jQuery
+
+Did you know there's a slim version of jQuery? It excludes the Ajax and animations effects, which are not necessary in a world where the [native fetch JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) is widely supported, as well as [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) and [animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations). To use the slim version of jQuery, add `.slim` after the version number:
+
+```html
+<!-- In your development environment, use this version to ease debugging. -->
+<script src="https://code.jquery.com/jquery-3.7.1.slim.js"></script>
+<!-- In a production environment, use the minified version for optimal performances. -->
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+```
 
 ## Create your first jQuery component
 
 Now that you've included jQuery, let's create a simple component: a button that hides itself when clicked. Add the following HTML and jQuery script to your document:
 
 ```html
-<button id="hideButton">Hide me!</button>
+<button id="hide-button">Hide me!</button>
 ```
 
+Then, in your JavaScript:
+
 ```javascript
-$(document).ready(() => {
-  $('#hideButton').click(() => {
-    $(this).hide();
-  });
+// Run the code when the document is ready to
+// avoid errors and unpredictable behavior.
+$(document).ready(function () {
+    // Listen for clicks on the button.
+    $('#hide-button').click(function () {
+        // Hide the button, there contained in the "this" variable.
+        $(this).hide();
+    });
 });
 ```
 
-This code uses jQuery to attach a click event to the button with the ID "hideButton". When the button is clicked, jQuery's `hide()` method is called on the element, making it disappear from the page.
+As you saw, this code uses jQuery to attach a click event to the button with the ID `hide-button`. When the button is clicked, jQuery's `hide()` method is called on the element, making it disappear from the page (behind the scenes, it's simply adding the `display: none` value to the `style` attribute).
+
+## What does "$" mean in jQuery?
+
+The dollar sign ($) that you have to use in jQuery is simply a JavaScript variable with a funky name that makes writing code faster. You could instead use the `jQuery` variable.
 
 ## Conclusion
 
