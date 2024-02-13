@@ -35,7 +35,7 @@ Imagine your employer asks you to work on a new feature. Your job is to build it
 
 Understand that any business is looking for minimal efforts for maximum profits. Don't think your employer is some sandbox you can experiment in.
 
-## Laravel interview questions and answers for 3 or 5 years of experience
+## Laravel interview questions and answers
 
 ### What is the latest version of PHP?
 
