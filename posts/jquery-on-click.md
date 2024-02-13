@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/e4ed420c-e4f6-4ce9-b05a-994b89d39431
-Title: Do things on click events using jQuery
+Title: Handle clicks from your users using jQuery
 Description: Dive into the simplicity of handling click events with jQuery and learn how to achieve the same results using modern vanilla JavaScript.
 Canonical:
 Audio:
