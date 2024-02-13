@@ -9,7 +9,7 @@ Modified at: 2024-01-21
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to Laravel job interviews
 
 I've been in countless job interviews over the last decade as a candidate and occasionally as a recruiter too.
 
@@ -35,7 +35,7 @@ Imagine your employer asks you to work on a new feature. Your job is to build it
 
 Understand that any business is looking for minimal efforts for maximum profits. Don't think your employer is some sandbox you can experiment in.
 
-## Laravel interview questions and answers for 3, 5, 10 or more years of experience
+## Laravel interview questions and answers for 3 or 5 years of experience
 
 ### What is the latest version of PHP?
 
@@ -85,8 +85,8 @@ class AppServiceProvider extends ServiceProvider
     public function register() : void
     {
         $this->app->bind(Client::class, function () {
-		    return new Client(config('services.twitter.client_id'));
-		});
+	    return new Client(config('services.twitter.client_id'));
+	});
     }
 }
 ```
@@ -101,8 +101,8 @@ class PostController extends Controller
     public function store(StorePostRequest $request, Client $client) : View
     {
         // Create the post.
-	      // Tweet about it.
-	      // Redirect the user.
+	// Tweet about it.
+	// Redirect the user.
     }
 }
 ```
@@ -138,9 +138,9 @@ This is why the Laravel team discourages people from using Lumen, as it isn't ac
 
 Answer: **Automated tests are tests that are executed by software, rather than manually performed by a human.**
 
-These tests are written as code and can be run automatically as often as needed.
+These tests are written by the developers with code and can be run automatically as often as needed.
 
-They can be integrated into a continuous integration/continuous deployment (CI/CD) pipeline to be executed every time code is changed or deployed.
+They can be integrated into a continuous integration/continuous deployment (CI/CD) pipeline to be executed every time code is changed or deployed (see [how to setup CI/CD](/laravel-testing-best-practices#make-testing-more-useful-with-continuous-integration)).
 
 The goal is to quickly identify issues, regressions, or inconsistencies in the software being tested without the need for human intervention.
 
@@ -178,8 +178,8 @@ Open-source projects host and share their code on it for free, and many companie
 
 1. [Set up your GitHub account](https://github.com/signup);
 2. Learn how to use [Git](https://git-scm.com). Being able to do simple commits, switch branches, and push code to a remote repository (hence the need for GitHub) will make a difference;
-3. Make small contributions to open-source projects or showcase some of your code on your profile.
-4. Include it on your resume!
+3. Make small contributions to open-source projects or showcase some of your code on your profile. Even better: host them (on [DigitalOcean](/recommends/digitalocean) for instance) so anyone can look at it, not just developers.
+4. Include your GitHub profile on your resume!
 
 Take a look at the "[Git Me Some Version Control](https://laracasts.com/series/git-me-some-version-control)" course on Laracasts.
 
@@ -189,9 +189,9 @@ Take a look at the "[Git Me Some Version Control](https://laracasts.com/series/g
 
 [LinkedIn](https://www.linkedin.com) is an excellent platform for looking for a programming job. Even with little experience, recruiters will spontaneously contact you.
 
-LinkedIn lets you add your work experience and other information about you, which anyone can see. You can even generate a PDF version of your profile, which some recruiters will request.
+LinkedIn lets you add your work experience and other information about you, which anyone can see. You can even generate a PDF version of your profile, which some recruiters will request. Make sure your profile photo looks professional. You can either schedule a shooting with a professional photographer (which can be quite expensive), or use a service such as [HeadshotPro](/recommends/headshotpro) that will generate something even better than what most photographers can do.
 
-It also lists the latest job offers for developers. You can apply to most of them from LinkedIn, which is convenient.
+LinkedIn also lists the latest job offers for developers. You can apply to most of them from there, which is convenient.
 
 ### Be prepared to answer any interview question; keep your skills sharp
 
