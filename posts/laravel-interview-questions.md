@@ -21,6 +21,8 @@ You will be fine if:
 
 Depending on the job offer, there may be hundreds of other developers who applied. But don't be discouraged if you don't get it. Apply to as many as possible.
 
+Also, know that **you can ask any questions you might have in the comments section below**. That will greatly help other developers who are passing by!
+
 ## Understand why a company needs you, the developer; This will greatly help during the interview.
 
 A company needs you because they want to keep their product evolving or work on new client projects.
