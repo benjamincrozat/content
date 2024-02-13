@@ -24,7 +24,7 @@ $(document).ready(() => {
 
 This method waits for the DOM to be ready and ensures that your JavaScript code runs at the right time. It's straightforward, easy to use, and has been a staple in web development projects for years.
 
-## Run code when the document is ready using Modern Vanilla JavaScript
+## The Modern Vanilla JavaScript way
 
 In modern JavaScript, the `DOMContentLoaded` event serves a similar purpose to jQuery's document ready method. This event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading. Here's how you can use it:
 
