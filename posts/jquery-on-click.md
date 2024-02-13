@@ -11,11 +11,11 @@ Categories: javascript, jquery
 
 ## Introduction to click events in jQuery
 
-Click events are a staple in web development. They're unavoidable and jQuery offers a straightforward way to handle them. And I will also show you how to do it using Vanilla JavaScript (which just means JavaScript without any dependency).
+Click events are a staple in web development. They're unavoidable and [jQuery](https://jquery.com) offers a straightforward way to handle them. And I will also show you how to do it using Vanilla JavaScript (which just means JavaScript without any dependency).
 
 ## The .click() method in jQuery
 
-Using jQuery to handle click events is both simple and intuitive. The `.click()` method offers a quick way to attach an event listener to DOM elements, responding to user interactions seamlessly. 
+Using jQuery to handle click events is both simple and intuitive. The [`.click()`](https://api.jquery.com/click/) method offers a quick way to attach an event listener to DOM elements, responding to user interactions seamlessly. 
 
 Example:
 
