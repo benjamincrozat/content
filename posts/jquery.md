@@ -38,11 +38,11 @@ To start using jQuery in your web projects, you first need to include it in your
 </html>
 ```
 
-If you are worried about using an outdated version of jQuery, the people behind it don't recommend using an URL that always point to the latest version of the framework for [various reasons](https://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/), but mainly for stability (you don't want your code to break because it doesn't work with the newest major version for instance).
+If you are worried about using an outdated version of jQuery, the people behind it don't recommend using a URL that always points to the latest version of the library for [various reasons](https://blog.jquery.com/2014/07/03/dont-use-jquery-latest-js/), but mainly for stability (you don't want your code to break because it doesn't work with the newest major version for instance).
 
 ## Use the slim version of jQuery
 
-Did you know there's a slim version of jQuery? It excludes the Ajax and animations effects, which are not necessary in a world where the [native fetch JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) is widely supported, as well as [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) and [animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations). To use the slim version of jQuery, add `.slim` after the version number:
+Did you know there's a slim version of jQuery? It excludes the Ajax and animation effects parts, which are not necessary in a world where the [native fetch JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) is widely supported, as well as [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) and [animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations). To use the slim version of jQuery, add `.slim` after the version number:
 
 ```html
 <!-- In your development environment, use this version to ease debugging. -->
