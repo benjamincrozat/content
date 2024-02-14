@@ -13,7 +13,7 @@ Categories: javascript, jquery
 
 [jQuery](https://jquery.com) is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers (especially the old ones).
 
-Nowadays, we might think jQuery has been long dead, but it's not. It's still the dominant JavaScript framework and the big majority of web developers are using it.
+Nowadays, we might think jQuery has been long dead, but it's not. It's still the dominant JavaScript library and the big majority of web developers are using it.
 
 Therefore, why wouldn't I write articles about it?
 
