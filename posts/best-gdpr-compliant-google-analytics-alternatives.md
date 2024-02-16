@@ -38,7 +38,7 @@ Needless to say, this will be a waste of time and money for most of us. So let m
 
 ### Simple Analytics
 
-![Simple Analytics' dashboard in action.](https://github.com/benjamincrozat/content/assets/3613731/234673ca-c7ca-4db8-820d-0977d560772b)
+![Simple Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/234673ca-c7ca-4db8-820d-0977d560772b)
 
 [Simple Analytics](/recommends/simple-analytics) is as good as Fathom Analytics. It's GDPR compliant, a joy to use thanks to its fabulous dashboard, and it also serves big customers such as governements, Michelin, Hyundai, and more.
 
