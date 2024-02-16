@@ -32,21 +32,32 @@ Needless to say, this will be a waste of time and money for most of us. So let m
 
 ### Fathom Analytics
 
-![Fathom Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/977cba88-70b8-47dd-bc22-e7d8139edda6)
+[![Fathom Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/977cba88-70b8-47dd-bc22-e7d8139edda6)](/recommends/fathom-analytics)
 
 [Fathom Analytics](/recommends/fathom-analytics) is one of the best GDPR compliant analytics platform. It serves a ton of serious businesses (GitHub, IBM, McLaren, and more) and can handle huge spikes of traffic due to its _reliable architecture_. **If you are an enterprise customer, this is the one I recommend.**
 
 ### Simple Analytics
 
-![Simple Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/234673ca-c7ca-4db8-820d-0977d560772b)
+[![Simple Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/234673ca-c7ca-4db8-820d-0977d560772b)](/recommends/simple-analytics)
 
 [Simple Analytics](/recommends/simple-analytics) is as good as Fathom Analytics. It's GDPR compliant, a joy to use thanks to its fabulous dashboard, and it also serves big customers such as governements, Michelin, Hyundai, and more.
 
 ### Pirsch Analytics
 
-![Pirsch Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/a6fe0fe7-d448-4135-9288-a538f58b3f0d)
+[![Pirsch Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/a6fe0fe7-d448-4135-9288-a538f58b3f0d)](/recommends/pirsch-analytics)
 
 [Pirsch Analytics](/recommends/pirsch-analytics) is still a relatively new actor on this market. **This is the one I use for this blog.** It still has to prove itself in terms of reliability. But it's by far the most beautiful and feature-complete tool.
+
+## What about the self-hosted alternatives?
+
+There are a lot of self-hosted alternatives to Google Analytics. Questions are:
+- Do you want to be responsible for the reliability of the infrastructure?
+- Do you have time to dedicate to maintenance and technical issues?
+
+If yes, here's a list of some self-hostable alternatives:
+- [Matomo](https://matomo.org/what-is-on-premise/)
+- [Plausible](https://plausible.io/self-hosted-web-analytics)
+- [Umami](https://github.com/umami-software/umami)
 
 ## What is GPDR?
 
