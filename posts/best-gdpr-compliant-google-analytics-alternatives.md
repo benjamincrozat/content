@@ -48,7 +48,7 @@ Besides its dashboard, here are features Fathom offers that you might like:
 
 [![Simple Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/234673ca-c7ca-4db8-820d-0977d560772b)](/recommends/simple-analytics)
 
-[Simple Analytics](/recommends/simple-analytics) is as good as Fathom Analytics. It's GDPR compliant, its dashboard is a joy to use both on desktop and mobile, and it also serves big customers such as governements, Michelin, Hyundai, and more.
+[Simple Analytics](/recommends/simple-analytics) is as good as Fathom Analytics. It's GDPR compliant (**it's hosted and operates in the EU**), its dashboard is a joy to use both on desktop and mobile, and it also serves big customers such as governements, Michelin, Hyundai, and more.
 
 [Simple Analytics](/recommends/simple-analytics) also offers features such as:
 1. **Privacy Protection**: The platform is designed to comply with various privacy policies, such as GDPR of course, but also PECR, and CCPA, ensuring that user data is protected.
@@ -62,7 +62,7 @@ Besides its dashboard, here are features Fathom offers that you might like:
 
 [![Pirsch Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/a6fe0fe7-d448-4135-9288-a538f58b3f0d)](/recommends/pirsch-analytics)
 
-[Pirsch Analytics](/recommends/pirsch-analytics) is still a relatively new actor on this market. **This is the one I use for this blog.** It still has to prove itself in terms of reliability. But it's by far the most beautiful and feature-complete tool.
+[Pirsch Analytics](/recommends/pirsch-analytics) is still a relatively new actor on this market and **operating in Germany**. **This is the one I use for this blog.** It still has to prove itself in terms of reliability. But it's by far the most beautiful and feature-complete tool.
 
 - **Personal support**: The platform provides professional and competent support from IT specialists, ensuring that users receive help with integration details, networking, or programming when needed.
 - **Server-side integration**: This is very useful to bypass ad blockers just like I do on this blog.
