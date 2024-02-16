@@ -46,7 +46,7 @@ Needless to say, this will be a waste of time and money for most of us. So let m
 
 ![Pirsch Analytics' dashboard in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/a6fe0fe7-d448-4135-9288-a538f58b3f0d)
 
-[Pirsch Analytics](/recommends/pirsch-analytics) is still a relatively new actor on this market. **This is the one I use for this blog.** It still has to proe itself in terms of reliability. But it's by far the most beautiful and feature-complete tool.
+[Pirsch Analytics](/recommends/pirsch-analytics) is still a relatively new actor on this market. **This is the one I use for this blog.** It still has to prove itself in terms of reliability. But it's by far the most beautiful and feature-complete tool.
 
 ## What is GPDR?
 
