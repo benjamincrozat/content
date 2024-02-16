@@ -20,7 +20,7 @@ To use Google Analytics 4 in compliance with the GDPR, you should implement IP a
 
 Needless to say, this will be a waste of time and money for most of us. So let me show you my listing of the best alternatives.
 
-## The best GDPR-compliant Google Analytics alternatives by price
+## My recommendations by price
 
 | Name | Price for 100K data points | Free trial |
 | ------------------------------------------------ | --- | ------ |
