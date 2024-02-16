@@ -71,7 +71,7 @@ Besides its dashboard, here are features Fathom offers that you might like:
 
 [Try Pirsch Analytics for 30 days](/recommends/pirsch-analytics)
 
-## What about the self-hosted alternatives?
+## What about the free and self-hosted alternatives?
 
 There are a lot of self-hosted alternatives to Google Analytics. Questions are:
 - Do you want to be responsible for the reliability of the infrastructure?
