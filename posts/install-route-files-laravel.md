@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/3f28ce77-bd37-4215-bf91-f850c5c563de
-Title: How to install the various routes files in Laravel 11 and up
+Title: How to install the various route files in Laravel 11
 Description: The new minimalist application skeleton in Laravel 11 comes with less route files. Here's how to install them.
 Canonical:
 Audio:
