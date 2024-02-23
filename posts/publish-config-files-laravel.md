@@ -14,7 +14,7 @@ Starting from Laravel 11, new projects get to experience a slimmer skeleton. Par
 That being said, as your application grows, you might need to tweak some configuration values. So to publish your config files in Laravel 11 and up, use:
 
 ```bash
-php artisan config:install
+php artisan config:publish
 ```
 
 Laravel will then ask you to choose which config file you want to publish so you don't bloat up your application.
@@ -22,5 +22,5 @@ Laravel will then ask you to choose which config file you want to publish so you
 That being said, you can also publish them all using:
 
 ```bash
-php artisan config:install --all
+php artisan config:publish --all
 ```
