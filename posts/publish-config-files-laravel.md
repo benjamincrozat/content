@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/f89fc0a0-564d-498d-aafa-a27292378376
-Title: How to publish config files in Laravel 11 and up
+Title: How to publish config files in Laravel 11
 Description: The new minimalist application skeleton in Laravel 11 comes with no configuration files. Here's how to publish them.
 Canonical:
 Audio:
