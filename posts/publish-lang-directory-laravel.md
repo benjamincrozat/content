@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/67c22860-75a2-43a0-960a-60c4f839c287
-Title: How to publish the lang directory in Laravel 11 and up
+Title: How to publish the lang directory in Laravel 11
 Description: The new minimalist application skeleton in Laravel 11 comes with no lang directory. Here's how to publish it.
 Canonical:
 Audio:
