@@ -9,17 +9,17 @@ Modified at:
 Categories: laravel
 ---
 
-Starting from Laravel 11, new projects get to experience a slimmer skeleton. Parts of the efforts to make it happen was to remove the configuration files which can be overwhelming for new developers.
+Starting from Laravel 11, new projects get to experience a slimmer skeleton. Parts of the efforts to make it happen was to numbers of published configuration files which can be overwhelming for new developers. For instance, the cors.php, hashing.php, and view.php files are missing.
 
-That being said, as your application grows, you might need to tweak some configuration values. So to publish your config files in Laravel 11 and up, use:
+That being said, as your application grows, you might need them. Therefore, to publish config files in Laravel 11, use:
 
 ```bash
 php artisan config:publish
 ```
 
-Laravel will then ask you to choose which config file you want to publish so you don't bloat up your application.
+Laravel will then ask you to choose which configuration file you want to publish.
 
-That being said, you can also publish them all using:
+And by the way, you can also publish them all at once using:
 
 ```bash
 php artisan config:publish --all
