@@ -15,7 +15,9 @@ Starting from [Laravel 11](https://laravel.com/docs/11.x/releases), new projects
 
 But how do you customize them then? Easy! Just go into your *bootstrap/app.php* file and configure them however you want. Let me show you in more details for the most common use cases.
 
-## Customize where guests are redirected
+## Customize the default middleware
+
+### Change where guests are redirected
 
 To customize where guests are redirected, use the `redirectGuestsTo()` method in _bootstrap/app.php_:
 
@@ -27,7 +29,7 @@ To customize where guests are redirected, use the `redirectGuestsTo()` method in
 
 Previously, this was happening in the *Authenticated.php* middleware file.
 
-## Customize where users and guests are redirected
+### Change where users and guests are redirected
 
 To customize where users and guests are redirected, use the `redirectTo()` method in _bootstrap/app.php_:
 
@@ -42,7 +44,7 @@ To customize where users and guests are redirected, use the `redirectTo()` metho
 
 Previously, this was happening in the *Authenticated.php* and *RedirectIfAuthenticated.php* middleware files.
 
-## Customize which cookies must not be encrypted
+### Exclude cookies from being encrypted
 
 To customize which cookies must not be encrypted, use the `encryptCookies()` method in _bootstrap/app.php_:
 
@@ -57,7 +59,7 @@ To customize which cookies must not be encrypted, use the `encryptCookies()` met
 
 Previously, this was happening in the *EncryptCookies.php* middleware file.
 
-## Customize which routes must be excluded from CSRF protection
+### Exclude routes from CSRF protection
 
 To customize which routes must be excluded from CSRF protection, use the `validateCsrfTokens()` method in _bootstrap/app.php_:
 
@@ -72,7 +74,7 @@ To customize which routes must be excluded from CSRF protection, use the `valida
 
 Previously, this was happening in the *VerifyCsrfToken.php* middleware file.
 
-## Exclude routes from URL signature validation
+### Exclude routes from URL signature validation
 
 To exclude routes from URL signature validation, use the `validateSignatures()` method in _bootstrap/app.php_:
 
@@ -86,7 +88,7 @@ To exclude routes from URL signature validation, use the `validateSignatures()` 
 
 Previously, this was happening in the *ValidateSignature.php* middleware file.
 
-## Prevent converting empty strings to null
+### Prevent converting empty strings in requests
 
 To configure the middleware that converts empty strings to null, use the `convertEmptyStringsToNull()` method in _bootstrap/app.php_:
 
@@ -100,7 +102,7 @@ To configure the middleware that converts empty strings to null, use the `conver
 
 Previously, you had to remove the `ConvertEmptyStringsToNull` middleware in the *app/Http/Kernel.php* file or do it on a per route basis.
 
-## Prevent string trimming
+### Prevent string trimming in requests
 
 To configure the middleware responsible for trimming strings, use the `trimStrings()` method in _bootstrap/app.php_:
 
