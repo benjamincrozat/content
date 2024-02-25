@@ -25,7 +25,7 @@ To customize where guests are redirected, use the `redirectGuestsTo()` method in
 })
 ```
 
-Previously, this was happening in the *Authenticated.php* middleware class.
+Previously, this was happening in the *Authenticated.php* middleware file.
 
 ## Customize where users and guests are redirected
 
@@ -40,7 +40,7 @@ To customize where users and guests are redirected, use the `redirectTo()` metho
 })
 ```
 
-Previously, this was happening in the *Authenticated.php* and *RedirectIfAuthenticated.php* middleware classes.
+Previously, this was happening in the *Authenticated.php* and *RedirectIfAuthenticated.php* middleware files.
 
 ## Customize which cookies must not be encrypted
 
@@ -48,11 +48,68 @@ To customize which cookies must not be encrypted, use the `encryptCookies()` met
 
 ```php
 ->withMiddleware(function (Middleware $middleware) {
-    $middleware->encryptCookies([
+    $middleware->encryptCookies(except: [
         'foo',
         'bar',
     ]);
 })
 ```
 
-Previously, this was happening in the *EncryptCookies.php* middleware class.
+Previously, this was happening in the *EncryptCookies.php* middleware file.
+
+## Customize which routes must be excluded from CSRF protection
+
+To customize which routes must be excluded from CSRF protection, use the `validateCsrfTokens()` method in _bootstrap/app.php_:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->validateCsrfTokens(except: [
+        '/foo/*',
+        '/bar',
+    ]);
+})
+```
+
+Previously, this was happening in the *VerifyCsrfToken.php* middleware file.
+
+## Exclude routes from URL signature validation
+
+To exclude routes from URL signature validation, use the `validateSignatures()` method in _bootstrap/app.php_:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->validateSignatures(except: [
+        '/api/*',
+    ]);
+})
+```
+
+Previously, this was happening in the *ValidateSignature.php* middleware file.
+
+## Prevent converting empty strings to null
+
+To configure the middleware that converts empty strings to null, use the `convertEmptyStringsToNull()` method in _bootstrap/app.php_:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->convertEmptyStringsToNull(except: [
+        fn ($request) => $request->path() === 'foo/bar',
+    ]);
+})
+```
+
+Previously, you had to remove the `ConvertEmptyStringsToNull` middleware in the *app/Http/Kernel.php* file or do it on a per route basis.
+
+## Prevent string trimming
+
+To configure the middleware responsible for trimming strings, use the `trimStrings()` method in _bootstrap/app.php_:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->trimStrings(except: [
+        '/foo',
+    ]);
+})
+```
+
+Previously, this was happening in the *TrimStrings.php* middleware file.
