@@ -15,7 +15,7 @@ Starting from [Laravel 11](https://laravel.com/docs/11.x/releases), new projects
 
 But how do you customize them then? Easy! Just go into your *bootstrap/app.php* file and configure them however you want. Let me show you in more details for the most common use cases.
 
-## Customize where guests are redirected (previously in *Authenticated.php*)
+## Customize where guests are redirected
 
 To customize where guests are redirected, use the `redirectGuestsTo()` method in _bootstrap/app.php_:
 
@@ -25,7 +25,11 @@ To customize where guests are redirected, use the `redirectGuestsTo()` method in
 })
 ```
 
+Previously, this was happening in the *Authenticated.php* middleware class.
+
 ## Customize where users and guests are redirected (previously in *Authenticated.php* and *RedirectIfAuthenticated.php*)
+
+To customize where users and guests are redirected, use the `redirectTo()` method in _bootstrap/app.php_:
 
 ```php
 ->withMiddleware(function (Middleware $middleware) {
@@ -35,3 +39,5 @@ To customize where guests are redirected, use the `redirectGuestsTo()` method in
     );
 })
 ```
+
+Previously, this was happening in the *Authenticated.php* and *RedirectIfAuthenticated.php* middleware classes.
