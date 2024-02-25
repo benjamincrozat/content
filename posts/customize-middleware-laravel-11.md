@@ -27,7 +27,7 @@ To customize where guests are redirected, use the `redirectGuestsTo()` method in
 
 Previously, this was happening in the *Authenticated.php* middleware class.
 
-## Customize where users and guests are redirected (previously in *Authenticated.php* and *RedirectIfAuthenticated.php*)
+## Customize where users and guests are redirected
 
 To customize where users and guests are redirected, use the `redirectTo()` method in _bootstrap/app.php_:
 
@@ -41,3 +41,18 @@ To customize where users and guests are redirected, use the `redirectTo()` metho
 ```
 
 Previously, this was happening in the *Authenticated.php* and *RedirectIfAuthenticated.php* middleware classes.
+
+## Customize which cookies must not be encrypted
+
+To customize which cookies must not be encrypted, use the `encryptCookies()` method in _bootstrap/app.php_:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->encryptCookies([
+        'foo',
+        'bar',
+    ]);
+})
+```
+
+Previously, this was happening in the *EncryptCookies.php* middleware class.
