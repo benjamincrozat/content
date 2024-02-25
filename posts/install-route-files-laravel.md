@@ -19,6 +19,8 @@ To publish the API routes file in Laravel 11 and up, use:
 php artisan install:api
 ```
 
+This command will create the *routes/api.php* file, but also install [Laravel Sanctum](https://laravel.com/docs/sanctum), create some migrations, and update your *User* model.
+
 And to publish the broadcasting channels routes file, use:
 
 ```bash
