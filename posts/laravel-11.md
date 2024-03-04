@@ -11,7 +11,7 @@ Categories: laravel
 
 ## When will Laravel 11 be released?
 
-According to the [Support Policy](https://laravel.com/docs/10.x/releases#support-policy), **Laravel 11 is scheduled to be released during Q1 of 2024**.
+According to the [Support Policy](https://laravel.com/docs/10.x/releases#support-policy), **Laravel 11 is scheduled to be released on March 12, 2024**.
 
 The release of Laravel 11 doesn't mean you must update all your projects immediately, though.
 
@@ -21,8 +21,8 @@ Laravel 10 will receive bug fixes until August 6th, 2024 and security fixes unti
 
 | Version | PHP | Release | Bug fixes until | Security fixes until |
 | ------- | --- | ------- | --------------- | -------------------- |
-| 10 | 8.1 | February 14, 2023 | August 6th, 2024 | February 4th, 2025 |
-| 11 | 8.2 | Q1 2024 | August 5th, 2025 | February 3rd, 2026 |
+| 10 | 8.1 | February 14, 2023 | August 6, 2024 | February 4, 2025 |
+| 11 | 8.2 | March 12, 2024 | August 5, 2025 | February 3, 2026 |
 
 ## Install and test Laravel 11 right now
 
