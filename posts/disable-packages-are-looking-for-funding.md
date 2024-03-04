@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/527efaf4-30dd-4066-8f8b-1012c05f904d
 Title: Disable "packages are looking for funding" in NPM
 Description: Learn how you can disable the "packages are looking for funding" messages in your project or globally.
 Canonical:
