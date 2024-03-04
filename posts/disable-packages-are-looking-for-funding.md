@@ -27,6 +27,18 @@ To disable funding messages for a single project, you can use the `.npmrc` file:
 
 This setting tells NPM not to display funding messages for the project in question. Remember, this change only affects the current project, not your global NPM settings.
 
+## Disable the message temporarily 
+
+To disable funding messages temporarily, use the `--no-fund` option:
+
+```bash
+npm install --no-fund
+```
+
+This won't change any config value anywhere.
+
+And by the way, the option also works for with the `update` command and a few others.
+
 ## Why are packages looking for funding?
 
 Open-source projects are the backbone of the software development world, with thousands of developers relying on free, publicly available packages to build their applications. However, maintaining these packages requires time, effort, and resources. The _"packages are looking for funding"_ message is a way for open-source developers to seek financial support from the community. This funding helps maintain the quality, security, and development of these packages.
