@@ -5,7 +5,7 @@ Description: Laravel 11 will be released on February 6th, 2024. Its development 
 Canonical: 
 Audio:
 Published at: 2023-01-05
-Modified at: 2024-02-03
+Modified at: 2024-03-07
 Categories: laravel
 ---
 
@@ -77,40 +77,19 @@ bootstrap
 │   ├── packages.php
 │   └── services.php
 └── providers.php
+config
 …
 ```
 
-Gone is the *Console* folder. Gone is the *app/Http/Middleware* folder. Gone is the *config* folder. You register providers in the *bootstrap/providers.php* file now. Or you can use the config files again using the `php artisan config:publish` command.
+Gone are the *app/Console*, *app/Jobs*, *app/Exceptions*, *app/Http/Middleware*, etc. folders. Now, you register providers in the *bootstrap/providers.php* file and customize default middleware classes in the *bootstrap/app.php* file (learn [how to customize default middleware](https://benjamincrozat.test/customize-middleware-laravel-11), there's a lot to unpack here).
 
-The *routes/channel.php*, *routes/console.php*, and *routes/api.php* files have been removed too. To bring *api.php* and *channel.php* back, run the new `php artisan install:{api|broadcasting}` command. 
+The config directory is still present, but some of the files are not included my default and there's a new `php artisan config:publish` command to bring them back. More here: [How to publish config files in Laravel 11](https://benjamincrozat.test/publish-config-files-laravel)
 
-Here are more in-depth details of this change (this is just the tip of the iceberg):
+The *routes/channel.php*, *routes/console.php*, and *routes/api.php* files have been removed too. To bring *api.php* and *channel.php* back, run the new `php artisan install:{api|broadcasting}` command (details here: [How to publish the various route files in Laravel 11](/install-route-files-laravel)).
 
-- In `AuthServiceProvider`, the `$policies` property has been removed, as the framework automatically discovers them.
+The *lang* directory is also optional now and you must use the `php artisan lang:publish` command to get it back (more here: [How to publish the lang directory in Laravel 11](/publish-lang-directory-laravel)).
 
-- In `EventServiceProvider`, the `SendEmailVerificationNotification` is no longer necessary, as the base `EventServiceProvider` is registering it. You will also notice that auto-event discovery is now enabled by default. 
-
-- `BroadcastServiceProvider` no longer necessary and has been removed. The framework is automatically loading the *routes/channels.php* file (when you are using it).
-
-- `RedirectIfAuthenticated` is now simpler thanks to the base one in the framework's internals.
-
-- The `Authenticate` middleware no longer calls `redirectTo()` for JSON routes. This removes an unnecessary ternary check.
-
-- `EncryptCookies`, `PreventRequestsDuringMaintenance.php`, `TrimStrings`, `TrustHosts`, `TrustProxies`, `ValidateCsrfToken` and `ValidateSignature` middlewares have been removed from the skeleton.
-
-- Custom Artisan commands are now loaded automatically. The console kernel does not need to call the `load()` method.
-
-- The *routes/console.php* has been removed. Closure-based Artisan commands can be registered in the console kernel.
-
-- Some migrations have been consolidated into a single file or just removed.
-
-- The `AuthorizesRequests` and `ValidatesRequests` traits have been removed from the base controller.
-
-- The *bootstrap/app.php* file has been shrunk to just three lines of code.
-
-- The exception handler was removed.
-
-Here's the original PR for Laravel 10 ([[10.x] Slimmer Application Skeleton](https://github.com/laravel/laravel/pull/6172)), which was later moved to Laravel 11. You will find even more information about what was changed.
+There's more to this minimalist app skeleton and you can see everything in the original PR that was initially planned for Laravel 10 ([[10.x] Slimmer Application Skeleton](https://github.com/laravel/laravel/pull/6172)).
 
 ### There's a new handy trait named "Dumpable"
 
