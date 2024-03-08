@@ -81,9 +81,9 @@ config
 …
 ```
 
-Gone are the *app/Console*, *app/Jobs*, *app/Exceptions*, *app/Http/Middleware*, etc. folders. Now, you register providers in the *bootstrap/providers.php* file and customize default middleware classes in the *bootstrap/app.php* file (learn [how to customize default middleware](https://benjamincrozat.test/customize-middleware-laravel-11), there's a lot to unpack here).
+Gone are the *app/Console*, *app/Jobs*, *app/Exceptions*, *app/Http/Middleware*, etc. folders. Now, you register providers in the *bootstrap/providers.php* file and customize default middleware classes in the *bootstrap/app.php* file (learn [how to customize default middleware](/customize-middleware-laravel-11), there's a lot to unpack here).
 
-The config directory is still present, but some of the files are not included my default and there's a new `php artisan config:publish` command to bring them back. More here: [How to publish config files in Laravel 11](https://benjamincrozat.test/publish-config-files-laravel)
+The config directory is still present, but some of the files are not included my default and there's a new `php artisan config:publish` command to bring them back. More here: [How to publish config files in Laravel 11](/publish-config-files-laravel)
 
 The *routes/channel.php*, *routes/console.php*, and *routes/api.php* files have been removed too. To bring *api.php* and *channel.php* back, run the new `php artisan install:{api|broadcasting}` command (details here: [How to publish the various route files in Laravel 11](/install-route-files-laravel)).
 
