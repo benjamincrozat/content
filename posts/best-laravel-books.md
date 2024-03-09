@@ -18,7 +18,7 @@ The book here are pure gold. Each one I recommend is related to Laravel, talks a
 
 ### Battle Ready Laravel by Ash Allen
 
-![Battle Ready Laravel by Ash Allen](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/7b6f4c49-cf20-49a7-bdd2-3f01f414df29)
+[![Battle Ready Laravel by Ash Allen](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/7b6f4c49-cf20-49a7-bdd2-3f01f414df29)](/recommends/battle-ready-laravel)
 
 Ash Allen is an inspiring figure in the Laravel community. I first talked to him back in 2022 on X (formerly Twitter) and he always was kind and helpful. If there’s a person from whom you can take guidance, it’s Ash.
 
@@ -26,11 +26,11 @@ Battle Ready Laravel has been a compelling read so far. I’m not the kind of pe
 
 I won’t disclose everything inside it, but the website provides a pretty good overview and even a free sample.
 
-[Check Battle Ready Laravel]()
+[Check Battle Ready Laravel](/recommends/battle-ready-laravel)
 
 ### Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont
 
-![Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/49cfa0c3-237d-4967-b7b7-0a93dca71d1a)
+[![Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/49cfa0c3-237d-4967-b7b7-0a93dca71d1a)](/recommends/mastering-laravel-validation-rules)
 
 Let me tell you: Mastering Laravel Validation Rules is a game-changer. Whether you're a beginner or knee-deep in Laravel development, this book has something for everyone. I’ve been using Laravel for more than 8 years, and I learned a ton.
 
@@ -38,4 +38,4 @@ The real-world examples help understand concepts faster and better (in Laravel�
 
 If you're working with Laravel, do yourself a favor and get your hands on this book. Open it when you’re looking at a rule you don’t understand and when you’re not sure how to handle a certain type of value.
 
-[Check Mastering Laravel Validation](https://gumroad.com/a/741597651/LIEhc)
+[Check Mastering Laravel Validation](/recommends/mastering-laravel-validation-rules)
