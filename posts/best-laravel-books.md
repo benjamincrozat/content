@@ -3,6 +3,7 @@ Image:
 Title: The best books any Laravel developer should read in 2024
 Description: Let me show you books written by expert community member who knows their subject and will drastically level you up.
 Canonical:
+Commercial: true
 Audio:
 Published at: 2024-03-09
 Modified at:
