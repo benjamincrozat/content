@@ -71,18 +71,6 @@ Gone are the days of a cluttered middleware folder. Laravel 11 has moved these m
 })
 ```
 
-#### Direct tasks scheduling in routes/console.php
-
-Scheduling tasks is now as simple as adding a few lines to your `routes/console.php` file, thanks to the new `Schedule` facade. No need for a console kernel anymore.
-
-In *routes/console.php*:
-
-```php
-use Illuminate\Support\Facades\Schedule;
- 
-Schedule::command('some-service:sync')->daily();
-```
-
 #### Exception handling also moved to bootstrap/app.php
 
 In the spirit of consolidation, exception handling has also moved to the cozy confines of `bootstrap/app.php`. This keeps your application's structure lean and means you won't have to hunt through multiple files to manage exceptions.
@@ -97,6 +85,18 @@ Here's a code sample from Laravel 11's release notes (*bootstrap/app.php*):
         // ...
     });
 })
+```
+
+#### Direct tasks scheduling in routes/console.php
+
+Scheduling tasks is now as simple as adding a few lines to your `routes/console.php` file, thanks to the new `Schedule` facade. No need for a console kernel anymore.
+
+In *routes/console.php*:
+
+```php
+use Illuminate\Support\Facades\Schedule;
+ 
+Schedule::command('some-service:sync')->daily();
 ```
 
 #### A minimalist base controller class
