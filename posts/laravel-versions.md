@@ -5,7 +5,7 @@ Description: What's the current version of Laravel? Is there any LTS release you
 Canonical: 
 Audio:
 Published at: 2023-09-20
-Modified at: 2024-01-21
+Modified at: 2024-02-10
 Categories: laravel
 ---
 
@@ -17,13 +17,11 @@ It's fascinating to go back in time and have an overview of how far the framewor
 
 ## The latest stable version of Laravel
 
-**The latest stable release of Laravel is version 10.0.** It's been publicly available since February 14, 2023.
-
-This version introduced numerous new features and changes that I covered in one of my articles titled ["Laravel 10 is out! Here's every new feature and change."](/laravel-10)
+**The latest stable release of Laravel is version 11.** It's been publicly available since March 12, 2024. This version introduced numerous [new features and changes](/laravel-11). Laravel 11 will be supported until September 3rd, 2025 for bug fixes and until March 12th, 2026 for security fixes.
 
 ## The latest LTS (Long Term Support) release of Laravel
 
-**The latest LTS release of Laravel was 6.** It was supported from September 3rd, 2019 to September 3rd, 2022 for new releases, bug fixes, and security fixes.
+Nope, Laravel 11 isn't LTS. **The latest LTS release of Laravel was version 6.** It was supported from September 3rd, 2019 to September 3rd, 2022 for new releases, bug fixes, and security fixes.
 
 Starting with Laravel 8.0, LTS versions became absolete as every new major version is supported for two years, giving everyone enough time to upgrade to next big release.
 
@@ -856,3 +854,47 @@ You can learn more in this great blog post I found: [History of Laravel PHP fram
 - **Horizon and Telescope UI updates**:
     - Fresh, modern look.
     - Improved typography, spacing, and design.
+
+### Laravel version 11.0
+
+**Laravel version 11.0 was released on March 14, 2024.** Some of its new features include:
+
+- **Streamlined Application Structure**:
+  - Revitalized `bootstrap/app.php` for code-first application configuration.
+  - Reduced default service providers to a single `AppServiceProvider`.
+  - Opt-in API and broadcast routing through Artisan commands.
+  - Moved middleware into the framework itself for a leaner application structure.
+
+- **Laravel Reverb**:
+  - A scalable WebSocket server for real-time capabilities.
+  - Supports horizontal scaling via Redis's publish/subscribe capabilities.
+
+- **Per-Second Rate Limiting**:
+  - Supports "per-second" rate limiting for HTTP requests and queued jobs.
+
+- **Health Routing**:
+  - A simple health-check endpoint at `/up` for monitoring services.
+
+- **Graceful Encryption Key Rotation**:
+  - Allows for previous encryption keys to be defined and used for decryption.
+
+- **Prompt Validator Integration**:
+  - Utilize Laravel's validator for validating prompt inputs.
+
+- **Queue Interaction Testing**:
+  - Simplified testing for released, deleted, or manually failed queued jobs.
+
+- **New Artisan Commands**:
+  - Commands for quick creation of classes, enums, interfaces, and traits.
+
+- **Model Casts Improvements**:
+  - Allows defining model's casts using a method for streamlined definitions.
+
+- **The `once` Function**:
+  - Caches the result of a callback in memory for the duration of the request.
+
+- **Improved Performance When Testing With In-Memory Databases**:
+  - Reuse of PHP's PDO object across connections for faster testing.
+
+- **Improved Support for MariaDB**:
+  - A dedicated MariaDB driver with better defaults.
