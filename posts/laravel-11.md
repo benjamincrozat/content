@@ -1,11 +1,11 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/79997924-366b-4969-98d6-bd0a7280ab25
 Title: Laravel 11: the big changes ahead and release date
-Description: Laravel 11 will be released on February 6th, 2024. Its development is still ongoing. Let's dive into every relevant new feature we know about already.
+Description: Laravel 11 will be released on March 12th, 2024. Its development is still ongoing. Let's dive into every relevant new feature we know about already.
 Canonical: 
 Audio:
 Published at: 2023-01-05
-Modified at: 2024-03-07
+Modified at: 2024-03-10
 Categories: laravel
 ---
 
@@ -22,7 +22,7 @@ Laravel 10 will receive bug fixes until August 6th, 2024 and security fixes unti
 | Version | PHP | Release | Bug fixes until | Security fixes until |
 | ------- | --- | ------- | --------------- | -------------------- |
 | 10 | 8.1 | February 14, 2023 | August 6, 2024 | February 4, 2025 |
-| 11 | 8.2 | March 12, 2024 | August 5, 2025 | February 3, 2026 |
+| 11 | 8.2 | March 12, 2024 | September 3, 2025 | March 12, 2026 |
 
 ## Install and test Laravel 11 right now
 
@@ -40,6 +40,82 @@ composer create-project --prefer-dist laravel/laravel hello-world dev-master
 
 ## What's new in Laravel 11: features and changes
 
+### A slimmer application skeleton
+
+With the introduction of Laravel 11, it was time to declutter and redefine how a Laravel application is structured. The goal? To give you a leaner and more efficient starting point for your projects. And let me tell you, they've delivered.
+
+#### The all-new bootstrap/app.php file
+
+The heart of this makeover is the `bootstrap/app.php` file, revitalized to act as your central command station. It's here you'll tweak application routing, middleware, service providers, exception handling, and a bunch more – all from one spot. Think of it as the captain's a spaceship.
+
+#### Simplified service providers
+
+Are you used to juggling multiple service providers? Laravel 11 says, "No more!" Now, there's just one `AppServiceProvider`. This change consolidates the functions of the old service providers into either the `bootstrap/app.php` or the `AppServiceProvider`, making your codebase tidier.
+
+#### Optional API and broadcast route files
+
+Not every app needs API and broadcasting capabilities out of the gate. Laravel 11 acknowledges this by not including *api.php* and *channels.php* route files by default. Need them? Just a simple [Artisan command away](/install-route-files-laravel). Laravel's flexibility shines here, allowing you to add features only when you need them.
+
+```bash
+php artisan install:api
+php artisan install:broadcasting
+```
+
+#### Gone are the default middleware classes
+
+Gone are the days of a cluttered middleware folder. Laravel 11 has moved these middleware into the framework itself, letting you enjoy a cleaner application structure without losing the ability to customize middleware behavior from `bootstrap/app.php`. Learn more: (How to customize default middleware in Laravel 11)[/customize-middleware-laravel-11]
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->redirectGuestsTo('/admin/login');
+})
+```
+
+#### Direct tasks scheduling in routes/console.php
+
+Scheduling tasks is now as simple as adding a few lines to your `routes/console.php` file, thanks to the new `Schedule` facade. No need for a console kernel anymore.
+
+In *routes/console.php*:
+
+```php
+use Illuminate\Support\Facades\Schedule;
+ 
+Schedule::command('some-service:sync')->daily();
+```
+
+#### Exception handling also moved to bootstrap/app.php
+
+In the spirit of consolidation, exception handling has also moved to the cozy confines of `bootstrap/app.php`. This keeps your application's structure lean and means you won't have to hunt through multiple files to manage exceptions.
+
+Here's a code sample from Laravel 11's release notes (*bootstrap/app.php*):
+
+```php
+->withExceptions(function (Exceptions $exceptions) {
+    $exceptions->dontReport(MissedFlightException::class);
+ 
+    $exceptions->reportable(function (InvalidOrderException $e) {
+        // ...
+    });
+})
+```
+
+#### A minimalist base controller class
+
+The base controller class in Laravel 11 has gone on a diet. The `AuthorizesRequests` and `ValidatesRequests` traits still exist, but you will also now have to opt-in.
+
+For instance, if you are using policies and want to do check for authorizations, you'll have to include the `AuthorizesRequests` trait in your base controller (*app/Http/Controllers/Controller.php*):
+
+```php
+namespace App\Http\Controllers;
+
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+
+abstract class Controller
+{
+    use AuthorizesRequests;
+}
+```
+
 ### Dropped support for PHP 8.1
 
 When Laravel 11 is released, PHP 8.2 will be established, and PHP 8.3 will also be stable. With support for the last two major versions of PHP, Laravel can move forward and abandon 8.1.
@@ -53,43 +129,6 @@ Those projects need to slowly but surely move forward by doing extensive testing
 See the pull request on GitHub: [[11.x] Drop PHP 8.1 support](https://github.com/laravel/framework/pull/45526)
 
 ![PHP 8.2](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/127/conversions/www.php.net_releases_8.2_en.php_jqtup2-medium.jpg)
-
-### Welcome a more minimalistic (and optional) application skeleton
-
-Laravel 11 comes with a slimmer application skeleton. The idea for this is that you should have less boilerplate code to deal with, which should help newcomers find their way around the framework more easily. And I couldn't agree more.
-
-**In case you missed it, please know that any existing app that is upgraded to Laravel 11 won't have to adopt this new project structure. It's completely optional.**
-
-When you install Laravel 11, you will be greeted by an ultra-minimalistic application skeleton that looks like this:
-
-```diff
-app
-├── Http
-│   └── Controllers
-│       └── Controller.php
-├── Models
-│   └── User.php
-└── Providers
-    └── AppServiceProvider.php
-bootstrap
-├── app.php
-├── cache
-│   ├── packages.php
-│   └── services.php
-└── providers.php
-config
-…
-```
-
-Gone are the *app/Console*, *app/Jobs*, *app/Exceptions*, *app/Http/Middleware*, etc. folders. Now, you register providers in the *bootstrap/providers.php* file and customize default middleware classes in the *bootstrap/app.php* file (learn [how to customize default middleware](/customize-middleware-laravel-11), there's a lot to unpack here).
-
-The config directory is still present, but some of the files are not included my default and there's a new `php artisan config:publish` command to bring them back. More here: [How to publish config files in Laravel 11](/publish-config-files-laravel)
-
-The *routes/channel.php*, *routes/console.php*, and *routes/api.php* files have been removed too. To bring *api.php* and *channel.php* back, run the new `php artisan install:{api|broadcasting}` command (details here: [How to publish the various route files in Laravel 11](/install-route-files-laravel)).
-
-The *lang* directory is also optional now and you must use the `php artisan lang:publish` command to get it back (more here: [How to publish the lang directory in Laravel 11](/publish-lang-directory-laravel)).
-
-There's more to this minimalist app skeleton and you can see everything in the original PR that was initially planned for Laravel 10 ([[10.x] Slimmer Application Skeleton](https://github.com/laravel/laravel/pull/6172)).
 
 ### There's a new handy trait named "Dumpable"
 
