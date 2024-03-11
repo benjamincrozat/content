@@ -21,8 +21,8 @@ Laravel 11 will receive bug fixes until September 3, 2025 and security fixes unt
 
 | Version | PHP | Release | Bug fixes until | Security fixes until |
 | ------- | --- | ------- | --------------- | -------------------- |
-| 11 | 8.2 | March 12, 2024 | September 3, 2025 | March 12, 2026 |
-| 12 | 8.2 | Q1 2025 | Q3 2026 | Q1 2027 |
+| 11 | 8.2-8.3 | March 12, 2024 | September 3, 2025 | March 12, 2026 |
+| 12 | 8.2-8.3 | Q1 2025 | Q3 2026 | Q1 2027 |
 
 ## Install and test Laravel 12 right now
 
