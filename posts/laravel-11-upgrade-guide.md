@@ -1,11 +1,10 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/28/laravel-10-upgrade-guide_myjbgv.png
-Title: Laravel 10: the upgrade guide from version 9
-Description: I show you how to upgrade your Laravel 9 project to version 10 and help you decide whether the return on investment is worth it.
+Image:
+Title: Laravel 11: the upgrade guide from version 10
+Description: I show you how to upgrade your Laravel 10 project to version 11 and help you decide whether the return on investment is worth it.
 Canonical: 
 Audio:
-Published at: 2023-02-03
-Modified at: 2023-11-02
+Published at: 2024-03-11
 Categories: laravel
 ---
 
@@ -16,23 +15,21 @@ Upgrading your Laravel applications to the latest version has many benefits like
 - Reduced security risks.
 - Increased compatibility with first and third-party packages.
 
-## Before upgrading from Laravel 9 to Laravel 10, learn what's new
+## Before upgrading from Laravel 10 to Laravel 11, learn what's new
 
-Major releases of Laravel have been smaller and smaller over the years.
-
-But Laravel 10 still has plenty of changes, though, and I wrote about them: [Laravel 10 is out! Here's every new feature and change.](https://benjamincrozat.com/laravel-10)
+Laravel 11 has plenty of changes and I wrote about them: [Laravel 11 is out! Here's every new feature and change.](https://benjamincrozat.com/laravel-11)
 
 ## Do you really need to upgrade?
 
-At the time I'm writing these lines, **Laravel 9 is still alive** and will have:
-- ~~Bug fixes until August 8th, 2023~~
-- ~~Security fixes until February 6th, 2024~~
+At the time I'm writing these lines, **Laravel 10 is still alive** and will have:
+- **Bug fixes until August 6th, 2024**
+- **Security fixes until February 4th, 2025**
 
 That being said, **is the return on investment still worth it**?
 
 My recommendations is to upgrade only if:
 - The project is still in active development.
-- You need a package that only supports Laravel 10.
+- You need a package that only supports Laravel 11.
 - Your project is well-tested, and the transition will be easy.
 
 And do not upgrade if:
@@ -42,17 +39,15 @@ And do not upgrade if:
 
 If you consider upgrading it after reading this, go for it! It's probably the right decision.
 
-But if you're taking the cautious approach, take the two years of support the team offers for Laravel 9 to fix your project first.
+But if you're taking the cautious approach, take the two years of support the team offers for Laravel 10 to fix your project first.
 
-![Laravel Upgrade guide](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/130/conversions/Screenshot_2023-02-03_at_11.00.57_sruzij-medium.jpg)
+## How to upgrade from Laravel 10 to Laravel 11?
 
-## How to upgrade from Laravel 9 to Laravel 10?
-
-First, **if you are still running Laravel 8, you must [upgrade to Laravel 9](https://benjamincrozat.com/laravel-9-upgrade-guide)**. It's theoretically possible to upgrade from 8 to 10, but I wouldn't recommend it. Proceed one version at a time.
+First, **if you are still running Laravel 9, you must [upgrade to Laravel 10](https://benjamincrozat.com/laravel-10-upgrade-guide)**. It's theoretically possible to upgrade from 9 to 11, but I wouldn't recommend it. Proceed one version at a time.
 
 ### Meet the requirements
 
-- PHP 8.1+ with the following extensions:
+- PHP 8.2+ with the following extensions:
   - Ctype
   - cURL
   - DOM
@@ -68,32 +63,27 @@ First, **if you are still running Laravel 8, you must [upgrade to Laravel 9](htt
   - XML
 - Nginx or Apache
 
-As you can see, Laravel 10 doesn't require anything fancy to work properly.
+As you can see, Laravel 11 doesn't require anything fancy to work properly.
 
-### Make sure third-party Composer packages support Laravel 10
+### Make sure third-party Composer packages support Laravel 11
 
-Do the third-party packages you used to build your project support Laravel 10?
+Do the third-party packages you used to build your project support Laravel 11?
 
-To answer this question, go to [Packagist](https://packagist.org), enter the name of the package, and see if it received a recent update. In the list of dependencies, you should see `"ìlluminate/something": "^10.0"`.
+To find out, run the following command:
+```bash
+composer why-not laravel/framework 11.0
+```
 
-Let's take [spatie/laravel-permissions](https://packagist.org/packages/spatie/laravel-permission), for instance, which is one of the most popular package for Laravel.
+If some packages show up, you can wait for the maintainers to update their packages. Some people, like me, aren't that patient, though.
 
-In the screenshot below, we can see it supports Laravel 7, 8, 9, and 10.
-
-![spatie/laravel-permission](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/131/conversions/Screenshot_2023-02-04_at_18.16.02_nvvzfb-medium.jpg)
-
-If you cannot see any indication that your packages have been upgraded, consider waiting a bit before upgrading your project.
-
-Some people, like me, aren't that patient, though.
-
-Luckily, adding Laravel 10 support for a Composer package is most of the time a matter of changing the *illuminate/something* version constraints in *composer.json*, because there aren't many breaking changes between major updates these days:
+Luckily, adding Laravel 11 support for a Composer package is most of the time a matter of changing the *illuminate/something* version constraints in *composer.json*, because there aren't many breaking changes between major updates these days:
 
 ```diff
 {
     "require": {
         …
--        "illuminate/support": "^9.0",
-+        "illuminate/support": "^10.0",
+-        "illuminate/support": "^10.0",
++        "illuminate/support": "^11.0",
         …
     }
 }
@@ -103,7 +93,7 @@ You could create a Pull Request to help open source maintainers, or fork the pac
 
 ### Follow the upgrade guide
 
-There's no trick in upgrading a Laravel app. It only takes you to follow the instructions in the [upgrade guide](https://laravel.com/docs/10.x/upgrade).
+There's no trick in upgrading a Laravel app. It only takes you to follow the instructions in the [upgrade guide](https://laravel.com/docs/11.x/upgrade).
 
 These instructions are usually the following:
 1. Make sure your version of PHP meets the minimal requirements.
@@ -116,7 +106,7 @@ Depending on the size of your codebase, how well-tested it is and even the numbe
 
 Fortunately, you will see below how ingenuity can help you upgrade Laravel projects almost automatically and simplify your web developer life.
 
-## Laravel Shift: upgrade as many projects to Laravel 10 as you want with a few clicks
+## Laravel Shift: upgrade as many projects to Laravel 11 as you want with a few clicks
 
 If you're a professional developer, you might have tons of clients who want to be on the latest version of Laravel.
 
@@ -136,7 +126,7 @@ Under the hood, Laravel Shift will upgrade your dependencies and make the necess
 Here are some of the [available Shifts](https://laravelshift.com/shifts?utm_campaign=laravel-10-upgrade-guide&utm_source=benjamincrozat.com&utm_medium=blogpost&utm_content=textlink) (paid and free). You will also see that Laravel Shift can do more than just upgrade Laravel (which already was a considerable feat):
 - Migrate **from Laravel Mix to Vite** (this one is **free**, so try it!).
 - **Lint your Laravel project** to see if you're doing things the "Laravel way" (it's also **free**).
-- Upgrade **from Laravel 5.0 up to Laravel 10**.
+- Upgrade **from Laravel 5.0 up to Laravel 11**.
 - Migrate **from Tailwind CSS 0.x up to 3.x**.
 - Migrate **from PHPUnit to Pest**.
 - And more!
@@ -144,4 +134,3 @@ Here are some of the [available Shifts](https://laravelshift.com/shifts?utm_camp
 The pricing is straightforward and extremely generous considering how expensive paying developers is:
 - **$99** per year to run as many Shifts as you want on your project
 - **$5-$29** per Shift
-
