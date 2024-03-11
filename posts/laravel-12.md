@@ -11,7 +11,7 @@ Categories: laravel
 
 ## When will Laravel 12 be released?
 
-According to the [Support Policy](https://laravel.com/docs/11.x/releases#support-policy), **Laravel 11 is scheduled to be released during Q1 of 2025**.
+According to the [Support Policy](https://laravel.com/docs/11.x/releases#support-policy), **Laravel 12 is scheduled to be released during Q1 of 2025**.
 
 The release of Laravel 12 doesn't mean you must update all your projects immediately, though.
 
