@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/967a39d9-f016-43d6-bb37-fb010aa1b1cd
 Title: Laravel 12: an early look and release date
 Description: Laravel 12 will be released early 2025. Let's put our investigator hat and see what we can find out about this new major version.
 Canonical: 
