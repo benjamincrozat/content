@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/05bd6ef2-e022-4926-8a5a-bdda3904abbf
 Title: Laravel 11: the upgrade guide from version 10
 Description: I show you how to upgrade your Laravel 10 project to version 11 and help you decide whether the return on investment is worth it.
 Canonical: 
