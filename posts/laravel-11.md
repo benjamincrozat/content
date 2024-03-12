@@ -24,7 +24,7 @@ According to the [Support Policy](https://laravel.com/docs/10.x/releases#support
 | 10 | 8.1 | February 14, 2023 | August 6, 2024 | February 4, 2025 |
 | 11 | 8.2 | March 12, 2024 | September 3, 2025 | March 12, 2026 |
 
-## Upgrade a project to Laravel or create a new one
+## Upgrade a project to Laravel 11 or create a new one
 
 To upgrade a project to Laravel 11, follow my simple to understand [upgrade guide](/laravel-11-upgrade-guide) that contains tons of tips.
 
