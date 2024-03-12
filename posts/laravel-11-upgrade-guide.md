@@ -5,6 +5,7 @@ Description: I show you how to upgrade your Laravel 10 project to version 11 and
 Canonical: 
 Audio:
 Published at: 2024-03-11
+Modified at:
 Categories: laravel
 ---
 

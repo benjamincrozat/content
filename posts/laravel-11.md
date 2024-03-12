@@ -116,19 +116,34 @@ abstract class Controller
 }
 ```
 
-### Dropped support for PHP 8.1
+### The new health-check endpoint
 
-When Laravel 11 is released, PHP 8.2 will be established, and PHP 8.3 will also be stable. With support for the last two major versions of PHP, Laravel can move forward and abandon 8.1.
+Laravel 11 introduces a new [health-check endpoint](https://laravel.com/docs/11.x/deployment#the-health-route) that allows you to perform various verifications of the different parts of your application and ensure everything is running smoothly.
 
-But remember: your Laravel apps don't need to be updated to the latest and greatest as soon as they're released.
+The endpoint can be defined in *bootstrap/app.php* like so:
 
-Especially if you have projects with paid clients or employees who depend on them to do their work.
+```php
+->withRouting(
+    web: __DIR__.'/../routes/web.php',
+    commands: __DIR__.'/../routes/console.php',
+    health: '/up',
+)
+```
 
-Those projects need to slowly but surely move forward by doing extensive testing. Don't rush.
+Whenever the endpoint is hit, a `Illuminate\Foundation\Events\DiagnosingHealth` event is dispatched.
 
-See the pull request on GitHub: [[11.x] Drop PHP 8.1 support](https://github.com/laravel/framework/pull/45526)
+### Per-second rate limiting
 
-![PHP 8.2](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/127/conversions/www.php.net_releases_8.2_en.php_jqtup2-medium.jpg)
+[Rate limiting](https://laravel.com/docs/11.x/routing#rate-limiting) in Laravel is incredibly easy to set up. With Laravel 11, you can now set a rate limit per second. To be honest, while this is a nice touch, I have yet to understand why this change was needed.
+
+If that's obvious to you, please share it in the comments below, we'd all love to learn more!
+
+```php
+RateLimiter::for('invoices', function (Request $request) {
+    return Limit::perMinute(120); // [tl! --]
+    return Limit::perSecond(2); // [tl! ++]
+});
+```
 
 ### There's a new handy trait named "Dumpable"
 
@@ -163,7 +178,6 @@ $address->foo()->dd()->bar();
 ```
 
 See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.com/laravel/framework/pull/47122)
-
 
 ### Discover the new Model::casts() method
 
@@ -216,6 +230,20 @@ class User extends Model
 All these changes are non-breaking, meaning they won't affect your current code if you update to Laravel 11.
 
 See the pull request on GitHub: [[11.x] Adds Model::casts() method and named static methods for built-in casters](https://github.com/laravel/framework/pull/47237)
+
+### Dropped support for PHP 8.1
+
+When Laravel 11 is released, PHP 8.2 will be established, and PHP 8.3 will also be stable. With support for the last two major versions of PHP, Laravel can move forward and abandon 8.1.
+
+But remember: your Laravel apps don't need to be updated to the latest and greatest as soon as they're released.
+
+Especially if you have projects with paid clients or employees who depend on them to do their work.
+
+Those projects need to slowly but surely move forward by doing extensive testing. Don't rush.
+
+See the pull request on GitHub: [[11.x] Drop PHP 8.1 support](https://github.com/laravel/framework/pull/45526)
+
+![PHP 8.2](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/127/conversions/www.php.net_releases_8.2_en.php_jqtup2-medium.jpg)
 
 ### Laravel 11 release preparation pull requests
 
