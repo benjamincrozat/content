@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/79997924-366b-4969-98d6-bd0a7280ab25
-Title: Laravel 11: the big changes ahead and release date
-Description: Laravel 11 will be released on March 12th, 2024. Its development is still ongoing. Let's dive into every relevant new feature we know about already.
+Title: Laravel 11 is out! Here are every new big changes and features.
+Description: Laravel 11 was released on March 12th, 2024 and is packed with tons of new bits. Let's dive into every relevant new change and feature you need to know about.
 Canonical: 
 Audio:
 Published at: 2023-01-05
@@ -9,24 +9,26 @@ Modified at: 2024-03-12
 Categories: laravel
 ---
 
-## When will Laravel 11 be released?
+## When was Laravel 11 released?
 
-According to the [Support Policy](https://laravel.com/docs/10.x/releases#support-policy), **Laravel 11 is scheduled to be released on March 12, 2024**.
+**Laravel 11 was released on March 12, 2024**.
 
-The release of Laravel 11 doesn't mean you must update all your projects immediately, though.
+The adoption of a new major version should never rushed, though.
 
 The framework last had LTS (Long-Term Support) in version 6, but **each major version has two years of updates**, which should give you enough time to get your codebase in check and upgrade it.
 
-Laravel 10 will receive bug fixes until August 6th, 2024 and security fixes until February 4th, 2025.
+According to the [Support Policy](https://laravel.com/docs/10.x/releases#support-policy), Laravel 10 will receive bug fixes until August 6th, 2024 and security fixes until February 4th, 2025.
 
 | Version | PHP | Release | Bug fixes until | Security fixes until |
 | ------- | --- | ------- | --------------- | -------------------- |
 | 10 | 8.1 | February 14, 2023 | August 6, 2024 | February 4, 2025 |
 | 11 | 8.2 | March 12, 2024 | September 3, 2025 | March 12, 2026 |
 
-## Install and test Laravel 11 right now
+## Upgrade a project to Laravel or create a new one
 
-Laravel 11 hasn't been released yet. Therefore, you must use the `--dev` flag on the official Laravel installer, which pulls the *main* branch from the [laravel/laravel](https://github.com/laravel/laravel) repository that always contains the latest code.
+To upgrade a project to Laravel 11, follow my simple to understand [upgrade guide](/laravel-11-upgrade-guide) that contains tons of tips.
+
+And to create a new Laravel 11 project, [get the official installer](https://laravel.com/docs/11.x/installation#creating-a-laravel-project) and run the following command:
 
 ```bash
 laravel new hello-world --dev
@@ -35,7 +37,7 @@ laravel new hello-world --dev
 Or, if you prefer to use Composer explicitly:
 
 ```bash
-composer create-project --prefer-dist laravel/laravel hello-world dev-master
+composer create-project laravel/laravel hello-world
 ```
 
 ## What's new in Laravel 11: features and changes
@@ -233,7 +235,7 @@ See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.co
 
 ### Dropped support for PHP 8.1
 
-When Laravel 11 is released, PHP 8.2 will be established, and PHP 8.3 will also be stable. With support for the last two major versions of PHP, Laravel can move forward and abandon 8.1.
+PHP 8.2 is established and PHP 8.3 is now the latest version of PHP. Laravel can now move forward and abandon 8.1.
 
 But remember: your Laravel apps don't need to be updated to the latest and greatest as soon as they're released.
 
