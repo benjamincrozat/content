@@ -4,7 +4,7 @@ Title: Laravel 11: the upgrade guide from version 10
 Description: I show you how to upgrade your Laravel 10 project to version 11 and help you decide whether the return on investment is worth it.
 Canonical: 
 Audio:
-Published at: 2024-03-11
+Published at: 2024-03-12
 Modified at:
 Categories: laravel
 ---
@@ -71,26 +71,20 @@ As you can see, Laravel 11 doesn't require anything fancy to work properly.
 Do the third-party packages you used to build your project support Laravel 11?
 
 To find out, run the following command:
+
 ```bash
 composer why-not laravel/framework 11.0
 ```
 
-If some packages show up, you can wait for the maintainers to update their packages. Some people, like me, aren't that patient, though.
+If some packages show up, run:
 
-Luckily, adding Laravel 11 support for a Composer package is most of the time a matter of changing the *illuminate/something* version constraints in *composer.json*, because there aren't many breaking changes between major updates these days:
-
-```diff
-{
-    "require": {
-        …
--        "illuminate/support": "^10.0",
-+        "illuminate/support": "^11.0",
-        …
-    }
-}
+```bash
+composer outdated
 ```
 
-You could create a Pull Request to help open source maintainers, or fork the package and do the change yourself until the author finds time.
+This way, you will see which packages have a major version waiting for you.
+
+But obviously, some packages may not support Laravel 11 yet. You can either contribute to them, or look for alternatives.
 
 ### Follow the upgrade guide
 
