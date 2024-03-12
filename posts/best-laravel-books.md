@@ -32,10 +32,10 @@ I won’t disclose everything inside it, but the website provides a pretty good 
 
 [![Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/49cfa0c3-237d-4967-b7b7-0a93dca71d1a)](/recommends/mastering-laravel-validation-rules)
 
-Let me tell you: Mastering Laravel Validation Rules is a game-changer. Whether you're a beginner or knee-deep in Laravel development, this book has something for everyone. I’ve been using Laravel for more than 8 years, and I learned a ton.
+Let me tell you: Mastering Laravel Validation Rules is a game-changer. Beginner or knee-deep in Laravel development, this book has something for everyone. I’ve been using Laravel for more than 8 years, and I still learned a ton.
 
 The real-world examples help understand concepts faster and better (in Laravel’s official documentation, this often is an issue). The authors, Aaron and Joel, walk you through scenarios like validating addresses, phone numbers, transferring digital assets, and so much more. It’s clear they've been there and are now handing you the solutions on a silver platter.
 
 If you're working with Laravel, do yourself a favor and get your hands on this book. Open it when you’re looking at a rule you don’t understand and when you’re not sure how to handle a certain type of value.
 
-[Check Mastering Laravel Validation](/recommends/mastering-laravel-validation-rules)
+[Check Mastering Laravel Validation Rules](/recommends/mastering-laravel-validation-rules)
