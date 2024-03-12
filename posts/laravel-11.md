@@ -5,7 +5,7 @@ Description: Laravel 11 will be released on March 12th, 2024. Its development is
 Canonical: 
 Audio:
 Published at: 2023-01-05
-Modified at: 2024-03-10
+Modified at: 2024-03-12
 Categories: laravel
 ---
 
@@ -145,40 +145,6 @@ RateLimiter::for('invoices', function (Request $request) {
 });
 ```
 
-### There's a new handy trait named "Dumpable"
-
-This pull request introduces a new `Dumpable` trait in Laravel 11, intended to replace the current `dd` and `dump` methods in most of the framework's classes.
-
-The trait allows Laravel users and package authors to include debugging methods easily within their classes by utilizing this trait.
-
-Here's a code example showing how it can be used:
-
-```php
-<?php
-
-namespace App\ValueObjects;
-
-use Illuminate\Support\Traits\Dumpable;
-use Illuminate\Support\Traits\Conditionable;
-
-class Address
-{
-    use Conditionable, Dumpable;
-
-    // ...
-}
-
-$address = new Address;
-
-// Before: 
-$address->foo()->bar();
-
-// After:
-$address->foo()->dd()->bar();
-```
-
-See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.com/laravel/framework/pull/47122)
-
 ### Discover the new Model::casts() method
 
 Usually, in Laravel, you declare attribute casting in an Eloquent model like this:
@@ -230,6 +196,40 @@ class User extends Model
 All these changes are non-breaking, meaning they won't affect your current code if you update to Laravel 11.
 
 See the pull request on GitHub: [[11.x] Adds Model::casts() method and named static methods for built-in casters](https://github.com/laravel/framework/pull/47237)
+
+### There's a new handy trait named "Dumpable"
+
+This pull request introduces a new `Dumpable` trait in Laravel 11, intended to replace the current `dd` and `dump` methods in most of the framework's classes.
+
+The trait allows Laravel users and package authors to include debugging methods easily within their classes by utilizing this trait.
+
+Here's a code example showing how it can be used:
+
+```php
+<?php
+
+namespace App\ValueObjects;
+
+use Illuminate\Support\Traits\Dumpable;
+use Illuminate\Support\Traits\Conditionable;
+
+class Address
+{
+    use Conditionable, Dumpable;
+
+    // ...
+}
+
+$address = new Address;
+
+// Before: 
+$address->foo()->bar();
+
+// After:
+$address->foo()->dd()->bar();
+```
+
+See the pull request on GitHub: [[11.x] Adds Dumpable concern](https://github.com/laravel/framework/pull/47122)
 
 ### Dropped support for PHP 8.1
 
