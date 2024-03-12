@@ -86,7 +86,7 @@ This way, you will see which packages have a major version waiting for you.
 
 But obviously, some packages may not support Laravel 11 yet. You can either contribute to them, or look for alternatives.
 
-### Follow the upgrade guide
+### Follow the official upgrade guide
 
 There's no trick in upgrading a Laravel app. It only takes you to follow the instructions in the [upgrade guide](https://laravel.com/docs/11.x/upgrade).
 
