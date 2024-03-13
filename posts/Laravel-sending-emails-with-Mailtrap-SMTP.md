@@ -2,8 +2,6 @@
 
 If you have a Laravel application/project and you’re wondering how to send emails in it with SMTP, you’ve come to the right place!
 
-I’ve been collaborating with the Mailtrap team for a while, and we’ve prepared the exact guide you need.
-
 [Mailtrap](https://l.rw.rw/benjamin-hp) provides SMTP credentials for both sending and testing. It offers high deliverability rates and, besides being nothing but reliable for me so far, allows me to send emails in Laravel with ease.
 
 So, without further ado, let’s see how to send emails in Laravel with Mailtrap SMTP.
