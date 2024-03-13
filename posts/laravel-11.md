@@ -31,7 +31,7 @@ To upgrade a project to Laravel 11, follow my simple to understand [upgrade guid
 And to create a new Laravel 11 project, [get the official installer](https://laravel.com/docs/11.x/installation#creating-a-laravel-project) and run the following command:
 
 ```bash
-laravel new hello-world --dev
+laravel new hello-world
 ```
 
 Or, if you prefer to use Composer explicitly:
