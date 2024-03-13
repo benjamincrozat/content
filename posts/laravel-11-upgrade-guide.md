@@ -28,10 +28,8 @@ At the time I'm writing these lines, **Laravel 10 is still alive** and will have
 - **Bug fixes until August 6th, 2024**
 - **Security fixes until February 4th, 2025**
 
-That being said, **is the return on investment still worth it**?
-
 My recommendation is to upgrade only if:
-- The project is still in active development.
+- The project is still in active development and there's a clear potential return on investment.
 - You need a package that only supports Laravel 11.
 - Your project is well-tested, and the transition will be easy.
 
@@ -40,7 +38,7 @@ And do not upgrade if:
 - Your project is in a precarious state due to the lack of tests.
 - Or it is in a stable state. Upgrading for the sake of upgrading is not the best way to invest your time and energy.
 
-If you consider upgrading it after reading this, go for it! It's probably the right decision.
+If you still consider upgrading it after reading this, go for it! It's probably the right decision.
 
 But if you're taking the cautious approach, take the two years of support the team offers for Laravel 10 to fix your project first.
 
