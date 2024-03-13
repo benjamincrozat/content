@@ -16,6 +16,8 @@ Upgrading your Laravel applications to the latest version has many benefits like
 - Reduced security risks.
 - Increased compatibility with first and third-party packages.
 
+Let me guide you and give you tips you won't find in the official upgrade guide.
+
 ## Before upgrading from Laravel 10 to Laravel 11, learn what's new
 
 Laravel 11 has plenty of changes and I wrote about them: [Laravel 11 is out! Here's every new feature and change.](https://benjamincrozat.com/laravel-11)
