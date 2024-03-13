@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/05bd6ef2-e022-4926-8a5a-bdda3904abbf
 Title: Laravel 11: an easy and step by step upgrade guide
-Description: I show you how to upgrade your Laravel 10 project to version 11 and help you decide whether the return on investment is worth it.
+Description: Is upgrading to Laravel 11 worth it? Let me help you decide and show you how to proceed step by step and give you additional tips.
 Canonical: 
 Audio:
 Published at: 2024-03-12
