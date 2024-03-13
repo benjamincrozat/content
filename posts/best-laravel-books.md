@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/5ec2ba9e-7390-4651-a0b0-24e5ac8494a9
-Title: The best books any Laravel developer should read in 2024
-Description: Let me show you books written by expert community member who knows their subject and will drastically level you up.
+Title: The best Laravel 11-ready books you should read in 2024
+Description: Let me present you up to date books written by expert community member who knows their subject and will drastically level you up.
 Canonical:
 Commercial: true
 Audio:
