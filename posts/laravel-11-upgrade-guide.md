@@ -28,7 +28,7 @@ At the time I'm writing these lines, **Laravel 10 is still alive** and will have
 
 That being said, **is the return on investment still worth it**?
 
-My recommendations is to upgrade only if:
+My recommendation is to upgrade only if:
 - The project is still in active development.
 - You need a package that only supports Laravel 11.
 - Your project is well-tested, and the transition will be easy.
@@ -79,7 +79,7 @@ composer why-not laravel/framework 11.0
 If some packages show up, run:
 
 ```bash
-composer outdated
+composer outdated --direct
 ```
 
 This way, you will see which packages have a major version waiting for you.
