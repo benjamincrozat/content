@@ -136,9 +136,9 @@ Whenever the endpoint is hit, a `Illuminate\Foundation\Events\DiagnosingHealth` 
 
 ### Per-second rate limiting
 
-[Rate limiting](https://laravel.com/docs/11.x/routing#rate-limiting) in Laravel is incredibly easy to set up. With Laravel 11, you can now set a rate limit per second. To be honest, while this is a nice touch, I have yet to understand why this change was needed.
+[Rate limiting](https://laravel.com/docs/11.x/routing#rate-limiting) in Laravel is incredibly easy to set up. With Laravel 11, you can now set a rate limit per second.
 
-If that's obvious to you, please share it in the comments below, we'd all love to learn more!
+But why is it useful? Let's take this example:
 
 ```php
 RateLimiter::for('invoices', function (Request $request) {
@@ -146,6 +146,11 @@ RateLimiter::for('invoices', function (Request $request) {
     return Limit::perSecond(2); // [tl! ++]
 });
 ```
+
+1. If we limit the amount of requests per minute, it means that **your users will also be able to send 120 requests is a second**.
+2. But if we limit the amount of requests per second, **your users won't be able to cram 120 requests in a second**, while still being limited to 120 requests per minute.
+
+See now why it's a great change?
 
 ### Discover the new Model::casts() method
 
