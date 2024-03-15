@@ -9,13 +9,13 @@ Modified at: 2024-03-15
 Categories: laravel
 ---
 
-## Introduction
+## Introduction to making REST APIs in Laravel
 
 Crafting good APIs is a fundamental skill for any successful backend developer. **They're the pillars under your favorite mobile apps or single-page applications.**
 
 Laravel provides a lot of tools to help you craft yours in a standard way. For this article, I will assume you've already built at least one, because my goal isn't to cover the subject in its entirety.
 
-But if that's what you are looking for, you may be interested in Ash Allen's book on the matter titled "[Consuming APIs with Laravel](/recommends/consuming-apis-laravel)." More on that later!
+But if that's what you are looking for, you may be interested in Ash Allen's book on the matter titled "[Consuming APIs with Laravel](/recommends/consuming-apis-laravel)." Learning how to use them is the best way to become proficient in making REST APIs. More on that later!
 
 ## Laravel RESTful APIs best practices
 
