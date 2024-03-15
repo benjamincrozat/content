@@ -175,8 +175,6 @@ Tailwind CSS even has an [official YouTube channel](https://www.youtube.com/@Tai
 
 They provide great videos showing off how to build useful UI components like "[Building a command palette with Tailwind CSS, React, and Headless UI](https://www.youtube.com/watch?v=-jix4KyxLuQ)" or what could be your assignment at your job: "[Translating a Custom Design System to Tailwind CSS](https://www.youtube.com/watch?v=cZc4Jn5nK3k)".
 
-![](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/121/conversions/Screenshot_2022-12-25_at_23.00.06_quoria-medium.jpg){: width="1280" height="720"}
-
 ## Ask for help on the official forum
 
 Tailwind CSS has an [official forum](https://github.com/tailwindlabs/tailwindcss/discussions) on GitHub. Feel free to ask about everything you're unable to find on the [documentation](https://tailwindcss.com/docs).
