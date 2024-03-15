@@ -229,7 +229,7 @@ test('the endpoint works as expected', function () {
 
 Now, if for some reason your route's path changes to something else, the test will break and you won't be able to deploy in production.
 
-### But wait, there's even more cool tips
+## But wait, there's even more cool tips
 
 [![The Consuming APIs with Laravel book by Ash Allen.](https://github.com/benjamincrozat/content/assets/3613731/5f5e61b5-1ce1-4a31-9ca3-c7ef0cf59636)](/recommends/consuming-apis-laravel)
 
