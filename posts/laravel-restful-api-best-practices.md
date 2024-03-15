@@ -233,7 +233,7 @@ Now, if for some reason your route's path changes to something else, the test wi
 
 [![The Consuming APIs with Laravel book by Ash Allen.](https://github.com/benjamincrozat/content/assets/3613731/5f5e61b5-1ce1-4a31-9ca3-c7ef0cf59636)](/recommends/consuming-apis-laravel)
 
-If you enjoyed my article, you might be interested in checking out this incredible book I recently came across called "Consuming APIs in Laravel" by Ash Allen.
+If you enjoyed my article, you might be interested in checking out this incredible book I recently came across called "[Consuming APIs with Laravel](/recommends/consuming-apis-laravel)" by Ash Allen.
 
 I haven't finished it yet, but it's been an absolute game-changer already. The book covers everything from different API types and authentication methods to using the powerful [Saloon](https://docs.saloon.dev) library and handling webhooks like a 10x developer.
 
