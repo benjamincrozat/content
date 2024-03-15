@@ -28,6 +28,18 @@ I won’t disclose everything inside it, but the website provides a pretty good 
 
 [Check Battle Ready Laravel](/recommends/battle-ready-laravel)
 
+### Consuming APIs with Laravel by Ash Allen
+
+[![The Consuming APIs with Laravel book by Ash Allen.](https://github.com/benjamincrozat/content/assets/3613731/5f5e61b5-1ce1-4a31-9ca3-c7ef0cf59636)](/recommends/consuming-apis-laravel)
+
+Ash Allen is proficient writer and you might be interested in checking out his incredible book titled "[Consuming APIs with Laravel](/recommends/consuming-apis-laravel)."
+
+As someone relying on third-party APIs all the time, it's been an absolute game-changer already. The book covers everything from different API types and authentication methods to using the powerful [Saloon](https://docs.saloon.dev) library and handling webhooks like a 10x developer.
+
+What I really love is how Ash dives deep into testing strategies and best practices, ensuring that your API integrations are not only feature-rich but also reliable and secure. So yeah, I highly recommend giving this book a read. It's worth the investment!
+
+[Check out Consuming APIs with Laravel by Ash Allen](/recommends/consuming-apis-laravel)
+
 ### Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont
 
 [![Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/49cfa0c3-237d-4967-b7b7-0a93dca71d1a)](/recommends/mastering-laravel-validation-rules)
