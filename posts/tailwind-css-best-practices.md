@@ -5,15 +5,15 @@ Description: Tailwind CSS is a beloved CSS framework that has been my go-to sinc
 Canonical:
 Audio:
 Published at: 2023-12-22
-Modified at:
+Modified at: 2024-03-15
 Categories: css, tailwind-css
 ---
 
 ## Introduction to Tailwind CSS best practices, tips, and tricks
 
-[Tailwind CSS](/tailwind-css) is my go-to CSS framework since 2018. I didn't use anything else since then, seriously!
+[Tailwind CSS](/tailwind-css) is my go-to CSS framework since 2018. I didn't use anything else since then, seriously! So naturally, I have **a lot** to say about it and I hope you will find this big article helpful!
 
-Therefore, I think I'm in the right position to teach a thing or two to people who also fell in love with it.
+**And by the way, if this article isn't enough, I can recommend you "[Level up with Tailwind CSS](recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
 
 ## Extend Tailwind CSS using the configuration file, not custom CSS
 
