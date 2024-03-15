@@ -28,7 +28,7 @@ Here's what is expected from the team of such projects:
 
 With these goals in mind, let's dive into what I, and most of the experts from the community, think are the best architecture practices.
 
-**Oh and before you continue, if you think you really need to go beyond what Laravel offers because you are working on big projects, let me introduce you to a alternative ways of structuring applications taught by Martin Joe in his books "[Microservices with
+**Oh and before you continue, if you think you really need to go beyond what Laravel offers because you are working on big projects, let me introduce you to alternative ways of structuring applications taught by Martin Joe in his books "[Microservices with
 Laravel](/recommends/microservices-laravel)" and "[Domain-Driven Design with Laravel](/recommends/domain-driven-laravel)."**
 
 ## Laravel architecture best practices
