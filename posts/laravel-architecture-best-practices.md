@@ -28,8 +28,8 @@ Here's what is expected from the team of such projects:
 
 With these goals in mind, let's dive into what I, and most of the experts from the community, think are the best architecture practices.
 
-Oh and before you continue, if you think you need to go beyond what Laravel offers, let me introduce you to a alternatives way of structuring applications taught by Martin Joe in his books "[Microservices with
-Laravel](/recommends/microservices-laravel)" and "[Domain-Driven Design with Laravel](/recommends/domain-driven-laravel)." More on that later.
+**Oh and before you continue, if you think you really need to go beyond what Laravel offers, let me introduce you to a alternatives way of structuring applications taught by Martin Joe in his books "[Microservices with
+Laravel](/recommends/microservices-laravel)" and "[Domain-Driven Design with Laravel](/recommends/domain-driven-laravel)."**
 
 ## Laravel architecture best practices
 
@@ -78,7 +78,3 @@ https://twitter.com/gonedark/status/1333474208123412488
 All that being said, at the end, results matter the most. Here's a tweet from Taylor Otwell himself about keeping an open mind:
 
 https://twitter.com/taylorotwell/status/1668580181504606208
-
----
-
-**I can provide more guidance tailored to your codebase if you [book a call](/consulting) with me.**
