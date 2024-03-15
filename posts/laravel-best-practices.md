@@ -5,7 +5,7 @@ Description: Learning a framework can be overwhelming, but time and execution wi
 Canonical: 
 Audio:
 Published at: 2022-10-30
-Modified at: 2024-01-21
+Modified at: 2024-03-15
 Categories: laravel
 ---
 
@@ -15,11 +15,12 @@ For most Laravel projects, the best practices can be summarized as two points:
 - Stick to the defaults;
 - Defer as much work as possible to the framework.
 
-Whether you are running Laravel 10, 9 or 8, let's see in details how I can help you improve any codebase with tons of tips and tricks.
+Whether you are running Laravel 11, 10, or 9, let's see in details how I can help you improve any codebase with tons of tips and tricks.
 
-By the way, I wrote articles on [architecture best practices](https://benjamincrozat.com/laravel-architecture-best-practices#introduction), [RESTful APIs best practices](laravel-restful-api-best-practices), [security best practices](https://benjamincrozat.com/laravel-security-best-practices), and [testing best practices](/laravel-testing-best-practices) containing even more best practices, tips, and tricks that you will want to check out.
-
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
+**By the way, in addition to this article, let me recommend you great books to keep leveling up with Laravel:**
+- [Battle ready Laravel](/recommends/battle-ready-laravel) by Ash Allen. This will teach you a lot of new things to take your Laravel apps to the next level.
+- [Consuming APIs with Laravel](/recommends/consuming-apis-laravel) by Ash Allen too. If you thought you knew a lot about REST APIs, maybe you should see what Ash has to say.
+- [Mastering Laravel Validation Rules](/recommends/mastering-laravel-validation-rules) by Aaron Saray and Joel Clermont. This book teaches you how to ensure data integrity in your apps like a pro with super handy real world examples.
 
 ## Laravel best practices, tips, and tricks
 
