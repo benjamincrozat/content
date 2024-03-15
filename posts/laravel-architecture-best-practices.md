@@ -5,7 +5,7 @@ Description: Explore Laravel's default architecture to simplify collaboration, c
 Canonical: 
 Audio: https://cdn.benjamincrozat.com/laravel-architecture-best-practices.mp3
 Published at: 2023-09-01
-Modified at: 2024-01-21
+Modified at: 2024-03-15
 Categories: laravel
 ---
 
@@ -28,7 +28,8 @@ Here's what is expected from the team of such projects:
 
 With these goals in mind, let's dive into what I, and most of the experts from the community, think are the best architecture practices.
 
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
+Oh and before you continue, if you think you need to go beyond what Laravel offers, let me introduce you to a alternatives way of structuring applications taught by Martin Joe in his books "[Microservices with
+Laravel](/recommends/microservices-laravel)" and "[Domain-Driven Design with Laravel](/recommends/domain-driven-laravel)." More on that later.
 
 ## Laravel architecture best practices
 
