@@ -11,11 +11,11 @@ Categories: laravel
 
 ## Introduction
 
-Crafting good APIs is a fundamental skill for any successful backend developer. They're the pillars under your favorite mobile apps or single-page applications.
+Crafting good APIs is a fundamental skill for any successful backend developer. **They're the pillars under your favorite mobile apps or single-page applications.**
 
 Laravel provides a lot of tools to help you craft yours in a standard way. For this article, I will assume you've already built at least one, because my goal isn't to cover the subject in its entirety.
 
-**If you prefer a one-to-one call to show me your code and ask whatever question you might have, you can [book a session](/consulting), now.**
+But if that's what you are looking for, you may be interested in Ash Allen's book on the matter titled "[Consuming APIs with Laravel](/recommends/consuming-apis-laravel)." More on that later!
 
 ## Laravel RESTful APIs best practices
 
