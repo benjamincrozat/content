@@ -313,12 +313,14 @@ You shouldn't have to change your test to ensure the feature works. In that case
 composer require ext-imagick:^3.7
 ```
 
-## Summing up testing with Laravel
+## But wait, there's more than that
 
-The art of testing takes a lot of experience to be mastered. So start now if you haven't already, don't give up, keep writing tests, and learn from your mistakes.
+If you want to keep leveling in testing, you may be interested in checking out [Battle Ready Laravel](/recommends/battle-ready-laravel) by Ash Allen.
 
-You probably realized today that testing is the answer to a lot of your problems. Therefore, learning how to test is a beneficial investment for your career.
+This book has been a compelling read so far. I’m not the kind of person who finishes books in one go, but I can tell you it’s packed with tons of actionable tips and expert advice to help you ensure your Laravel apps are not just built, but wait for it… battle-ready! And testing is a big (really big) part of this. If you're looking to enhance your application's robustness, this book is a must.
 
----
+I won’t disclose everything inside it, but the website provides a pretty good overview and even a free sample.
 
-**I can provide more guidance tailored to your codebase if you [book a call](/consulting) with me.**
+[Check out Battle Ready Laravel](/recommends/battle-ready-laravel)
+
+[![Battle Ready Laravel by Ash Allen](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/7b6f4c49-cf20-49a7-bdd2-3f01f414df29)](/recommends/battle-ready-laravel)
