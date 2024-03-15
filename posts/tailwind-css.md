@@ -11,9 +11,9 @@ Categories: css, tailwind-css
 
 ## Introduction
 
-I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then.
+I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then. Once I got the hang of Tailwind CSS, I couldn't go back. So naturally, I have **a lot** to say about it and I hope you will find this big article helpful!
 
-Once you get the hang of Tailwind CSS, you can't go back.
+**And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
 
 ## What is Tailwind CSS?
 
