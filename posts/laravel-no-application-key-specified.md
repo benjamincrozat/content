@@ -23,7 +23,7 @@ If this key is not set, Laravel cannot guarantee the security of these things, h
 
 This is a big problem, especially in production where sensitive data must be encrypted. Here's how to fix the issue:
 
-1. **Generate an application key:** Open a terminal, navigate to your project directory, and run the command `php artisan key:generate`. This command will generate a new random key for your application. Just to be safe, run `php artisan config:clear` just in case you previously cached the config values.
+1. **Generate an application key:** Open a terminal, navigate to your project directory, and run the command `php artisan key:generate`. This command will generate a new random key for your application. To be safe, run `php artisan config:clear` just in case you previously cached the config values.
 2. **Create the eventually missing *.env* file:** The above command sets the generated key to your `APP_KEY` environment variable in your *.env* file. Laravel should automatically have created it based on *.env.example* at the root of your project. If you get the `file_get_contents(/path/to/project/.env): Failed to open stream: No such file or directory` error message, it means it didn't. You must create it yourself by running `cp .env.example .env` for instance.
 
 Remember, it's important to keep your `APP_KEY` secret and not to commit your *.env* file to version control systems.
