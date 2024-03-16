@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/79997924-366b-4969-98d6-bd0a7280ab25
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/7960a1ab-1e0c-4f64-96de-810bbcde5f07
 Title: Laravel 11 is out! Here are every new big changes and features.
 Description: Laravel 11 was released on March 12th, 2024 and is packed with tons of new bits. Let's dive into every relevant new change and feature you need to know about.
 Canonical: 
