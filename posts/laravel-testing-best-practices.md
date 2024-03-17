@@ -315,7 +315,7 @@ composer require ext-imagick:^3.7
 
 ## But wait, there's more than that
 
-If you want to keep leveling in testing, you may be interested in checking out [Battle Ready Laravel](/recommends/battle-ready-laravel) by Ash Allen.
+If you want to keep leveling up in testing, you may be interested in checking out [Battle Ready Laravel](/recommends/battle-ready-laravel) by Ash Allen.
 
 This book has been a compelling read so far. I’m not the kind of person who finishes books in one go, but I can tell you it’s packed with tons of actionable tips and expert advice to help you ensure your Laravel apps are not just built, but wait for it… battle-ready! And testing is a big (really big) part of this. If you're looking to enhance your application's robustness, this book is a must.
 
