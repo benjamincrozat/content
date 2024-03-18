@@ -11,7 +11,7 @@ Categories: laravel, gpt, ai
 
 ## Introduction
 
-**Plugins for ChatGPT have been discontinued. Create a [custom GPT](https://openai.com/blog/introducing-gpts) instead.*
+**Plugins for ChatGPT have been discontinued. Create a [custom GPT](https://openai.com/blog/introducing-gpts) instead.**
 
 If you're here, it means you're interested in the fascinating world of AI, and you're ready to dive deeper into what ChatGPT plugins are all about.
 
