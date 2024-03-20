@@ -9,7 +9,7 @@ Let’s get straight into it!
 
 ## Setting up the Laravel project
 
-First things first, we have to set up the project itself before [sending emails in Laravel](https://mailtrap.io/blog/send-email-in-laravel/).
+First things first, we have to set up the project itself before [sending emails in Laravel](https://l.rw.rw/benjamin-laravel).
 
 
 ### Configuration
@@ -87,7 +87,7 @@ Keep in mind that you should use the global “from” address if you plan on us
 
 Now that we have set up everything, we can finally start sending.
 
-But first, we need to configure our SMTP credentials provided by [Mailtrap Email Delivery Platform](https://mailtrap.io/), which offers high deliverability rates and has been super reliable for me so far.
+But first, we need to configure our SMTP credentials provided by [Mailtrap Email Delivery Platform](https://l.rw.rw/benjamin-hp), which offers high deliverability rates and has been super reliable for me so far.
 
 Simply create a Mailtrap account, log in, and navigate to Sending Domains located under Email Sending. Once there, you’ll need to add and verify your domain, which takes a few seconds only.
 
@@ -134,7 +134,7 @@ To finish verifying, simply click on **Verify Setup**.
 
 
 
-Besides offering an SMTP service, Mailtrap also allows me to keep a close eye on the performance of my email infrastructure.
+Besides offering an [SMTP service](https://l.rw.rw/benjamin-smtp), Mailtrap also allows me to keep a close eye on the performance of my email infrastructure.
 
 But how does it accomplish this?
 
@@ -469,7 +469,7 @@ All of this can happen without you even knowing it.
 
 Although you can test your emails with your personal inbox, I always recommend email testing solutions as they’re faster, don’t affect your domain rating, don’t fill up your inbox with junk, and usually come with various beneficial features.
 
-I typically use [Mailtrap Email Testing](https://mailtrap.io/email-sandbox/), a part of the Mailtrap Email Delivery Platform, which allows me to solve numerous email testing issues while maintaining the email process secure.
+I typically use [Mailtrap Email Testing](https://l.rw.rw/benjamin-sandbox), a part of the Mailtrap Email Delivery Platform, which allows me to solve numerous email testing issues while maintaining the email process secure.
 
 Mailtrap Email Testing allows me to catch testing emails from staging and dev environments and preview them. It also checks their content spam score and analyzes their HTML/CSS so I can replace or remove any faulty lines of code before I send emails to my recipients.
 
