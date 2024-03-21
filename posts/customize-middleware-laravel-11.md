@@ -1,15 +1,15 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/6b486727-4fca-4624-8e61-b01f2c526d76
-Title: How to customize default middleware in Laravel 11
+Title: Middleware in Laravel 11 and how to customize them
 Description: The new minimalist application skeleton in Laravel 11 comes without middleware classes. Here's how to customize them.
 Canonical:
 Audio:
 Published at: 2024-02-25
-Modified at:
+Modified at: 2024-03-21
 Categories: laravel
 ---
 
-## Introduction to default middleware customization in Laravel 11
+## Introduction to middleware customization in Laravel 11
 
 Starting from [Laravel 11](https://laravel.com/docs/11.x/releases), new projects get to experience a slimmer skeleton. Parts of the efforts to make it happen was to remove the default middleware classes.
 
