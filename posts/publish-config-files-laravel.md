@@ -9,7 +9,7 @@ Modified at: 2024-03-21
 Categories: laravel
 ---
 
-To publish additional configuration files in Laravel, use:
+To publish additional configuration files in Laravel 11, use:
 
 ```bash
 php artisan config:publish
