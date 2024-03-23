@@ -5,7 +5,7 @@ Description: Knowing which Laravel version you are running is important before y
 Canonical: 
 Audio:
 Published at: 2022-09-10
-Modified at: 2023-10-09
+Modified at: 2024-03-23
 Categories: laravel
 ---
 
@@ -28,9 +28,9 @@ However, it's important to note that the about command is only available in Lara
 ```
 php artisan about
   
-Laravel Version ..................................................... 9.43.0  
-PHP Version ......................................................... 8.1.10  
-Composer Version ..................................................... 2.4.1
+Laravel Version ........................................................ 11.0.8
+PHP Version ............................................................. 8.3.3
+Composer Version ........................................................ 2.7.1
 ```
 
 ![The php artisan about command in Laravel.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/73/conversions/CleanShot_2023-04-21_at_12.03.38_2x_ydqmbj-medium.jpg)
@@ -44,7 +44,7 @@ This is the original method for checking it before the about command was introdu
 ```
 php artisan --version
 
-Laravel Framework 9.43.0
+Laravel Framework 11.0.8
 ```
 
 Or, using the flag with any other command:
@@ -52,7 +52,7 @@ Or, using the flag with any other command:
 ```
 php artisan make:model --version
 
-Laravel Framework 9.43.0
+Laravel Framework 11.0.8
 ```
 
 ### Using the version() method
@@ -60,7 +60,7 @@ Laravel Framework 9.43.0
 The [`app()`](https://laravel.com/docs/helpers#method-app) helper will give you access to many information, such as the Laravel version you are running. Try this simple code below:
 
 ```php
-// 9.43.0
+// 11.0.8
 app()->version();
 ```
 
@@ -81,20 +81,19 @@ Composer offers a handy command to check the version of a specific dependency. R
 composer show laravel/framework
 ```
 
-You will get an incredibly report about this dependency.
+You will get an incredibly lengthy report about this dependency.
 
 ```
 name     : laravel/framework
 descrip. : The Laravel Framework.
 keywords : framework, laravel
-versions : * v10.26.2
+versions : * v11.0.8
+released : 2024-03-21, this week
 type     : library
 license  : MIT License (MIT) (OSI approved) https://spdx.org/licenses/MIT.html#licenseText
 homepage : https://laravel.com
-source   : [git] https://github.com/laravel/framework.git 6e5440f7c518f26b4495e5d7e4796ec239e26df9
-dist     : [zip] https://api.github.com/repos/laravel/framework/zipball/6e5440f7c518f26b4495e5d7e4796ec239e26df9 6e5440f7c518f26b4495e5d7e4796ec239e26df9
-path     : /Users/benjamin/Projects/benjamincrozat/vendor/laravel/framework
-names    : laravel/framework, psr/container-implementation, psr/simple-cache-implementation, illuminate/auth, illuminate/broadcasting, …
+source   : [git] https://github.com/laravel/framework.git 0379a7ccb77e2029c43ce508fa76e251a0d68fce
+dist     : [zip] https://api.github.com/repos/laravel/framework/zipball/0379a7ccb77e2029c43ce508fa76e251a0d68fce 0379a7ccb77e2029c43ce508fa76e251a0d68fce
 …
 ```
 
@@ -106,12 +105,10 @@ In your *composer.json*, you will be able to get the minimum version of Laravel 
 
 ```json
 "require": {
-    "php": "^8.0.2",
-    "guzzlehttp/guzzle": "^7.2",
-    "laravel/framework": "^9.19",
-    "laravel/sanctum": "^3.0",
-    "laravel/tinker": "^2.7"
-}
+    "php": "^8.2",
+    "laravel/framework": "^11.0",
+    "laravel/tinker": "^2.9"
+},
 ```
 
 As you can see, this project is locked on Laravel 9.19 or earlier.
@@ -123,12 +120,12 @@ Instead, search for "laravel/framework" inside your *composer.lock* file to get 
 ```json
 {
     "name": "laravel/framework",
-    "version": "v9.43.0",
+    "version": "v11.0.8",
     "source": {
         "type": "git",
         "url": "https://github.com/laravel/framework.git",
-        "reference": "2ca2b168a3e995a8ec6ea2805906379095d20080"
-    }
+        "reference": "0379a7ccb77e2029c43ce508fa76e251a0d68fce"
+    },
 }
 ```
 
@@ -139,7 +136,7 @@ Open your favorite code editor and search for *vendor/laravel/framework/src/Illu
 ```php
 class Application extends Container implements ApplicationContract, CachesConfiguration, CachesRoutes, HttpKernelInterface
 {
-    const VERSION = '9.43.0';
+    const VERSION = '11.0.8';
 }
 ```
 
