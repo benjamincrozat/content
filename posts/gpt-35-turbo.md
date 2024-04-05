@@ -146,7 +146,7 @@ This is such good news for developers who want to build their dream tools for ch
 
 ## Ideas to build thanks to GPT-3.5 Turbo's API
 
-Artificial Intelligence enables developers to build products we couldn't hope to before.
+Artificial Intelligence enables developers to build products we couldn't hope to before. For instance, I created [Nobinge](https://nobinge.watch), a tool that lets you summarize and chat with YouTube videos.
 
 Here are a bunch of ideas to experiment with:
 - Additional AI-based features for existing products
