@@ -154,7 +154,7 @@ By the way, here's a table that compares GPT-4 Turbo's pricing to older GPT-4 mo
 
 ## Ideas to build thanks to GPT-4 Turbo's API
 
-Artificial Intelligence with GPT-4 enables developers to build products we couldn't hope to before.
+Artificial Intelligence with GPT-4 enables developers to build products we couldn't hope to before. For instance, I created [Nobinge](https://nobinge.watch), a tool that lets you summarize and chat with YouTube videos.
 
 Here are a bunch of ideas to experiment with:
 - Additional AI-based features for existing products
