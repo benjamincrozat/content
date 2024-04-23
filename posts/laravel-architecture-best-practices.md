@@ -65,16 +65,16 @@ Matt Stauffer, who has a lot of experience building apps for enterprise as the C
 
 James Brooks is a core Laravel team member. He knows what working with a big team and a big codebase are. He also asked me to include it in this article, so there he is!
 
-https://twitter.com/jbrooksuk/status/1697182125663945015?s=20
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Want to know my #1 Laravel tip?<br><br>Follow the standards laid out by the skeleton and framework 👏<br><br>You&#39;ll find:<br><br>- Updates easier<br>- More packages will &quot;just work&quot;™<br>- New developers will grok your project quicker<br>- Life is just more enjoyable 🏄</p>&mdash; James Brooks (@jbrooksuk) <a href="https://twitter.com/jbrooksuk/status/1697182125663945015?ref_src=twsrc%5Etfw">August 31, 2023</a></blockquote>
 
 Sebastian Schlein is the co-founder of BeyondCo, a company deeply involved with Laravel, and he also thinks that you should stick to the framework's defaults. This is a tweet from 2019 by the way.
 
-https://twitter.com/seb_sebsn/status/1186228940555345921
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">⚡️Why you should stick to the default <a href="https://twitter.com/laravelphp?ref_src=twsrc%5Etfw">@laravelphp</a> architecture <a href="https://t.co/wfQ1Xl9eh4">https://t.co/wfQ1Xl9eh4</a></p>&mdash; Sebastian Schlein (@seb_sebsn) <a href="https://twitter.com/seb_sebsn/status/1186228940555345921?ref_src=twsrc%5Etfw">October 21, 2019</a></blockquote>
 
 Jason McCreary, from Laravel Shift, also showcases his favorite way of organizing Laravel projects. Looks familiar, don't you think?
 
-https://twitter.com/gonedark/status/1333474208123412488
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My ideal Laravel folder structure. Effortlessly elegant. 👀 <a href="https://t.co/h0UYrnc6Xy">pic.twitter.com/h0UYrnc6Xy</a></p>&mdash; Jason McCreary (@gonedark) <a href="https://twitter.com/gonedark/status/1333474208123412488?ref_src=twsrc%5Etfw">November 30, 2020</a></blockquote>
 
 All that being said, at the end, results matter the most. Here's a tweet from Taylor Otwell himself about keeping an open mind:
 
-https://twitter.com/taylorotwell/status/1668580181504606208
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I try not to express very strong opinions on how people structure or build their Laravel applications.<br><br>I want to keep a strong culture of exploration and experimentation in the ecosystem. 👩‍🔬</p>&mdash; Taylor Otwell ☁️ (@taylorotwell) <a href="https://twitter.com/taylorotwell/status/1668580181504606208?ref_src=twsrc%5Etfw">June 13, 2023</a></blockquote>
