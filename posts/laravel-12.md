@@ -5,7 +5,7 @@ Description: Laravel 12 will be released early 2025. Let's put our investigator 
 Canonical: 
 Audio:
 Published at: 2024-03-11
-Modified at:
+Modified at: 2024-05-02
 Categories: laravel
 ---
 
@@ -40,9 +40,9 @@ composer create-project --prefer-dist laravel/laravel hello-world dev-master
 
 ## What's new in Laravel 12: features and changes
 
-For now, there's nothing clearly defined. But the Laravel team prepares the next major release of Laravel as soon as the last one is ready. For instance, they create a branch for every Illuminate repository.
-
-Learn more: [[12.x] Prep Laravel v12](https://github.com/laravel/framework/pull/50406/files)
+For now, there's nothing clearly defined. But the Laravel team prepares the next major release of Laravel as soon as the last one is ready. For instance, they create a branch for every Illuminate repository and make minor (but breaking) changes all over the codebase:
+- [[12.x] Prep Laravel v12](https://github.com/laravel/framework/pull/50406/files)
+- [[12.x] Make Str::is() match multiline strings](https://github.com/laravel/framework/pull/51196)
 
 ## How to contribute your own breaking changes to Laravel 12
 
