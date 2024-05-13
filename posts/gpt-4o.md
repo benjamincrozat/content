@@ -80,11 +80,11 @@ Learn more on [the official API reference for Chat Completions](https://platform
 
 **Pro tip**: One API call can accept up to 128,000 tokens with GPT-4o (gpt-4o). A token is a numerical representation of your text. All your messages as well as the output from the model cannot exceed this limit. And for those who don't know, 1,000 tokens roughly equals 750 English words.
 
-![An example response of GPT-4o through its API.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/232/conversions/0LKIoKIsnuo72KHWk8MgD3vmSXG3Ir-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjEuNDYuMTFAMngucG5n--medium.jpg)
+![An example response of GPT-4o through its API.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/4c70a03f-1897-4915-b952-d51918cabe4a)
 
 ## How to enable the JSON mode with the GPT-4o API
 
-You can now force GPT-4o (as well as GPT-3.5 Turbo) to output JSON consistently thanks to the new [JSON mode](https://platform.openai.com/docs/guides/text-generation/json-mode).
+You can now force GPT-4o (as well as GPT-4 Turbo and GPT-3.5 Turbo) to output JSON consistently thanks to the new [JSON mode](https://platform.openai.com/docs/guides/text-generation/json-mode).
 
 (Most people here know what JSON is, but for the others, JSON is a way of storing information that both people and computers can understand. It uses text to organize data into lists and sets of "name: value" pairs.)
 
@@ -136,11 +136,9 @@ curl -X POST \
 
 3. But be careful! While the model will now always output JSON, you will never be able to get 100% accuracy in its structure.
 
-![GPT-4o's JSON mode in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/233/conversions/5880RDCZwZoP0fW6kFSXF8j866Rq43-metaQ2xlYW5TaG90IDIwMjMtMTEtMDYgYXQgMjEuNTAuNDhAMngucG5n--medium.jpg)
-
 ## GPT-4o's pricing (it's cheaper than ever!)
 
-Pricing for GPT-4o can change, so please double check. That being said, at the time I'm writing these lines, **[GPT-4o's pricing](https://openai.com/pricing) is $0.01 per 1,000 tokens for the input and $0.03 per 1,000 tokens for the output.**
+Pricing for GPT-4o can change, so please double check. That being said, at the time I'm writing these lines, **[GPT-4o's pricing](https://openai.com/pricing) is $0.005 per 1,000 tokens for the input and $0.015 per 1,000 tokens for the output.**
 
 This is such good news for developers who want to build their dream tools for cheaper thanks to the best-known language model. I know I already have something planned. What about you?
 
