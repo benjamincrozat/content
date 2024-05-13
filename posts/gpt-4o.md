@@ -11,9 +11,9 @@ Categories: ai, gpt
 
 ## Introduction to how to get and use GPT-4o
 
-GPT-4o is a famous multimodal Artificial Intelligence Large Language Model made by [OpenAI](https://openai.com). Its capabilities are groundbreaking and it even manages to be faster and cheaper than its predecessor, GPT-4, despite also being more powerful.
+GPT-4o is the multimodal version of the famous GPT-4 Large Language Model made by [OpenAI](https://openai.com). Its capabilities are groundbreaking and it even manages to be faster and cheaper than its predecessor, GPT-4, despite also being more powerful.
 
-GPT-4o can generate text outputs known as "completions" that can be used to build a range of applications like truly personal assistants, smart chatbots, grammar checkers, spam filters, code generators, and more! The list could go on forever.
+GPT-4o can generate text outputs known as "completions" that can be used to build a range of applications like truly personal assistants, smart chatbots, grammar checkers, spam filters, code generators, and more! The list could go on forever. It's also the best model for vision!
 
 If you are unfamiliar with LLMs, take some time to get up to speed thanks to my simple-to-understand article about [how LLMs such as GPT work](/gpt-llm-ai-explanation).
 
