@@ -5,7 +5,7 @@ Description: PHP 8.4 is expected to drop on November 21, 2024. Let's review the 
 Canonical: 
 Audio:
 Published at: 2023-09-01
-Modified at: 2023-12-22
+Modified at: 2024-06-03
 Categories: php
 ---
 
@@ -46,7 +46,7 @@ If you want to learn more about how to install PHP on your Mac, I wrote somethin
 
 ## What's new in PHP 8.4
 
-### PHP 8.4's DOM extension now supports HTML5
+### The DOM extension now supports HTML5
 
 PHP 8.4's DOM extension just got a big upgrade with support for HTML5 parsing and serialization. This means no more headaches when dealing with HTML5 specific tags or embedding HTML in your JavaScript.
 
@@ -70,7 +70,7 @@ $htmlDocument = HTMLDocument::createFromFile('path/to/your/file.html');
 
 Learn more: [PHP RFC: DOM HTML5 parsing and serialization](https://wiki.php.net/rfc/domdocument_html5_parser)
 
-### PHP 8.4 comes with an increased bcrypt cost by default
+### Increased bcrypt cost by default (meaning more secure hashing)
 
 **In PHP 8.4, the default cost of [bcrypt](https://en.wikipedia.org/wiki/Bcrypt#:~:text=bcrypt%20is%20a%20password%2Dhashing,presented%20at%20USENIX%20in%201999.) has been increased to 12.** What does that even mean?
 
@@ -82,7 +82,7 @@ And why is it such a big deal? Because increasing the cost of bcrypt makes passw
 
 Learn more: [PHP RFC: Increasing the default BCrypt cost](https://wiki.php.net/rfc/bcrypt_cost_2023)
 
-### PHP 8.4 can parse large XML documents more reliably
+### Large XML documents are parsed more reliably
 
 **This change resolved a potential issue in the ext/xml PHP extension involving its handling of large XML document parsing.**
 
@@ -92,7 +92,7 @@ PHP 8.4 introduced a new parser option to properly handle these large XML docume
 
 Learn more: [PHP RFC: XML_OPTION_PARSE_HUGE](https://wiki.php.net/rfc/xml_option_parse_huge)
 
-### New multibyte trimming functions in PHP 8.4
+### New multibyte trimming functions
 
 PHP 8.4's mbstring extension now includes three new functions: `mb_trim()`, `mb_ltrim()`, and `mb_rtrim()`. This addition makes it easier to trim strings with multibyte characters, improving upon the previous workaround of using regex with `preg_replace()`.
 
