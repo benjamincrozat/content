@@ -14,7 +14,7 @@ Categories: laravel
 
 The books here are pure gold. Each one I recommend is related to Laravel, talks about a different topic, and has been written by people from the community with lots of experience. Buy them, put them in your iPad or Kindle, and enjoy becoming a 10x developer!
 
-## The book any Laravel developer should read
+## The books any Laravel developer should read
 
 ### Battle Ready Laravel by Ash Allen
 
