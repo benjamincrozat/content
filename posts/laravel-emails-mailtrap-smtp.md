@@ -4,7 +4,7 @@ Title: Send emails with Laravel using Mailtrap's SMTP
 Description: Learn how to send emails in Laravel with Mailtrap's SMTP and discover how to leverage Mailables.
 Canonical:
 Audio:
-Published at: 2024-03-20
+Published at:
 Modified at:
 Categories: laravel
 ---
