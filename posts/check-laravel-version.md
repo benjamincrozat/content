@@ -2,7 +2,8 @@
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/42d94f71-6b7a-4d43-b197-c6e3bbee953e
 Title: 6 ways to check which Laravel version you are running
 Description: Knowing which Laravel version you are running is important before you start writing code on a new project. There are multiple ways to do so.
-Canonical: 
+Canonical:
+Summary: https://nobinge.ai/share/e45ab7f7-c175-4750-a4e2-298f2e8f279a
 Audio:
 Published at: 2022-09-10
 Modified at: 2024-03-23
