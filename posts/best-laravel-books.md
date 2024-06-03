@@ -22,7 +22,7 @@ The books here are pure gold. Each one I recommend is related to Laravel, talks 
 
 Ash Allen is an inspiring figure in the Laravel community. I first talked to him back in 2022 on X (formerly Twitter) and he always was kind and helpful. If there’s a person from whom you can take guidance, it’s Ash.
 
-Battle Ready Laravel has been a compelling read so far. I’m not the kind of person who finishes books in one go, but I can tell you it’s packed with tons of actionable tips and expert advice to help you ensure your Laravel apps are not just built, but wait for it… battle-ready! If you're looking to refine your coding techniques, streamline your development process, or enhance your application's robustness, this book is a must.
+[Battle Ready Laravel](/recommends/battle-ready-laravel) has been a compelling read so far. I’m not the kind of person who finishes books in one go, but I can tell you it’s packed with tons of actionable tips and expert advice to help you ensure your Laravel apps are not just built, but wait for it… battle-ready! If you're looking to refine your coding techniques, streamline your development process, or enhance your application's robustness, this book is a must.
 
 I won’t disclose everything inside it, but the website provides a pretty good overview and even a free sample.
 
@@ -44,7 +44,7 @@ What I really love is how Ash dives deep into testing strategies and best practi
 
 [![Mastering Laravel Validation Rules by Aaron Saray and Joel Clermont](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/49cfa0c3-237d-4967-b7b7-0a93dca71d1a)](/recommends/mastering-laravel-validation-rules)
 
-Let me tell you: Mastering Laravel Validation Rules is a game-changer. Beginner or knee-deep in Laravel development, this book has something for everyone. I’ve been using Laravel for more than 8 years, and I still learned a ton.
+Let me tell you: [Mastering Laravel Validation Rules](/recommends/mastering-laravel-validation-rules) is a game-changer. Beginner or knee-deep in Laravel development, this book has something for everyone. I’ve been using Laravel for more than 8 years, and I still learned a ton.
 
 The real-world examples help understand concepts faster and better (in Laravel’s official documentation, this often is an issue). The authors, Aaron and Joel, walk you through scenarios like validating addresses, phone numbers, transferring digital assets, and so much more. It’s clear they've been there and are now handing you the solutions on a silver platter.
 
