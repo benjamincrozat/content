@@ -147,7 +147,7 @@ By the way, here's a table that compares GPT-4o's pricing to older GPT-4 models:
 |  Model | Input | Output |
 |--------|-------|--------|
 | **gpt-4o (128K context)** | **$0.005 / 1K tokens** | **$0.015 / 1K tokens** |
-| gpt-4-turbo (128K context)** | **$0.01 / 1K tokens** | **$0.03 / 1K tokens |
+| gpt-4-turbo (128K context) | $0.01 / 1K tokens | $0.03 / 1K tokens |
 | gpt-4 (32K context) | $0.06 / 1K tokens | $0.12 / 1K tokens |
 | gpt-4 (8K context) | $0.03 / 1K tokens | $0.06 / 1K tokens |
 
