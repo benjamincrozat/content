@@ -66,6 +66,86 @@ This tweak doesn’t change any functionality; it just makes the code a bit clea
 
 Learn more: [PHP RFC: new MyClass()->method() without parentheses](https://wiki.php.net/rfc/new_without_parentheses)
 
+### New array helper functions (array_find, array_kind_key, array_any, array_all)
+
+PHP 8.4 is bringing some handy new array functions to make working with arrays even more convenient. Let's take a look at what these new functions are all about with some code examples.
+
+**1. `array_find`**
+
+This function helps you find the first element in an array that matches a specific condition. It's similar to array_filter, but instead of filtering out all matching elements, it stops at the first one.
+
+**Example:**
+
+```php
+$array = ['a' => 'dog', 'b' => 'cat', 'c' => 'cow', 'd' => 'duck', 'e' => 'goose', 'f' => 'elephant'];
+
+// Find the first animal with a name longer than 4 characters.
+$result = array_find($array, function ($value) {
+    return strlen($value) > 4;
+});
+
+var_dump($result); // string(5) "goose"
+```
+
+If no matching element is found, `array_find` returns `NULL`.
+
+**2. `array_find_key`**
+
+This function is like `array_find`, but it returns the key of the first matching element instead of the value.
+
+**Example:**
+
+```php
+$array = ['a' => 'dog', 'b' => 'cat', 'c' => 'cow', 'd' => 'duck', 'e' => 'goose', 'f' => 'elephant'];
+
+// Find the key of the first animal with a name longer than 4 characters.
+$result = array_find_key($array, function ($value) {
+    return strlen($value) > 4;
+});
+
+var_dump($result); // string(1) "e"
+```
+
+If no matching key is found, `array_find_key` returns `NULL`.
+
+**3. `array_any`**
+
+This function checks if any element in the array matches a given condition. It returns `true` if at least one element matches, and `false` otherwise.
+
+**Example:**
+
+```php
+$array = ['a' => 'dog', 'b' => 'cat', 'c' => 'cow', 'd' => 'duck', 'e' => 'goose', 'f' => 'elephant'];
+
+// Check if any animal name is longer than 5 characters.
+$result = array_any($array, function ($value) {
+    return strlen($value) > 5;
+});
+
+var_dump($result); // bool(true)
+```
+
+**4. `array_all`**
+
+This function checks if all elements in the array match a given condition. It returns `true` if all elements match, and `false` if at least one element does not.
+
+**Example:**
+
+```php
+$array = ['a' => 'dog', 'b' => 'cat', 'c' => 'cow', 'd' => 'duck', 'e' => 'goose', 'f' => 'elephant'];
+
+// Check if all animal names are shorter than 12 characters.
+$result = array_all($array, function ($value) {
+    return strlen($value) < 12;
+});
+
+var_dump($result); // bool(true)
+```
+
+These functions make it easier to perform common tasks like searching and checking arrays without writing repetitive code. They are also quite similar to functions found in other programming languages like Rust, JavaScript, and C++, making PHP more versatile and easier to use for developers familiar with these languages.
+
+Learn more: [PHP RFC: array_find](https://wiki.php.net/rfc/array_find)
+
 ### The DOM extension now supports HTML5
 
 PHP 8.4's DOM extension just got a big upgrade with support for HTML5 parsing and serialization. This means no more headaches when dealing with HTML5 specific tags or embedding HTML in your JavaScript.
