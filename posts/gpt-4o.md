@@ -136,7 +136,7 @@ curl -X POST \
 
 3. But be careful! While the model will now always output JSON, you will never be able to get 100% accuracy in its structure.
 
-## GPT-4o's pricing (it's cheaper than ever!)
+## GPT-4o's pricing
 
 Pricing for GPT-4o can change, so please double check. That being said, at the time I'm writing these lines, **[GPT-4o's pricing](https://openai.com/pricing) is $0.005 per 1,000 tokens for the input and $0.015 per 1,000 tokens for the output.**
 
@@ -147,7 +147,7 @@ By the way, here's a table that compares GPT-4o's pricing to older GPT-4 models:
 |  Model | Input | Output |
 |--------|-------|--------|
 | **gpt-4o (128K context)** | **$0.005 / 1K tokens** | **$0.015 / 1K tokens** |
-| **gpt-4-turbo (128K context)** | **$0.01 / 1K tokens** | **$0.03 / 1K tokens** |
+| gpt-4-turbo (128K context)** | **$0.01 / 1K tokens** | **$0.03 / 1K tokens |
 | gpt-4 (32K context) | $0.06 / 1K tokens | $0.12 / 1K tokens |
 | gpt-4 (8K context) | $0.03 / 1K tokens | $0.06 / 1K tokens |
 
