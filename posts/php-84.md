@@ -46,6 +46,26 @@ If you want to learn more about how to install PHP on your Mac, I wrote somethin
 
 ## What's new in PHP 8.4
 
+### new MyClass()->method() without parentheses
+
+This very welcome RFC introduces a new way to instantiate classes without needing to use parentheses when no arguments are passed to the constructor!
+
+Essentially, it aims to simplify the syntax and make the code more concise and readable. Instead of writing `(new MyClass())->myMethod()`, you can now simply write `new MyClass()->myMethod()`.
+
+Here’s a quick example to illustrate the change:
+
+```php
+// Before the RFC
+$dog = (new Dog())->bark();
+
+// After the RFC
+$dog = new Dog()->bark();
+```
+
+This tweak doesn’t change any functionality; it just makes the code a bit cleaner and easier to write.
+
+Learn more: [PHP RFC: new MyClass()->method() without parentheses](https://wiki.php.net/rfc/new_without_parentheses)
+
 ### The DOM extension now supports HTML5
 
 PHP 8.4's DOM extension just got a big upgrade with support for HTML5 parsing and serialization. This means no more headaches when dealing with HTML5 specific tags or embedding HTML in your JavaScript.
