@@ -3,6 +3,7 @@ Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,
 Title: How to access and use GPT-4o's API, step by step
 Description: Get started with GPT-4o's API in no time thanks to my handy step-by-step guide.
 Canonical: 
+Summary: https://nobinge.ai/share/5825e90d-ac48-4d72-be4d-f909011714f5
 Audio:
 Published at: 2024-05-13
 Modified at: 
