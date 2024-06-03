@@ -2,7 +2,8 @@
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/213/FAncssRvJjBYaCmh0SAqka9xFW7KB6-metadGVzdC5wbmc%3D-.png
 Title: How does Laravel work? A crystal clear explanation.
 Description: Discover my step by step and simple explanation of how Laravel makes your life easier.
-Canonical: 
+Canonical:
+Summary: https://nobinge.ai/share/e0028aac-9e2c-44cb-8b45-814f11cd1f25
 Audio:
 Published at: 2023-10-31
 Modified at: 2024-01-04
