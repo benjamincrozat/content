@@ -2,7 +2,8 @@
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/17/best-practices_enpotj.png
 Title: 20+ Laravel best practices, tips and tricks to use in 2024
 Description: Learning a framework can be overwhelming, but time and execution will make you a master. Here are some best practices to help you toward your goal.
-Canonical: 
+Canonical:
+Summary: https://nobinge.ai/share/96ec83c8-72bf-4f90-b2ec-9314f5398007
 Audio:
 Published at: 2022-10-30
 Modified at: 2024-03-15
