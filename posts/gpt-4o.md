@@ -9,7 +9,7 @@ Modified at:
 Categories: ai, gpt
 ---
 
-## Introduction to how to get and use GPT-4o
+## Introduction to GPT-4o
 
 GPT-4o is the multimodal version of the famous GPT-4 Large Language Model made by [OpenAI](https://openai.com). Its capabilities are groundbreaking and it even manages to be faster and cheaper than its predecessor, GPT-4, despite also being more powerful.
 
