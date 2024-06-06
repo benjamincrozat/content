@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/2655bb68-f53f-4188-b25e-e2cfcd222751
 Title: How to Create a Stats Widget in Filament
 Description: Learn how to create and customize a stats widget in Filament for displaying real-time statistics.
 Canonical:
