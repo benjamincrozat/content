@@ -78,7 +78,7 @@ protected function getStats(): array
 }
 ```
 
-You can add a description to stat to make sure context is provided:
+You can add a description to a stat to make sure context is provided:
 
 ```php
 Stat::make('Average read time', Post::average('read_time'))
