@@ -32,11 +32,20 @@ Pop open `app/Providers/Filament/AdminPanelProvider.php`. Here’s where you'll 
 ```php
 use App\Filament\Widgets\PostsStats;
 
-->widgets([
-    Widgets\AccountWidget::class,
-    Widgets\FilamentInfoWidget::class,
-    PostsStats::class,
-])
+class AdminPanelProvider extends PanelProvider
+{
+    public function panel(Panel $panel): Panel
+    {
+        $panel
+            …
+            ->widgets([
+                Widgets\AccountWidget::class,
+                Widgets\FilamentInfoWidget::class,
+                PostsStats::class,
+            ])
+            …
+    }
+}
 ```
 
 ## Registering the Widget in Your Resource
