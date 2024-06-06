@@ -23,7 +23,9 @@ Let’s start by generating the necessary widget structure with the following co
 php artisan make:filament-widget PostsStats --stats-overview
 ```
 
-This spins up a widget class in `app/Filament/Widgets/PostsStats.php`, which is your canvas for the next steps, where we'll inject some life into those stats!
+Then, enter the name of the resource you want to display statistics for. In this case, we'll use `PostResource`. And finally, select the panel you want (most of use will select "the admin panel").
+
+This spins up a widget class in `app/Filament/Resources/PostResource/Widgets/PostsStats.php`, which is your canvas for the next steps, where we'll inject some life into those stats!
 
 ## Registering the Widget in Your Dashboard
 
