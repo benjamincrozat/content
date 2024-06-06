@@ -27,37 +27,30 @@ Then, enter the name of the resource you want to display statistics for. In this
 
 This spins up a widget class in `app/Filament/Resources/PostResource/Widgets/PostsStats.php`, which is your canvas for the next steps, where we'll inject some life into those stats!
 
-## Registering the Widget in Your Dashboard
+## Registering the Widget in Your Resource
 
-Pop open `app/Providers/Filament/AdminPanelProvider.php`. Here’s where you'll add the widget to be displayed right on the main dashboard:
+First, you have to register the widget in your resource class. Open `app/Filament/Resources/PostResource/PostResource.php` and add the following method:
 
 ```php
-use App\Filament\Widgets\PostsStats;
+use App\Filament\Resources\PostResource\Widgets\PostsStats;
 
-class AdminPanelProvider extends PanelProvider
+class PostResource extends Resource
 {
-    public function panel(Panel $panel): Panel
+    public static function getWidgets(): array
     {
-        $panel
-            …
-            ->widgets([
-                Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
-                PostsStats::class,
-            ])
-            …
+        return [
+            PostsStats::class,
+        ];
     }
 }
 ```
 
-## Registering the Widget in Your Resource
-
-If your focus is on a specific resource, like posts in this article, modify the resource page class `app/Filament/Resources/PostResource/Pages/ListPosts.php`:
+Then , modify `app/Filament/Resources/PostResource/Pages/ListPosts.php` to have your widget displayed above the list of posts:
 
 ```php
 use App\Filament\Widgets\PostsStats;
 
-public static function getHeaderWidgets(): array
+public function getHeaderWidgets(): array
 {
     return [
         PostsStats::class,
@@ -65,41 +58,31 @@ public static function getHeaderWidgets(): array
 }
 ```
 
-## Customizing the Widget
+For now, the widget won't display because we haven't added any data to it. Let's fix that next.
+
+## Feeding the Widget with Data
 
 Navigate to your widget class at `app/Filament/Widgets/PostsStats.php`. Here, let's set up some dynamic fetching of data from our `Post` model:
 
 ```php
-public function mount(): void
+use App\Models\Post;
+use Filament\Widgets\StatsOverviewWidget\Stat;
+
+protected function getStats(): array
 {
-    $this->totalPosts = Post::count();
-    $this->totalViews = Post::sum('views');
-    $this->averageReadTime = Post::average('read_time');
+    return [
+        Stat::make('Count', Post::count()),
+        Stat::make('Views', Post::sum('views')),
+        Stat::make('Average read time', Post::average('read_time')),
+    ];
 }
 ```
 
-## Enhancing the Widget with Cards
-
-In the same widget class, define cards to display your statistics. Each card will represent a different facet of your blog's performance:
+You can add a description to stat to make sure context is provided:
 
 ```php
-use Filament\Widgets\StatsOverviewWidget\Card;
-
-protected function getCards(): array
-{
-    return [
-        Card::make('Total Posts', $this->totalPosts),
-
-        Card::make('Total Views', $this->totalViews)
-             ->description('This month')
-             ->descriptionIcon('heroicon-s-trending-up')
-             ->color('success'),
-
-        Card::make('Average Read Time', $this->averageReadTime . ' minutes')
-             ->description('Average across all posts')
-             ->color('warning'),
-    ];
-}
+Stat::make('Average read time', Post::average('read_time'))
+    ->description('This is based on an average read speed of 200 words per minute.');
 ```
 
 ## Automatically Refresh the Widget
@@ -107,18 +90,7 @@ protected function getCards(): array
 For our example, this isn't super useful, unless you have an army of writers constantly publishing content, but know that you can automatically refresh a widget at a given interval. In `app/Filament/Widgets/PostsStats.php`, adjust the `$pollingInterval`:
 
 ```php
-protected static ?string $pollingInterval = '60s';
-```
-
-## Spread the Widget on Different Columns Across Different Screen Sizes
-
-Adjust the appearance and responsiveness of your widget by setting `columnSpan` in the widget class to ensure it adapts to different screen sizes:
-
-```php
-protected int | string | array $columnSpan = [
-    'md' => 4,
-    'xl' => 6,
-];
+protected static ?string $pollingInterval = '3s';
 ```
 
 ## Conclusion
