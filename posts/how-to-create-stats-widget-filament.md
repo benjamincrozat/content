@@ -85,6 +85,14 @@ Stat::make('Average read time', Post::average('read_time'))
     ->description('This is based on an average read speed of 200 words per minute.');
 ```
 
+Finally, if you need big numbers to be formatted, you can use the `Number::format()` method provided by Laravel:
+
+```php
+use Illuminate\Support\Number;
+
+Stat::make('Views', Number::format(Post::sum('views'))),
+```
+
 ## Automatically Refresh the Widget
 
 For our example, this isn't super useful, unless you have an army of writers constantly publishing content, but know that you can automatically refresh a widget at a given interval. In `app/Filament/Widgets/PostsStats.php`, adjust the `$pollingInterval`:
