@@ -104,3 +104,5 @@ protected static ?string $pollingInterval = '3s';
 ## Conclusion
 
 And that's it! You've now equipped your Filament admin panel with a custom stats widget tailored for monitoring blog posts statistics. Now, tweak it, make it your own, test it, and deploy it!
+
+You can also learn more about [stats widgets](https://filamentphp.com/docs/3.x/widgets/stats-overview) on the official documentation.
