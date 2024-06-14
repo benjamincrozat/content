@@ -9,6 +9,8 @@ Modified at:
 Categories: ai, gpt
 ---
 
+**Before you start reading this article, know that [GPT-4o is available](/gpt-4o) and is cheaper and faster than GPT-4 Turbo.**
+
 ## Introduction to how to get and use GPT-4 Turbo
 
 GPT-4 Turbo is a famous Artificial Intelligence Large Language Model made by [OpenAI](https://openai.com). Its capabilities are groundbreaking and changed the world forever.
