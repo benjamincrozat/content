@@ -9,6 +9,8 @@ Modified at:
 Categories: filament
 ---
 
+## Introduction
+
 Have you ever looked at your Filament admin panel and thought, "These text columns could use a bit of sprucing up"? Well, you're in luck! Today, that's what I want to write about. Properly formatted text columns can dramatically improve readability and make your admin panel look more professional.
 
 ## Setting Up Your First Formatted Text Column
