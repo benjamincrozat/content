@@ -4,7 +4,7 @@ Title: How to Format Text Columns in Filament, a Step-by-Step Guide
 Description: Learn how to format text columns in Filament to improve readability and make your admin panel look more professional.
 Canonical:
 Audio:
-Published at:
+Published at: 2024-06-20
 Modified at:
 Categories: filament
 ---
