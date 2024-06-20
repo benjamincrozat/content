@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/8f15af06-f3d1-4164-ab65-6248704b924d
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/c1233dbf-a9c9-46c1-bd07-522dafc6d779
 Title: How to Format Text Columns in Filament, a Step-by-Step Guide
 Description: Learn how to format text columns in Filament to improve readability and make your admin panel look more professional.
 Canonical:
