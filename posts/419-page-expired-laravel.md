@@ -6,7 +6,7 @@ Canonical:
 Summary: https://nobinge.ai/conversations/4e06a436-39e2-4e1c-9b68-fd4df93801e9
 Audio: https://cdn.benjamincrozat.com/419-page-expired-laravel.mp3
 Published at: 2023-06-26
-Modified at: 2023-08-12
+Modified at: 2024-06-21
 Categories: laravel, security
 ---
 
