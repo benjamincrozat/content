@@ -11,9 +11,9 @@ Categories: laravel
 
 ## Introduction to middleware customization in Laravel 11
 
-Starting from [Laravel 11](https://laravel.com/docs/11.x/releases), new projects get to experience a slimmer skeleton. Parts of the efforts to make it happen was to remove the default middleware classes.
+Starting from [Laravel 11](https://laravel.com/docs/11.x/releases), new projects get to experience a slimmer skeleton. Parts of the efforts to make it happen were to remove the default middleware classes.
 
-But how do you customize them then? Easy! Just go into your *bootstrap/app.php* file and configure them however you want. Let me show you in more details for the most common use cases.
+But how do you customize them then? Easy! Just go into your *bootstrap/app.php* file and configure them however you want. Let me show you in more detail for the most common use cases.
 
 ## Customize the default middleware
 
