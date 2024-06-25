@@ -5,7 +5,7 @@ Description: Laravel 12 will be released early 2025. Let's put our investigator 
 Canonical: 
 Audio:
 Published at: 2024-03-11
-Modified at: 2024-05-02
+Modified at: 2024-06-25
 Categories: laravel
 ---
 
@@ -43,6 +43,9 @@ composer create-project --prefer-dist laravel/laravel hello-world dev-master
 For now, there's nothing clearly defined. But the Laravel team prepares the next major release of Laravel as soon as the last one is ready. For instance, they create a branch for every Illuminate repository and make minor (but breaking) changes all over the codebase:
 - [[12.x] Prep Laravel v12](https://github.com/laravel/framework/pull/50406/files)
 - [[12.x] Make Str::is() match multiline strings](https://github.com/laravel/framework/pull/51196)
+- [[12.x] Use native MariaDB CLI commands](https://github.com/laravel/framework/pull/51505)
+- [[12.x] Preserve numeric keys on the first level of the validator rules](https://github.com/laravel/framework/pull/51516)
+- [[12.x] Adds missing streamJson() to ResponseFactory contract](https://github.com/laravel/framework/pull/51544)
 
 ## How to contribute your own breaking changes to Laravel 12
 
