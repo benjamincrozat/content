@@ -17,7 +17,7 @@ That's where [laravel/ui](https://github.com/laravel/ui) comes into play. It off
 
 Now, before you continue, **please note that while Laravel UI is still maintained, it's also an old package that has better alternatives such as [Laravel Jetstream](https://jetstream.laravel.com) and [Laravel Breeze](https://laravel.com/docs/starter-kits#laravel-breeze)**. For instance, Laravel UI does not support as many authentication features as these two.
 
-But I noticed that people are still looking for it, so I told myself that I should write a small article about it anyway!
+But I noticed that people are still looking for it, so why not write a small article about it anyway?
 
 ## Installing laravel/ui
 
