@@ -15,6 +15,8 @@ I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote 
 
 **And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
 
+![Level up with Tailwind CSS, by Shruti Balasa](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/42709dd4-61cd-4e84-90cd-0d72a7bc6f47)
+
 ## What is Tailwind CSS?
 
 **[Tailwind CSS](https://tailwindcss.com) is a framework designed around the utility-first philosophy.**
