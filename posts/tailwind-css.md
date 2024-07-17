@@ -336,20 +336,6 @@ The forms plugin is maintained by the team from Tailwind CSS. It resets forms to
 
 Learn more: [Tailwind CSS forms plugin: a step-by-step guide](https://benjamincrozat.com/tailwind-css-forms-plugin)
 
-### The line clamp plugin
-
-![Tailwind CSS line clamp plugin.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/125/conversions/Screenshot_2022-12-28_at_15.07.09_wiw5sa-medium.jpg)
-
-The line clamp plugin will help you truncate lines of text at a given number of lines.
-
-```html
-<p class="line-clamp-3">
-	Et molestiae hic earum repellat aliquid est doloribus delectus. Enim illum odio porro ut omnis dolor debitis natus. Voluptas possimus deserunt sit delectus est saepe nihil. Qui voluptate possimus et quia. Eligendi voluptas voluptas dolor cum. Rerum est quos quos id ut molestiae fugit.
-</p>
-```
-
-[Read the official documentation on GitHub.](https://github.com/tailwindlabs/line-clamp)
-
 ### The typography plugin
 
 ![Tailwind CSS typography plugin.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/126/conversions/Screenshot_2022-12-28_at_15.11.26_ysda6j-medium.jpg)
