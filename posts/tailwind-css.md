@@ -13,7 +13,7 @@ Categories: css, tailwind-css
 
 I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then. Once I got the hang of Tailwind CSS, I couldn't go back. So naturally, I have **a lot** to say about it and I hope you will find this guide helpful and will soon realize how powerful this framework is.
 
-**And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](/recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
+**And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](/recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't regret it.**
 
 [![Level up with Tailwind CSS, by Shruti Balasa](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,h_320/https://github.com/user-attachments/assets/e8ba5a1d-b43d-41bf-be75-c4da7c174b86)](/recommends/level-up-tailwind-css)
 
