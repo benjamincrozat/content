@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/25/tailwind-css_uoqpuu.png
-Title: Tailwind CSS: the ultimate guide to get started
+Title: The ultimate guide to Tailwind CSS and its best practices
 Description: This is the most comprehensive tutorial about Tailwind CSS. Learn how to make front-end development great again.
 Canonical: 
 Audio:
@@ -9,9 +9,9 @@ Modified at: 2024-07-17
 Categories: css, tailwind-css
 ---
 
-## Introduction
+## Introduction to Tailwind CSS
 
-I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then. Once I got the hang of Tailwind CSS, I couldn't go back. So naturally, I have **a lot** to say about it and I hope you will find this big article helpful!
+I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then. Once I got the hang of Tailwind CSS, I couldn't go back. So naturally, I have **a lot** to say about it and I hope you will find this big article helpful and will soon realize how powerful this framework is.
 
 **And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
 
