@@ -5,7 +5,7 @@ Description: This is the most comprehensive tutorial about Tailwind CSS. Learn h
 Canonical: 
 Audio:
 Published at: 2022-12-25
-Modified at: 2024-03-15
+Modified at: 2024-07-17
 Categories: css, tailwind-css
 ---
 
@@ -45,20 +45,20 @@ Here's how Tailwind CSS helps you to do it:
 
 **Yes, Tailwind CSS free is 100% free.**
 
-You can even contribute to it yourself on [Tailwind CSS' official repository](https://github.com/tailwindlabs/tailwindcss).
+You can even contribute to it yourself on [official repository](https://github.com/tailwindlabs/tailwindcss), because it's open source.
 
-You might have heard about commercial products built around the framework. But these are completely optional, you will never need them.
+You might have heard about the commercial products built around the framework. But these are completely optional, you will never need them.
 
 ## Tailwind CSS makes you love front-end development
 
 [Tailwind CSS](https://tailwindcss.com) comes with the following benefits:
-- Say goodbye to unused styles;
-- You will never end up with 4,394 different color, margin, or z-index values;
-- Don't bother with best practices that nobody in your team wants to follow anyway.
+- You will say goodbye to unused styles;
+- You will never end up with 4,394 different `color`, `margin`, or `z-index` values;
+- You won't have to bother with best practices that nobody in your team wants to follow.
 
-With that, speed of execution will never be a problem, and you'll enjoy crafting user interfaces again.
+With that, speed of execution will be increased, and you'll enjoy crafting user interfaces again.
 
-![Tailwind CSS](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/118/conversions/Screenshot_2022-12-25_at_16.11.53_b6pkht-medium.jpg){: width="1280" height="720"}
+![Tailwind CSS](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/118/conversions/Screenshot_2022-12-25_at_16.11.53_b6pkht-medium.jpg)
 
 ## Tailwind CSS VS. Bootstrap 5
 
@@ -68,13 +68,13 @@ Comparing Tailwind CSS to Bootstrap is like comparing apples to cars; it doesn't
 
 Bootstrap is more than a bunch of utility CSS classes. It provides a ton of excellent UI components that make use of JavaScript. Therefore, it has a larger footprint.
 
-*When used right*, Tailwind CSS is extremely small (especially after compression).
+*When used the right way*, Tailwind CSS is extremely small (especially after compression).
 
 Both are highly customizable.
 
 Tailwind CSS will better fit teams that strongly value user interfaces.
 
-![Tailwind CSS VS. Bootstrap](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/119/conversions/comparison_esionn-medium.jpg){: width="1280" height="720"}
+![Tailwind CSS VS. Bootstrap](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/119/conversions/comparison_esionn-medium.jpg)
 
 ## Who uses Tailwind CSS?
 
