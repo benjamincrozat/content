@@ -11,7 +11,7 @@ Categories: css, tailwind-css
 
 ## Introduction to Tailwind CSS
 
-I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then. Once I got the hang of Tailwind CSS, I couldn't go back. So naturally, I have **a lot** to say about it and I hope you will find this big article helpful and will soon realize how powerful this framework is.
+I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote a few lines of traditional CSS since then. Once I got the hang of Tailwind CSS, I couldn't go back. So naturally, I have **a lot** to say about it and I hope you will find this guide helpful and will soon realize how powerful this framework is.
 
 **And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
 
@@ -212,7 +212,7 @@ By leveraging the configuration file properly, tons of classes and their variant
 
 [Learn more](https://tailwindcss.com/docs/theme) on the official documentation.
 
-### Use Visual Studio Code plugins to work more efficiently with Tailwind CSS
+### Work more efficiently with Tailwind CSS using Visual Studio Code plugins
 
 #### Tailwind CSS IntelliSense
 
@@ -276,7 +276,7 @@ Here's a Blade template file using a `button` component containing the same code
 </html>
 ```
 
-### Don't extract to a parent class. Leverage editor and language features instead.
+### Don't extract to a parent class
 
 Extracting a bunch of Tailwind CSS classes to a parent class is tempting.
 
@@ -332,13 +332,13 @@ The container queries plugin provides a convenient way to handle them in a Tailw
 
 [Read the official documentation on GitHub.](https://github.com/tailwindlabs/tailwindcss-container-queries)
 
-### The forms plugin
+### Style your forms consistently across browsers with the forms plugin
 
 The forms plugin is maintained by the team from Tailwind CSS. It resets forms to a consistent state across all browsers and makes them easily stylable.
 
 Learn more: [Tailwind CSS forms plugin: a step-by-step guide](https://benjamincrozat.com/tailwind-css-forms-plugin)
 
-### The typography plugin
+### Format text with the typography plugin
 
 ![Tailwind CSS typography plugin.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/126/conversions/Screenshot_2022-12-28_at_15.11.26_ysda6j-medium.jpg)
 
@@ -354,7 +354,7 @@ You're actually witnessing those styles on this blog post.
 
 [Read the official documentation.](https://tailwindcss.com/docs/typography-plugin)
 
-## Plenty of Tailwind CSS examples can be copied and pasted. No design skills required.
+## Use a Tailwind CSS-based UI kit
 
 Due to its utility-first philosophy, Tailwind CSS allows to copy and paste fully-designed components into any website.
 
