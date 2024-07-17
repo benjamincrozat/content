@@ -15,7 +15,7 @@ I've been using Tailwind CSS since 2018 in a plethora of projects. I only wrote 
 
 **And by the way, if this isn't enough, I can recommend you "[Level up with Tailwind CSS](recommends/level-up-tailwind-css)" from Shruti Balasa, which is way more skilled at Tailwind CSS and CSS in general than I am. You won't reget it.**
 
-<img src="https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/e8ba5a1d-b43d-41bf-be75-c4da7c174b86" height="320" alt="Level up with Tailwind CSS, by Shruti Balasa" />
+<img src="https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,h_320/https://github.com/user-attachments/assets/e8ba5a1d-b43d-41bf-be75-c4da7c174b86" alt="Level up with Tailwind CSS, by Shruti Balasa" />
 
 ## What is Tailwind CSS?
 
