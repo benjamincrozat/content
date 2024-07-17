@@ -45,7 +45,7 @@ Here's how Tailwind CSS helps you to do it:
 
 ## Is Tailwind CSS free?
 
-**Yes, Tailwind CSS free is 100% free.**
+**Yes, Tailwind CSS is 100% free.**
 
 You can even contribute to it yourself on [official repository](https://github.com/tailwindlabs/tailwindcss), because it's open source.
 
