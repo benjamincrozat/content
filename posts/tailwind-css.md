@@ -151,11 +151,13 @@ Et voilà!
 
 I recommend using something other than it in production, as your performances may suffer.
 
-## Go a step further with Tailwind CSS by using Tailscan
+## Go a step further by using Tailscan
 
 With hot reloading, using Vite or Webpack for instance, we can see our changes live in the browser every time we save our code.
 
-But what about if we could go a step further? Like building and debugging right in the browser? That's exactly what [Tailscan](https://tailscan.com/#features) let's you do!
+But what about if we could go a step further? Like building and debugging right in the browser? That's exactly what [Tailscan](https://tailscan.com/) let's you do!
+
+Even though I can easily render CSS in my head (after 18 years of experience, that's a secondary nature, haha!), the creativity unlocked by the speed of execution Tailscan enables is priceless.
 
 You can try the tool on the website and install their Chrome extension. Here's a demo:
 
