@@ -151,6 +151,16 @@ Et voilà!
 
 I recommend using something other than it in production, as your performances may suffer.
 
+## Go a step further with Tailwind CSS by using Tailscan
+
+With hot reloading, using Vite or Webpack for instance, we can see our changes live in the browser every time we save our code.
+
+But what about if we could go a step further? Like building and debugging right in the browser? That's exactly what [Tailscan](https://tailscan.com/#features) let's you do!
+
+You can try the tool on the website and install their Chrome extension. Here's a demo:
+
+<video autoplay muted loop playsinline><source data-src="/videos/tailscan-2-hero-video.webm" type="https://tailscan.com/video/webm" src="https://tailscan.com/videos/tailscan-2-hero-video.webm"><source data-src="https://tailscan.com/videos/tailscan-2-hero-video.mp4" type="video/mp4" src="https://tailscan.com/videos/tailscan-2-hero-video.mp4"></video>
+
 ## How to set up Tailwind CSS in your project
 
 Ultimately, Tailwind CSS is just a collection of styles. It can be integrated into *any* project.
