@@ -157,7 +157,7 @@ With hot reloading, using Vite or Webpack for instance, we can see our changes l
 
 But what about if we could go a step further? Like building and debugging right in the browser? That's exactly what [Tailscan](https://tailscan.com/) let's you do!
 
-Even though I can easily render CSS in my head (after 18 years of experience, that's secondary nature, haha!), the creativity unlocked by the speed of execution Tailscan enables is priceless.
+Even though I can easily render CSS in my head (after 18 years of experience, that's secondary nature, haha!), the creativity unlocked by the speed of execution Tailscan is priceless.
 
 You can try the tool on the website and install their Chrome extension. Here's a demo:
 
