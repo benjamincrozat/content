@@ -208,9 +208,9 @@ They provide great videos showing off how to build useful UI components like "[B
 
 ## Getting Help by Leveraging the Official Forum
 
-Tailwind CSS has an [official forum](https://github.com/tailwindlabs/tailwindcss/discussions) on GitHub. Feel free to ask about anything you're unable to find in the [documentation](https://tailwindcss.com/docs).
+Tailwind CSS has an [official forum](https://github.com/tailwindlabs/tailwindcss/discussions) powered by GitHub Discussions. Feel free to ask about anything you're unable to find in Google, the official [documentation](https://tailwindcss.com/docs), or ChatGPT.
 
-![Tailwind CSS forum on GitHub](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/122/conversions/Screenshot_2022-12-26_at_10.27.31_e8x0ye-medium.jpg)
+![The official forum of Tailwind CSS.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/271b3258-a86f-42ff-a556-2d82e5a7c998)
 
 ## Tailwind CSS Best Practices
 
