@@ -173,7 +173,7 @@ Or using PostCSS: https://tailwindcss.com/docs/installation/using-postcss
 
 And even apps that use Vite for processing and serving assets: https://tailwindcss.com/docs/guides/vite
 
-You may also be interested in how to integrate Tailwind CSS inside a Laravel project that uses Vite (like this very blog): https://tailwindcss.com/docs/guides/laravel
+You may also be interested in how to integrate Tailwind CSS inside a Laravel project that uses Vite (like this very blog): [Add Tailwind CSS to any Laravel project](https://benjamincrozat.com/tailwind-css-laravel)
 
 Or if you're still using Mix: https://tailwindcss.com/docs/guides/laravel#mix
 
