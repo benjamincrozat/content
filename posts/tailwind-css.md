@@ -380,7 +380,7 @@ Here's a live demo: https://play.tailwindcss.com/rgcRf17zir
 
 And by the way, you're actually witnessing those styles on this blog post. 😎
 
-[Read the official documentation.](https://tailwindcss.com/docs/typography-plugin)
+I've wrote in more details about it here: [Tailwind CSS typography plugin: a step-by-step build guide](https://benjamincrozat.com/tailwind-css-typography-plugin)
 
 ![The typography plugin in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/5e8a4c34-1274-47b5-854e-a1aceb45152d)
 
