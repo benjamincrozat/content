@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/benjamincrozat/content/assets/3613731/75583e74-00fe-4393-92ff-27fba70c4140
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/80b40164-bace-4d89-9f09-136e708e5e8e
 Title: How to access and use GPT-4o mini's API, step by step
 Description: Get started with GPT-4o mini's API in no time thanks to my handy step-by-step guide.
 Canonical: 
