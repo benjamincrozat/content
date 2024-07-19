@@ -5,7 +5,7 @@ Description: This is the most comprehensive tutorial about Tailwind CSS. Learn h
 Canonical: 
 Audio:
 Published at: 2022-12-25
-Modified at: 2024-07-17
+Modified at: 2024-07-19
 Categories: css, tailwind-css
 ---
 
@@ -159,7 +159,7 @@ But what if we could go a step further? Like building and debugging right in the
 
 Even though I can easily render CSS in my head (after 18 years of experience, that's second nature, haha!), the creativity unlocked by the speed of execution Tailscan offers is priceless.
 
-You can try the tool on the website and install their Chrome extension. Here's a demo:
+You can try the tool on the website and install their [Chrome extension](https://chromewebstore.google.com/detail/tailscan/ehlgpljoffpijelfiegjpkfanlfhgeae). Here's a demo:
 
 <video autoplay muted loop playsinline><source data-src="/videos/tailscan-2-hero-video.webm" type="https://tailscan.com/video/webm" src="https://tailscan.com/videos/tailscan-2-hero-video.webm"><source data-src="https://tailscan.com/videos/tailscan-2-hero-video.mp4" type="video/mp4" src="https://tailscan.com/videos/tailscan-2-hero-video.mp4"></video>
 
