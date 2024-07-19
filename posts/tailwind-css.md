@@ -368,11 +368,7 @@ Learn more: [Tailwind CSS forms plugin: a step-by-step guide](https://benjamincr
 
 ### The Typography Plugin
 
-![Tailwind CSS typography plugin.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/126/conversions/Screenshot_2022-12-28_at_15.11.26_ysda6j-medium.jpg)
-
 The typography plugin contains tons of styles, which you can customize, for written content. It's extremely well done and useful.
-
-You're actually witnessing those styles on this blog post.
 
 ```html
 <article class="prose lg:prose-xl">
@@ -380,7 +376,13 @@ You're actually witnessing those styles on this blog post.
 </article>
 ```
 
+Here's a live demo: https://play.tailwindcss.com/rgcRf17zir
+
+And by the way, you're actually witnessing those styles on this blog post. 😎
+
 [Read the official documentation.](https://tailwindcss.com/docs/typography-plugin)
+
+![The typography plugin in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/5e8a4c34-1274-47b5-854e-a1aceb45152d)
 
 ## UI Kits
 
