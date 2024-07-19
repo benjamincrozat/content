@@ -92,7 +92,8 @@ Both are highly customizable.
 
 Tailwind CSS will better fit teams that strongly value unique user interfaces.
 
-![Tailwind CSS VS. Bootstrap](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/119/conversions/comparison_esionn-medium.jpg)
+![The official website of Tailwind CSS.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/c0f0cd52-004b-467a-9cf0-ed41aff47812)
+![The official website of Bootstrap.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/704c9037-091e-4415-9d52-8460316d6a9b)
 
 ## Big Names using Tailwind CSS
 
