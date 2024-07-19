@@ -13,7 +13,7 @@ Categories: css, tailwind-css
 
 I've been using Tailwind CSS since 2018 in a plethora of projects. Since then, I've only written a few lines of traditional CSS. Once I got the hang of Tailwind CSS, I couldn't go back. Naturally, I have **a lot** to say about it, and I hope you'll find this guide helpful and soon realize how powerful this framework is.
 
-**By the way, if this isn't enough, I recommend "[Level up with Tailwind CSS](/recommends/level-up-tailwind-css)" by Shruti Balasa, who is far more skilled at Tailwind CSS and CSS in general than I am. You won't regret it.**
+**By the way, if this guide isn't enough, I recommend "[Level up with Tailwind CSS](/recommends/level-up-tailwind-css)" by Shruti Balasa, who is far more skilled at Tailwind CSS and CSS in general than I am. You won't regret it.**
 
 [![Level up with Tailwind CSS, by Shruti Balasa](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,h_320/https://github.com/user-attachments/assets/e8ba5a1d-b43d-41bf-be75-c4da7c174b86)](/recommends/level-up-tailwind-css)
 
@@ -65,6 +65,22 @@ With that, speed of execution will increase, and you'll enjoy crafting user inte
 ## Tailwind CSS vs Bootstrap 5: Utility Classes vs. Components
 
 In short, [Tailwind CSS](https://tailwindcss.com) is a utility-first CSS framework, and [Bootstrap 5](https://getbootstrap.com) is mainly a collection of UI components.
+
+For instance, with Tailwind CSS, building a call-to-action button can be done this way:
+
+```html
+<button class="bg-blue-600 px-4 py-3 text-white rounded">
+    Get Started
+</button>
+```
+
+The equivalent in Bootstrap would be:
+
+```html
+<button class="btn btn-primary">
+    Get Started
+</button>
+```
 
 Comparing Tailwind CSS to Bootstrap is like comparing apples to cars; it doesn't make sense.
 
