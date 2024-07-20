@@ -14,8 +14,6 @@ Categories: php
 **To convert a PHP array to [JSON](https://www.wikipedia.org/wiki/JSON), you can use the [`json_encode()`](https://www.php.net/json_encode) function. Here's how it's done:**
 
 ```php
-<?php
-
 $array = [
     "foo" => "bar", 
     "baz" => "qux",
