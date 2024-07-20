@@ -392,7 +392,7 @@ I recently came across a Tailwind CSS plugin called fullwindcss that expands the
 
 The plugin uses CIELAB color space for interpolation, aiming to provide visually pleasing gradients. What I found interesting is that it maintains compatibility with the original Tailwind colors, so it can be integrated into existing projects without disrupting the current design. While it's not necessary for every project, it could be a helpful tool for designers who frequently work with complex color schemes or need very specific shades in their designs.
 
-[Check out fullwind](https://fullwindcss.com)
+[Check out fullwindcss](https://fullwindcss.com)
 
 ![fullwindcss](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/e43263d8-5c1a-4640-aa50-aefff42c07fb)
 
