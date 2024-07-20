@@ -112,9 +112,9 @@ In your *composer.json*, you will be able to get the minimum version of Laravel 
 },
 ```
 
-As you can see, this project is locked on Laravel 9.19 or earlier.
+As you can see, this project is locked on Laravel 11.0.8 or earlier.
 
-But this might not be enough. Since versions earlier than 9.19 are supported, you project might use Laravel 9.32 or even 9.484843!
+But this might not be enough. Since versions earlier than 11.0.8 are supported, you project might use Laravel 11.0.33 or even 11.1.22!
 
 Instead, search for "laravel/framework" inside your *composer.lock* file to get the exact Laravel version that's installed on your project :
 
