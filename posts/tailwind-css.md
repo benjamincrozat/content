@@ -384,6 +384,18 @@ I've wrote in more details about it here: [Tailwind CSS typography plugin: a ste
 
 ![The typography plugin in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/5e8a4c34-1274-47b5-854e-a1aceb45152d)
 
+## Unofficial plugins
+
+### fullwindcss
+
+I recently came across a Tailwind CSS plugin called fullwindcss that expands the default color palette. Instead of the standard 11 shades per color, it offers 1001 shades for each. This allows for more nuanced color choices, which can be particularly useful when designing hover states or dark themes.
+
+The plugin uses CIELAB color space for interpolation, aiming to provide visually pleasing gradients. What I found interesting is that it maintains compatibility with the original Tailwind colors, so it can be integrated into existing projects without disrupting the current design. While it's not necessary for every project, it could be a helpful tool for designers who frequently work with complex color schemes or need very specific shades in their designs.
+
+[Check out fullwind](https://fullwindcss.com)
+
+![fullwindcss](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/e43263d8-5c1a-4640-aa50-aefff42c07fb)
+
 ## UI Kits
 
 Due to its utility-first philosophy, Tailwind CSS allows you to copy and paste fully-designed components into any website.
