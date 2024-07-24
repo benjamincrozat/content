@@ -56,4 +56,4 @@ DB::transaction(function () {
 }, 3);
 ```
 
-[Learn more about transactions in Laravel](https://laravel.com/docs/10.x/database#database-transactions) on the official documentation.
+Learn more about [transactions in Laravel](https://laravel.com/docs/10.x/database#database-transactions) on the official documentation.
