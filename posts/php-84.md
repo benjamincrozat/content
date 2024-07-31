@@ -66,7 +66,7 @@ This tweak doesn’t change any functionality; it just makes the code a bit clea
 
 Learn more: [PHP RFC: new MyClass()->method() without parentheses](https://wiki.php.net/rfc/new_without_parentheses)
 
-### New array helper functions (array_find, array_kind_key, array_any, array_all)
+### New array helper functions (array_find, array_find_key, array_any, array_all)
 
 PHP 8.4 is bringing some handy new array functions to make working with arrays even more convenient. Let's take a look at what these new functions are all about with some code examples.
 
