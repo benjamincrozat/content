@@ -5,7 +5,7 @@ Description: This is the most comprehensive tutorial about Tailwind CSS. Learn h
 Canonical: 
 Audio:
 Published at: 2022-12-25
-Modified at: 2024-07-19
+Modified at: 2024-08-01
 Categories: css, tailwind-css
 ---
 
