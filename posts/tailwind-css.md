@@ -184,6 +184,14 @@ You can try the tool on the website and install their [Chrome extension](https:/
 
 ### Windframe: Visually Build UIs with AI
 
+[Windframe](https://windframe.dev) solves a common web development problem: the time-consuming process of building attractive and responsive websites.
+
+This AI-powered Tailwind CSS builder lets users create web interfaces visually, without extensive coding. It offers drag-and-drop functionality, pre-built templates, and AI assistance for responsive design and dark mode creation.
+
+You can even export your designs to HTML, React, or Vue, making Windframe versatile for any projects.
+
+It's definitely worth giving it a try!
+
 <video autoplay loop muted><source src="https://windframe.dev/videos/windheader2.mp4" type="video/mp4"></video>
 
 ## Set Up Tailwind CSS
