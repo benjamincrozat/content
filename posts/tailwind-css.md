@@ -168,7 +168,9 @@ Et voilà!
 
 I recommend using something other than it in production, as your performance may suffer.
 
-## Tailscan: Real-time Building and Debugging
+## Advanced third-party tools
+
+### Tailscan: Real-time Building and Debugging
 
 With hot reloading, using Vite or Webpack for instance, we can see our changes live in the browser every time we save our code.
 
@@ -179,6 +181,10 @@ Even though I can easily render CSS in my head (after 18 years of experience, th
 You can try the tool on the website and install their [Chrome extension](https://chromewebstore.google.com/detail/tailscan/ehlgpljoffpijelfiegjpkfanlfhgeae). Here's a demo:
 
 <video autoplay muted loop playsinline><source data-src="/videos/tailscan-2-hero-video.webm" type="https://tailscan.com/video/webm" src="https://tailscan.com/videos/tailscan-2-hero-video.webm"><source data-src="https://tailscan.com/videos/tailscan-2-hero-video.mp4" type="video/mp4" src="https://tailscan.com/videos/tailscan-2-hero-video.mp4"></video>
+
+### Windframe: Visually Build UIs with AI
+
+<video autoplay loop muted><source src="https://windframe.dev/videos/windheader2.mp4" type="video/mp4"></video>
 
 ## Set Up Tailwind CSS
 
