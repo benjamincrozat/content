@@ -9,8 +9,6 @@ Modified at: 2022-11-23
 Categories: php
 ---
 
-## Introduction
-
 **This warning message occurs because class constructors can't have the same name as their class. You can fix this by changing it to `__construct()`**.
 
 1. Grab your favorite code editor and **search for class definitions across your project**;
