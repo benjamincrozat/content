@@ -18,11 +18,11 @@ Categories: php
 
 Your modifications should look like this:
 
-```php
+```diff
 class Foo
 {
-    public function Foo() // [tl! --]
-    public function __construct() // [tl! ++]
+-    public function Foo()
++    public function __construct()
     {
     }
 }
