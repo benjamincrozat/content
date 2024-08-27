@@ -15,7 +15,7 @@ Categories: php
 
 ## The easiest upgrade ever?
 
-Before we get into the juicy new features, let's talk about upgrading. Spoiler alert: it's ridiculously simple. All you need to do is bump up your dependency to `^3.x-dev` in your `composer.json` file. That's it! No breaking changes to worry about, no tedious refactoring – just a smooth sail to the latest and greatest version of Pest.
+Before we get into the juicy new features, let's talk about upgrading. Spoiler alert: it's ridiculously simple. All you need to do is bump up your dependency to `^3.x-dev` and change `minimum-stability` to `dev` in your `composer.json` file. That's it! No breaking changes to worry about, no tedious refactoring – just a smooth sail to the latest and greatest version of Pest.
 
 ```json
 {
@@ -31,7 +31,7 @@ Run `composer update`, and you're good to go. Now, let's dive into what's new!
 
 ### Architecture tests presets: A game-changer for structural integrity
 
-One of the standout features in Pest 3 is the introduction of architecture tests presets. This is a powerful tool that allows us to enforce architectural rules and best practices in our codebase.
+One of the standout features in Pest 3 is the introduction of architecture tests presets. This is a powerful tool that allows us to enforce architectural rules and best practices in our codebase. And the best thing being that we don't have to write them ourselves!
 
 Pest 3 comes with several presets out of the box:
 
@@ -59,12 +59,16 @@ This flexibility allows you to adhere to best practices while still accommodatin
 
 ### Mutation testing: The future of test reliability
 
-Pest 3 is also introducing mutation testing, which is an exciting development in the world of software testing. While I don't have all the details yet, mutation testing is a technique that involves making small changes (mutations) to your code and running your tests against these mutated versions. This helps identify weak spots in your test suite and ensures your tests are truly effective.
+Pest 3 is also introducing mutation testing, which is not something new in the world of software testing, but Pest makes it incredibly easier. 
+
+While I don't have all the details yet on how it works with Pest 3, mutation testing is a technique that involves making small changes (mutations) to your code and running your tests against these mutated versions. This helps identify weak spots in your test suite and ensures your tests are truly effective.
 
 I'm really looking forward to exploring this feature more and seeing how it can improve the reliability of our test suites. Stay tuned for more information on this!
 
 ### Todos management with GitHub: Streamlining your workflow
 
-Another intriguing feature coming with Pest 3 is todos management integrated with GitHub. While the specifics aren't clear yet, this sounds like it could be a great way to keep track of tasks and improvements directly from your test suite. Imagine being able to flag areas that need attention and have them automatically sync with your GitHub issues – that's the kind of seamless workflow I'm always excited about.
+Another intriguing feature coming with Pest 3 is todos management integrated with GitHub.
+
+While the specifics aren't clear yet, this sounds like it could be a great way to keep track of tasks and improvements directly from your test suite. Imagine being able to flag areas that need attention and have them automatically sync with your GitHub issues – that's the kind of seamless workflow I'm always excited about.
 
 I'll be sure to update you all once I have more information on how this feature works and how we can leverage it in our projects.
