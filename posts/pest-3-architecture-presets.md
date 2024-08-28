@@ -1,5 +1,5 @@
 ---
-Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/2e4c7701-a2c5-4cdd-aa1c-9326ac56bad3
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/dc061e0c-6017-4c22-b18d-a1f1e439bb55
 Title: A Guide to Architecture Testing Presets in Pest 3
 Description: Discover how Pest 3 simplifies architecture testing with pre-configured presets, making it effortless to enforce best practices and maintain code quality in your projects.
 Canonical: 
@@ -8,10 +8,6 @@ Published at: 2024-08-28
 Modified at:
 Categories: php
 ---
-
-## Introduction
-
-# A Guide to Architecture Testing Presets in Pest 3
 
 ## Introduction
 
