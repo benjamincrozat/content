@@ -13,6 +13,8 @@ Categories: php
 
 If you're anything like me, you're always looking for ways to improve your code quality and maintainability (but not at the expense of your ability to ship, right?). Writing architecture tests with Pest 2 is one of the ways to do it. But now, Architecture Testing Presets is Pest 3 will make it effortless.
 
+If needed, [learn how to get started with this new version](/pest-3) first.
+
 ## What are Architecture Testing Presets?
 
 Architecture Testing Presets in Pest 3 are pre-configured sets of rules that help enforce best practices and structural integrity in your codebase. They're like having a vigilant code reviewer built right into your testing suite. But it's immediate and takes just a few seconds!
@@ -86,7 +88,7 @@ arch()->preset()->relaxed();
 
 ## The Security Preset: Your Code's Bodyguard
 
-The Security preset is all about keeping your code safe and secure. It's like having a security expert on your team:
+The Security preset is all about keeping your code safe and secure.
 
 - Prevents the use of weak cryptographic functions like `md5` and `sha1`
 - Blocks the use of potentially dangerous functions like `eval`, `exec`, and `shell_exec`
