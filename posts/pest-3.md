@@ -29,7 +29,7 @@ Run `composer update`, and you're good to go. Now, let's dive into what's new!
 
 ## What's new in Pest 3?
 
-### Architecture tests presets: A game-changer for structural integrity
+### Architecture tests presets
 
 One of the standout features in Pest 3 is the introduction of architecture tests presets. This is a powerful tool that allows us to enforce architectural rules and best practices in our codebase. And the best thing being that we don't have to write them ourselves!
 
@@ -81,7 +81,7 @@ As you can see, this is a disaster. But for my defense, it's a new project and a
 
 For more information and detailed documentation, check out the [Pest Mutate Plugin GitHub repository](https://github.com/pestphp/pest-plugin-mutate).
 
-### Todos management with GitHub: Streamlining your workflow
+### Todos management with GitHub
 
 Another intriguing feature coming with Pest 3 is todos management integrated with GitHub.
 
