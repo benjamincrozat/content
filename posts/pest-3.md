@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/2e4c7701-a2c5-4cdd-aa1c-9326ac56bad3
 Title: What's new in Pest 3 and how to upgrade
-Description: Explore the exciting new features in Pest 3, including architecture test presets and simplified upgrading. Learn how to step up your PHP testing game with this awesome update!
+Description: Step up your PHP testing game with Pest 3. Architecture tests presets, mutations, and todo lists management.
 Canonical: 
 Audio:
 Published at: 2024-08-27
