@@ -57,13 +57,29 @@ arch()->preset()->laravel()->excluding('App\Models\Scopes');
 
 This flexibility allows you to adhere to best practices while still accommodating the unique needs of your project.
 
-### Mutation testing: The future of test reliability
+### Mutation testing: how reliable are your tests?
 
-Pest 3 is also introducing mutation testing, which is not something new in the world of software testing, but Pest makes it incredibly easier. 
+Pest 3 is bringing mutation testing to the table! This feature enhances the reliability of your test suites by making small changes to your code and running tests against these mutated versions.
 
-While I don't have all the details yet on how it works with Pest 3, mutation testing is a technique that involves making small changes (mutations) to your code and running your tests against these mutated versions. This helps identify weak spots in your test suite and ensures your tests are truly effective.
+To get started with mutation testing, install the plugin:
 
-I'm really looking forward to exploring this feature more and seeing how it can improve the reliability of our test suites. Stay tuned for more information on this!
+```bash
+composer require pestphp/pest-plugin-mutate --dev
+```
+
+Once installed, you can run mutation tests with this simple command:
+
+```bash
+./vendor/bin/pest --mutate
+```
+
+I ran this on my project, and here's what it looks like:
+
+![Pest's mutation tests in action.](https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/fe303b15-3a35-4f8b-8a6b-f066e566576c)
+
+As you can see, this is a disaster. But for my defense, it's a new project and a work in progress!
+
+For more information and detailed documentation, check out the [Pest Mutate Plugin GitHub repository](https://github.com/pestphp/pest-plugin-mutate).
 
 ### Todos management with GitHub: Streamlining your workflow
 
