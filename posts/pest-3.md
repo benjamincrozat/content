@@ -57,6 +57,8 @@ arch()->preset()->laravel()->excluding('App\Models\Scopes');
 
 This flexibility allows you to adhere to best practices while still accommodating the unique needs of your project.
 
+I wrote more about this in my [guide to architecture testing presets in Pest 3](/pest-3-architecture-testing-presets).
+
 ### Mutation testing: how reliable are your tests?
 
 Pest 3 is bringing mutation testing to the table! This feature enhances the reliability of your test suites by making small changes to your code and running tests against these mutated versions.
