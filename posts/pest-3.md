@@ -5,15 +5,15 @@ Description: Step up your PHP testing game with Pest 3. Architecture testing pre
 Canonical: 
 Audio:
 Published at: 2024-08-27
-Modified at:
+Modified at: 2024-08-28
 Categories: php
 ---
 
-## Introduction
+## Introduction to Pest 3
 
-[Pest](https://pestphp.com), my favorite PHP testing framework, has just dropped its version 3, and I couldn't wait to dive in and share my thoughts with you.
+[Pest](https://pestphp.com), my favorite PHP testing framework, has just dropped its version 3. It was presented during Laracon US 2024 by Nuno Maduro and I couldn't wait to dive in and share my thoughts with you.
 
-## The easiest upgrade ever?
+## Is Pest 3 the easiest upgrade ever?
 
 Before we get into the juicy new features, let's talk about upgrading. Spoiler alert: it's ridiculously simple. All you need to do is bump up your dependency to `^3.x-dev` and change `minimum-stability` to `dev` in your `composer.json` file. That's it! No breaking changes to worry about, no tedious refactoring – just a smooth sail to the latest and greatest version of Pest.
 
@@ -48,6 +48,15 @@ arch()->preset()->laravel();
 ```
 
 This will apply a set of architectural rules that are tailored for Laravel applications, helping you maintain a clean and consistent codebase.
+
+And here how you can use the other ones:
+
+```php
+arch()->preset()->php();
+arch()->preset()->relaxed();
+arch()->preset()->security();
+arch()->preset()->strict();
+```
 
 But what if you need to make exceptions? Pest 3 has got you covered. You can exclude specific files or namespaces using the `ignoring()` method. For instance:
 
@@ -85,8 +94,63 @@ For more information and detailed documentation, check out the [Pest Mutate Plug
 
 ### Todos Management with GitHub
 
-Another intriguing feature coming with Pest 3 is todos management integrated with GitHub.
+One of the most exciting features in Pest 3 is the new Todos Management system, which integrates seamlessly with GitHub. This feature allows you to manage your testing workflow directly from your test files and command line, creating a bridge between your tests and your project management on GitHub.
 
-While the specifics aren't clear yet, this sounds like it could be a great way to keep track of tasks and improvements directly from your test suite. Imagine being able to flag areas that need attention and have them automatically sync with your GitHub issues – that's the kind of seamless workflow I'm always excited about.
+Here's what you can do with this new feature:
 
-I'll be sure to update you all once I have more information on how this feature works and how we can leverage it in our projects.
+1. **Mark Tests as Todo or Done**: 
+   You can now explicitly mark tests as "todo" or "done" in your test files:
+
+   ```php
+   test('this feature needs implementation')
+       ->todo()
+       ->assignee('benjamincrozat')
+       ->issue(42);
+
+   test('this feature is complete')
+       ->done()
+       ->pr(101);
+   ```
+
+2. **Link Tests to GitHub Issues and Pull Requests**: 
+   Easily associate your tests with specific GitHub issues or pull requests:
+
+   ```php
+   test('fix login bug')
+       ->issue(13)
+       ->pr(25);
+   ```
+
+3. **Assign Tests to Team Members**: 
+   Delegate responsibilities by assigning tests to specific team members:
+
+   ```php
+   test('implement new API endpoint')
+       ->assignee('benjamincrozat');
+   ```
+
+4. **Add Notes to Tests**: 
+   Include additional context or instructions with your tests:
+
+   ```php
+   test('refactor database queries')
+       ->note('Focus on optimizing the user lookup query');
+   ```
+
+5. **Command-Line Interface**: 
+   Pest 3 introduces new CLI commands to manage your todos:
+
+   ```bash
+   pest --issue=11
+   pest --assignee=benjamincrozat --pr=1
+   pest --notes
+   ```
+
+   These commands allow you to filter and run tests based on their associated issues, assignees, pull requests, or notes.
+
+This feature set transforms Pest from just a testing framework into a powerful project management tool. It allows you to:
+
+- Keep your tests and project management tightly integrated
+- Easily track which features are being tested and their current status
+- Assign responsibilities and track progress directly from your test suite
+- Maintain a clear link between your tests, the issues they address, and the pull requests that implement them
