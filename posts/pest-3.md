@@ -102,12 +102,12 @@ Here's what you can do with this new feature:
    You can now explicitly mark tests as "todo" or "done" in your test files:
 
    ```php
-   test('this feature needs implementation')
+   test('something happens when the user does something', function () => { … })
        ->todo()
        ->assignee('benjamincrozat')
        ->issue(42);
 
-   test('this feature is complete')
+   test('the feature works as expected', function () => { … })
        ->done()
        ->pr(101);
    ```
@@ -116,7 +116,7 @@ Here's what you can do with this new feature:
    Easily associate your tests with specific GitHub issues or pull requests:
 
    ```php
-   test('fix login bug')
+   test('users can log in', function () => { … })
        ->issue(13)
        ->pr(25);
    ```
@@ -125,7 +125,7 @@ Here's what you can do with this new feature:
    Delegate responsibilities by assigning tests to specific team members:
 
    ```php
-   test('implement new API endpoint')
+   test('API endpoints behaves as expected')
        ->assignee('benjamincrozat');
    ```
 
@@ -133,8 +133,8 @@ Here's what you can do with this new feature:
    Include additional context or instructions with your tests:
 
    ```php
-   test('refactor database queries')
-       ->note('Focus on optimizing the user lookup query');
+   test('queries are optimized for performances', function () => { … })
+       ->note('Focus on optimizing the user lookup query.');
    ```
 
 5. **Command-Line Interface**: 
