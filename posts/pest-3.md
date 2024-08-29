@@ -98,8 +98,7 @@ One of the most exciting features in Pest 3 is the new Todos Management system, 
 
 Here's what you can do with this new feature:
 
-1. **Mark Tests as Todo or Done**: 
-   You can now explicitly mark tests as "todo" or "done" in your test files:
+1. **Mark Tests as Todo or Done**: You can now explicitly mark tests as "todo" or "done" in your test files:
 
    ```php
    test('something happens when…', function () { … })
@@ -112,8 +111,7 @@ Here's what you can do with this new feature:
        ->pr(101);
    ```
 
-2. **Link Tests to GitHub Issues and Pull Requests**: 
-   Easily associate your tests with specific GitHub issues or pull requests:
+2. **Link Tests to GitHub Issues and Pull Requests**: Easily associate your tests with specific GitHub issues or pull requests:
 
    ```php
    test('users can…', function () { … })
@@ -121,36 +119,24 @@ Here's what you can do with this new feature:
        ->pr(25);
    ```
 
-3. **Assign Tests to Team Members**: 
-   Delegate responsibilities by assigning tests to specific team members:
+3. **Assign Tests to Team Members**: Delegate responsibilities by assigning tests to specific team members:
 
    ```php
    test('…', function () { … })
        ->assignee('benjamincrozat');
    ```
 
-4. **Add Notes to Tests**: 
-   Include additional context or instructions with your tests:
+4. **Add Notes to Tests**: Include additional context or instructions with your tests:
 
    ```php
    test('…', function () { … })
        ->note('Focus on optimizing the user lookup query.');
    ```
 
-5. **Command-Line Interface**: 
-   Pest 3 introduces new CLI commands to manage your todos:
+5. **Command-Line Interface**: There are new options allowing you to filter and run tests based on their associated issues, assignees, pull requests, or notes.
 
    ```bash
    pest --issue=11
    pest --assignee=benjamincrozat --pr=1
    pest --notes
    ```
-
-   These commands allow you to filter and run tests based on their associated issues, assignees, pull requests, or notes.
-
-This feature set transforms Pest from just a testing framework into a powerful project management tool. It allows you to:
-
-- Keep your tests and project management tightly integrated
-- Easily track which features are being tested and their current status
-- Assign responsibilities and track progress directly from your test suite
-- Maintain a clear link between your tests, the issues they address, and the pull requests that implement them
