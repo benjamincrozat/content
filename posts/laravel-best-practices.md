@@ -6,17 +6,17 @@ Canonical:
 Summary: https://nobinge.ai/share/96ec83c8-72bf-4f90-b2ec-9314f5398007
 Audio:
 Published at: 2022-10-30
-Modified at: 2024-03-15
+Modified at: 2024-08-29
 Categories: laravel
 ---
 
 ## Introduction to Laravel best practices
 
 For most Laravel projects, the best practices can be summarized as two points:
-- Stick to the defaults;
+- Stick to the defaults.
 - Defer as much work as possible to the framework.
 
-Whether you are running Laravel 11, 10, or 9, let's see in details how I can help you improve any codebase with tons of tips and tricks.
+Whether you are running Laravel 11, 10, or 9, let's see in detail how I can help you improve any codebase with tons of tips and tricks.
 
 **By the way, in addition to this article, let me recommend you great books to keep leveling up with Laravel:**
 - [Battle ready Laravel](/recommends/battle-ready-laravel) by Ash Allen. This will teach you a lot of new things to take your Laravel apps to the next level.
@@ -28,7 +28,7 @@ Whether you are running Laravel 11, 10, or 9, let's see in details how I can hel
 ### Keep Laravel up to date
 
 [Keeping Laravel up to date](https://laravel.com/docs/upgrade) provides the following benefits:
-- **Improved security**: Because Laravel regularly releases security fixes.
+- **Improved security**: Laravel regularly releases security fixes.
 - **Better performances**: Laravel updates often include performance improvements, such as faster load times and more efficient code.
 - **New features and functionality**: These are why we use and love Laravel and the reason it changed our lives.
 - **Compatibility with the latest [official](https://packagist.org/?query=laravel%2F) and [community packages](https://packagist.org).**
@@ -37,7 +37,7 @@ If Laravel updates scare you, it's because your codebase isn't tested. You are a
 
 ### Keep packages up to date
 
-Access to dozens of packages from the official Laravel ecosystem as well as thousands of community packages is what makes our job easier.
+Access to dozens of packages from the official Laravel ecosystem as well as thousands of community packages are what make our job easier.
 
 But **the more packages you use, the more points of failure** you can be subject to.
 
@@ -75,7 +75,7 @@ Do you know why you're using a framework?
 2. It provides many complex, tedious, and battle-tested features for free, so you can focus on coding what is specific to your project.
 
 So, is it considered a best practice to stick to Laravel's default project structure?
-1. Convenience. Laravel's default way of doing things [is documented](https://laravel.com/docs). When you come back on a project weeks or months later, you will thank your past self for this.
+1. Convenience: Laravel's default way of doing things [is documented](https://laravel.com/docs). When you come back on a project weeks or months later, you will thank your past self for this.
 2. Working with team mates is considerably easier. They know Laravel, just like you. Use this common knowledge to help the project move forward instead of reinventing the wheel every time.
 
 When shouldn't you stick to the defaults?
@@ -88,7 +88,7 @@ Read more on [architecture best practices](https://benjamincrozat.com/laravel-ar
 
 ### Use custom form requests for complex validation
 
-The main reason to use custom [form requests](https://laravel.com/docs/validation#form-request-validation) are:
+The main reasons to use custom [form requests](https://laravel.com/docs/validation#form-request-validation) are:
 1. Reusing validation across multiple controllers;
 2. Offloading code from bloated controllers;
 
@@ -116,7 +116,20 @@ class PostController
 }
 ```
 
-Custom requests can also be used for [authorization](https://laravel.com/docs/validation#authorizing-form-requests), if you feel like [Policies](https://laravel.com/docs/authorization#creating-policies) are overkill.
+Custom form requests can also include additional logic beyond validation. For example, you can use them to normalize input data before it reaches your controller:
+
+```php
+public function prepareForValidation()
+{
+    $this->merge([
+        'slug' => Str::slug($this->title),
+    ]);
+}
+```
+
+This method will automatically generate a slug from the title before validation occurs.
+
+But that's not it. They can also manage [authorizations](https://laravel.com/docs/validation#authorizing-form-requests), if you feel like [Policies](https://laravel.com/docs/authorization#creating-policies) are overkill.
 
 ### Use single action controllers to keep the code organized
 
@@ -194,7 +207,7 @@ public function update(Request $request, Post $post)
 
 ### Keep migrations up to date
 
-Migrations are a way to describe your database in plain PHP code.
+Migrations are a way to describe your database schema in plain PHP code.
 
 See them as a phpMyAdmin, but with code instead of a user interface.
 
@@ -202,7 +215,7 @@ This is extremely useful to help everyone in the team replicate the same environ
 
 That's also how you can deploy a project to new environment (staging and production for instance) without worrying about exporting the database from another environment.
 
-However, developers sometimes edit the database directly instead of creating a new migration. This is bad and will make other developers' life harder. There's nothing more annoying than having to bug your colleagues on Slack and ask them for a dump.
+However, developers sometimes edit the database directly instead of creating a new migration. This is bad and will make other developers' life harder. There's nothing more annoying than having to ask your colleagues on Slack for a database dump.
 
 Read more about [how migrations can improve any project](/laravel-migrations). 
 
@@ -234,7 +247,7 @@ But did you know you can also use them with Laravel 8? Just replace the class na
 
 ### Use the down() method correctly for rollbacks
 
-The `down()` (used by the `php artisan migrate:rollback` command) is ran when you need to rollback changes you made to your database.
+The down() method (used by the php artisan migrate:rollback command) is run when you need to rollback changes you made to your database.
 
 Some people use it, some don't.
 
@@ -418,6 +431,8 @@ This isn't good UX, and we can change that.
 Laravel has a [queue system](https://laravel.com/docs/queues) that will run all those tasks sequentially or with a limited amount of parallelism.
 
 And, to easily manage your jobs through a user interface, [Laravel Horizon](https://laravel.com/docs/horizon) is what you should use.
+
+
 
 ![Use queues for even longer running tasks](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/103/conversions/Screenshot_2023-01-24_at_13.14.33_awtguk-medium.jpg)
 
