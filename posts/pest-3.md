@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/2e4c7701-a2c5-4cdd-aa1c-9326ac56bad3
 Title: What's new in Pest 3 and how to upgrade
-Description: Step up your PHP testing game with Pest 3. Architecture tests presets, mutations, and todo lists management.
+Description: Step up your PHP testing game with Pest 3. Architecture testing presets, mutations, and todo lists management.
 Canonical: 
 Audio:
 Published at: 2024-08-27
@@ -29,9 +29,9 @@ Run `composer update`, and you're good to go. Now, let's dive into what's new!
 
 ## What's new in Pest 3?
 
-### Architecture tests presets
+### Architecture Testing Presets
 
-One of the standout features in Pest 3 is the introduction of architecture tests presets. This is a powerful tool that allows us to enforce architectural rules and best practices in our codebase. And the best thing being that we don't have to write them ourselves!
+One of the standout features in Pest 3 is the introduction of Architecture Testing Presets. This is a powerful tool that allows us to enforce architectural rules and best practices in our codebase. And the best thing being that we don't have to write them ourselves!
 
 Pest 3 comes with several presets out of the box:
 
@@ -83,7 +83,7 @@ As you can see, this is a disaster. But for my defense, it's a new project and a
 
 For more information and detailed documentation, check out the [Pest Mutate Plugin GitHub repository](https://github.com/pestphp/pest-plugin-mutate).
 
-### Todos management with GitHub
+### Todos Management with GitHub
 
 Another intriguing feature coming with Pest 3 is todos management integrated with GitHub.
 
