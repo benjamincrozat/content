@@ -1,5 +1,5 @@
 ---
-Image:
+Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://github.com/user-attachments/assets/5901380c-4df4-410a-8d8d-b2edb49cbedb
 Title: Demystifying Artisan: Laravel's Magical Command Tool
 Description: Artisan is Laravel's command-line interface that can help you streamline your development process. Let's explore its power and how it can boost your productivity.
 Canonical:
