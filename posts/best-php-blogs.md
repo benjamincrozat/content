@@ -17,7 +17,7 @@ Therefore, I present you a bunch of awesome PHP blogs from community members pub
 
 (I will update this article each time I find a new PHP blog worth reading.)
 
-## The higest quality PHP blogs I know
+## The highest quality PHP blogs I know
 
 ### [Andreas Möller's blog](https://localheinz.com/articles/)
 
@@ -69,7 +69,7 @@ If Laravel is your cup of tea, this is a must-read.
 
 ### [Matthias Noback's blog](https://matthiasnoback.nl/archives/)
 
-[![Mathias Noback's blog](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/84/conversions/Screenshot_2022-09-19_at_21.27.05_v8zfxv-medium.jpg)](https://matthiasnoback.nl/archives/)
+[![Matthias Noback's blog](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/84/conversions/Screenshot_2022-09-19_at_21.27.05_v8zfxv-medium.jpg)](https://matthiasnoback.nl/archives/)
 
 I recently discovered Matthias Noback's blog. I don't know much about him, but his articles are interesting.
 

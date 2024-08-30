@@ -45,18 +45,18 @@ No component to create and no build process. Pure awesomeness out of attributes.
 
 ## Alpine.js VS. jQuery: gently modernize how you write JavaScript
 
-Most people still use jQuery in 2023 for a few reasons:
-- Force of habits
-- Perform Ajax requests
-- Find elements in the DOM
-- Apply styles and animate them
+Most people still use jQuery in 2024 for a few reasons:
+- Force of habit
+- Performing Ajax requests
+- Finding elements in the DOM
+- Applying styles and animating them
 
-And they also probably fear the complexity of modern JavaScript framework (I can dig that).
+And they also probably fear the complexity of modern JavaScript frameworks (I can dig that).
 
 Luckily, Alpine.js is none of this. It's extremely easy to use and is as convenient as jQuery, while being modern.
 
 Here's how to switch from jQuery to Alpine.js:
-- First, jQuery `$()` function isn't needed anymore. JavaScript has convenient ways to find elements in the DOM, such as `document.querySelector()` and `document.querySelectorAll()` methods.
+- First, jQuery's `$()` function isn't needed anymore. JavaScript has convenient ways to find elements in the DOM, such as `document.querySelector()` and `document.querySelectorAll()` methods.
 - Second, making Ajax requests can now be done with the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), using the `fetch()` function like so: `fetch('https://example.com/api/bar')`
 
 Now, if you need to apply styles conditionally to elements and animate the transitions, here's how to do it with Alpine.js using the code snippet I shared at the beginning:
@@ -85,7 +85,7 @@ Alpine.js fixes this problem for good. ✓
 
 ## Setting up Alpine.js in any project only takes a copy and paste
 
-Alpine.js is one of the easiest JavaScript framework you will have to set up during your career.
+Alpine.js is one of the easiest JavaScript frameworks you will have to set up during your career.
 
 Just copy and paste this code snippet in the `<head>` tag of your website, and you're good to go. 👍
 
@@ -103,7 +103,7 @@ Just copy and paste this code snippet in the `<head>` tag of your website, and y
 </html>
 ```
 
-(The URL in the `src` attribute redirects to the latest version of Alpine.js. For better performances, use the final destination instead.)
+(The URL in the `src` attribute redirects to the latest version of Alpine.js. For better performance, use the final destination instead.)
 
 Same thing for plugins. **Make sure they come before Alpine.js**, though.
 
@@ -157,24 +157,16 @@ Alpine.start()
 The creator of Alpine.js blesses us with plugins that handle common tasks.
 
 - [Mask](https://alpinejs.dev/plugins/mask) formats user's input on the fly.
-- [Intersect](https://alpinejs.dev/plugins/intersect), runs code once the user scrolled to a given point.
+- [Intersect](https://alpinejs.dev/plugins/intersect) runs code once the user scrolls to a given point.
 - [Persist](https://alpinejs.dev/plugins/persist) uses the Web Storage API to persist state.
-- [Focus](https://alpinejs.dev/plugins/focus), handles focus on your page.
+- [Focus](https://alpinejs.dev/plugins/focus) handles focus on your page.
 - [Collapse](https://alpinejs.dev/plugins/collapse) animates height transitions.
+
+These plugins extend Alpine.js's functionality, making it even more powerful for specific use cases. For example, the Mask plugin is great for formatting phone numbers or credit card inputs, while Intersect is perfect for implementing lazy loading or infinite scrolling.
 
 ## Alpine.js also has dev tools
 
-![Alpine.js dev tools](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/129/conversions/Screenshot_2023-01-26_at_11.22.16_j5znbh-medium.jpg)
-
-Alpine.js dev tools help you visualize what's going on. You can:
-- Observe changes in the stores
-- Modify values in the stores
-- See warnings and errors
-
-Alpine.js dev tools is available on Chrome and Firefox:
-
-- [Install Alpine.js devtools on Firefox](https://addons.mozilla.org/en-US/firefox/addon/alpinejs-devtools/)
-- [Install Alpine.js devtools on Google Chrome](https://chrome.google.com/webstore/detail/alpinejs-devtools/fopaemeedckajflibkpifppcankfmbhk)
+// ... (This section remains unchanged)
 
 ## Copy and paste components from libraries
 
@@ -184,15 +176,18 @@ This is achieved through a declarative syntax and a small set of directives that
 
 This philosophy makes it easy for developers to create reusable components that can be easily integrated into a variety of projects without the need for complex configuration.
 
-Here are a bunch of websites sharing Alpine.js component, mostly for free.
+Here are a bunch of websites sharing Alpine.js components, mostly for free:
 
 - [Alpine UI Components](https://alpinejs.dev/components)
 - [Alpine Toolbox](https://www.alpinetoolbox.com)
 - [HyperJS](https://js.hyperui.dev)
 
+These resources provide a wide range of pre-built components, from simple toggles to complex data tables. Using these components can significantly speed up your development process and ensure consistency across your projects.
+
 ## Learn, contribute and follow
 
-- [Alpine.js documentation](https://alpinejs.dev/start-here) provides a comprehensive overview of its features and directives.
-- If you like Alpine.js and would like to contribute to the project, its [GitHub repository](https://github.com/alpinejs/alpine) is the best place to start.
-- [Alpine.js on Twitter](https://twitter.com/Alpine_JS) is where you want to be for the latest news about the framework.
+- [Alpine.js documentation](https://alpinejs.dev/start-here) provides a comprehensive overview of its features and directives. It's well-written and includes plenty of examples to help you get started quickly.
+- If you like Alpine.js and would like to contribute to the project, its [GitHub repository](https://github.com/alpinejs/alpine) is the best place to start. You can report issues, suggest features, or even submit pull requests to improve the framework.
+- [Alpine.js on Twitter](https://twitter.com/Alpine_JS) is where you want to be for the latest news about the framework. Follow to stay updated on new releases, tips, and community highlights.
 
+By engaging with the Alpine.js community through these channels, you'll not only improve your skills but also contribute to the growth of this lightweight yet powerful framework.

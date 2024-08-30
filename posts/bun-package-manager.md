@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/68/NZbLqdyKKjVodLp6Yesr1iBA50Vk3K-metacGFja2FnZS1tYW5hZ2VyLmpwZw%3D%3D-.jpg
-Title: Bun vs. NPM, Yarn, pnpm, and others
-Description: Learn why Bun is a great and can be used as a package manager, replacing NPM, Yarn, pnpm, and others.
+Title: Bun: The Lightning-Fast Alternative to NPM, Yarn, and pnpm
+Description: Discover why Bun is revolutionizing package management in JavaScript. Learn how it outperforms NPM, Yarn, pnpm, and others in speed and efficiency.
 Canonical: 
 Audio:
 Published at: 2023-09-11
@@ -11,87 +11,106 @@ Categories: javascript
 
 ## What is Bun?
 
-**[Bun](https://bun.sh) is a fast JavaScript all-in-one toolkit.** It can be used as a runtime (a drop-in replacement much faster than Node.js), as a test runner, and even as a package manager. Which is what interests us today.
+**[Bun](https://bun.sh) is a blazing-fast JavaScript all-in-one toolkit.** It serves as a runtime (a drop-in replacement that's significantly faster than Node.js), a test runner, and even a package manager – which is our focus today.
 
-Unlike Node.js or Deno, Bun is built on top of [Webkit](https://webkit.org)'s JavaScript engine (JavaScriptCore). Webkit is the basis for Mobile Safari on Apple's mobile platforms, as well as Safari for Mac.
+Unlike Node.js or Deno, Bun is built on top of [WebKit](https://webkit.org)'s JavaScript engine (JavaScriptCore). WebKit forms the foundation for Mobile Safari on Apple's mobile platforms, as well as Safari for Mac.
 
-## Why would you switch away from NPM, pnpm, or Yarn?
+## Why switch from NPM, pnpm, or Yarn to Bun?
 
-Why would you take some time to switch to Bun instead of sticking with a regular Node.js runtime?
+You might wonder why you should invest time in switching to Bun instead of sticking with your familiar Node.js runtime. The answer lies in Bun's incredible performance.
 
-Well, if you actually test Bun, you will notice how incredibly faster than Node.js it is. **Up to 30x!**
+When you test Bun, you'll immediately notice how astonishingly faster it is compared to Node.js. **We're talking up to 30 times faster!** This speed boost translates to:
 
-1. Your front-end dependencies will install faster.
-2. Your assets will compile faster.
-3. Your continuous integration environment will also run faster since installing and compiling front-end dependencies takes less time.
+1. Lightning-fast installation of front-end dependencies.
+2. Significantly quicker asset compilation.
+3. Accelerated continuous integration environments, as installing and compiling front-end dependencies takes a fraction of the time.
 
 ## How to install Bun on macOS using Homebrew
 
-Installing Bun on macOS couldn't be easier. Just add the new source using `brew tap oven-sh/bun` and install Bun by running `brew install bun`.
+Installing Bun on macOS is a breeze. Simply add the new source and install Bun using these two commands:
+
+```bash
+brew tap oven-sh/bun
+brew install bun
+```
 
 ## How to install on Linux and WSL
 
-Installing Bun on Linux is as easy as on macOS. Run `curl -fsSL https://bun.sh/install | bash`. That's it!
+Installing Bun on Linux is just as straightforward as on macOS. Run this single command:
 
-Linux users are recommended to make sure the unzip package is installed first. You should also be running the kernel in at least version 5.1, even if version 5.6 or higher is a better choice.
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+Linux users should ensure the `unzip` package is installed first. It's also recommended to run kernel version 5.1 or higher, with version 5.6+ being the optimal choice for the best experience.
 
 ## How to install Bun on Windows
 
-For now, unfortunately, Bun's package manager abilities are not available for Windows. But this shouldn't be a problem if you are running WSL.
+Currently, Bun's package manager capabilities are not available natively for Windows. However, this shouldn't be an issue if you're using Windows Subsystem for Linux (WSL).
 
-There's currently an [experimental version](https://bun.sh/docs/installation#windows) for it, but it's not recommended to use it in production.
+There's an [experimental version](https://bun.sh/docs/installation#windows) available for Windows, but it's not recommended for production use at this time.
 
-## Make some room to replace NPM, Yarn, or pnpm with Bun 
+## Preparing to replace NPM, Yarn, or pnpm with Bun 
 
-You don't need a specific package manager. You can use whichever one you want. Which is great news for Bun!
+The beauty of package managers is that you're not locked into a specific one. This flexibility is great news for Bun!
 
-If you were using NPM or pnpm, remove their lock files because you won't need them anymore since Bun uses its own lock file called *bun.lockb* by default.
+If you're transitioning from NPM or pnpm, you'll need to remove their lock files as Bun uses its own lock file called *bun.lockb* by default.
 
-If you were using NPM:
+For NPM users:
 
 ```bash
 rm package-lock.json
 ```
 
-If you were using pnpm:
+For pnpm users:
 
 ```bash
 rm pnpm-lock.yaml
 ```
 
-And if you were using Yarn:
+And for Yarn users:
 
 ```bash
 rm yarn.lock
 ```
 
-## Install your front-end dependencies using Bun's package management abilities
+## Installing dependencies with Bun's package management
 
-To install your dependencies using Bun, use `bun install`. So, how fast was it? I bet you didn't expect that!
+To install your dependencies using Bun, simply run:
 
-Oh and by the way, in case of a problem, if you want to disable the cache, use `bun install --no-cache`.
+```bash
+bun install
+```
 
-For additional information and options, please refer to the [official documentation of the `bun install` command](https://bun.sh/docs/cli/install).
+You'll be amazed at how quickly it completes the task!
+
+If you encounter any issues and need to bypass the cache, use:
+
+```bash
+bun install --no-cache
+```
+
+For more detailed information and additional options, consult the [official documentation of the `bun install` command](https://bun.sh/docs/cli/install).
 
 ![bun install in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/69/conversions/ybYunPr2RMZPLO3vFaMImsaecxEEnz-metaQ2xlYW5TaG90IDIwMjMtMDktMTEgYXQgMDkuMDAuMDJAMnguanBn--medium.jpg)
 
-## Add a package using Bun
+## Adding packages with Bun
 
-Adding a package using Bun can easily be done using the `bun add` command. You will certainly appreciate how incredibly fast it is as well.
+Adding packages with Bun is a breeze using the `bun add` command. You'll appreciate its incredible speed here as well.
 
-Here's an example with 3 packages:
+Here's an example of adding multiple packages:
 
 ```bash
 bun add tailwindcss autoprefixer postcss
 ```
 
-For additional information and options, please refer to the [official documentation of the `bun add` command](https://bun.sh/docs/cli/install#bun-add).
+For more information and options, refer to the [official documentation of the `bun add` command](https://bun.sh/docs/cli/install#bun-add).
 
 ![bun add in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/70/UndzC78D9Uclf8eMBlPr0yN2wbhXRy-metaQ2xlYW5TaG90IDIwMjMtMDktMTEgYXQgMDkuMDIuMTFAMnguanBn-.jpg)
 
-## Remove a package using Bun
+## Removing packages with Bun
 
-Removing a package using Bun can easily be done using the `bun remove` command. You will certainly appreciate how incredibly fast it is as well.
+Removing packages with Bun is just as simple, using the `bun remove` command. The speed here is equally impressive.
 
 Let's use Axios as an example, since we can now use the native Fetch API:
 
@@ -99,20 +118,22 @@ Let's use Axios as an example, since we can now use the native Fetch API:
 bun remove axios
 ```
 
-For additional information and options, please refer to the [official documentation of the `bun remove` command](https://bun.sh/docs/cli/install#bun-remove).
+For additional details and options, check out the [official documentation of the `bun remove` command](https://bun.sh/docs/cli/install#bun-remove).
 
-## Run your scripts using Bun
+## Running scripts with Bun
 
-Bun should be able to be integrated into your existing workflow without any issues. Run the scripts defined in your *package.json* file just like before using `bun run`.
+Bun seamlessly integrates into your existing workflow. Run the scripts defined in your *package.json* file just like before, using `bun run`.
 
-We can run our compilation process. For instance, I always use Vite:
+For instance, if you're using Vite for your compilation process:
 
 ```bash
 bun run dev
 ```
 
-For additional information and options, please refer to the [official documentation of the `bun run` command](https://bun.sh/docs/cli/run).
+For more information and options, consult the [official documentation of the `bun run` command](https://bun.sh/docs/cli/run).
 
 ## Bun's video presentation
 
-<iframe src="https://www.youtube.com/embed/BsnCpESUEqM?si=fvhqvQU9XY9_0dGT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Get a visual introduction to Bun's capabilities with this official video:
+
+https://www.youtube.com/watch?v=BsnCpESUEqM

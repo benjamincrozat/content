@@ -44,7 +44,7 @@ Creating a REST API is an essential step in the journey of building a ChatGPT pl
 
 This API will serve as the communication link between your plugin and the external service or database it interacts with.
 
-Here's a plan of action if for your new API:
+Here's a plan of action for your new API:
 - **Identify your needs**: Understand what your plugin is going to do and the data it will need to fetch.
 - **Design and implement your API**: Define your endpoints and build it using Laravel's routing, controllers, validation, Eloquent ORM and API resources, etc.
 - **Test your API**: Laravel is a master at helping you write robust [feature tests](https://laravel.com/docs/http-tests).
@@ -64,7 +64,7 @@ An OpenAPI specification document is organized into several key sections:
 - **Paths**: Lists the API endpoints with detailed information about each, including the HTTP methods available, parameters, request body schema, and response schema.
 - **Components**: Provides reusable components for the API, such as schemas (representations of the data models) and security schemes.
 
-Here's an example of how the document look like using the JSON format:
+Here's an example of how the document looks like using the JSON format:
 
 ```json
 {
@@ -141,7 +141,7 @@ Here's an example of how the document look like using the JSON format:
 }
 ```
 
-To create a specification for your plugin, you can use a the [zircote/swagger-php](https://packagist.org/packages/zircote/swagger-php) package.
+To create a specification for your plugin, you can use the [zircote/swagger-php](https://packagist.org/packages/zircote/swagger-php) package.
 
 You must generate an *openapi.json* file (or whatever.json) that is publicly accessible and will then be linked inside the manifest (we will discuss this in the next section):
 
@@ -214,7 +214,7 @@ As with any application development process, there are certain limitations when 
 
 ## Submitting your plugin to OpenAI
 
-Submitting your plugin for approval in extremely simple:
+Submitting your plugin for approval is extremely simple:
 
 1. Ensure your plugin meets all criteria mentioned in the ["Plugin Store" section](https://platform.openai.com/docs/plugins/review/plugin-store).
 2. [Log in to ChatGPT](https://chat.openai.com) and use the plugin submission bot to submit your plugin.

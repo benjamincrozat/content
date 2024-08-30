@@ -14,4 +14,3 @@ This blog post provides a detailed guide on how to use Livewire 3's Persist func
 Chris Fidao demonstrates how to create a Laravel app, add Livewire 3, and how to persist a chat widget throughout the app. The tutorial requires basic knowledge of Laravel and Livewire.
 
 The final code for the tutorial is available in the author's GitHub repository.
-
