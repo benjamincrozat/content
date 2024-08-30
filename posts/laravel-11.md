@@ -13,7 +13,7 @@ Categories: laravel
 
 **Laravel 11 was released on March 12, 2024**.
 
-The adoption of a new major version should never rushed, though.
+The adoption of a new major version should never be rushed, though.
 
 The framework last had LTS (Long-Term Support) in version 6, but **each major version has two years of updates**, which should give you enough time to get your codebase in check and upgrade it.
 
@@ -48,7 +48,7 @@ With the introduction of Laravel 11, it was time to declutter and redefine how a
 
 #### The all-new bootstrap/app.php file
 
-The heart of this makeover is the `bootstrap/app.php` file, revitalized to act as your central command station. It's here you'll tweak application routing, middleware, service providers, exception handling, and a bunch more – all from one spot. Think of it as the captain's a spaceship.
+The heart of this makeover is the `bootstrap/app.php` file, revitalized to act as your central command station. It's here you'll tweak application routing, middleware, service providers, exception handling, and a bunch more – all from one spot. Think of it as the captain's chair of a spaceship.
 
 #### Simplified service providers
 
@@ -147,7 +147,7 @@ RateLimiter::for('invoices', function (Request $request) {
 });
 ```
 
-1. If we limit the amount of requests per minute, it means that **your users will also be able to send 120 requests is a second**.
+1. If we limit the amount of requests per minute, it means that **your users will also be able to send 120 requests in a second**.
 2. But if we limit the amount of requests per second, **your users won't be able to cram 120 requests in a second**, while still being limited to 120 requests per minute.
 
 See now why it's a great change?
