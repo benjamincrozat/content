@@ -18,7 +18,7 @@ Upgrading your Laravel applications to the latest version has many benefits like
 
 ## Do you really need to upgrade?
 
-**Laravel 8 is now dead**. It was released in September 8th, 2020 and had:
+**Laravel 8 is now dead**. It was released on September 8th, 2020 and had:
 - **Bug fixes until July 26th, 2022**
 - **Security fixes until January 24th, 2023**
 

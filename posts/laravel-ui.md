@@ -71,7 +71,7 @@ After installing laravel/ui, you can dive into customizing the CSS and JavaScrip
 
 Laravel uses [Vite](https://vitejs.dev) out-of-the-box for handling these aspects.
 
-If you are still using a CSS preprocessor like Sass, or Less, Vite streamlines the process and you can [learn more about it on the official documentation of Laravel](https://laravel.com/docs/vite).
+If you are still using a CSS preprocessor like Sass or Less, Vite streamlines the process and you can [learn more about it in the official documentation of Laravel](https://laravel.com/docs/vite).
 
 For JavaScript, Laravel allows flexibility. You can use Vue.js, React, or anything else and even go without JavaScript.
 

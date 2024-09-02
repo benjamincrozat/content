@@ -85,7 +85,7 @@ Laravel's Number helper gracefully handles this conversion, so you don't have to
 
 ## Format percentages
 
-Percentages are everywhere – discounts, statistics, you name it. With Laravel's number helper, the `percentage` method renders percentages neatly.
+Percentages are everywhere – discounts, statistics, you name it. With Laravel's Number helper, the `percentage` method renders percentages neatly.
 
 ```php
 $percentage = Number::percentage(75.125, 1);

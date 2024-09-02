@@ -13,7 +13,7 @@ Categories: laravel
 
 **In Laravel, migrations are a way to manage and apply changes to your database schema.** See them like a phpMyAdmin, but with code instead of a user interface. **Migrations also allow you to keep all your team members and environments in sync.**
 
-In theory, you could start working on a new project, clone it onto your machine, and run `php artisan migrate` to generate a fresh and up to date database. Why? Because since migrations are based on code, they also are versionned just like the rest of the project.
+In theory, you could start working on a new project, clone it onto your machine, and run `php artisan migrate` to generate a fresh and up to date database. Why? Because since migrations are based on code, they also are versioned just like the rest of the project.
 
 Interesting, right? Let's learn more about migrations!
 
@@ -181,7 +181,7 @@ This command won't work in production to prevent disasters. 😬
 
 ## Roll back migrations when something goes wrong
 
-Roll back any change using the `php artisan migrate:rollback` command. As you can se below, migrations are rollbacked in the inverse order.
+Roll back any change using the `php artisan migrate:rollback` command. As you can see below, migrations are rolled back in the inverse order.
 
 ```
 INFO  Rolling back migrations.  

@@ -84,7 +84,7 @@ Source: [IT Jobs Watch](https://www.itjobswatch.co.uk/default.aspx?q=&ql=PHP&l=&
 
 WordPress requires at least PHP 7.4 to be installed. And since it's the most used CMS, we can safely predict how the use of PHP 8 will skyrocket whenever it stops supporting version 7.
 
-I find it funny to see some antique websites still up and running thanks to PHP 4 et 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
+I find it funny to see some antique websites still up and running thanks to PHP 4 and 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
 
 | PHP Version | Usage in December 2023 |
 | ----------- | ----------------------- |
@@ -146,7 +146,7 @@ Source: [W3Tech](https://w3techs.com/technologies/overview/content_management).
 
 ## WordPress marketshare in 2023
 
-**WordPress has more than 62.9% market share across the all the websites whose CMS we know.**
+**WordPress has more than 62.9% market share across all the websites whose CMS we know.**
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
@@ -174,7 +174,7 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 ## The most used WordPress plugins in 2023
 
-The most popular WordPress plugins also deserve to be mentioned there. Some of them can even be considered as mini-CMSes.
+The most popular WordPress plugins also deserve to be mentioned here. Some of them can even be considered as mini-CMSes.
 
 | Plugin                               | Percentage |
 |--------------------------------------|------------|

@@ -17,9 +17,9 @@ That being said, the official documentation is extensive and you probably don't 
 
 ## Install Laravel Sanctum via Composer
 
-The package now come installed by default in any new Laravel application.
+The package now comes installed by default in any new Laravel application.
 
-If for some reasons you don't have Laravel Sanctum in your project, install it using Composer:
+If for some reason you don't have Laravel Sanctum in your project, install it using Composer:
 
 ```bash
 composer require laravel/sanctum

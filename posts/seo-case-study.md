@@ -157,7 +157,7 @@ It's a passive way to build links, but it works.
 
 Successful SEO can be achieved **by just analyzing Google's SERPs, the search console, and the official keyword planner**. You can stop there if you don't have extra money to invest.
 
-**But you can do more a hell lot quicker**, thanks to the tools below.
+**But you can do a hell of a lot more quicker**, thanks to the tools below.
 
 ### [Semrush](https://benjamincrozat.com/recommends/semrush)
 

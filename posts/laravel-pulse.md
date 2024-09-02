@@ -121,7 +121,7 @@ Laravel Pulse's is free, open source, and is available through a GitHub reposito
 
 ### Laravel Pulse returns a 404 not found error
 
-For anyone having a 404 after installing Laravel Pulse, here's a potential solution: You may have a wildcard highjacking the `pulse` route.
+For anyone having a 404 after installing Laravel Pulse, here's a potential solution: You may have a wildcard hijacking the `pulse` route.
 
 Here are possible fixes:
 - Change the `path` configuration value in `config/pulse.php` to something like `/pulse/dashboard`.

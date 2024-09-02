@@ -160,12 +160,12 @@ We want our APIs to be as informative as possible. Here's a good starting point 
 - **Creating resources**: 201 (Created).
 - **Updating resources**: 200 (OK).
 - **Deleting resources**: 204 (No Content).
-- **Need to be authenticated to access resources**: 401 (Forbidden).
-- **Unauthorized access to resources**: 403 (Unauthorized).
+- **Need to be authenticated to access resources**: 401 (Unauthorized).
+- **Unauthorized access to resources**: 403 (Forbidden).
 - **Missing resources**: 404 (Not Found).
 - **Something went wrong**: 500 (Internal Server Error).
 
-Laravel provides an handy helper, `response()`, which lets us specify the HTTP code we need to include in our response:
+Laravel provides a handy helper, `response()`, which lets us specify the HTTP code we need to include in our response:
 
 ```php
 return response(
