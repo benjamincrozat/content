@@ -23,7 +23,7 @@ Let me review the numbers from January 2024 together and see if PHP is dead or n
 
 | Language     | Usage in January 2024 |
 | ------------ | ---------------------- |
-| PHP          | 76.§%                  |
+| PHP          | 76.7%                  |
 | ASP.NET      | 6.5%                   |
 | Ruby         | 5.7%                   |
 | Java         | 4.7%                   |
@@ -82,7 +82,7 @@ Source: [IT Jobs Watch](https://www.itjobswatch.co.uk/default.aspx?q=&ql=PHP&l=&
 
 WordPress requires at least PHP 7.4 to be installed. And since it's the most used CMS, we can safely predict how the use of PHP 8 will skyrocket whenever it stops supporting version 7.
 
-I find it funny to see some antique websites still up and running thanks to PHP 4 et 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
+I find it funny to see some antique websites still up and running thanks to PHP 4 and 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
 
 | PHP Version | Usage in January 2024 |
 | ----------- | ----------------------- |

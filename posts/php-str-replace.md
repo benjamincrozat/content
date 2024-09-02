@@ -11,7 +11,7 @@ Categories: php
 
 ## Introduction
 
-PHP provides a plethora of built-in functions, with [`str_replace()`](https://www.php.net/str_replace) being one of the my favorite.
+PHP provides a plethora of built-in functions, with [`str_replace()`](https://www.php.net/str_replace) being one of my favorites.
 
 This function is fundamental to handling and manipulating strings, playing an essential role in many PHP applications.
 
@@ -55,9 +55,9 @@ echo str_replace('unknown person', 'Benjamin', $sentence);
 
 ### Search and replace multiple values
 
-`str_replace()` can also be used with arrays, sequencially searching and replacing the values.
+`str_replace()` can also be used with arrays, sequentially searching and replacing the values.
 
-This can avoid you to call `str_replace()` multiple times.
+This can avoid you having to call `str_replace()` multiple times.
 
 For example:
 
@@ -112,7 +112,7 @@ If you need case-insensitive replacement, PHP offers the [`str_ireplace()`](http
 ```php
 echo str_ireplace('foo', 'bar', 'FOo foo fOO');
 
-// Outputs: bar bar baz
+// Outputs: bar bar bar
 ```
 
 ## The limitations of the str_replace() function in PHP

@@ -11,7 +11,7 @@ Categories: laravel, livewire
 
 ## Introduction to re-rendering prevention in Livewire
 
-I previously talked about various way to [re-render a Livewire component](/re-render-livewire-component). But now, let’s do a 180° and talk about doing the opposite: preventing re-renders!
+I previously talked about various ways to [re-render a Livewire component](/re-render-livewire-component). But now, let's do a 180° and talk about doing the opposite: preventing re-renders!
 
 ## Block re-renders in a Livewire component
 
@@ -48,7 +48,7 @@ class Show extends Component
     {
         $this->model->incrementViewCount();
 
-        $this→skipRender();
+        $this->skipRender();
     }
 }
 ```

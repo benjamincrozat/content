@@ -15,7 +15,7 @@ Let's say that you have a string of comma-separated words. You can use `explode(
 
 In this article, I will show you in-depth how to use it.
 
-## How does explode() works?
+## How does explode() work?
 
 ```php
 array explode(string $delimiter, string $string[, int $limit ])
@@ -23,7 +23,7 @@ array explode(string $delimiter, string $string[, int $limit ])
 
 - **$delimiter**: The string boundary for splitting.
 - **$string**: The input string.
-- **$limit**: This parameter is options and represents the maximum number of elements to return. A positive value set the size; A negative value exclude the last segments; zero entails no limit. Honestly, I never used this one. 🤷‍♂️
+- **$limit**: This parameter is optional and represents the maximum number of elements to return. A positive value sets the size; a negative value excludes the last segments; zero entails no limit. Honestly, I never used this one. 🤷‍♂️
 
 ## A practical example for explode()
 

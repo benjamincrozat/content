@@ -24,12 +24,12 @@ exit;
 ## Understanding the code
 
 1. We make sure no text has been echoed before setting the header. We don't want to pollute our response. Continue reading if you want to know what I'm talking about.
-2. Then, using the [`header()`](https://www.php.net/header) function, we set a header that will inform the visitor's browser that its user needs to be redirect to another page. What's a header? I'll explain later.
+2. Then, using the [`header()`](https://www.php.net/header) function, we set a header that will inform the visitor's browser that its user needs to be redirected to another page. What's a header? I'll explain later.
 3. Finally, we stop the execution of the code using [`exit`](https://www.php.net/exit). This isn't mandatory, but this isn't necessary either. It's just common practice.
 
-Basically, using HTTP, the server running your PHP code respond to your visitor's browser and asks it to redirect its user to the URL you provided.
+Basically, using HTTP, the server running your PHP code responds to your visitor's browser and asks it to redirect its user to the URL you provided.
 
-## The anatomy of a HTTP response
+## The anatomy of an HTTP response
 
 Let me show you an example HTTP response, which is how a web server communicates with the browser:
 
@@ -57,7 +57,7 @@ Also, do you remember when I talked about not polluting our response? Well, echo
 
 ## 301 or 302? How to choose the kind of redirection with PHP?
 
-The `header()` function in PHP lets you choose which kind of redirect you perform. By default, it's creates a `302 Found` redirection:
+The `header()` function in PHP lets you choose which kind of redirect you perform. By default, it creates a `302 Found` redirection:
 
 ```php
 header('Location: https://example.com');
@@ -76,13 +76,13 @@ X-Powered-By: PHP/8.2.10
 Location: https://example.com
 ```
 
-To make it a `301 Moved Permanently` kind of redirection, you can leverage the `header()` function third argument: `$response_code`:
+To make it a `301 Moved Permanently` kind of redirection, you can leverage the `header()` function's third argument: `$response_code`:
 
 ```php
 header('Location: https://example.com', response_code: 301);
 ```
 
-Which sends a HTTP response that looks like this:
+Which sends an HTTP response that looks like this:
 
 ```http
 HTTP/1.1 301 Moved Permanently

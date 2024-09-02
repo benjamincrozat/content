@@ -21,7 +21,7 @@ For example:
 $name = $_GET['name'] ?? 'Unknown';
 ```
 
-This line of code will set $name to `$_GET['name']` if it's set and not null. Otherwise, it will set `$name` to "Unknown".
+This line of code will set `$name` to `$_GET['name']` if it's set and not null. Otherwise, it will set `$name` to "Unknown".
 
 You can also chain them together like this:
 
@@ -53,4 +53,4 @@ function do_something(DateTime $from, DateTime $to = null)
 }
 ```
 
-This will set `$now` to a new `DateTime` instance only if it's not already set (or `null` in that case).
+This will set `$to` to a new `DateTime` instance only if it's not already set (or `null` in that case).

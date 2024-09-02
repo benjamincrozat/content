@@ -35,7 +35,7 @@ Foo::bar();
 
 As you can see, we are trying to call `baz()`, which is a non-static method, from a static method.
 
-As mentionned above, we need to:
+As mentioned above, we need to:
 1. Remove the `static` keyword from `bar()`'s declaration;
 2. Create an instance of `Foo` and call `bar()` from there.
 

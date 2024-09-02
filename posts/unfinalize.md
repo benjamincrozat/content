@@ -41,9 +41,9 @@ In your project's *composer.json* file, add an "unfinalize" section. Here you'll
 
 ```json
 {
-		"unfinalize": [
-				"vendor/package"
-		]
+	"unfinalize": [
+		"vendor/package"
+	]
 }
 ```
 
@@ -75,11 +75,11 @@ Update your `composer.json` like this:
 
 ```json
 {
-  "scripts": {
-    "post-update-cmd": [
-      "@php vendor/bin/unfinalize run --mark-final"
-    ]
-  }
+    "scripts": {
+        "post-update-cmd": [
+            "@php vendor/bin/unfinalize run --mark-final"
+        ]
+    }
 }
 ```
 

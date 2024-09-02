@@ -27,7 +27,7 @@ Let's decode what all this means:
 
 - `display_errors`: This key is a directive which determines whether errors should be printed as a part of the program's output or hidden. We set it to `1` to instruct PHP to display errors.
   
-- `display_startup_errors`: This directive decides if PHP will show errors that occur during PHP's startup sequence. We set 'display_startup_errors' to `1`, so PHP clearly communicates any startup issues.
+- `display_startup_errors`: This directive decides if PHP will show errors that occur during PHP's startup sequence. We set `display_startup_errors` to `1`, so PHP clearly communicates any startup issues.
   
 - `error_reporting(E_ALL)`: This setting controls the level of error reporting. `E_ALL` is a constant that instructs PHP to show all possible errors, warnings, and notices.
 

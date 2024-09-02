@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/8/woman-coding_xuisvu.jpg
 Title: Print an array with PHP (+ Laravel)
-Description: Debugging requires dissecting everything. Here's a list of all the one-line of code built-in ways to print arrays in PHP (and even Laravel-specific helpers).
+Description: Debugging requires dissecting everything. Here's a list of all the one-line built-in ways to print arrays in PHP (and even Laravel-specific helpers).
 Canonical: 
 Audio:
 Published at: 2022-10-07
@@ -17,7 +17,7 @@ Let me review each of them in this article.
 
 ## Print a PHP array using print_r()
 
-`print_r()` displays arrays in an human-readable format.
+`print_r()` displays arrays in a human-readable format.
 
 Example:
 
@@ -65,7 +65,7 @@ array(3) {
 }
 ```
 
-You can also print an infinite amount of variables at once:
+You can also print an infinite number of variables at once:
 
 ```php
 var_dump($foo, $bar, $baz, …);
@@ -115,7 +115,7 @@ Output:
 
 ![Screenshot of dump() in action.](https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/86/conversions/Screen_Shot_2023-01-16_at_07.54.59_ichkqp-medium.jpg){: width="400"}
 
-The `dump()` function prints in details arrays containing any value.
+The `dump()` function prints in detail arrays containing any value.
 
 ```php
 $array = ['Foo', 'Bar', 'Baz'];
@@ -123,7 +123,7 @@ $array = ['Foo', 'Bar', 'Baz'];
 dump($array);
 ```
 
-And just like `var_dump()`, it accepts an infinity of arguments:
+And just like `var_dump()`, it accepts an infinite number of arguments:
 
 ```php
 dump($a, $b, $c, $d, $e, …);
@@ -139,9 +139,8 @@ $array = ['Foo', 'Bar', 'Baz'];
 dd($array);
 ```
 
-It also accepts an infinity of arguments:
+It also accepts an infinite number of arguments:
 
 ```php
 dd($a, $b, $c, $d, $e, …);
 ```
-
