@@ -15,7 +15,7 @@ Starting from [Laravel 11](https://laravel.com/docs/11.x/releases), new projects
 
 But how do you customize them then? Easy! Just go into your *bootstrap/app.php* file and configure them however you want. Let me show you in more detail for the most common use cases.
 
-## Customize the default middleware
+## Customize the most common middleware
 
 ### Change where guests are redirected
 
@@ -115,3 +115,72 @@ To configure the middleware responsible for trimming strings, use the `trimStrin
 ```
 
 Previously, this was happening in the *TrimStrings.php* middleware file.
+
+## Advanced middleware customization
+
+In addition to the basic customizations we've covered, Laravel 11 offers more advanced options for middleware manipulation. These can be particularly useful for complex applications or when you need fine-grained control over your middleware stack.
+
+### Manipulating the global middleware stack
+
+You can add, remove, or replace middleware in the global stack:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->prepend(SomeMiddleware::class);
+    $middleware->append(AnotherMiddleware::class);
+    $middleware->remove(UnwantedMiddleware::class);
+    $middleware->replace(OldMiddleware::class, NewMiddleware::class);
+})
+```
+
+### Working with middleware groups
+
+Laravel allows you to define and modify middleware groups:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->group('custom', [
+        FirstMiddleware::class,
+        SecondMiddleware::class,
+    ]);
+    
+    $middleware->prependToGroup('web', NewWebMiddleware::class);
+    $middleware->appendToGroup('api', NewApiMiddleware::class);
+    $middleware->removeFromGroup('web', OldWebMiddleware::class);
+    $middleware->replaceInGroup('api', OldApiMiddleware::class, NewApiMiddleware::class);
+})
+```
+
+### API-specific configurations
+
+For API-focused applications, Laravel provides specific methods:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->statefulApi(); // Enable Sanctum's frontend state middleware
+    $middleware->throttleApi('custom_limiter', true); // Configure API rate limiting
+})
+```
+
+### Configuring trusted proxies and hosts
+
+For applications behind a proxy or load balancer:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->trustHosts(['example.com', '*.example.com']);
+    $middleware->trustProxies(['192.168.1.1', '192.168.1.2']);
+})
+```
+
+### Enabling authenticated sessions
+
+To ensure sessions are authenticated in the "web" middleware group:
+
+```php
+->withMiddleware(function (Middleware $middleware) {
+    $middleware->authenticateSessions();
+})
+```
+
+These advanced options provide more flexibility in customizing your application's middleware behavior, allowing you to fine-tune security, performance, and functionality as needed.
