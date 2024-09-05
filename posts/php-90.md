@@ -27,7 +27,7 @@ To this day, no work has been started on PHP 9.0, so you won't even be able to p
 
 You're absolutely right. Let's add some concrete examples to make it clearer:
 
-### Better Increment and Decrement Behavior
+### Better increment and decrement behavior
 
 PHP 9 is cleaning up how the `++` and `--` operators work. Here's what's changing:
 
@@ -88,7 +88,7 @@ This will allow developers to stop using a custom error handler and get a behavi
 unserialize("foo");
 ```
 
-### Simplified Function Signatures
+### Simplified function signatures
 
 PHP 9 is will make functions easier to understand and use. How? By simplifying their signatures. Let's break it down with two examples.
 
@@ -157,7 +157,7 @@ You already can't do this with other values like true or 0, so why should `false
 
 This RFC proposes to deprecate and eventually remove certain forms of string interpolation in PHP. Here's a simplified explanation for the blog post:
 
-### Simplified String Interpolation
+### Simplified string interpolation
 
 PHP 9 is simplifying how you can embed variables in strings. Let's break it down:
 
