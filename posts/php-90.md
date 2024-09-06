@@ -25,8 +25,6 @@ To this day, no work has been started on PHP 9.0, so you won't even be able to p
 
 ## New features and changes planned for PHP 9.0
 
-You're absolutely right. Let's add some concrete examples to make it clearer:
-
 ### Better increment and decrement behavior
 
 PHP 9 is cleaning up how the `++` and `--` operators work. Here's what's changing:
