@@ -1,6 +1,6 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/37/statistics_a0weap.png
-Title: Is PHP dead? Usage statistics and market share for 2024.
+Title: Is PHP dead? Usage stats and market share for September 2024
 Description: Whether PHP is dead is a matter of numbers, not opinions. I will provide you with essential statistics that will lead you to make better decisions.
 Canonical: 
 Audio:
@@ -15,25 +15,25 @@ We are now in a new era of computing thanks to artificial intelligence and still
 
 Stable ecosystems without constant drama and forks each time there's a disagreement are needed now more than ever to build the next generation of successful products.
 
-Let me review the numbers from January 2024 together and see if PHP is dead or not.
+Let me review the numbers from September 2024 together and see if PHP is dead or not.
 
 ## PHP is dead. Or is it?
 
-**In 2024, PHP is the most used and popular server-side scripting language, with a 77.4% market share overall. 🚀**
+**In 2024, PHP is the most used and popular server-side scripting language, with a 75.8% market share overall. 🚀**
 
-| Language     | Usage in January 2024 |
-| ------------ | ---------------------- |
-| PHP          | 76.7%                  |
-| ASP.NET      | 6.5%                   |
-| Ruby         | 5.7%                   |
-| Java         | 4.7%                   |
-| JavaScript   | 3.2%                   |
-| Scala        | 3.0%                   |
-| Static files | 1.8%                   |
-| Python       | 1.4%                   |
-| ColdFusion   | 0.3%                   |
-| Perl         | 0.1%                   |
-| Erlang       | 0.1%                   |
+| Language     | Usage in September 2024 |
+| ------------ | ----------------------- |
+| PHP          | 75.8%                   |
+| Ruby         | 6.0%                    |
+| ASP.NET      | 5.8%                    |
+| Java         | 5.0%                    |
+| JavaScript   | 3.6%                    |
+| Scala        | 3.4%                    |
+| Static files | 1.7%                    |
+| Python       | 1.3%                    |
+| ColdFusion   | 0.2%                    |
+| Perl         | 0.1%                    |
+| Erlang       | 0.1%                    |
 
 Source: [W3Tech](https://w3techs.com/technologies/overview/programming_language).
 
@@ -71,25 +71,24 @@ Here's a table showing **the changes in ranking over a span of one year** for ke
 | PHPUnit                                              | +296            |
 | PhD                                                  | -70             |
 
-
 Many of these keywords rank higher compared to a year ago. Not bad for a dead language!
 
 Source: [IT Jobs Watch](https://www.itjobswatch.co.uk/default.aspx?q=&ql=PHP&l=&ll=&id=0&p=6&e=5&sortby=&orderby=)
 
 ## PHP versions market share in 2024
 
-**The PHP version having the most market share in 2024 is PHP 7 (7.4 above others).**
+**The PHP version having the most market share in 2024 is PHP 7 (51.0% usage among PHP websites).**
 
 WordPress requires at least PHP 7.4 to be installed. And since it's the most used CMS, we can safely predict how the use of PHP 8 will skyrocket whenever it stops supporting version 7.
 
 I find it funny to see some antique websites still up and running thanks to PHP 4 and 5. 😅 But you know what we say, right? *"If it ain't broke, don't fix it! 🤙"*
 
-| PHP Version | Usage in January 2024 |
+| PHP Version | Usage in September 2024 |
 | ----------- | ----------------------- |
-| 7           | 59.0%                   |
-| 8           | 23.7%                   |
-| 5           | 17.1%                   |
-| 4           | 0.2%                    |
+| 7           | 51.0%                   |
+| 8           | 35.3%                   |
+| 5           | 13.5%                   |
+| 4           | 0.1%                    |
 
 (I'm pretty sure that PHP 4 is more alive than some of the other languages listed above.)
 
@@ -101,19 +100,16 @@ A programming language is only considered a good option if it can be run at scal
 
 What's better than a list of ultra-popular websites meeting these requirements?
 
+- Microsoft.com
+- Facebook.com
+- Wikipedia.org
+- Wordpress.org
 - Digicert.com
-- Facebook. They started with PHP 5 but later created their own version called "Hack," which better suits their needs.
+- Vimeo.com
+- Wordpress.com
 - Mozilla.org
-- OpenAI
-- Pinterest
-- Tumblr
-- Vimeo
-- Vk.com
-- Whatsapp
-- Wikipedia
-- WordPress.com
-- WordPress.org
-- Zoom.us
+- Nih.gov
+- Archive.org
 
 Someone should tell them that PHP is dead!
 
@@ -125,7 +121,7 @@ Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
 Demand for content management systems (CMS) is exploding. Businesses always need to reach new customers through SEO, and a good CMS that allows you to write all the content you need for an effective SEO campaign is mandatory. This trend will likely never fade.
 
-| CMS            | Market share in January 2024 |
+| CMS            | Market share in September 2024 |
 | -------------- | ---------------------------- |
 | WordPress      | 62.8%                        |
 | Shopify        | 6.2%                         |
@@ -142,9 +138,9 @@ Demand for content management systems (CMS) is exploding. Businesses always need
 
 Source: [W3Tech](https://w3techs.com/technologies/overview/content_management).
 
-## WordPress marketshare in 2024
+## WordPress market share in 2024
 
-**WordPress has more than 62.8% market share across the all the websites whose CMS we know.**
+**WordPress has more than 62.8% market share across all the websites whose CMS we know.**
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
@@ -160,55 +156,33 @@ Version 6 of WordPress is a significant update with a new default theme and bloc
 
 This alone probably drives people to update to the latest major version and, therefore, the latest PHP version.
 
-| WordPress Version | Usage in January 2024 |
+| WordPress Version | Usage in September 2024 |
 | ----------------- | ----------------------- |
-| 6                 | 78.0%                   |
-| 5                 | 16.7%                   |
-| 4                 | 4.9%                    |
-| 3                 | 0.4%                    |
+| 6                 | 84.4%                   |
+| 5                 | 11.4%                   |
+| 4                 | 3.8%                    |
+| 3                 | 0.3%                    |
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 ## The most used WordPress plugins in 2024
 
-The most popular WordPress plugins also deserve to be mentioned there. Some of them can even be considered as mini-CMSes.
+The most popular WordPress plugins also deserve to be mentioned here. Some of them can even be considered as mini-CMSes.
 
-| **Technology**          | **Percentage** |
-|-------------------------|----------------|
-| Elementor               | 22.4%          |
-| WooCommerce             | 21.0%          |
-| WPBakery                | 11.7%          |
-| Beaver Builder          | 1.1%           |
-| 10Web Photo Gallery     | 0.8%           |
-| NextGEN Gallery         | 0.6%           |
-| bbPress                 | 0.4%           |
-| Oxygen                  | 0.4%           |
-| BuddyPress              | 0.2%           |
-| FooGallery              | 0.2%           |
-| LearnPress              | 0.2%           |
-| Divi Builder            | 0.2%           |
-| Robo Gallery            | 0.1%           |
-| Modula Albums           | 0.1%           |
-| Visual Composer         | 0.1%           |
-| wpForo                  | 0.1%           |
-| Brizy                   | 0.1%           |
-| Supsystic Photo Gallery | 0.1%           |
-| Envira Gallery          | 0.1%           |
-| PageLayer               | 0.1%           |
-| SeedProd                | 0.1%           |
-| Asgaros Forum           | 0.1%           |
-| Live Composer Page Builder | less than 0.1% |
-| eCommerce Product Catalog | less than 0.1% |
-| AnsPress                | less than 0.1% |
-| Grand Flagallery        | less than 0.1% |
-| Wevery                  | less than 0.1% |
-| WP EasyCart             | less than 0.1% |
-| WP eCommerce            | less than 0.1% |
-| Carrot                  | less than 0.1% |
-| MarketPress             | less than 0.1% |
-| Simple:Press            | less than 0.1% |
-| Pressbooks              | less than 0.1% |
-| Other                   | 39.9%          |
+| Technology          | Percentage |
+|---------------------|------------|
+| Elementor           | 25.8%      |
+| WooCommerce         | 21.1%      |
+| WPBakery            | 10.4%      |
+| Beaver Builder      | 1.1%       |
+| 10Web Photo Gallery | 0.7%       |
+| NextGEN Gallery     | 0.6%       |
+| Oxygen              | 0.4%       |
+| bbPress             | 0.3%       |
+| FooGallery          | 0.2%       |
+| LearnPress          | 0.2%       |
+| BuddyPress          | 0.2%       |
+| Other               | 37.9%      |
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
@@ -220,13 +194,13 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 **The most popular PHP framework on Packagist in 2024 is Laravel.** And for good reasons. Laravel is a state-of-the-art framework that makes it easy to create world-class web applications in no time thanks to its rich feature set and extensive ecosystem.
 
-| Package | Downloads in January 2024 |
+| Package | Downloads in September 2024 |
 | ------- | ---------------------- |
-| [laravel/framework](https://packagist.org/packages/laravel/framework/stats) | 302,403,373 |
-| [symfony/symfony](https://packagist.org/packages/symfony/symfony/stats) | 78,291,128 |
-| [cakephp/cakephp](https://packagist.org/packages/cakephp/cakephp/stats) | 12,444,302 |
-| [codeigniter4/framework](https://packagist.org/packages/codeigniter4/framework/stats) | 1,720,925 |
-| [codeigniter/framework](https://packagist.org/packages/codeigniter/framework/stats) | 1,617,412 |
+| [laravel/framework](https://packagist.org/packages/laravel/framework/stats) | 359,971,803 |
+| [symfony/symfony](https://packagist.org/packages/symfony/symfony/stats) | 81,279,858 |
+| [cakephp/cakephp](https://packagist.org/packages/cakephp/cakephp/stats) | 13,982,429 |
+| [codeigniter4/framework](https://packagist.org/packages/codeigniter4/framework/stats) | 2,247,410 |
+| [codeigniter/framework](https://packagist.org/packages/codeigniter/framework/stats) | 1,793,761 |
 
 ### Compare the ranking of Laravel and other PHP frameworks on GitHub (CakePHP, CodeIgniter, and Symfony)
 
@@ -234,12 +208,14 @@ Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
 It's surprising to watch Laravel's steady growth over the years and other frameworks stagnate, even [Symfony](https://symfony.com). Of course, a framework's success is hardly measurable using the amount of stars it gets on GitHub.
 
-| Repository | Stars in January 2024 |
+| Repository | Stars in September 2024 |
 | ----------------------------------------------------- | ----- |
-| [laravel/laravel](https://github.com/laravel/laravel) | 75,7K |
-| [symfony/symfony](https://github.com/symfony/symfony) | 29K |
+| [laravel/laravel](https://github.com/laravel/laravel) | 78,3K |
+| [symfony/symfony](https://github.com/symfony/symfony) | 29.6K |
 | [bcit-ci/codeigniter](https://github.com/bcit-ci/CodeIgniter) | 18,3K |
 | [cakephp/cakephp](https://github.com/cakephp/cakephp) | 8,7K |
+
+## Conclusion
 
 So, is PHP dead? Obviously not. The popularity of this language is hardly debatable. Its ecosystem is flourishing thanks to WordPress and frameworks like Laravel and Symfony. Also, a new major version is released every year.
 
