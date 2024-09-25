@@ -1,7 +1,7 @@
 ---
 Image: https://res.cloudinary.com/benjamincrozat-com/image/fetch/c_scale,f_webp,q_auto,w_1200/https://life-long-bunny.fra1.digitaloceanspaces.com/media-library/production/37/statistics_a0weap.png
-Title: Is PHP dead? Usage stats and market share for September 2024
-Description: Whether PHP is dead is a matter of numbers, not opinions. I will provide you with essential statistics that will lead you to make better decisions.
+Title: Is PHP dead? Usage and market share for September 2024
+Description: Whether PHP is dead is a matter of statistics, not opinions. I will provide you with essential statistics that will lead you to make better decisions.
 Canonical: 
 Audio:
 Published at: 2024-01-21
@@ -15,11 +15,11 @@ We are now in a new era of computing thanks to artificial intelligence and still
 
 Stable ecosystems without constant drama and forks each time there's a disagreement are needed now more than ever to build the next generation of successful products.
 
-Let me review the numbers from September 2024 together and see if PHP is dead or not.
+Let me review the numbers and statistics from September 2024 together and see if PHP is dead or not.
 
-## PHP is dead. Or is it?
+## PHP is dead. Or is it? Let's look at the statistics
 
-**In 2024, PHP is the most used and popular server-side scripting language, with a 75.8% market share overall. 🚀**
+**In 2024, PHP is the most used and popular server-side scripting language, with a 75.8% market share overall, according to usage statistics. 🚀**
 
 | Language     | Usage in September 2024 |
 | ------------ | ----------------------- |
@@ -37,11 +37,11 @@ Let me review the numbers from September 2024 together and see if PHP is dead or
 
 Source: [W3Tech](https://w3techs.com/technologies/overview/programming_language).
 
-So yeah, people forecasting PHP's declining popularity and even death sound like broken records. Maybe they will get lucky if they keep repeating "PHP is dead! PHP is dead! PHP is dead!" for ten more years. 🤷‍♂️
+These statistics clearly show that PHP is far from dead. Let's dive deeper into more PHP-related statistics.
 
-## The demand for PHP developers didn't die yet
+## The demand for PHP developers didn't die yet: Job market statistics
 
-**Gathering meaningful data for PHP jobs is nearly impossible**, unfortunately. **But I'll try anyway, even if it's not much and clearly not representative of the global market.**
+**Gathering meaningful statistics for PHP jobs is nearly impossible**, unfortunately. **But I'll try anyway, even if it's not much and clearly not representative of the global market.**
 
 At the time I'm writing these lines, [IT Jobs Watch](https://www.itjobswatch.co.uk), a website dedicated to IT job offers in the UK, shows clear evidence of higher demand for PHP developers.
 
@@ -75,9 +75,9 @@ Many of these keywords rank higher compared to a year ago. Not bad for a dead la
 
 Source: [IT Jobs Watch](https://www.itjobswatch.co.uk/default.aspx?q=&ql=PHP&l=&ll=&id=0&p=6&e=5&sortby=&orderby=)
 
-## PHP versions market share in 2024
+## PHP versions market share statistics in 2024
 
-**The PHP version having the most market share in 2024 is PHP 7 (51.0% usage among PHP websites).**
+**The PHP version having the most market share in 2024 is PHP 7 (51.0% usage among PHP websites), according to usage statistics.**
 
 WordPress requires at least PHP 7.4 to be installed. And since it's the most used CMS, we can safely predict how the use of PHP 8 will skyrocket whenever it stops supporting version 7.
 
@@ -94,11 +94,9 @@ I find it funny to see some antique websites still up and running thanks to PHP 
 
 Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
-## Popular websites using PHP, a supposed dead language
+## Popular websites using PHP: Usage statistics
 
-A programming language is only considered a good option if it can be run at scale by big teams.
-
-What's better than a list of ultra-popular websites meeting these requirements?
+A programming language is only considered a good option if it can be run at scale by big teams. Here are some statistics on popular websites using PHP:
 
 - Microsoft.com
 - Facebook.com
@@ -115,11 +113,9 @@ Someone should tell them that PHP is dead!
 
 Source: [W3Tech](https://w3techs.com/technologies/details/pl-php).
 
-## CMS (Content Management System) market share in 2024
+## CMS (Content Management System) market share statistics in 2024
 
-**The CMS having the most market share in 2024 is [WordPress](https://wordpress.org)**, which is supposed to be based on a dead language. 😅
-
-Demand for content management systems (CMS) is exploding. Businesses always need to reach new customers through SEO, and a good CMS that allows you to write all the content you need for an effective SEO campaign is mandatory. This trend will likely never fade.
+**The CMS having the most market share in 2024 is [WordPress](https://wordpress.org)**, which is based on PHP. Let's look at the CMS usage statistics:
 
 | CMS            | Market share in September 2024 |
 | -------------- | ---------------------------- |
@@ -138,23 +134,17 @@ Demand for content management systems (CMS) is exploding. Businesses always need
 
 Source: [W3Tech](https://w3techs.com/technologies/overview/content_management).
 
-## WordPress market share in 2024
+## WordPress market share statistics in 2024
 
-**WordPress has more than 62.8% market share across all the websites whose CMS we know.**
-
-Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
+**WordPress has more than 62.8% market share across all the websites whose CMS we know, according to usage statistics.**
 
 I'm not surprised that WordPress is so popular. It's an always-evolving CMS; there are plenty of great WordPress hosts and many excellent themes and plugins to help you reach your goals.
 
 Also, if you ever want to switch away from WordPress, most alternatives offer tools to import every post you already wrote. That means WordPress is a safe choice to begin with.
 
-## WordPress versions market share in 2024
+## WordPress versions market share statistics in 2024
 
-**The WordPress version having the most market share in 2024 is version 6.**
-
-Version 6 of WordPress is a significant update with a new default theme and block-based editor. This new editor significantly changes how WordPress works and allows for more flexibility and creativity when creating new content.
-
-This alone probably drives people to update to the latest major version and, therefore, the latest PHP version.
+**The WordPress version having the most market share in 2024 is version 6, as shown by the following statistics:**
 
 | WordPress Version | Usage in September 2024 |
 | ----------------- | ----------------------- |
@@ -165,9 +155,9 @@ This alone probably drives people to update to the latest major version and, the
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
-## The most used WordPress plugins in 2024
+## The most used WordPress plugins: Usage statistics in 2024
 
-The most popular WordPress plugins also deserve to be mentioned here. Some of them can even be considered as mini-CMSes.
+The most popular WordPress plugins also deserve to be mentioned here. Some of them can even be considered as mini-CMSes. Here are the usage statistics:
 
 | Technology          | Percentage |
 |---------------------|------------|
@@ -186,9 +176,9 @@ The most popular WordPress plugins also deserve to be mentioned here. Some of th
 
 Source: [W3Tech](https://w3techs.com/technologies/details/cm-wordpress).
 
-## PHP frameworks market share in 2024
+## PHP frameworks market share statistics in 2024
 
-**The PHP framework having the most market share in 2024 is [Laravel](https://laravel.com)**, according to the numbers below. [Laravel](https://laravel.com) is by far the favorite on [Packagist](https://packagist.org) and [GitHub](https://github.com).
+**The PHP framework having the most market share in 2024 is [Laravel](https://laravel.com)**, according to the statistics below. [Laravel](https://laravel.com) is by far the favorite on [Packagist](https://packagist.org) and [GitHub](https://github.com).
 
 ### Laravel VS. other PHP frameworks on Packagist (CakePHP, CodeIgniter, and Symfony)
 
@@ -217,6 +207,6 @@ It's surprising to watch Laravel's steady growth over the years and other framew
 
 ## Conclusion
 
-So, is PHP dead? Obviously not. The popularity of this language is hardly debatable. Its ecosystem is flourishing thanks to WordPress and frameworks like Laravel and Symfony. Also, a new major version is released every year.
+So, is PHP dead? Obviously not. The popularity of this language is hardly debatable, as shown by the numerous statistics presented in this article. Its ecosystem is flourishing thanks to WordPress and frameworks like Laravel and Symfony. Also, a new major version is released every year, keeping the language fresh and relevant.
 
-Jump on the PHP hype train!
+These statistics paint a clear picture: PHP is very much alive and thriving. Jump on the PHP hype train!
